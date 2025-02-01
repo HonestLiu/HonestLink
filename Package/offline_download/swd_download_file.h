@@ -7,8 +7,6 @@
 #ifndef __SWD_DOWLNLOAD_FILE_H__
 #define __SWD_DOWLNLOAD_FILE_H__
 
-#include "board.h"
-#include "rtthread.h"
 
 // 定义结构体来存储脱机下载信息
 struct offline_download_info_t {

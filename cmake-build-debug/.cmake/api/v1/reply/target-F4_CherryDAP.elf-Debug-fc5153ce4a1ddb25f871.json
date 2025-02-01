@@ -13,6 +13,7 @@
 			"add_executable",
 			"add_link_options",
 			"add_compile_options",
+			"add_compile_definitions",
 			"add_definitions",
 			"include_directories"
 		],
@@ -28,25 +29,37 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 64,
+				"line" : 72,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 60,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 61,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 62,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 23,
 				"parent" : 0
 			},
 			{
@@ -76,11 +89,17 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 54,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
 				"file" : 0,
 				"line" : 52,
 				"parent" : 0
@@ -96,121 +115,141 @@
 					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 7,
 					"fragment" : "-mcpu=cortex-m4"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb-interwork"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-ffunction-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fdata-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fno-common"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fmessage-length=0"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 10,
 					"fragment" : "-Og"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 10,
 					"fragment" : "-g"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 9,
+					"backtrace" : 11,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ARM_MATH_MATRIX_CHECK"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ARM_MATH_ROUNDING"
+				},
+				{
+					"backtrace" : 12,
 					"define" : "DEBUG"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 12,
 					"define" : "STM32F407xx"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 12,
 					"define" : "USE_HAL_DRIVER"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/core"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/flmparse"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/offline_download"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc"
 				}
 			],
@@ -225,8 +264,6 @@
 			},
 			"sourceIndexes" : 
 			[
-				9,
-				10,
 				11,
 				12,
 				13,
@@ -237,10 +274,10 @@
 				18,
 				19,
 				20,
-				90,
-				91,
-				92,
-				93,
+				21,
+				22,
+				23,
+				24,
 				94,
 				95,
 				96,
@@ -257,15 +294,33 @@
 				107,
 				108,
 				109,
+				110,
 				111,
 				112,
-				131,
-				132,
-				134,
+				113,
+				115,
+				116,
 				135,
 				136,
-				137,
-				138
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170
 			]
 		},
 		{
@@ -275,136 +330,156 @@
 					"fragment" : "-g"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 7,
 					"fragment" : "-mcpu=cortex-m4"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb-interwork"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-ffunction-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fdata-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fno-common"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fmessage-length=0"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 9,
 					"fragment" : "-x"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 9,
 					"fragment" : "assembler-with-cpp"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 10,
 					"fragment" : "-Og"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 10,
 					"fragment" : "-g"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 9,
+					"backtrace" : 11,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ARM_MATH_MATRIX_CHECK"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ARM_MATH_ROUNDING"
+				},
+				{
+					"backtrace" : 12,
 					"define" : "DEBUG"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 12,
 					"define" : "STM32F407xx"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 12,
 					"define" : "USE_HAL_DRIVER"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/core"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/flmparse"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/offline_download"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc"
 				}
 			],
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				21
+				25
 			]
 		}
 	],
@@ -423,31 +498,41 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "-mfloat-abi=hard",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mfpu=fpv4-sp-d16",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
 				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/cmake-build-debug/F4_CherryDAP.map",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "-mcpu=cortex-m4",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "-mthumb",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "-mthumb-interwork",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 4,
+				"backtrace" : 5,
 				"fragment" : "-T",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 4,
+				"backtrace" : 5,
 				"fragment" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/STM32F407ZGTX_FLASH.ld",
 				"role" : "flags"
 			}
@@ -476,13 +561,11 @@
 				6,
 				7,
 				8,
-				22,
-				23,
-				24,
+				9,
+				10,
 				26,
 				27,
 				28,
-				29,
 				30,
 				31,
 				32,
@@ -509,10 +592,10 @@
 				53,
 				54,
 				55,
+				56,
 				57,
 				58,
 				59,
-				60,
 				61,
 				62,
 				63,
@@ -541,11 +624,11 @@
 				86,
 				87,
 				88,
-				110,
-				113,
+				89,
+				90,
+				91,
+				92,
 				114,
-				115,
-				116,
 				117,
 				118,
 				119,
@@ -560,15 +643,31 @@
 				128,
 				129,
 				130,
-				133
+				131,
+				132,
+				133,
+				134,
+				137,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				9,
-				10,
 				11,
 				12,
 				13,
@@ -579,10 +678,10 @@
 				18,
 				19,
 				20,
-				90,
-				91,
-				92,
-				93,
+				21,
+				22,
+				23,
+				24,
 				94,
 				95,
 				96,
@@ -599,26 +698,44 @@
 				107,
 				108,
 				109,
+				110,
 				111,
 				112,
-				131,
-				132,
-				134,
+				113,
+				115,
+				116,
 				135,
 				136,
-				137,
-				138
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				21,
 				25,
-				56,
-				89,
-				139
+				29,
+				60,
+				93,
+				171
 			]
 		}
 	],
@@ -631,7 +748,17 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "Core/Inc/bitband.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "Core/Inc/dap_main.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/dma.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -673,6 +800,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/dap_main.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/dma.c",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -733,6 +866,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/usart.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/usb2uart.c",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -1359,6 +1498,160 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/CherryRB/chry_ringbuffer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/CherryUSB/class/cdc/usbd_cdc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/CherryUSB/core/usbd_core.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/CherryUSB/port/dwc2/usb_dc_dwc2.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/CherryUSB/port/dwc2/usb_glue_st.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/DAP.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/DAP_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/FlashOS.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/SWD_flash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/debug_cm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/dfs_posix.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/error.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/flash_blob.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/swd_host.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/target_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/target_family.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/target_reset.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/ulog.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Package/DAPLink/Include/ulog_def.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/DAPLink/Source/DAP.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/DAPLink/Source/DAP_vendor.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/DAPLink/Source/JTAG_DP.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/DAPLink/Source/SWD_flash.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/DAPLink/Source/SWO.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/DAPLink/Source/SW_DP.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/DAPLink/Source/UART.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/DAPLink/Source/error.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Package/DAPLink/Source/swd_host.c",
 			"sourceGroupIndex" : 1
 		},
 		{

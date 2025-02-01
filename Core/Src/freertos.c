@@ -22,14 +22,12 @@
 #include "task.h"
 #include "main.h"
 #include "cmsis_os.h"
-#include "chry_ringbuffer.h"
-#include "DAP.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "dap_main.h"
 #include "DAP.h"
-#include "swd_download_file.h"
+//#include "swd_download_file.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -142,7 +140,7 @@ void vApplicationGetIdleTaskMemory(StaticTask_t **ppxIdleTaskTCBBuffer, StackTyp
   */
 void MX_FREERTOS_Init(void) {
     /* USER CODE BEGIN Init */
-
+    chry_dap_init(0, USB_OTG_FS_PERIPH_BASE);//初始化DAP
     /* USER CODE END Init */
 
     /* USER CODE BEGIN RTOS_MUTEX */
@@ -189,7 +187,7 @@ void DAPFun(void const *argument) {
     for (;;) {
         chry_dap_handle();//处理DAP数据的函数
         chry_dap_usb2uart_handle();//处理USB转串口数据的函数
-        if ((xTaskGetTickCount() % 300 == 0) && (is_on_offline_swd_downloading() == 0)) {
+        if (xTaskGetTickCount() % 300 == 0) {
             //每300ms检查一次IDCODE
             ID_timeout();
         }

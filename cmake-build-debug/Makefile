@@ -152,6 +152,30 @@ Core/Src/dap_main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dap_main.c.s
 .PHONY : Core/Src/dap_main.c.s
 
+Core/Src/dma.obj: Core/Src/dma.c.obj
+.PHONY : Core/Src/dma.obj
+
+# target to build an object file
+Core/Src/dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.obj
+.PHONY : Core/Src/dma.c.obj
+
+Core/Src/dma.i: Core/Src/dma.c.i
+.PHONY : Core/Src/dma.i
+
+# target to preprocess a source file
+Core/Src/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.i
+.PHONY : Core/Src/dma.c.i
+
+Core/Src/dma.s: Core/Src/dma.c.s
+.PHONY : Core/Src/dma.s
+
+# target to generate assembly for a file
+Core/Src/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.s
+.PHONY : Core/Src/dma.c.s
+
 Core/Src/freertos.obj: Core/Src/freertos.c.obj
 .PHONY : Core/Src/freertos.obj
 
@@ -391,6 +415,30 @@ Core/Src/usart.s: Core/Src/usart.c.s
 Core/Src/usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.s
 .PHONY : Core/Src/usart.c.s
+
+Core/Src/usb2uart.obj: Core/Src/usb2uart.c.obj
+.PHONY : Core/Src/usb2uart.obj
+
+# target to build an object file
+Core/Src/usb2uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.obj
+.PHONY : Core/Src/usb2uart.c.obj
+
+Core/Src/usb2uart.i: Core/Src/usb2uart.c.i
+.PHONY : Core/Src/usb2uart.i
+
+# target to preprocess a source file
+Core/Src/usb2uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.i
+.PHONY : Core/Src/usb2uart.c.i
+
+Core/Src/usb2uart.s: Core/Src/usb2uart.c.s
+.PHONY : Core/Src/usb2uart.s
+
+# target to generate assembly for a file
+Core/Src/usb2uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.s
+.PHONY : Core/Src/usb2uart.c.s
 
 Core/Src/usb_otg.obj: Core/Src/usb_otg.c.obj
 .PHONY : Core/Src/usb_otg.obj
@@ -1120,6 +1168,342 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
+Package/CherryRB/chry_ringbuffer.obj: Package/CherryRB/chry_ringbuffer.c.obj
+.PHONY : Package/CherryRB/chry_ringbuffer.obj
+
+# target to build an object file
+Package/CherryRB/chry_ringbuffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj
+.PHONY : Package/CherryRB/chry_ringbuffer.c.obj
+
+Package/CherryRB/chry_ringbuffer.i: Package/CherryRB/chry_ringbuffer.c.i
+.PHONY : Package/CherryRB/chry_ringbuffer.i
+
+# target to preprocess a source file
+Package/CherryRB/chry_ringbuffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.i
+.PHONY : Package/CherryRB/chry_ringbuffer.c.i
+
+Package/CherryRB/chry_ringbuffer.s: Package/CherryRB/chry_ringbuffer.c.s
+.PHONY : Package/CherryRB/chry_ringbuffer.s
+
+# target to generate assembly for a file
+Package/CherryRB/chry_ringbuffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.s
+.PHONY : Package/CherryRB/chry_ringbuffer.c.s
+
+Package/CherryUSB/class/cdc/usbd_cdc.obj: Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.obj
+
+# target to build an object file
+Package/CherryUSB/class/cdc/usbd_cdc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+
+Package/CherryUSB/class/cdc/usbd_cdc.i: Package/CherryUSB/class/cdc/usbd_cdc.c.i
+.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.i
+
+# target to preprocess a source file
+Package/CherryUSB/class/cdc/usbd_cdc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.i
+.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.c.i
+
+Package/CherryUSB/class/cdc/usbd_cdc.s: Package/CherryUSB/class/cdc/usbd_cdc.c.s
+.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.s
+
+# target to generate assembly for a file
+Package/CherryUSB/class/cdc/usbd_cdc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.s
+.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.c.s
+
+Package/CherryUSB/core/usbd_core.obj: Package/CherryUSB/core/usbd_core.c.obj
+.PHONY : Package/CherryUSB/core/usbd_core.obj
+
+# target to build an object file
+Package/CherryUSB/core/usbd_core.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+.PHONY : Package/CherryUSB/core/usbd_core.c.obj
+
+Package/CherryUSB/core/usbd_core.i: Package/CherryUSB/core/usbd_core.c.i
+.PHONY : Package/CherryUSB/core/usbd_core.i
+
+# target to preprocess a source file
+Package/CherryUSB/core/usbd_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.i
+.PHONY : Package/CherryUSB/core/usbd_core.c.i
+
+Package/CherryUSB/core/usbd_core.s: Package/CherryUSB/core/usbd_core.c.s
+.PHONY : Package/CherryUSB/core/usbd_core.s
+
+# target to generate assembly for a file
+Package/CherryUSB/core/usbd_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.s
+.PHONY : Package/CherryUSB/core/usbd_core.c.s
+
+Package/CherryUSB/port/dwc2/usb_dc_dwc2.obj: Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.obj
+
+# target to build an object file
+Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+
+Package/CherryUSB/port/dwc2/usb_dc_dwc2.i: Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.i
+.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.i
+
+# target to preprocess a source file
+Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.i
+.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.i
+
+Package/CherryUSB/port/dwc2/usb_dc_dwc2.s: Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.s
+.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.s
+
+# target to generate assembly for a file
+Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.s
+.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.s
+
+Package/CherryUSB/port/dwc2/usb_glue_st.obj: Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
+.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.obj
+
+# target to build an object file
+Package/CherryUSB/port/dwc2/usb_glue_st.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
+.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
+
+Package/CherryUSB/port/dwc2/usb_glue_st.i: Package/CherryUSB/port/dwc2/usb_glue_st.c.i
+.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.i
+
+# target to preprocess a source file
+Package/CherryUSB/port/dwc2/usb_glue_st.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.i
+.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.c.i
+
+Package/CherryUSB/port/dwc2/usb_glue_st.s: Package/CherryUSB/port/dwc2/usb_glue_st.c.s
+.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.s
+
+# target to generate assembly for a file
+Package/CherryUSB/port/dwc2/usb_glue_st.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.s
+.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.c.s
+
+Package/DAPLink/Source/DAP.obj: Package/DAPLink/Source/DAP.c.obj
+.PHONY : Package/DAPLink/Source/DAP.obj
+
+# target to build an object file
+Package/DAPLink/Source/DAP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.obj
+.PHONY : Package/DAPLink/Source/DAP.c.obj
+
+Package/DAPLink/Source/DAP.i: Package/DAPLink/Source/DAP.c.i
+.PHONY : Package/DAPLink/Source/DAP.i
+
+# target to preprocess a source file
+Package/DAPLink/Source/DAP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.i
+.PHONY : Package/DAPLink/Source/DAP.c.i
+
+Package/DAPLink/Source/DAP.s: Package/DAPLink/Source/DAP.c.s
+.PHONY : Package/DAPLink/Source/DAP.s
+
+# target to generate assembly for a file
+Package/DAPLink/Source/DAP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.s
+.PHONY : Package/DAPLink/Source/DAP.c.s
+
+Package/DAPLink/Source/DAP_vendor.obj: Package/DAPLink/Source/DAP_vendor.c.obj
+.PHONY : Package/DAPLink/Source/DAP_vendor.obj
+
+# target to build an object file
+Package/DAPLink/Source/DAP_vendor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj
+.PHONY : Package/DAPLink/Source/DAP_vendor.c.obj
+
+Package/DAPLink/Source/DAP_vendor.i: Package/DAPLink/Source/DAP_vendor.c.i
+.PHONY : Package/DAPLink/Source/DAP_vendor.i
+
+# target to preprocess a source file
+Package/DAPLink/Source/DAP_vendor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.i
+.PHONY : Package/DAPLink/Source/DAP_vendor.c.i
+
+Package/DAPLink/Source/DAP_vendor.s: Package/DAPLink/Source/DAP_vendor.c.s
+.PHONY : Package/DAPLink/Source/DAP_vendor.s
+
+# target to generate assembly for a file
+Package/DAPLink/Source/DAP_vendor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.s
+.PHONY : Package/DAPLink/Source/DAP_vendor.c.s
+
+Package/DAPLink/Source/JTAG_DP.obj: Package/DAPLink/Source/JTAG_DP.c.obj
+.PHONY : Package/DAPLink/Source/JTAG_DP.obj
+
+# target to build an object file
+Package/DAPLink/Source/JTAG_DP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj
+.PHONY : Package/DAPLink/Source/JTAG_DP.c.obj
+
+Package/DAPLink/Source/JTAG_DP.i: Package/DAPLink/Source/JTAG_DP.c.i
+.PHONY : Package/DAPLink/Source/JTAG_DP.i
+
+# target to preprocess a source file
+Package/DAPLink/Source/JTAG_DP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.i
+.PHONY : Package/DAPLink/Source/JTAG_DP.c.i
+
+Package/DAPLink/Source/JTAG_DP.s: Package/DAPLink/Source/JTAG_DP.c.s
+.PHONY : Package/DAPLink/Source/JTAG_DP.s
+
+# target to generate assembly for a file
+Package/DAPLink/Source/JTAG_DP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.s
+.PHONY : Package/DAPLink/Source/JTAG_DP.c.s
+
+Package/DAPLink/Source/SWD_flash.obj: Package/DAPLink/Source/SWD_flash.c.obj
+.PHONY : Package/DAPLink/Source/SWD_flash.obj
+
+# target to build an object file
+Package/DAPLink/Source/SWD_flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj
+.PHONY : Package/DAPLink/Source/SWD_flash.c.obj
+
+Package/DAPLink/Source/SWD_flash.i: Package/DAPLink/Source/SWD_flash.c.i
+.PHONY : Package/DAPLink/Source/SWD_flash.i
+
+# target to preprocess a source file
+Package/DAPLink/Source/SWD_flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.i
+.PHONY : Package/DAPLink/Source/SWD_flash.c.i
+
+Package/DAPLink/Source/SWD_flash.s: Package/DAPLink/Source/SWD_flash.c.s
+.PHONY : Package/DAPLink/Source/SWD_flash.s
+
+# target to generate assembly for a file
+Package/DAPLink/Source/SWD_flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.s
+.PHONY : Package/DAPLink/Source/SWD_flash.c.s
+
+Package/DAPLink/Source/SWO.obj: Package/DAPLink/Source/SWO.c.obj
+.PHONY : Package/DAPLink/Source/SWO.obj
+
+# target to build an object file
+Package/DAPLink/Source/SWO.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.obj
+.PHONY : Package/DAPLink/Source/SWO.c.obj
+
+Package/DAPLink/Source/SWO.i: Package/DAPLink/Source/SWO.c.i
+.PHONY : Package/DAPLink/Source/SWO.i
+
+# target to preprocess a source file
+Package/DAPLink/Source/SWO.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.i
+.PHONY : Package/DAPLink/Source/SWO.c.i
+
+Package/DAPLink/Source/SWO.s: Package/DAPLink/Source/SWO.c.s
+.PHONY : Package/DAPLink/Source/SWO.s
+
+# target to generate assembly for a file
+Package/DAPLink/Source/SWO.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.s
+.PHONY : Package/DAPLink/Source/SWO.c.s
+
+Package/DAPLink/Source/SW_DP.obj: Package/DAPLink/Source/SW_DP.c.obj
+.PHONY : Package/DAPLink/Source/SW_DP.obj
+
+# target to build an object file
+Package/DAPLink/Source/SW_DP.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.obj
+.PHONY : Package/DAPLink/Source/SW_DP.c.obj
+
+Package/DAPLink/Source/SW_DP.i: Package/DAPLink/Source/SW_DP.c.i
+.PHONY : Package/DAPLink/Source/SW_DP.i
+
+# target to preprocess a source file
+Package/DAPLink/Source/SW_DP.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.i
+.PHONY : Package/DAPLink/Source/SW_DP.c.i
+
+Package/DAPLink/Source/SW_DP.s: Package/DAPLink/Source/SW_DP.c.s
+.PHONY : Package/DAPLink/Source/SW_DP.s
+
+# target to generate assembly for a file
+Package/DAPLink/Source/SW_DP.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.s
+.PHONY : Package/DAPLink/Source/SW_DP.c.s
+
+Package/DAPLink/Source/UART.obj: Package/DAPLink/Source/UART.c.obj
+.PHONY : Package/DAPLink/Source/UART.obj
+
+# target to build an object file
+Package/DAPLink/Source/UART.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.obj
+.PHONY : Package/DAPLink/Source/UART.c.obj
+
+Package/DAPLink/Source/UART.i: Package/DAPLink/Source/UART.c.i
+.PHONY : Package/DAPLink/Source/UART.i
+
+# target to preprocess a source file
+Package/DAPLink/Source/UART.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.i
+.PHONY : Package/DAPLink/Source/UART.c.i
+
+Package/DAPLink/Source/UART.s: Package/DAPLink/Source/UART.c.s
+.PHONY : Package/DAPLink/Source/UART.s
+
+# target to generate assembly for a file
+Package/DAPLink/Source/UART.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.s
+.PHONY : Package/DAPLink/Source/UART.c.s
+
+Package/DAPLink/Source/error.obj: Package/DAPLink/Source/error.c.obj
+.PHONY : Package/DAPLink/Source/error.obj
+
+# target to build an object file
+Package/DAPLink/Source/error.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.obj
+.PHONY : Package/DAPLink/Source/error.c.obj
+
+Package/DAPLink/Source/error.i: Package/DAPLink/Source/error.c.i
+.PHONY : Package/DAPLink/Source/error.i
+
+# target to preprocess a source file
+Package/DAPLink/Source/error.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.i
+.PHONY : Package/DAPLink/Source/error.c.i
+
+Package/DAPLink/Source/error.s: Package/DAPLink/Source/error.c.s
+.PHONY : Package/DAPLink/Source/error.s
+
+# target to generate assembly for a file
+Package/DAPLink/Source/error.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.s
+.PHONY : Package/DAPLink/Source/error.c.s
+
+Package/DAPLink/Source/swd_host.obj: Package/DAPLink/Source/swd_host.c.obj
+.PHONY : Package/DAPLink/Source/swd_host.obj
+
+# target to build an object file
+Package/DAPLink/Source/swd_host.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.obj
+.PHONY : Package/DAPLink/Source/swd_host.c.obj
+
+Package/DAPLink/Source/swd_host.i: Package/DAPLink/Source/swd_host.c.i
+.PHONY : Package/DAPLink/Source/swd_host.i
+
+# target to preprocess a source file
+Package/DAPLink/Source/swd_host.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.i
+.PHONY : Package/DAPLink/Source/swd_host.c.i
+
+Package/DAPLink/Source/swd_host.s: Package/DAPLink/Source/swd_host.c.s
+.PHONY : Package/DAPLink/Source/swd_host.s
+
+# target to generate assembly for a file
+Package/DAPLink/Source/swd_host.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.s
+.PHONY : Package/DAPLink/Source/swd_host.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1132,6 +1516,9 @@ help:
 	@echo ... Core/Src/dap_main.obj
 	@echo ... Core/Src/dap_main.i
 	@echo ... Core/Src/dap_main.s
+	@echo ... Core/Src/dma.obj
+	@echo ... Core/Src/dma.i
+	@echo ... Core/Src/dma.s
 	@echo ... Core/Src/freertos.obj
 	@echo ... Core/Src/freertos.i
 	@echo ... Core/Src/freertos.s
@@ -1162,6 +1549,9 @@ help:
 	@echo ... Core/Src/usart.obj
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
+	@echo ... Core/Src/usb2uart.obj
+	@echo ... Core/Src/usb2uart.i
+	@echo ... Core/Src/usb2uart.s
 	@echo ... Core/Src/usb_otg.obj
 	@echo ... Core/Src/usb_otg.i
 	@echo ... Core/Src/usb_otg.s
@@ -1253,6 +1643,48 @@ help:
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.s
+	@echo ... Package/CherryRB/chry_ringbuffer.obj
+	@echo ... Package/CherryRB/chry_ringbuffer.i
+	@echo ... Package/CherryRB/chry_ringbuffer.s
+	@echo ... Package/CherryUSB/class/cdc/usbd_cdc.obj
+	@echo ... Package/CherryUSB/class/cdc/usbd_cdc.i
+	@echo ... Package/CherryUSB/class/cdc/usbd_cdc.s
+	@echo ... Package/CherryUSB/core/usbd_core.obj
+	@echo ... Package/CherryUSB/core/usbd_core.i
+	@echo ... Package/CherryUSB/core/usbd_core.s
+	@echo ... Package/CherryUSB/port/dwc2/usb_dc_dwc2.obj
+	@echo ... Package/CherryUSB/port/dwc2/usb_dc_dwc2.i
+	@echo ... Package/CherryUSB/port/dwc2/usb_dc_dwc2.s
+	@echo ... Package/CherryUSB/port/dwc2/usb_glue_st.obj
+	@echo ... Package/CherryUSB/port/dwc2/usb_glue_st.i
+	@echo ... Package/CherryUSB/port/dwc2/usb_glue_st.s
+	@echo ... Package/DAPLink/Source/DAP.obj
+	@echo ... Package/DAPLink/Source/DAP.i
+	@echo ... Package/DAPLink/Source/DAP.s
+	@echo ... Package/DAPLink/Source/DAP_vendor.obj
+	@echo ... Package/DAPLink/Source/DAP_vendor.i
+	@echo ... Package/DAPLink/Source/DAP_vendor.s
+	@echo ... Package/DAPLink/Source/JTAG_DP.obj
+	@echo ... Package/DAPLink/Source/JTAG_DP.i
+	@echo ... Package/DAPLink/Source/JTAG_DP.s
+	@echo ... Package/DAPLink/Source/SWD_flash.obj
+	@echo ... Package/DAPLink/Source/SWD_flash.i
+	@echo ... Package/DAPLink/Source/SWD_flash.s
+	@echo ... Package/DAPLink/Source/SWO.obj
+	@echo ... Package/DAPLink/Source/SWO.i
+	@echo ... Package/DAPLink/Source/SWO.s
+	@echo ... Package/DAPLink/Source/SW_DP.obj
+	@echo ... Package/DAPLink/Source/SW_DP.i
+	@echo ... Package/DAPLink/Source/SW_DP.s
+	@echo ... Package/DAPLink/Source/UART.obj
+	@echo ... Package/DAPLink/Source/UART.i
+	@echo ... Package/DAPLink/Source/UART.s
+	@echo ... Package/DAPLink/Source/error.obj
+	@echo ... Package/DAPLink/Source/error.i
+	@echo ... Package/DAPLink/Source/error.s
+	@echo ... Package/DAPLink/Source/swd_host.obj
+	@echo ... Package/DAPLink/Source/swd_host.i
+	@echo ... Package/DAPLink/Source/swd_host.s
 .PHONY : help
 
 

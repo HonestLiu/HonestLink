@@ -4,7 +4,6 @@
 * 2024-03-21     LCKFB-yzh    first version
  */
 
-#include <rtthread.h>
 #include <dfs_posix.h> 
 
 #include "SWD_flash.h"
@@ -128,24 +127,24 @@ int32_t swd_download_from_file(char *_file_path)
 
     start_offline_swd_download();
 
-    if (rt_strlen(_file_path) < sizeof(file_path))
+    if (strlen(_file_path) < sizeof(file_path))
     {
-        rt_strncpy(file_path, _file_path, sizeof(file_path));
+        strncpy(file_path, _file_path, sizeof(file_path));
     }
     else
     {
         LOG_E("file path too long");
-        rt_snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "path too long");
+        snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "path too long");
         goto error;
     }
 
     // 1 从TF卡中获取文件
 
     //判断这个文件后缀是否为bin
-    if (rt_strstr(file_path, ".bin") == NULL)
+    if (strstr(file_path, ".bin") == NULL)
     {
         LOG_E("only support .bin file");
-        rt_snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "only .bin file");
+        snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "only .bin file");
         goto error;
     }
     /* 以只读模式打开文件*/

@@ -1,19 +1,5 @@
 "D:\AppData\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-g++.exe -G "MinGW Makefiles" -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP -B D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug
--- The C compiler identification is GNU 13.3.1
--- The CXX compiler identification is GNU 13.3.1
--- The ASM compiler identification is GNU
--- Found assembler: D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-gcc.exe
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (2.6s)
+-- Configuring done (0.0s)
 -- Generating done (0.1s)
 -- Build files have been written to: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/cmake-build-debug

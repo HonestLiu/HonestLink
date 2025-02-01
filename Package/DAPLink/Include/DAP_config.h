@@ -28,7 +28,6 @@
 #ifndef __DAP_CONFIG_H__
 #define __DAP_CONFIG_H__
 
-#include <rtthread.h>
 #include "main.h"
 #include "swd_host.h"
 #include "debug_cm.h"
@@ -48,14 +47,14 @@ This information includes:
  - Optional information about a connected Target Device (for Evaluation Boards).
 */
 
-#include "stdint.h"   
+#include "stdint.h"
 #include "bitband.h"
 #include "stm32f4xx.h"
 
 #ifndef   __STATIC_INLINE
 #define __STATIC_INLINE                        static inline
 #endif
-#ifndef   __STATIC_FORCEINLINE                 
+#ifndef   __STATIC_FORCEINLINE
 #define __STATIC_FORCEINLINE                   __attribute__((always_inline)) static inline
 #endif
 #ifndef __WEAK
@@ -172,43 +171,43 @@ static const char TargetBoardName    [] = TARGET_BOARD_NAME;
 \param str Pointer to buffer to store the string (max 60 characters).
 \return String length (including terminating NULL character) or 0 (no string).
 */
-__STATIC_INLINE uint8_t DAP_GetVendorString (char *str) {
-  (void)str;
-  return (0U);
+__STATIC_INLINE uint8_t DAP_GetVendorString(char *str) {
+    (void) str;
+    return (0U);
 }
 
 /** Get Product Name string.
 \param str Pointer to buffer to store the string (max 60 characters).
 \return String length (including terminating NULL character) or 0 (no string).
 */
-__STATIC_INLINE uint8_t DAP_GetProductString (char *str) {
-  (void)str;
-  return (0U);
+__STATIC_INLINE uint8_t DAP_GetProductString(char *str) {
+    (void) str;
+    return (0U);
 }
 
 /** Get Serial Number string.
 \param str Pointer to buffer to store the string (max 60 characters).
 \return String length (including terminating NULL character) or 0 (no string).
 */
-__STATIC_INLINE uint8_t DAP_GetSerNumString (char *str) {
-  (void)str;
-  return (0U);
+__STATIC_INLINE uint8_t DAP_GetSerNumString(char *str) {
+    (void) str;
+    return (0U);
 }
 
 /** Get Target Device Vendor string.
 \param str Pointer to buffer to store the string (max 60 characters).
 \return String length (including terminating NULL character) or 0 (no string).
 */
-__STATIC_INLINE uint8_t DAP_GetTargetDeviceVendorString (char *str) {
+__STATIC_INLINE uint8_t DAP_GetTargetDeviceVendorString(char *str) {
 #if TARGET_FIXED != 0
-  uint8_t len;
+    uint8_t len;
 
-  strcpy(str, TargetDeviceVendor);
-  len = (uint8_t)(strlen(TargetDeviceVendor) + 1U);
-  return (len);
+    strcpy(str, TargetDeviceVendor);
+    len = (uint8_t)(strlen(TargetDeviceVendor) + 1U);
+    return (len);
 #else
-  (void)str;
-  return (0U);
+    (void) str;
+    return (0U);
 #endif
 }
 
@@ -216,16 +215,16 @@ __STATIC_INLINE uint8_t DAP_GetTargetDeviceVendorString (char *str) {
 \param str Pointer to buffer to store the string (max 60 characters).
 \return String length (including terminating NULL character) or 0 (no string).
 */
-__STATIC_INLINE uint8_t DAP_GetTargetDeviceNameString (char *str) {
+__STATIC_INLINE uint8_t DAP_GetTargetDeviceNameString(char *str) {
 #if TARGET_FIXED != 0
-  uint8_t len;
+    uint8_t len;
 
-  strcpy(str, TargetDeviceName);
-  len = (uint8_t)(strlen(TargetDeviceName) + 1U);
-  return (len);
+    strcpy(str, TargetDeviceName);
+    len = (uint8_t)(strlen(TargetDeviceName) + 1U);
+    return (len);
 #else
-  (void)str;
-  return (0U);
+    (void) str;
+    return (0U);
 #endif
 }
 
@@ -233,16 +232,16 @@ __STATIC_INLINE uint8_t DAP_GetTargetDeviceNameString (char *str) {
 \param str Pointer to buffer to store the string (max 60 characters).
 \return String length (including terminating NULL character) or 0 (no string).
 */
-__STATIC_INLINE uint8_t DAP_GetTargetBoardVendorString (char *str) {
+__STATIC_INLINE uint8_t DAP_GetTargetBoardVendorString(char *str) {
 #if TARGET_FIXED != 0
-  uint8_t len;
+    uint8_t len;
 
-  strcpy(str, TargetBoardVendor);
-  len = (uint8_t)(strlen(TargetBoardVendor) + 1U);
-  return (len);
+    strcpy(str, TargetBoardVendor);
+    len = (uint8_t)(strlen(TargetBoardVendor) + 1U);
+    return (len);
 #else
-  (void)str;
-  return (0U);
+    (void) str;
+    return (0U);
 #endif
 }
 
@@ -250,16 +249,16 @@ __STATIC_INLINE uint8_t DAP_GetTargetBoardVendorString (char *str) {
 \param str Pointer to buffer to store the string (max 60 characters).
 \return String length (including terminating NULL character) or 0 (no string).
 */
-__STATIC_INLINE uint8_t DAP_GetTargetBoardNameString (char *str) {
+__STATIC_INLINE uint8_t DAP_GetTargetBoardNameString(char *str) {
 #if TARGET_FIXED != 0
-  uint8_t len;
+    uint8_t len;
 
-  strcpy(str, TargetBoardName);
-  len = (uint8_t)(strlen(TargetBoardName) + 1U);
-  return (len);
+    strcpy(str, TargetBoardName);
+    len = (uint8_t)(strlen(TargetBoardName) + 1U);
+    return (len);
 #else
-  (void)str;
-  return (0U);
+    (void) str;
+    return (0U);
 #endif
 }
 
@@ -267,9 +266,9 @@ __STATIC_INLINE uint8_t DAP_GetTargetBoardNameString (char *str) {
 \param str Pointer to buffer to store the string (max 60 characters).
 \return String length (including terminating NULL character) or 0 (no string).
 */
-__STATIC_INLINE uint8_t DAP_GetProductFirmwareVersionString (char *str) {
-  (void)str;
-  return (0U);
+__STATIC_INLINE uint8_t DAP_GetProductFirmwareVersionString(char *str) {
+    (void) str;
+    return (0U);
 }
 
 ///@}
@@ -319,40 +318,39 @@ Configures the DAP Hardware I/O pins for JTAG mode:
  - TCK, TMS, TDI, nTRST, nRESET to output mode and set to high level.
  - TDO to input mode.
 */
-__STATIC_INLINE void PORT_JTAG_SETUP(void)
-{
+__STATIC_INLINE void PORT_JTAG_SETUP(void) {
 
-  current_dap_mode = 2;
-	
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
+    current_dap_mode = 2;
 
-  /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOE_CLK_ENABLE();
-  __HAL_RCC_GPIOD_CLK_ENABLE();
- 
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+    /* GPIO Ports Clock Enable */
+    __HAL_RCC_GPIOE_CLK_ENABLE();
+    __HAL_RCC_GPIOD_CLK_ENABLE();
+
     /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOE, TCK_SWCLK_Pin|TMS_SWDIO_Pin|NRST_Pin|TDI_Pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(GPIOE, TCK_SWCLK_Pin | TMS_SWDIO_Pin | NRST_Pin | TDI_Pin, GPIO_PIN_SET);
 
-  /*Configure GPIO pins : PEPin PEPin PEPin */
-  GPIO_InitStruct.Pin = TCK_SWCLK_Pin|TMS_SWDIO_Pin|TDI_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+    /*Configure GPIO pins : PEPin PEPin PEPin */
+    GPIO_InitStruct.Pin = TCK_SWCLK_Pin | TMS_SWDIO_Pin | TDI_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : PtPin */
-  GPIO_InitStruct.Pin = NRST_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(NRST_GPIO_Port, &GPIO_InitStruct);
+    /*Configure GPIO pin : PtPin */
+    GPIO_InitStruct.Pin = NRST_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+    GPIO_InitStruct.Pull = GPIO_PULLUP;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    HAL_GPIO_Init(NRST_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : PtPin */
-  GPIO_InitStruct.Pin = TDO_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(TDO_GPIO_Port, &GPIO_InitStruct);
-  
+    /*Configure GPIO pin : PtPin */
+    GPIO_InitStruct.Pin = TDO_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    HAL_GPIO_Init(TDO_GPIO_Port, &GPIO_InitStruct);
+
 }
 
 /** Setup SWD I/O pins: SWCLK, SWDIO, and nRESET.
@@ -360,32 +358,31 @@ Configures the DAP Hardware I/O pins for Serial Wire Debug (SWD) mode:
  - SWCLK, SWDIO, nRESET to output mode and set to default high level.
  - TDI, nTRST to HighZ mode (pins are unused in SWD mode).
 */
-__STATIC_INLINE void PORT_SWD_SETUP(void)
-{
-  current_dap_mode = 1;
-	
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
+__STATIC_INLINE void PORT_SWD_SETUP(void) {
+    current_dap_mode = 1;
 
-  /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOE_CLK_ENABLE();
-  __HAL_RCC_GPIOD_CLK_ENABLE();
- 
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+    /* GPIO Ports Clock Enable */
+    __HAL_RCC_GPIOE_CLK_ENABLE();
+    __HAL_RCC_GPIOD_CLK_ENABLE();
+
     /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOE, TCK_SWCLK_Pin|TMS_SWDIO_Pin|NRST_Pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(GPIOE, TCK_SWCLK_Pin | TMS_SWDIO_Pin | NRST_Pin, GPIO_PIN_SET);
 
-  /*Configure GPIO pins : PEPin PEPin PEPin */
-  GPIO_InitStruct.Pin = TCK_SWCLK_Pin|TMS_SWDIO_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
-  HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+    /*Configure GPIO pins : PEPin PEPin PEPin */
+    GPIO_InitStruct.Pin = TCK_SWCLK_Pin | TMS_SWDIO_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
+    HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : PtPin */
-  GPIO_InitStruct.Pin = NRST_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(NRST_GPIO_Port, &GPIO_InitStruct);
+    /*Configure GPIO pin : PtPin */
+    GPIO_InitStruct.Pin = NRST_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+    GPIO_InitStruct.Pull = GPIO_PULLUP;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    HAL_GPIO_Init(NRST_GPIO_Port, &GPIO_InitStruct);
 
 }
 
@@ -393,33 +390,32 @@ __STATIC_INLINE void PORT_SWD_SETUP(void)
 Disables the DAP Hardware I/O pins which configures:
  - TCK/SWCLK, TMS/SWDIO, TDI, TDO, nTRST, nRESET to High-Z mode.
 */
-__STATIC_INLINE void PORT_OFF(void)
-{
-  current_dap_mode = 0;
-  //- SWCLK, SWDIO, nRESET to output mode and set to default high level.
-	
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
+__STATIC_INLINE void PORT_OFF(void) {
+    current_dap_mode = 0;
+    //- SWCLK, SWDIO, nRESET to output mode and set to default high level.
+
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
 
     /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOE, TCK_SWCLK_Pin|TMS_SWDIO_Pin|NRST_Pin|TDI_Pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(GPIOE, TCK_SWCLK_Pin | TMS_SWDIO_Pin | NRST_Pin | TDI_Pin, GPIO_PIN_SET);
 
-  /*Configure GPIO pins : PEPin PEPin PEPin */
-  GPIO_InitStruct.Pin = TCK_SWCLK_Pin|TMS_SWDIO_Pin|TDI_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+    /*Configure GPIO pins : PEPin PEPin PEPin */
+    GPIO_InitStruct.Pin = TCK_SWCLK_Pin | TMS_SWDIO_Pin | TDI_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : PtPin */
-  GPIO_InitStruct.Pin = NRST_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(NRST_GPIO_Port, &GPIO_InitStruct);
+    /*Configure GPIO pin : PtPin */
+    GPIO_InitStruct.Pin = NRST_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    HAL_GPIO_Init(NRST_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : PtPin */
-  GPIO_InitStruct.Pin = TDO_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(TDO_GPIO_Port, &GPIO_InitStruct);
+    /*Configure GPIO pin : PtPin */
+    GPIO_InitStruct.Pin = TDO_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    HAL_GPIO_Init(TDO_GPIO_Port, &GPIO_InitStruct);
 }
 
 // SWCLK/TCK I/O pin -------------------------------------
@@ -427,22 +423,22 @@ __STATIC_INLINE void PORT_OFF(void)
 /** SWCLK/TCK I/O pin: Get Input.
 \return Current status of the SWCLK/TCK DAP hardware I/O pin.
 */
-__STATIC_FORCEINLINE uint32_t PIN_SWCLK_TCK_IN  (void) {
-  return (GPIOE_INPUT(7));
+__STATIC_FORCEINLINE uint32_t PIN_SWCLK_TCK_IN(void) {
+    return (GPIOE_INPUT(7));
 }
 
 /** SWCLK/TCK I/O pin: Set Output to High.
 Set the SWCLK/TCK DAP hardware I/O pin to high level.
 */
-__STATIC_FORCEINLINE void     PIN_SWCLK_TCK_SET (void) {
-  GPIOE_OUTPUT(7) = 1;
+__STATIC_FORCEINLINE void PIN_SWCLK_TCK_SET(void) {
+    GPIOE_OUTPUT(7) = 1;
 }
 
 /** SWCLK/TCK I/O pin: Set Output to Low.
 Set the SWCLK/TCK DAP hardware I/O pin to low level.
 */
-__STATIC_FORCEINLINE void     PIN_SWCLK_TCK_CLR (void) {
-  GPIOE_OUTPUT(7) = 0;
+__STATIC_FORCEINLINE void PIN_SWCLK_TCK_CLR(void) {
+    GPIOE_OUTPUT(7) = 0;
 }
 
 
@@ -451,51 +447,50 @@ __STATIC_FORCEINLINE void     PIN_SWCLK_TCK_CLR (void) {
 /** SWDIO/TMS I/O pin: Get Input.
 \return Current status of the SWDIO/TMS DAP hardware I/O pin.
 */
-__STATIC_FORCEINLINE uint32_t PIN_SWDIO_TMS_IN  (void) {
-  return (GPIOE_INPUT(8));
+__STATIC_FORCEINLINE uint32_t PIN_SWDIO_TMS_IN(void) {
+    return (GPIOE_INPUT(8));
 }
 
 /** SWDIO/TMS I/O pin: Set Output to High.
 Set the SWDIO/TMS DAP hardware I/O pin to high level.
 */
-__STATIC_FORCEINLINE void     PIN_SWDIO_TMS_SET (void) {
-  GPIOE_OUTPUT(8) = 1;
+__STATIC_FORCEINLINE void PIN_SWDIO_TMS_SET(void) {
+    GPIOE_OUTPUT(8) = 1;
 }
 
 /** SWDIO/TMS I/O pin: Set Output to Low.
 Set the SWDIO/TMS DAP hardware I/O pin to low level.
 */
-__STATIC_FORCEINLINE void     PIN_SWDIO_TMS_CLR (void) {
-  GPIOE_OUTPUT(8) = 0;
+__STATIC_FORCEINLINE void PIN_SWDIO_TMS_CLR(void) {
+    GPIOE_OUTPUT(8) = 0;
 }
 
 /** SWDIO I/O pin: Get Input (used in SWD mode only).
 \return Current status of the SWDIO DAP hardware I/O pin.
 */
-__STATIC_FORCEINLINE uint32_t PIN_SWDIO_IN      (void) {
-  return (GPIOE_INPUT(8));
+__STATIC_FORCEINLINE uint32_t PIN_SWDIO_IN(void) {
+    return (GPIOE_INPUT(8));
 }
 
 /** SWDIO I/O pin: Set Output (used in SWD mode only).
 \param bit Output value for the SWDIO DAP hardware I/O pin.
 */
-__STATIC_FORCEINLINE void     PIN_SWDIO_OUT     (uint32_t bit) {
-  GPIOE_OUTPUT(8) = bit;
+__STATIC_FORCEINLINE void PIN_SWDIO_OUT(uint32_t bit) {
+    GPIOE_OUTPUT(8) = bit;
 }
 
 /** SWDIO I/O pin: Switch to Output mode (used in SWD mode only).
 Configure the SWDIO DAP hardware I/O pin to output mode. This function is
 called prior \ref PIN_SWDIO_OUT function calls.
 */
-__STATIC_FORCEINLINE void PIN_SWDIO_OUT_ENABLE(void)
-{
+__STATIC_FORCEINLINE void PIN_SWDIO_OUT_ENABLE(void) {
 
-  // TMS/SWDIO
-  // TMS/SWDIO: E08,对GPIO输入输出模式寄存器清0
-  GPIOE->MODER &= ~(0x03 << (2 * 8));
-  GPIOE->MODER |= (0x01 << (2 * 8)); // TMS/SWDIO: E08,设置为输出模式
-  GPIOE->PUPDR &= ~(0x03 << (2 * 8)); // TMS/SWDIO: E08,对GPIO上下拉寄存器清0
-  GPIOE->PUPDR |= (0x00 << (2 * 8)); // TMS/SWDIO: E08,设置为无上下拉模式
+    // TMS/SWDIO
+    // TMS/SWDIO: E08,对GPIO输入输出模式寄存器清0
+    GPIOE->MODER &= ~(0x03 << (2 * 8));
+    GPIOE->MODER |= (0x01 << (2 * 8)); // TMS/SWDIO: E08,设置为输出模式
+    GPIOE->PUPDR &= ~(0x03 << (2 * 8)); // TMS/SWDIO: E08,对GPIO上下拉寄存器清0
+    GPIOE->PUPDR |= (0x00 << (2 * 8)); // TMS/SWDIO: E08,设置为无上下拉模式
 
 //  GPIO_InitTypeDef GPIO_InitStruct = {0};
 
@@ -505,19 +500,18 @@ __STATIC_FORCEINLINE void PIN_SWDIO_OUT_ENABLE(void)
 //  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
 //  HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
-  // 默认就是推挽输出
+    // 默认就是推挽输出
 }
 
 /** SWDIO I/O pin: Switch to Input mode (used in SWD mode only).
 Configure the SWDIO DAP hardware I/O pin to input mode. This function is
 called prior \ref PIN_SWDIO_IN function calls.
 */
-__STATIC_FORCEINLINE void PIN_SWDIO_OUT_DISABLE(void)
-{
-  // TMS/SWDIO: E08,对GPIO输入输出模式寄存器清0
-  GPIOE->MODER &= ~(0x03 << (2 * 8));
-  // TMS/SWDIO: E08,设置为输入模式
-  GPIOE->MODER |= (0x00 << (2 * 8));
+__STATIC_FORCEINLINE void PIN_SWDIO_OUT_DISABLE(void) {
+    // TMS/SWDIO: E08,对GPIO输入输出模式寄存器清0
+    GPIOE->MODER &= ~(0x03 << (2 * 8));
+    // TMS/SWDIO: E08,设置为输入模式
+    GPIOE->MODER |= (0x00 << (2 * 8));
 //	
 //  GPIO_InitTypeDef GPIO_InitStruct = {0};
 
@@ -532,15 +526,15 @@ __STATIC_FORCEINLINE void PIN_SWDIO_OUT_DISABLE(void)
 /** TDI I/O pin: Get Input.
 \return Current status of the TDI DAP hardware I/O pin.
 */
-__STATIC_FORCEINLINE uint32_t PIN_TDI_IN  (void) {
-  return (GPIOE_INPUT(12));
+__STATIC_FORCEINLINE uint32_t PIN_TDI_IN(void) {
+    return (GPIOE_INPUT(12));
 }
 
 /** TDI I/O pin: Set Output.
 \param bit Output value for the TDI DAP hardware I/O pin.
 */
-__STATIC_FORCEINLINE void     PIN_TDI_OUT (uint32_t bit) {
-  GPIOE_OUTPUT(12) = bit;
+__STATIC_FORCEINLINE void PIN_TDI_OUT(uint32_t bit) {
+    GPIOE_OUTPUT(12) = bit;
 }
 
 
@@ -549,8 +543,8 @@ __STATIC_FORCEINLINE void     PIN_TDI_OUT (uint32_t bit) {
 /** TDO I/O pin: Get Input.
 \return Current status of the TDO DAP hardware I/O pin.
 */
-__STATIC_FORCEINLINE uint32_t PIN_TDO_IN  (void) {
-  return (GPIOD_INPUT(6));
+__STATIC_FORCEINLINE uint32_t PIN_TDO_IN(void) {
+    return (GPIOD_INPUT(6));
 }
 
 
@@ -559,8 +553,8 @@ __STATIC_FORCEINLINE uint32_t PIN_TDO_IN  (void) {
 /** nTRST I/O pin: Get Input.
 \return Current status of the nTRST DAP hardware I/O pin.
 */
-__STATIC_FORCEINLINE uint32_t PIN_nTRST_IN   (void) {
-  return (0U);
+__STATIC_FORCEINLINE uint32_t PIN_nTRST_IN(void) {
+    return (0U);
 }
 
 /** nTRST I/O pin: Set Output.
@@ -568,8 +562,8 @@ __STATIC_FORCEINLINE uint32_t PIN_nTRST_IN   (void) {
            - 0: issue a JTAG TRST Test Reset.
            - 1: release JTAG TRST Test Reset.
 */
-__STATIC_FORCEINLINE void     PIN_nTRST_OUT  (uint32_t bit) {
-  ;
+__STATIC_FORCEINLINE void PIN_nTRST_OUT(uint32_t bit) {
+    ;
 }
 
 // nRESET Pin I/O------------------------------------------
@@ -577,32 +571,30 @@ __STATIC_FORCEINLINE void     PIN_nTRST_OUT  (uint32_t bit) {
 /** nRESET I/O pin: Get Input.
 \return Current status of the nRESET DAP hardware I/O pin.
 */
-__STATIC_FORCEINLINE uint32_t PIN_nRESET_IN  (void) {
-  return (GPIOE_INPUT(10));
+__STATIC_FORCEINLINE uint32_t PIN_nRESET_IN(void) {
+    return (GPIOE_INPUT(10));
 }
 
 #include "debug_cm.h"
 
 extern uint8_t swd_read_word(uint32_t addr, uint32_t *val);
+
 extern uint8_t swd_write_word(uint32_t addr, uint32_t val);
 
-extern  void soft_reset_target(void);
+extern void soft_reset_target(void);
 
 /** nRESET I/O pin: Set Output.
 \param bit target device hardware reset pin status:
            - 0: issue a device hardware reset.
            - 1: release device hardware reset.
 */
-__STATIC_FORCEINLINE void     PIN_nRESET_OUT (uint32_t bit) {
+__STATIC_FORCEINLINE void PIN_nRESET_OUT(uint32_t bit) {
 
     GPIOE_OUTPUT(10) = bit;
 
-	rt_kprintf("in reset\r\n");
-	
-	if(0 == bit)
-	{
-		//soft_reset_target(); TODO 待实现
-	}
+    if (0 == bit) {
+        soft_reset_target(); // 软复位
+    }
 }
 
 ///@}
@@ -626,14 +618,14 @@ It is recommended to provide the following LEDs for status indication:
            - 1: Connect LED ON: debugger is connected to CMSIS-DAP Debug Unit.
            - 0: Connect LED OFF: debugger is not connected to CMSIS-DAP Debug Unit.
 */
-__STATIC_INLINE void LED_CONNECTED_OUT (uint32_t bit) {}
+__STATIC_INLINE void LED_CONNECTED_OUT(uint32_t bit) {}
 
 /** Debug Unit: Set status Target Running LED.
 \param bit status of the Target Running LED.
            - 1: Target Running LED ON: program execution in target started.
            - 0: Target Running LED OFF: program execution in target stopped.
 */
-__STATIC_INLINE void LED_RUNNING_OUT (uint32_t bit) {GPIOB_OUTPUT(2) = bit;}
+__STATIC_INLINE void LED_RUNNING_OUT(uint32_t bit) { GPIOB_OUTPUT(2) = bit; }
 
 ///@}
 
@@ -653,8 +645,8 @@ default, the DWT timer is used.  The frequency of this timer is configured with 
 /** Get timestamp of Test Domain Timer.
 \return Current timestamp value.
 */
-__STATIC_INLINE uint32_t TIMESTAMP_GET (void) {
-  return (0);
+__STATIC_INLINE uint32_t TIMESTAMP_GET(void) {
+    return (0);
 }
 
 ///@}
@@ -677,8 +669,8 @@ Status LEDs. In detail the operation of Hardware I/O and LED pins are enabled an
  - for nTRST, nRESET a weak pull-up (if available) is enabled.
  - LED output pins are enabled and LEDs are turned off.
 */
-__STATIC_INLINE void DAP_SETUP (void) {
-  ;
+__STATIC_INLINE void DAP_SETUP(void) {
+    ;
 }
 
 /** Reset Target Device with custom specific I/O pin or command sequence.
@@ -689,7 +681,7 @@ when a device needs a time-critical unlock sequence that enables the debug port.
         1 = a device specific reset sequence is implemented.
 */
 
-__STATIC_INLINE uint8_t RESET_TARGET (void) {
+__STATIC_INLINE uint8_t RESET_TARGET(void) {
 //	static uint32_t val;
 //	printf("in reset\r\n");
 
@@ -704,8 +696,8 @@ __STATIC_INLINE uint8_t RESET_TARGET (void) {
 //		return 0;
 //	}
 //	printf("RESET_TARGET!!swd_read_word is %x\r\n",val);
-	
-	return (1U);             // change to '1' when a device reset sequence is implemented
+
+    return (1U);             // change to '1' when a device reset sequence is implemented
 }
 
 ///@}

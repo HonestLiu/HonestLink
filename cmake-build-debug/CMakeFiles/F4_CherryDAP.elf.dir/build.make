@@ -82,10 +82,24 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dap_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dap_main.c.s"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\dap_main.c -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\dap_main.c.s
 
+CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/dma.c
+CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\dma.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\dma.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\dma.c > CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\dma.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\dma.c -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\dma.c.s
+
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/freertos.c
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\freertos.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\freertos.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\freertos.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/gpio.c
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\gpio.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\gpio.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/main.c
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\main.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\main.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/stm32f4xx_hal_timebase_tim.c
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\stm32f4xx_hal_timebase_tim.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s: cmake_f
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/stm32f4xx_it.c
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/syscalls.c
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\syscalls.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\syscalls.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/sysmem.c
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\sysmem.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\sysmem.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/system_stm32f4xx.c
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/usart.c
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\usart.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\usart.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -222,10 +236,24 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.s"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\usart.c -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\usart.c.s
 
+CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/usb2uart.c
+CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\usb2uart.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\usb2uart.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\usb2uart.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\usb2uart.c > CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\usb2uart.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\usb2uart.c -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\usb2uart.c.s
+
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb_otg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb_otg.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/usb_otg.c
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb_otg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb_otg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb_otg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb_otg.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\usb_otg.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Src\usb_otg.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Src\usb_otg.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb_otg.c.i: cmake_force
@@ -238,7 +266,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb_otg.c.s: cmake_force
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Startup/startup_stm32f407zgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building ASM object CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\F4_CherryDAP.elf.dir\Core\Startup\startup_stm32f407zgtx.s.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Startup\startup_stm32f407zgtx.s
 
 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.i: cmake_force
@@ -252,7 +280,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -266,7 +294,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -280,7 +308,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -294,7 +322,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_d
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -308,7 +336,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_d
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -322,7 +350,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_e
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -336,7 +364,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_f
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -350,7 +378,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_f
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -364,7 +392,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_f
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -378,7 +406,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_g
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
@@ -392,7 +420,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_p
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
@@ -406,7 +434,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_p
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -420,7 +448,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_p
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -434,7 +462,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_p
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -448,7 +476,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_r
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -462,7 +490,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_r
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -476,7 +504,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_t
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -490,7 +518,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_t
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -504,7 +532,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_u
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
@@ -518,7 +546,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_us
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
@@ -532,7 +560,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RT
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -546,7 +574,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -560,7 +588,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_gr
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -574,7 +602,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
@@ -588,7 +616,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -602,7 +630,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -616,7 +644,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -630,7 +658,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_b
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -644,7 +672,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -655,9 +683,206 @@ CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\F4_CherryDAP.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
 
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB/chry_ringbuffer.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryRB\chry_ringbuffer.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryRB\chry_ringbuffer.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryRB\chry_ringbuffer.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryRB\chry_ringbuffer.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryRB\chry_ringbuffer.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryRB\chry_ringbuffer.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryRB\chry_ringbuffer.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usbd_cdc.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\class\cdc\usbd_cdc.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\class\cdc\usbd_cdc.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\class\cdc\usbd_cdc.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\class\cdc\usbd_cdc.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\class\cdc\usbd_cdc.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\class\cdc\usbd_cdc.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\class\cdc\usbd_cdc.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/core/usbd_core.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\core\usbd_core.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\core\usbd_core.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\core\usbd_core.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\core\usbd_core.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\core\usbd_core.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\core\usbd_core.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\core\usbd_core.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\port\dwc2\usb_dc_dwc2.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\port\dwc2\usb_dc_dwc2.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\port\dwc2\usb_dc_dwc2.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\port\dwc2\usb_dc_dwc2.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\port\dwc2\usb_dc_dwc2.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\port\dwc2\usb_dc_dwc2.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\port\dwc2\usb_dc_dwc2.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/port/dwc2/usb_glue_st.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\port\dwc2\usb_glue_st.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\port\dwc2\usb_glue_st.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\port\dwc2\usb_glue_st.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\port\dwc2\usb_glue_st.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\port\dwc2\usb_glue_st.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\port\dwc2\usb_glue_st.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\CherryUSB\port\dwc2\usb_glue_st.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Source/DAP.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\DAP.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\DAP.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\DAP.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\DAP.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\DAP.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\DAP.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\DAP.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Source/DAP_vendor.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\DAP_vendor.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\DAP_vendor.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\DAP_vendor.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\DAP_vendor.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\DAP_vendor.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\DAP_vendor.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\DAP_vendor.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Source/JTAG_DP.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\JTAG_DP.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\JTAG_DP.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\JTAG_DP.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\JTAG_DP.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\JTAG_DP.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\JTAG_DP.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\JTAG_DP.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Source/SWD_flash.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SWD_flash.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SWD_flash.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\SWD_flash.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\SWD_flash.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SWD_flash.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\SWD_flash.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SWD_flash.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Source/SWO.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SWO.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SWO.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\SWO.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\SWO.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SWO.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\SWO.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SWO.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Source/SW_DP.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SW_DP.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SW_DP.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\SW_DP.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\SW_DP.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SW_DP.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\SW_DP.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\SW_DP.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Source/UART.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\UART.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\UART.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\UART.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\UART.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\UART.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\UART.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\UART.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Source/error.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\error.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\error.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\error.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\error.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\error.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\error.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\error.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.obj: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Source/swd_host.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\swd_host.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\swd_host.c.obj -c D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\swd_host.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\swd_host.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\swd_host.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Source\swd_host.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\swd_host.c.s
+
 # Object files for target F4_CherryDAP.elf
 F4_CherryDAP_elf_OBJECTS = \
 "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dap_main.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj" \
@@ -668,6 +893,7 @@ F4_CherryDAP_elf_OBJECTS = \
 "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb_otg.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
@@ -698,12 +924,27 @@ F4_CherryDAP_elf_OBJECTS = \
 "CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
-"CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+"CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.obj"
 
 # External object files for target F4_CherryDAP.elf
 F4_CherryDAP_elf_EXTERNAL_OBJECTS =
 
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dap_main.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dma.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
@@ -714,6 +955,7 @@ F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb_otg.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
@@ -745,9 +987,24 @@ F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRT
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/build.make
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/objects1.rsp
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking C executable F4_CherryDAP.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking C executable F4_CherryDAP.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\F4_CherryDAP.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/cmake-build-debug/F4_CherryDAP.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/cmake-build-debug/F4_CherryDAP.bin"

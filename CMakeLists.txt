@@ -58,7 +58,9 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*" "Middlewares/*.*"
         "Package/CherryUSB/class/cdc/usbd_cdc.c"
         "Package/CherryUSB/port/dwc2/usb_dc_dwc2.c"
         "Package/CherryUSB/port/dwc2/usb_glue_st.c"
-        "Package/CherryUSB/demo/winusb2.0_cdc_template.c"
+        "Package/CherryRB/chry_ringbuffer.c"
+        "Package/DAPLink/*/*"
+        #"Package/CherryUSB/demo/winusb2.0_cdc_template.c"
 )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407ZGTX_FLASH.ld)
