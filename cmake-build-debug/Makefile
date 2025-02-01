@@ -128,6 +128,30 @@ F4_CherryDAP.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/build
 .PHONY : F4_CherryDAP.elf/fast
 
+Core/Src/dap_main.obj: Core/Src/dap_main.c.obj
+.PHONY : Core/Src/dap_main.obj
+
+# target to build an object file
+Core/Src/dap_main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dap_main.c.obj
+.PHONY : Core/Src/dap_main.c.obj
+
+Core/Src/dap_main.i: Core/Src/dap_main.c.i
+.PHONY : Core/Src/dap_main.i
+
+# target to preprocess a source file
+Core/Src/dap_main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dap_main.c.i
+.PHONY : Core/Src/dap_main.c.i
+
+Core/Src/dap_main.s: Core/Src/dap_main.c.s
+.PHONY : Core/Src/dap_main.s
+
+# target to generate assembly for a file
+Core/Src/dap_main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dap_main.c.s
+.PHONY : Core/Src/dap_main.c.s
+
 Core/Src/freertos.obj: Core/Src/freertos.c.obj
 .PHONY : Core/Src/freertos.obj
 
@@ -1096,126 +1120,6 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
-Package/CherryUSB/class/cdc/usbd_cdc.obj: Package/CherryUSB/class/cdc/usbd_cdc.c.obj
-.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.obj
-
-# target to build an object file
-Package/CherryUSB/class/cdc/usbd_cdc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
-.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.c.obj
-
-Package/CherryUSB/class/cdc/usbd_cdc.i: Package/CherryUSB/class/cdc/usbd_cdc.c.i
-.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.i
-
-# target to preprocess a source file
-Package/CherryUSB/class/cdc/usbd_cdc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.i
-.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.c.i
-
-Package/CherryUSB/class/cdc/usbd_cdc.s: Package/CherryUSB/class/cdc/usbd_cdc.c.s
-.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.s
-
-# target to generate assembly for a file
-Package/CherryUSB/class/cdc/usbd_cdc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.s
-.PHONY : Package/CherryUSB/class/cdc/usbd_cdc.c.s
-
-Package/CherryUSB/core/usbd_core.obj: Package/CherryUSB/core/usbd_core.c.obj
-.PHONY : Package/CherryUSB/core/usbd_core.obj
-
-# target to build an object file
-Package/CherryUSB/core/usbd_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
-.PHONY : Package/CherryUSB/core/usbd_core.c.obj
-
-Package/CherryUSB/core/usbd_core.i: Package/CherryUSB/core/usbd_core.c.i
-.PHONY : Package/CherryUSB/core/usbd_core.i
-
-# target to preprocess a source file
-Package/CherryUSB/core/usbd_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.i
-.PHONY : Package/CherryUSB/core/usbd_core.c.i
-
-Package/CherryUSB/core/usbd_core.s: Package/CherryUSB/core/usbd_core.c.s
-.PHONY : Package/CherryUSB/core/usbd_core.s
-
-# target to generate assembly for a file
-Package/CherryUSB/core/usbd_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.s
-.PHONY : Package/CherryUSB/core/usbd_core.c.s
-
-Package/CherryUSB/demo/winusb2.0_cdc_template.obj: Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-.PHONY : Package/CherryUSB/demo/winusb2.0_cdc_template.obj
-
-# target to build an object file
-Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-.PHONY : Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-
-Package/CherryUSB/demo/winusb2.0_cdc_template.i: Package/CherryUSB/demo/winusb2.0_cdc_template.c.i
-.PHONY : Package/CherryUSB/demo/winusb2.0_cdc_template.i
-
-# target to preprocess a source file
-Package/CherryUSB/demo/winusb2.0_cdc_template.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.i
-.PHONY : Package/CherryUSB/demo/winusb2.0_cdc_template.c.i
-
-Package/CherryUSB/demo/winusb2.0_cdc_template.s: Package/CherryUSB/demo/winusb2.0_cdc_template.c.s
-.PHONY : Package/CherryUSB/demo/winusb2.0_cdc_template.s
-
-# target to generate assembly for a file
-Package/CherryUSB/demo/winusb2.0_cdc_template.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.s
-.PHONY : Package/CherryUSB/demo/winusb2.0_cdc_template.c.s
-
-Package/CherryUSB/port/dwc2/usb_dc_dwc2.obj: Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.obj
-
-# target to build an object file
-Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-
-Package/CherryUSB/port/dwc2/usb_dc_dwc2.i: Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.i
-.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.i
-
-# target to preprocess a source file
-Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.i
-.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.i
-
-Package/CherryUSB/port/dwc2/usb_dc_dwc2.s: Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.s
-.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.s
-
-# target to generate assembly for a file
-Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.s
-.PHONY : Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.s
-
-Package/CherryUSB/port/dwc2/usb_glue_st.obj: Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
-.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.obj
-
-# target to build an object file
-Package/CherryUSB/port/dwc2/usb_glue_st.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
-.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
-
-Package/CherryUSB/port/dwc2/usb_glue_st.i: Package/CherryUSB/port/dwc2/usb_glue_st.c.i
-.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.i
-
-# target to preprocess a source file
-Package/CherryUSB/port/dwc2/usb_glue_st.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.i
-.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.c.i
-
-Package/CherryUSB/port/dwc2/usb_glue_st.s: Package/CherryUSB/port/dwc2/usb_glue_st.c.s
-.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.s
-
-# target to generate assembly for a file
-Package/CherryUSB/port/dwc2/usb_glue_st.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.s
-.PHONY : Package/CherryUSB/port/dwc2/usb_glue_st.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1225,6 +1129,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... F4_CherryDAP.elf
+	@echo ... Core/Src/dap_main.obj
+	@echo ... Core/Src/dap_main.i
+	@echo ... Core/Src/dap_main.s
 	@echo ... Core/Src/freertos.obj
 	@echo ... Core/Src/freertos.i
 	@echo ... Core/Src/freertos.s
@@ -1346,21 +1253,6 @@ help:
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.s
-	@echo ... Package/CherryUSB/class/cdc/usbd_cdc.obj
-	@echo ... Package/CherryUSB/class/cdc/usbd_cdc.i
-	@echo ... Package/CherryUSB/class/cdc/usbd_cdc.s
-	@echo ... Package/CherryUSB/core/usbd_core.obj
-	@echo ... Package/CherryUSB/core/usbd_core.i
-	@echo ... Package/CherryUSB/core/usbd_core.s
-	@echo ... Package/CherryUSB/demo/winusb2.0_cdc_template.obj
-	@echo ... Package/CherryUSB/demo/winusb2.0_cdc_template.i
-	@echo ... Package/CherryUSB/demo/winusb2.0_cdc_template.s
-	@echo ... Package/CherryUSB/port/dwc2/usb_dc_dwc2.obj
-	@echo ... Package/CherryUSB/port/dwc2/usb_dc_dwc2.i
-	@echo ... Package/CherryUSB/port/dwc2/usb_dc_dwc2.s
-	@echo ... Package/CherryUSB/port/dwc2/usb_glue_st.obj
-	@echo ... Package/CherryUSB/port/dwc2/usb_glue_st.i
-	@echo ... Package/CherryUSB/port/dwc2/usb_glue_st.s
 .PHONY : help
 
 

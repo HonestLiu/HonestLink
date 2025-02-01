@@ -14,9 +14,6 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
-  "ARM_MATH_CM4"
-  "ARM_MATH_MATRIX_CHECK"
-  "ARM_MATH_ROUNDING"
   "DEBUG"
   "STM32F407xx"
   "USE_HAL_DRIVER"
@@ -37,10 +34,14 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/include"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/flmparse"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/offline_download"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/dap_main.c" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dap_main.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dap_main.c.obj.d"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/freertos.c" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj.d"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/gpio.c" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj.d"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/main.c" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj.d"
@@ -81,11 +82,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" "CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj.d"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" "CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj.d"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/timers.c" "CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usbd_cdc.c" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj.d"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/core/usbd_core.c" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj.d"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/demo/winusb2.0_cdc_template.c" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj.d"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj.d"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/port/dwc2/usb_glue_st.c" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
