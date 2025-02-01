@@ -13,6 +13,7 @@
 			"add_executable",
 			"add_link_options",
 			"add_compile_options",
+			"add_compile_definitions",
 			"add_definitions",
 			"include_directories"
 		],
@@ -34,6 +35,12 @@
 			{
 				"command" : 1,
 				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
 				"line" : 66,
 				"parent" : 0
 			},
@@ -47,6 +54,12 @@
 				"command" : 1,
 				"file" : 0,
 				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 23,
 				"parent" : 0
 			},
 			{
@@ -76,11 +89,17 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 54,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
 				"file" : 0,
 				"line" : 52,
 				"parent" : 0
@@ -96,98 +115,130 @@
 					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 7,
 					"fragment" : "-mcpu=cortex-m4"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb-interwork"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-ffunction-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fdata-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fno-common"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fmessage-length=0"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 10,
 					"fragment" : "-Og"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 10,
 					"fragment" : "-g"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 9,
+					"backtrace" : 11,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ARM_MATH_MATRIX_CHECK"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ARM_MATH_ROUNDING"
+				},
+				{
+					"backtrace" : 12,
 					"define" : "DEBUG"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 12,
 					"define" : "STM32F407xx"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 12,
 					"define" : "USE_HAL_DRIVER"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/core"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
 				}
 			],
 			"language" : "C",
@@ -201,7 +252,6 @@
 			},
 			"sourceIndexes" : 
 			[
-				7,
 				8,
 				9,
 				10,
@@ -210,9 +260,9 @@
 				13,
 				14,
 				15,
-				85,
-				86,
-				87,
+				16,
+				17,
+				18,
 				88,
 				89,
 				90,
@@ -233,7 +283,20 @@
 				105,
 				106,
 				107,
-				108
+				109,
+				110,
+				129,
+				130,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141
 			]
 		},
 		{
@@ -243,112 +306,144 @@
 					"fragment" : "-g"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 7,
 					"fragment" : "-mcpu=cortex-m4"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 7,
 					"fragment" : "-mthumb-interwork"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-ffunction-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fdata-sections"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fno-common"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"fragment" : "-fmessage-length=0"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 9,
 					"fragment" : "-x"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 9,
 					"fragment" : "assembler-with-cpp"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 10,
 					"fragment" : "-Og"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 10,
 					"fragment" : "-g"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 9,
+					"backtrace" : 11,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ARM_MATH_MATRIX_CHECK"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ARM_MATH_ROUNDING"
+				},
+				{
+					"backtrace" : 12,
 					"define" : "DEBUG"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 12,
 					"define" : "STM32F407xx"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 12,
 					"define" : "USE_HAL_DRIVER"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Include"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/core"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 13,
 					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
 				}
 			],
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				16
+				19
 			]
 		}
 	],
@@ -367,31 +462,41 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "-mfloat-abi=hard",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mfpu=fpv4-sp-d16",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
 				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/cmake-build-debug/F4_CherryDAP.map",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "-mcpu=cortex-m4",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "-mthumb",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "-mthumb-interwork",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 4,
+				"backtrace" : 5,
 				"fragment" : "-T",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 4,
+				"backtrace" : 5,
 				"fragment" : "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/STM32F407ZGTX_FLASH.ld",
 				"role" : "flags"
 			}
@@ -418,12 +523,10 @@
 				4,
 				5,
 				6,
-				17,
-				18,
-				19,
+				7,
+				20,
 				21,
 				22,
-				23,
 				24,
 				25,
 				26,
@@ -451,9 +554,9 @@
 				48,
 				49,
 				50,
+				51,
 				52,
 				53,
-				54,
 				55,
 				56,
 				57,
@@ -482,14 +585,36 @@
 				80,
 				81,
 				82,
-				83
+				83,
+				84,
+				85,
+				86,
+				108,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				131
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				7,
 				8,
 				9,
 				10,
@@ -498,9 +623,9 @@
 				13,
 				14,
 				15,
-				85,
-				86,
-				87,
+				16,
+				17,
+				18,
 				88,
 				89,
 				90,
@@ -521,23 +646,41 @@
 				105,
 				106,
 				107,
-				108
+				109,
+				110,
+				129,
+				130,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				16,
-				20,
-				51,
-				84,
-				109
+				19,
+				23,
+				54,
+				87,
+				142
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/FreeRTOSConfig.h",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"path" : "Core/Inc/gpio.h",
@@ -576,6 +719,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "Core/Src/freertos.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "Core/Src/gpio.c",
 			"sourceGroupIndex" : 1
 		},
@@ -589,6 +738,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/stm32f4xx_hal_msp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f4xx_hal_timebase_tim.c",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -1085,6 +1240,166 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/list.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/portable.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/queue.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/task.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/timers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/list.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/timers.c",
 			"sourceGroupIndex" : 1
 		},
 		{

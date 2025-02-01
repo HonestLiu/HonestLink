@@ -35,6 +35,8 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj: \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_usb.h \
