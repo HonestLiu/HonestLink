@@ -13,9 +13,9 @@ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-fwalk.o)
                               D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o) (_fwalk_sglue)
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-printf.o)
-                              CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj (printf)
+                              CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj (printf)
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-puts.o)
-                              CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj (puts)
+                              CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj (puts)
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-stdio.o)
                               D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o) (__sread)
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-memset.o)
@@ -39,7 +39,7 @@ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
                               D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-memcpy.o)
-                              CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj (memcpy)
+                              CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj (memcpy)
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-strlen.o)
                               D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-puts.o) (strlen)
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
@@ -178,55 +178,6 @@ Discarded input sections
                 0x00000000       0xd3 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crt0.o
  .ARM.attributes
                 0x00000000       0x1c D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crt0.o
- .text          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .data          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .bss           0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .rodata.str1.4
-                0x00000000       0x1e CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .data.parity_name
-                0x00000000       0x14 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .data.stop_name
-                0x00000000        0xc CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .text          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .data          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .bss           0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_event_connect_handler
-                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_event_disconnect_handler
-                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_event_resume_handler
-                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_event_suspend_handler
-                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_msosv1_desc_register
-                0x00000000       0x14 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_get_ep_mult
-                0x00000000       0x48 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usb_device_is_configured
-                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_deinitialize
-                0x00000000       0x34 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .data          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .bss           0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .text          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .data          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .bss           0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.usb_dc_low_level_init
-                0x00000000        0x2 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.usb_dc_low_level_deinit
-                0x00000000        0x2 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.usb_dc_deinit
-                0x00000000       0x64 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.usbd_get_port_speed
-                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.usbd_ep_is_stalled
-                0x00000000        0x4 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
- .data          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
- .bss           0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
- .text.usbh_get_dwc2_gccfg_conf
-                0x00000000        0x6 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
  .text          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
  .data          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
  .bss           0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
@@ -1086,6 +1037,55 @@ Discarded input sections
  .debug_frame   0x00000000      0x494 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
  .ARM.attributes
                 0x00000000       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+ .text          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .data          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .rodata.str1.4
+                0x00000000       0x1e CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .data.parity_name
+                0x00000000       0x14 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .data.stop_name
+                0x00000000        0xc CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .text          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .data          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_event_connect_handler
+                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_event_disconnect_handler
+                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_event_resume_handler
+                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_event_suspend_handler
+                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_msosv1_desc_register
+                0x00000000       0x14 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_get_ep_mult
+                0x00000000       0x48 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usb_device_is_configured
+                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_deinitialize
+                0x00000000       0x34 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .data          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .text          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .data          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.usb_dc_low_level_init
+                0x00000000        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.usb_dc_low_level_deinit
+                0x00000000        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.usb_dc_deinit
+                0x00000000       0x64 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.usbd_get_port_speed
+                0x00000000       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.usbd_ep_is_stalled
+                0x00000000        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
+ .data          0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
+ .text.usbh_get_dwc2_gccfg_conf
+                0x00000000        0x6 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
  .data          0x00000000        0x0 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
  .bss           0x00000000        0x0 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
  .text          0x00000000        0x0 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
@@ -1552,11 +1552,6 @@ Linker script and memory map
 LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crti.o
 LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
 LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crt0.o
-LOAD CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
-LOAD CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-LOAD CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-LOAD CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-LOAD CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
 LOAD CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
 LOAD CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
 LOAD CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
@@ -1586,6 +1581,11 @@ LOAD CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 LOAD CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 LOAD CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 LOAD CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+LOAD CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+LOAD CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+LOAD CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+LOAD CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+LOAD CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
 START GROUP
 LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a
 LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a
@@ -1672,439 +1672,439 @@ LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/
                 0x08000e28       0x28 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
  .text.frame_dummy
                 0x08000e50       0x24 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
- .text.usbd_cdc_acm_init_intf
-                0x08000e74       0x14 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
-                0x08000e74                usbd_cdc_acm_init_intf
- .text.usbd_cdc_acm_set_line_coding
-                0x08000e88        0x2 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
-                0x08000e88                usbd_cdc_acm_set_line_coding
- .text.usbd_cdc_acm_get_line_coding
-                0x08000e8a       0x1e CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
-                0x08000e8a                usbd_cdc_acm_get_line_coding
- .text.usbd_cdc_acm_set_dtr
-                0x08000ea8        0x2 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
-                0x08000ea8                usbd_cdc_acm_set_dtr
- .text.usbd_cdc_acm_set_rts
-                0x08000eaa        0x2 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
-                0x08000eaa                usbd_cdc_acm_set_rts
- .text.usbd_cdc_acm_send_break
-                0x08000eac        0x2 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
-                0x08000eac                usbd_cdc_acm_send_break
- *fill*         0x08000eae        0x2 
- .text.cdc_acm_class_interface_request_handler
-                0x08000eb0       0xb8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .text.is_device_configured
-                0x08000f68       0x1c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_class_request_handler
-                0x08000f84       0xb0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_class_event_notify_handler
-                0x08001034       0x70 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_set_endpoint
-                0x080010a4       0xa0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_set_configuration
-                0x08001144       0x74 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_get_descriptor
-                0x080011b8       0xe4 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_std_device_req_handler
-                0x0800129c       0xe4 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_print_setup
-                0x08001380       0x38 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_vendor_request_handler
-                0x080013b8      0x170 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_event_ep0_in_complete_handler
-                0x08001528       0x74 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001528                usbd_event_ep0_in_complete_handler
- .text.usbd_reset_endpoint
-                0x0800159c       0x10 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_set_interface
-                0x080015ac       0x9c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_std_interface_req_handler
-                0x08001648       0xcc CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_std_endpoint_req_handler
-                0x08001714       0xa4 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_standard_request_handler
-                0x080017b8       0x48 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_setup_request_handler
-                0x08001800       0xb8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .text.usbd_event_ep0_out_complete_handler
-                0x080018b8       0x70 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x080018b8                usbd_event_ep0_out_complete_handler
- .text.usbd_event_reset_handler
-                0x08001928       0x6c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001928                usbd_event_reset_handler
- .text.usbd_event_ep0_setup_complete_handler
-                0x08001994      0x130 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001994                usbd_event_ep0_setup_complete_handler
- .text.usbd_event_ep_in_complete_handler
-                0x08001ac4       0x28 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001ac4                usbd_event_ep_in_complete_handler
- .text.usbd_event_ep_out_complete_handler
-                0x08001aec       0x28 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001aec                usbd_event_ep_out_complete_handler
- .text.usbd_desc_register
-                0x08001b14       0x44 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001b14                usbd_desc_register
- .text.usbd_msosv2_desc_register
-                0x08001b58       0x14 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001b58                usbd_msosv2_desc_register
- .text.usbd_bos_desc_register
-                0x08001b6c       0x14 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001b6c                usbd_bos_desc_register
- .text.usbd_add_interface
-                0x08001b80       0x30 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001b80                usbd_add_interface
- .text.usbd_add_endpoint
-                0x08001bb0       0x70 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001bb0                usbd_add_endpoint
- .text.usbd_get_ep_mps
-                0x08001c20       0x48 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001c20                usbd_get_ep_mps
- .text.usbd_initialize
-                0x08001c68       0x64 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x08001c68                usbd_initialize
- .text.usbd_winusb_out
-                0x08001ccc       0x34 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x08001ccc                usbd_winusb_out
- .text.usbd_event_handler
-                0x08001d00       0x24 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .text.usbd_winusb_in
-                0x08001d24       0x40 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x08001d24                usbd_winusb_in
- .text.winusbv2_init
-                0x08001d64       0x9c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x08001d64                winusbv2_init
- .text.dwc2_reset
-                0x08001e00       0x58 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.dwc2_core_init
-                0x08001e58       0x18 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.dwc2_flush_rxfifo
-                0x08001e70       0x38 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.dwc2_flush_txfifo
-                0x08001ea8       0x3c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.dwc2_set_turnaroundtime
-                0x08001ee4       0xf4 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.dwc2_get_devspeed
-                0x08001fd8       0x2c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.dwc2_ep0_start_read_setup
-                0x08002004       0x34 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.dwc2_get_inep_intstatus
-                0x08002038       0x2c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.dwc2_set_txfifo
-                0x08002064       0x70 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.dwc2_ep_write
-                0x080020d4       0x34 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-                0x080020d4                dwc2_ep_write
- .text.dwc2_tx_fifo_empty_procecss
-                0x08002108       0xbc CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .text.dwc2_ep_read
-                0x080021c4       0x24 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-                0x080021c4                dwc2_ep_read
- .text.usb_dc_init
-                0x080021e8      0x290 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-                0x080021e8                usb_dc_init
- .text.usbd_set_address
-                0x08002478       0x2c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-                0x08002478                usbd_set_address
- .text.usbd_ep_open
-                0x080024a4      0x15c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-                0x080024a4                usbd_ep_open
- .text.usbd_ep_close
-                0x08002600      0x14c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-                0x08002600                usbd_ep_close
- .text.usbd_ep_set_stall
-                0x0800274c       0x78 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-                0x0800274c                usbd_ep_set_stall
- .text.usbd_ep_clear_stall
-                0x080027c4       0x8c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-                0x080027c4                usbd_ep_clear_stall
- .text.usbd_ep_start_write
-                0x08002850      0x1a0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-                0x08002850                usbd_ep_start_write
- .text.usbd_ep_start_read
-                0x080029f0      0x174 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-                0x080029f0                usbd_ep_start_read
- .text.USBD_IRQHandler
-                0x08002b64      0x4c0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
-                0x08002b64                USBD_IRQHandler
- .text.usbd_get_dwc2_gccfg_conf
-                0x08003024        0x6 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
-                0x08003024                usbd_get_dwc2_gccfg_conf
- *fill*         0x0800302a        0x2 
  .text.MX_GPIO_Init
-                0x0800302c       0xa4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
-                0x0800302c                MX_GPIO_Init
+                0x08000e74       0xa4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
+                0x08000e74                MX_GPIO_Init
  .text.usb_dc_low_level_init
-                0x080030d0       0x78 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
-                0x080030d0                usb_dc_low_level_init
+                0x08000f18       0x78 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+                0x08000f18                usb_dc_low_level_init
  .text.Error_Handler
-                0x08003148        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
-                0x08003148                Error_Handler
+                0x08000f90        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+                0x08000f90                Error_Handler
  .text.SystemClock_Config
-                0x0800314c       0xa8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
-                0x0800314c                SystemClock_Config
- .text.main     0x080031f4       0x34 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
-                0x080031f4                main
+                0x08000f94       0xa8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+                0x08000f94                SystemClock_Config
+ .text.main     0x0800103c       0x34 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+                0x0800103c                main
  .text.HAL_MspInit
-                0x08003228       0x38 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x08003228                HAL_MspInit
+                0x08001070       0x38 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x08001070                HAL_MspInit
  .text.NMI_Handler
-                0x08003260        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08003260                NMI_Handler
+                0x080010a8        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080010a8                NMI_Handler
  .text.HardFault_Handler
-                0x08003262        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08003262                HardFault_Handler
+                0x080010aa        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080010aa                HardFault_Handler
  .text.MemManage_Handler
-                0x08003264        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08003264                MemManage_Handler
+                0x080010ac        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080010ac                MemManage_Handler
  .text.BusFault_Handler
-                0x08003266        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08003266                BusFault_Handler
+                0x080010ae        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080010ae                BusFault_Handler
  .text.UsageFault_Handler
-                0x08003268        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08003268                UsageFault_Handler
+                0x080010b0        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080010b0                UsageFault_Handler
  .text.SVC_Handler
-                0x0800326a        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800326a                SVC_Handler
+                0x080010b2        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080010b2                SVC_Handler
  .text.DebugMon_Handler
-                0x0800326c        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800326c                DebugMon_Handler
+                0x080010b4        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080010b4                DebugMon_Handler
  .text.PendSV_Handler
-                0x0800326e        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0800326e                PendSV_Handler
+                0x080010b6        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080010b6                PendSV_Handler
  .text.SysTick_Handler
-                0x08003270        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08003270                SysTick_Handler
+                0x080010b8        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080010b8                SysTick_Handler
  .text.USART1_IRQHandler
-                0x08003278       0x10 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08003278                USART1_IRQHandler
+                0x080010c0       0x10 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080010c0                USART1_IRQHandler
  .text.OTG_FS_IRQHandler
-                0x08003288        0xa CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x08003288                OTG_FS_IRQHandler
- .text._getpid  0x08003292        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
-                0x08003292                _getpid
- .text._kill    0x08003296       0x10 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
-                0x08003296                _kill
- .text._exit    0x080032a6        0xc CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
-                0x080032a6                _exit
- .text._read    0x080032b2       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
-                0x080032b2                _read
- .text._write   0x080032d2       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
-                0x080032d2                _write
- .text._close   0x080032ee        0x6 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
-                0x080032ee                _close
- .text._fstat   0x080032f4        0xa CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
-                0x080032f4                _fstat
- .text._isatty  0x080032fe        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
-                0x080032fe                _isatty
- .text._lseek   0x08003302        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
-                0x08003302                _lseek
- *fill*         0x08003306        0x2 
- .text._sbrk    0x08003308       0x48 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
-                0x08003308                _sbrk
+                0x080010d0        0xa CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x080010d0                OTG_FS_IRQHandler
+ .text._getpid  0x080010da        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x080010da                _getpid
+ .text._kill    0x080010de       0x10 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x080010de                _kill
+ .text._exit    0x080010ee        0xc CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x080010ee                _exit
+ .text._read    0x080010fa       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x080010fa                _read
+ .text._write   0x0800111a       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x0800111a                _write
+ .text._close   0x08001136        0x6 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x08001136                _close
+ .text._fstat   0x0800113c        0xa CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x0800113c                _fstat
+ .text._isatty  0x08001146        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x08001146                _isatty
+ .text._lseek   0x0800114a        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x0800114a                _lseek
+ *fill*         0x0800114e        0x2 
+ .text._sbrk    0x08001150       0x48 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
+                0x08001150                _sbrk
  .text.SystemInit
-                0x08003350        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x08003350                SystemInit
- *fill*         0x08003352        0x2 
+                0x08001198        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x08001198                SystemInit
+ *fill*         0x0800119a        0x2 
  .text.MX_USART1_UART_Init
-                0x08003354       0x34 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
-                0x08003354                MX_USART1_UART_Init
+                0x0800119c       0x34 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+                0x0800119c                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x08003388       0xac CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
-                0x08003388                HAL_UART_MspInit
+                0x080011d0       0xac CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+                0x080011d0                HAL_UART_MspInit
  .text.__io_putchar
-                0x08003434       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
-                0x08003434                __io_putchar
+                0x0800127c       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+                0x0800127c                __io_putchar
  .text.Reset_Handler
-                0x08003454       0x50 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
-                0x08003454                Reset_Handler
+                0x0800129c       0x50 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+                0x0800129c                Reset_Handler
  .text.Default_Handler
-                0x080034a4        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
-                0x080034a4                RTC_Alarm_IRQHandler
-                0x080034a4                HASH_RNG_IRQHandler
-                0x080034a4                EXTI2_IRQHandler
-                0x080034a4                TIM8_CC_IRQHandler
-                0x080034a4                TIM1_CC_IRQHandler
-                0x080034a4                DMA2_Stream5_IRQHandler
-                0x080034a4                DMA1_Stream5_IRQHandler
-                0x080034a4                PVD_IRQHandler
-                0x080034a4                SDIO_IRQHandler
-                0x080034a4                TAMP_STAMP_IRQHandler
-                0x080034a4                CAN2_RX1_IRQHandler
-                0x080034a4                EXTI3_IRQHandler
-                0x080034a4                TIM8_TRG_COM_TIM14_IRQHandler
-                0x080034a4                TIM1_UP_TIM10_IRQHandler
-                0x080034a4                TIM8_UP_TIM13_IRQHandler
-                0x080034a4                I2C3_ER_IRQHandler
-                0x080034a4                EXTI0_IRQHandler
-                0x080034a4                I2C2_EV_IRQHandler
-                0x080034a4                DMA1_Stream2_IRQHandler
-                0x080034a4                CAN1_RX0_IRQHandler
-                0x080034a4                FPU_IRQHandler
-                0x080034a4                OTG_HS_WKUP_IRQHandler
-                0x080034a4                CAN2_SCE_IRQHandler
-                0x080034a4                DMA2_Stream2_IRQHandler
-                0x080034a4                SPI1_IRQHandler
-                0x080034a4                TIM6_DAC_IRQHandler
-                0x080034a4                TIM1_BRK_TIM9_IRQHandler
-                0x080034a4                DCMI_IRQHandler
-                0x080034a4                CAN2_RX0_IRQHandler
-                0x080034a4                DMA2_Stream3_IRQHandler
-                0x080034a4                USART6_IRQHandler
-                0x080034a4                USART3_IRQHandler
-                0x080034a4                CAN1_RX1_IRQHandler
-                0x080034a4                UART5_IRQHandler
-                0x080034a4                DMA2_Stream0_IRQHandler
-                0x080034a4                TIM4_IRQHandler
-                0x080034a4                I2C1_EV_IRQHandler
-                0x080034a4                DMA1_Stream6_IRQHandler
-                0x080034a4                DMA1_Stream1_IRQHandler
-                0x080034a4                UART4_IRQHandler
-                0x080034a4                TIM3_IRQHandler
-                0x080034a4                RCC_IRQHandler
-                0x080034a4                TIM8_BRK_TIM12_IRQHandler
-                0x080034a4                Default_Handler
-                0x080034a4                EXTI15_10_IRQHandler
-                0x080034a4                ADC_IRQHandler
-                0x080034a4                DMA1_Stream7_IRQHandler
-                0x080034a4                TIM7_IRQHandler
-                0x080034a4                CAN2_TX_IRQHandler
-                0x080034a4                TIM5_IRQHandler
-                0x080034a4                DMA2_Stream7_IRQHandler
-                0x080034a4                I2C3_EV_IRQHandler
-                0x080034a4                EXTI9_5_IRQHandler
-                0x080034a4                RTC_WKUP_IRQHandler
-                0x080034a4                ETH_WKUP_IRQHandler
-                0x080034a4                SPI2_IRQHandler
-                0x080034a4                OTG_HS_EP1_IN_IRQHandler
-                0x080034a4                DMA1_Stream0_IRQHandler
-                0x080034a4                CAN1_TX_IRQHandler
-                0x080034a4                EXTI4_IRQHandler
-                0x080034a4                FSMC_IRQHandler
-                0x080034a4                ETH_IRQHandler
-                0x080034a4                OTG_HS_EP1_OUT_IRQHandler
-                0x080034a4                WWDG_IRQHandler
-                0x080034a4                TIM2_IRQHandler
-                0x080034a4                OTG_FS_WKUP_IRQHandler
-                0x080034a4                TIM1_TRG_COM_TIM11_IRQHandler
-                0x080034a4                OTG_HS_IRQHandler
-                0x080034a4                EXTI1_IRQHandler
-                0x080034a4                USART2_IRQHandler
-                0x080034a4                I2C2_ER_IRQHandler
-                0x080034a4                DMA2_Stream1_IRQHandler
-                0x080034a4                CAN1_SCE_IRQHandler
-                0x080034a4                FLASH_IRQHandler
-                0x080034a4                DMA2_Stream4_IRQHandler
-                0x080034a4                SPI3_IRQHandler
-                0x080034a4                DMA1_Stream4_IRQHandler
-                0x080034a4                I2C1_ER_IRQHandler
-                0x080034a4                DMA2_Stream6_IRQHandler
-                0x080034a4                DMA1_Stream3_IRQHandler
- *fill*         0x080034a6        0x2 
+                0x080012ec        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+                0x080012ec                RTC_Alarm_IRQHandler
+                0x080012ec                HASH_RNG_IRQHandler
+                0x080012ec                EXTI2_IRQHandler
+                0x080012ec                TIM8_CC_IRQHandler
+                0x080012ec                TIM1_CC_IRQHandler
+                0x080012ec                DMA2_Stream5_IRQHandler
+                0x080012ec                DMA1_Stream5_IRQHandler
+                0x080012ec                PVD_IRQHandler
+                0x080012ec                SDIO_IRQHandler
+                0x080012ec                TAMP_STAMP_IRQHandler
+                0x080012ec                CAN2_RX1_IRQHandler
+                0x080012ec                EXTI3_IRQHandler
+                0x080012ec                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080012ec                TIM1_UP_TIM10_IRQHandler
+                0x080012ec                TIM8_UP_TIM13_IRQHandler
+                0x080012ec                I2C3_ER_IRQHandler
+                0x080012ec                EXTI0_IRQHandler
+                0x080012ec                I2C2_EV_IRQHandler
+                0x080012ec                DMA1_Stream2_IRQHandler
+                0x080012ec                CAN1_RX0_IRQHandler
+                0x080012ec                FPU_IRQHandler
+                0x080012ec                OTG_HS_WKUP_IRQHandler
+                0x080012ec                CAN2_SCE_IRQHandler
+                0x080012ec                DMA2_Stream2_IRQHandler
+                0x080012ec                SPI1_IRQHandler
+                0x080012ec                TIM6_DAC_IRQHandler
+                0x080012ec                TIM1_BRK_TIM9_IRQHandler
+                0x080012ec                DCMI_IRQHandler
+                0x080012ec                CAN2_RX0_IRQHandler
+                0x080012ec                DMA2_Stream3_IRQHandler
+                0x080012ec                USART6_IRQHandler
+                0x080012ec                USART3_IRQHandler
+                0x080012ec                CAN1_RX1_IRQHandler
+                0x080012ec                UART5_IRQHandler
+                0x080012ec                DMA2_Stream0_IRQHandler
+                0x080012ec                TIM4_IRQHandler
+                0x080012ec                I2C1_EV_IRQHandler
+                0x080012ec                DMA1_Stream6_IRQHandler
+                0x080012ec                DMA1_Stream1_IRQHandler
+                0x080012ec                UART4_IRQHandler
+                0x080012ec                TIM3_IRQHandler
+                0x080012ec                RCC_IRQHandler
+                0x080012ec                TIM8_BRK_TIM12_IRQHandler
+                0x080012ec                Default_Handler
+                0x080012ec                EXTI15_10_IRQHandler
+                0x080012ec                ADC_IRQHandler
+                0x080012ec                DMA1_Stream7_IRQHandler
+                0x080012ec                TIM7_IRQHandler
+                0x080012ec                CAN2_TX_IRQHandler
+                0x080012ec                TIM5_IRQHandler
+                0x080012ec                DMA2_Stream7_IRQHandler
+                0x080012ec                I2C3_EV_IRQHandler
+                0x080012ec                EXTI9_5_IRQHandler
+                0x080012ec                RTC_WKUP_IRQHandler
+                0x080012ec                ETH_WKUP_IRQHandler
+                0x080012ec                SPI2_IRQHandler
+                0x080012ec                OTG_HS_EP1_IN_IRQHandler
+                0x080012ec                DMA1_Stream0_IRQHandler
+                0x080012ec                CAN1_TX_IRQHandler
+                0x080012ec                EXTI4_IRQHandler
+                0x080012ec                FSMC_IRQHandler
+                0x080012ec                ETH_IRQHandler
+                0x080012ec                OTG_HS_EP1_OUT_IRQHandler
+                0x080012ec                WWDG_IRQHandler
+                0x080012ec                TIM2_IRQHandler
+                0x080012ec                OTG_FS_WKUP_IRQHandler
+                0x080012ec                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080012ec                OTG_HS_IRQHandler
+                0x080012ec                EXTI1_IRQHandler
+                0x080012ec                USART2_IRQHandler
+                0x080012ec                I2C2_ER_IRQHandler
+                0x080012ec                DMA2_Stream1_IRQHandler
+                0x080012ec                CAN1_SCE_IRQHandler
+                0x080012ec                FLASH_IRQHandler
+                0x080012ec                DMA2_Stream4_IRQHandler
+                0x080012ec                SPI3_IRQHandler
+                0x080012ec                DMA1_Stream4_IRQHandler
+                0x080012ec                I2C1_ER_IRQHandler
+                0x080012ec                DMA2_Stream6_IRQHandler
+                0x080012ec                DMA1_Stream3_IRQHandler
+ *fill*         0x080012ee        0x2 
  .text.HAL_InitTick
-                0x080034a8       0x4c CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x080034a8                HAL_InitTick
+                0x080012f0       0x4c CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x080012f0                HAL_InitTick
  .text.HAL_Init
-                0x080034f4       0x34 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x080034f4                HAL_Init
+                0x0800133c       0x34 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0800133c                HAL_Init
  .text.HAL_IncTick
-                0x08003528       0x18 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08003528                HAL_IncTick
+                0x08001370       0x18 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08001370                HAL_IncTick
  .text.HAL_GetTick
-                0x08003540        0xc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x08003540                HAL_GetTick
+                0x08001388        0xc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08001388                HAL_GetTick
  .text.HAL_Delay
-                0x0800354c       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0800354c                HAL_Delay
+                0x08001394       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x08001394                HAL_Delay
  .text.__NVIC_EnableIRQ
-                0x08003574       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x080013bc       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x08003590       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x080013d8       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x080035b8       0x3e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- *fill*         0x080035f6        0x2 
+                0x08001400       0x3e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ *fill*         0x0800143e        0x2 
  .text.HAL_NVIC_SetPriorityGrouping
-                0x080035f8       0x24 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x080035f8                HAL_NVIC_SetPriorityGrouping
+                0x08001440       0x24 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08001440                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0800361c       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800361c                HAL_NVIC_SetPriority
+                0x08001464       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08001464                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0800363c        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0800363c                HAL_NVIC_EnableIRQ
+                0x08001484        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x08001484                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08003644       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x08003644                HAL_SYSTICK_Config
+                0x0800148c       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0800148c                HAL_SYSTICK_Config
  .text.HAL_DMA_Abort
-                0x0800366c       0x94 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x0800366c                HAL_DMA_Abort
+                0x080014b4       0x94 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x080014b4                HAL_DMA_Abort
  .text.HAL_DMA_Abort_IT
-                0x08003700       0x26 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x08003700                HAL_DMA_Abort_IT
- *fill*         0x08003726        0x2 
+                0x08001548       0x26 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x08001548                HAL_DMA_Abort_IT
+ *fill*         0x0800156e        0x2 
  .text.HAL_GPIO_Init
-                0x08003728      0x1f4 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08003728                HAL_GPIO_Init
+                0x08001570      0x1f4 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08001570                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0800391c        0xc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x0800391c                HAL_GPIO_WritePin
+                0x08001764        0xc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08001764                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x08003928       0x12 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x08003928                HAL_GPIO_TogglePin
- *fill*         0x0800393a        0x2 
+                0x08001770       0x12 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x08001770                HAL_GPIO_TogglePin
+ *fill*         0x08001782        0x2 
  .text.HAL_RCC_OscConfig
-                0x0800393c      0x3f8 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0800393c                HAL_RCC_OscConfig
+                0x08001784      0x3f8 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001784                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08003d34       0xdc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08003d34                HAL_RCC_GetSysClockFreq
+                0x08001b7c       0xdc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001b7c                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08003e10      0x160 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08003e10                HAL_RCC_ClockConfig
+                0x08001c58      0x160 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001c58                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x08003f70        0xc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08003f70                HAL_RCC_GetHCLKFreq
+                0x08001db8        0xc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001db8                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08003f7c       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08003f7c                HAL_RCC_GetPCLK1Freq
+                0x08001dc4       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001dc4                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08003f9c       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08003f9c                HAL_RCC_GetPCLK2Freq
+                0x08001de4       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001de4                HAL_RCC_GetPCLK2Freq
  .text.UART_EndRxTransfer
-                0x08003fbc       0x5c CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08001e04       0x5c CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_Transmit_IT
-                0x08004018       0x60 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08001e60       0x60 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x08004078      0x110 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08001ec0      0x110 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_WaitOnFlagUntilTimeout
-                0x08004188       0x86 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08001fd0       0x86 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UART_Init
-                0x0800420e       0x60 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800420e                HAL_UART_Init
+                0x08002056       0x60 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002056                HAL_UART_Init
  .text.HAL_UART_Transmit
-                0x0800426e       0xcc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800426e                HAL_UART_Transmit
+                0x080020b6       0xcc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x080020b6                HAL_UART_Transmit
  .text.HAL_UART_TxCpltCallback
-                0x0800433a        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800433a                HAL_UART_TxCpltCallback
+                0x08002182        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002182                HAL_UART_TxCpltCallback
  .text.UART_EndTransmit_IT
-                0x0800433c       0x1a CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002184       0x1a CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UART_RxCpltCallback
-                0x08004356        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08004356                HAL_UART_RxCpltCallback
+                0x0800219e        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800219e                HAL_UART_RxCpltCallback
  .text.HAL_UART_ErrorCallback
-                0x08004358        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08004358                HAL_UART_ErrorCallback
+                0x080021a0        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x080021a0                HAL_UART_ErrorCallback
  .text.UART_DMAAbortOnError
-                0x0800435a       0x10 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x080021a2       0x10 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UARTEx_RxEventCallback
-                0x0800436a        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800436a                HAL_UARTEx_RxEventCallback
+                0x080021b2        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x080021b2                HAL_UARTEx_RxEventCallback
  .text.UART_Receive_IT
-                0x0800436c       0xe6 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- *fill*         0x08004452        0x2 
+                0x080021b4       0xe6 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ *fill*         0x0800229a        0x2 
  .text.HAL_UART_IRQHandler
-                0x08004454      0x284 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08004454                HAL_UART_IRQHandler
+                0x0800229c      0x284 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0800229c                HAL_UART_IRQHandler
+ .text.usbd_cdc_acm_init_intf
+                0x08002520       0x14 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+                0x08002520                usbd_cdc_acm_init_intf
+ .text.usbd_cdc_acm_set_line_coding
+                0x08002534        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+                0x08002534                usbd_cdc_acm_set_line_coding
+ .text.usbd_cdc_acm_get_line_coding
+                0x08002536       0x1e CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+                0x08002536                usbd_cdc_acm_get_line_coding
+ .text.usbd_cdc_acm_set_dtr
+                0x08002554        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+                0x08002554                usbd_cdc_acm_set_dtr
+ .text.usbd_cdc_acm_set_rts
+                0x08002556        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+                0x08002556                usbd_cdc_acm_set_rts
+ .text.usbd_cdc_acm_send_break
+                0x08002558        0x2 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+                0x08002558                usbd_cdc_acm_send_break
+ *fill*         0x0800255a        0x2 
+ .text.cdc_acm_class_interface_request_handler
+                0x0800255c       0xb8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .text.is_device_configured
+                0x08002614       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_class_request_handler
+                0x08002630       0xb0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_class_event_notify_handler
+                0x080026e0       0x70 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_set_endpoint
+                0x08002750       0xa0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_set_configuration
+                0x080027f0       0x74 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_get_descriptor
+                0x08002864       0xe4 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_std_device_req_handler
+                0x08002948       0xe4 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_print_setup
+                0x08002a2c       0x38 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_vendor_request_handler
+                0x08002a64      0x170 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_event_ep0_in_complete_handler
+                0x08002bd4       0x74 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x08002bd4                usbd_event_ep0_in_complete_handler
+ .text.usbd_reset_endpoint
+                0x08002c48       0x10 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_set_interface
+                0x08002c58       0x9c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_std_interface_req_handler
+                0x08002cf4       0xcc CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_std_endpoint_req_handler
+                0x08002dc0       0xa4 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_standard_request_handler
+                0x08002e64       0x48 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_setup_request_handler
+                0x08002eac       0xb8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .text.usbd_event_ep0_out_complete_handler
+                0x08002f64       0x70 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x08002f64                usbd_event_ep0_out_complete_handler
+ .text.usbd_event_reset_handler
+                0x08002fd4       0x6c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x08002fd4                usbd_event_reset_handler
+ .text.usbd_event_ep0_setup_complete_handler
+                0x08003040      0x130 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x08003040                usbd_event_ep0_setup_complete_handler
+ .text.usbd_event_ep_in_complete_handler
+                0x08003170       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x08003170                usbd_event_ep_in_complete_handler
+ .text.usbd_event_ep_out_complete_handler
+                0x08003198       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x08003198                usbd_event_ep_out_complete_handler
+ .text.usbd_desc_register
+                0x080031c0       0x44 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x080031c0                usbd_desc_register
+ .text.usbd_msosv2_desc_register
+                0x08003204       0x14 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x08003204                usbd_msosv2_desc_register
+ .text.usbd_bos_desc_register
+                0x08003218       0x14 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x08003218                usbd_bos_desc_register
+ .text.usbd_add_interface
+                0x0800322c       0x30 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x0800322c                usbd_add_interface
+ .text.usbd_add_endpoint
+                0x0800325c       0x70 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x0800325c                usbd_add_endpoint
+ .text.usbd_get_ep_mps
+                0x080032cc       0x48 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x080032cc                usbd_get_ep_mps
+ .text.usbd_initialize
+                0x08003314       0x64 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x08003314                usbd_initialize
+ .text.usbd_winusb_out
+                0x08003378       0x34 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x08003378                usbd_winusb_out
+ .text.usbd_event_handler
+                0x080033ac       0x24 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .text.usbd_winusb_in
+                0x080033d0       0x40 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x080033d0                usbd_winusb_in
+ .text.winusbv2_init
+                0x08003410       0x9c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x08003410                winusbv2_init
+ .text.dwc2_reset
+                0x080034ac       0x58 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.dwc2_core_init
+                0x08003504       0x18 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.dwc2_flush_rxfifo
+                0x0800351c       0x38 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.dwc2_flush_txfifo
+                0x08003554       0x3c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.dwc2_set_turnaroundtime
+                0x08003590       0xf4 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.dwc2_get_devspeed
+                0x08003684       0x2c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.dwc2_ep0_start_read_setup
+                0x080036b0       0x34 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.dwc2_get_inep_intstatus
+                0x080036e4       0x2c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.dwc2_set_txfifo
+                0x08003710       0x70 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.dwc2_ep_write
+                0x08003780       0x34 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x08003780                dwc2_ep_write
+ .text.dwc2_tx_fifo_empty_procecss
+                0x080037b4       0xbc CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .text.dwc2_ep_read
+                0x08003870       0x24 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x08003870                dwc2_ep_read
+ .text.usb_dc_init
+                0x08003894      0x290 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x08003894                usb_dc_init
+ .text.usbd_set_address
+                0x08003b24       0x2c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x08003b24                usbd_set_address
+ .text.usbd_ep_open
+                0x08003b50      0x15c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x08003b50                usbd_ep_open
+ .text.usbd_ep_close
+                0x08003cac      0x14c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x08003cac                usbd_ep_close
+ .text.usbd_ep_set_stall
+                0x08003df8       0x78 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x08003df8                usbd_ep_set_stall
+ .text.usbd_ep_clear_stall
+                0x08003e70       0x8c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x08003e70                usbd_ep_clear_stall
+ .text.usbd_ep_start_write
+                0x08003efc      0x1a0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x08003efc                usbd_ep_start_write
+ .text.usbd_ep_start_read
+                0x0800409c      0x174 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x0800409c                usbd_ep_start_read
+ .text.USBD_IRQHandler
+                0x08004210      0x4c0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x08004210                USBD_IRQHandler
+ .text.usbd_get_dwc2_gccfg_conf
+                0x080046d0        0x6 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
+                0x080046d0                usbd_get_dwc2_gccfg_conf
+ *fill*         0x080046d6        0x2 
  .text.__udivmoddi4
                 0x080046d8      0x2bc D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
                 0x080046d8                __udivmoddi4
@@ -2351,56 +2351,56 @@ LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/
                 0x0800aa78                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
+ .rodata.APBPrescTable
+                0x0800aa78        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x0800aa78                APBPrescTable
+ .rodata.AHBPrescTable
+                0x0800aa80       0x10 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x0800aa80                AHBPrescTable
  .rodata.cdc_acm_class_interface_request_handler.str1.4
-                0x0800aa78      0x56b CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
+                0x0800aa90      0x56b CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
                                  0x3d (size before relaxing)
  .rodata.usbd_get_descriptor.str1.4
-                0x0800afe3       0x49 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
+                0x0800affb       0x49 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
  .rodata.usbd_print_setup.str1.4
-                0x0800afe3       0x6d CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
+                0x0800affb       0x6d CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
  .rodata.usbd_vendor_request_handler.str1.4
-                0x0800afe3       0x15 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
+                0x0800affb       0x15 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
  .rodata.usbd_std_endpoint_req_handler.str1.4
-                0x0800afe3       0x2b CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
+                0x0800affb       0x2b CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
  .rodata.usbd_setup_request_handler.str1.4
-                0x0800afe3       0x46 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
+                0x0800affb       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
  .rodata.usbd_event_ep0_setup_complete_handler.str1.4
-                0x0800afe3       0x1a CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
+                0x0800affb       0x1a CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
  .rodata.usbd_initialize.str1.4
-                0x0800afe3        0xe CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
+                0x0800affb        0xe CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
  .rodata.usbd_winusb_out.str1.4
-                0x0800afe3       0x14 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x0800affb       0x14 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
  .rodata.usbd_winusb_in.str1.4
-                0x0800afe3       0x13 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- *fill*         0x0800afe3        0x1 
+                0x0800affb       0x13 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ *fill*         0x0800affb        0x1 
  .rodata.winusbv2_descriptor
-                0x0800afe4       0xd3 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x0800afe4                winusbv2_descriptor
- *fill*         0x0800b0b7        0x1 
+                0x0800affc       0xd3 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x0800affc                winusbv2_descriptor
+ *fill*         0x0800b0cf        0x1 
  .rodata.USBD_BinaryObjectStoreDescriptor
-                0x0800b0b8       0x21 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x0800b0b8                USBD_BinaryObjectStoreDescriptor
- *fill*         0x0800b0d9        0x3 
+                0x0800b0d0       0x21 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x0800b0d0                USBD_BinaryObjectStoreDescriptor
+ *fill*         0x0800b0f1        0x3 
  .rodata.USBD_WinUSBDescriptorSetDescriptor
-                0x0800b0dc       0xaa CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x0800b0dc                USBD_WinUSBDescriptorSetDescriptor
+                0x0800b0f4       0xaa CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x0800b0f4                USBD_WinUSBDescriptorSetDescriptor
  .rodata.dwc2_set_txfifo.str1.4
-                0x0800b186       0x35 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x0800b19e       0x35 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
  .rodata.usb_dc_init.str1.4
-                0x0800b186      0x1a8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x0800b19e      0x1a8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
  .rodata.usbd_ep_open.str1.4
-                0x0800b186       0x35 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- *fill*         0x0800b186        0x2 
- .rodata.APBPrescTable
-                0x0800b188        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x0800b188                APBPrescTable
- .rodata.AHBPrescTable
-                0x0800b190       0x10 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x0800b190                AHBPrescTable
+                0x0800b19e       0x35 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
  .rodata._puts_r.str1.4
-                0x0800b1a0        0x2 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-puts.o)
+                0x0800b19e        0x2 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-puts.o)
  .rodata._vfprintf_r.str1.4
-                0x0800b1a0       0x42 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-vfprintf.o)
+                0x0800b19e       0x42 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-vfprintf.o)
+ *fill*         0x0800b19e        0x2 
  .rodata.zeroes.0
                 0x0800b1a0       0x10 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-vfprintf.o)
  .rodata.blanks.1
@@ -2489,32 +2489,32 @@ LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/
                 0x20000000                        _sdata = .
  *(.data)
  *(.data*)
- .data.bos_desc
-                0x20000000        0x8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x20000000                bos_desc
- .data.msosv2_desc
-                0x20000008        0x8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x20000008                msosv2_desc
- .data.cdc_in_ep
-                0x20000010        0x8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .data.cdc_out_ep
-                0x20000018        0x8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .data.winusb_in_ep1
-                0x20000020        0x8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x20000020                winusb_in_ep1
- .data.winusb_out_ep1
-                0x20000028        0x8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x20000028                winusb_out_ep1
  .data.SystemCoreClock
-                0x20000030        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x20000030                SystemCoreClock
+                0x20000000        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x20000000                SystemCoreClock
  .data.uwTickFreq
-                0x20000034        0x1 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x20000034                uwTickFreq
- *fill*         0x20000035        0x3 
+                0x20000004        0x1 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x20000004                uwTickFreq
+ *fill*         0x20000005        0x3 
  .data.uwTickPrio
-                0x20000038        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x20000038                uwTickPrio
+                0x20000008        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x20000008                uwTickPrio
+ .data.bos_desc
+                0x2000000c        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x2000000c                bos_desc
+ .data.msosv2_desc
+                0x20000014        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x20000014                msosv2_desc
+ .data.cdc_in_ep
+                0x2000001c        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .data.cdc_out_ep
+                0x20000024        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .data.winusb_in_ep1
+                0x2000002c        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x2000002c                winusb_in_ep1
+ .data.winusb_out_ep1
+                0x20000034        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x20000034                winusb_out_ep1
  .data.__sglue  0x2000003c        0xc D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o)
                 0x2000003c                __sglue
  .data._impure_ptr
@@ -2557,13 +2557,13 @@ LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/
  .igot.plt      0x20000714        0x0 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
 
 .noncacheable   0x20000720     0x1380 load address 0x0800bb0c
- .noncacheable  0x20000720      0x2d4 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
+ .noncacheable  0x20000720      0x2d4 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
                 0x20000720                g_usbd_core
- .noncacheable  0x200009f4     0x1000 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .noncacheable  0x200009f4     0x1000 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
                 0x200009f4                write_buffer
                 0x200011f4                read_buffer
  *fill*         0x200019f4        0xc 
- .noncacheable  0x20001a00       0xa0 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .noncacheable  0x20001a00       0xa0 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
                 0x20001a00                g_dwc2_udc
 
 .ccmram         0x10000000        0x0 load address 0x0800ce8c
@@ -2584,26 +2584,26 @@ LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/
                 0x20001aa0        0x1 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
  *fill*         0x20001aa1        0x3 
  .bss.object.0  0x20001aa4       0x18 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
- .bss.g_usbdev_bus
-                0x20001abc        0x8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
-                0x20001abc                g_usbdev_bus
- .bss.intf2     0x20001ac4       0x1c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x20001ac4                intf2
- .bss.intf1     0x20001ae0       0x1c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x20001ae0                intf1
- .bss.winusb_intf
-                0x20001afc       0x1c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x20001afc                winusb_intf
- .bss.ep_tx_busy_flag
-                0x20001b18        0x1 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
-                0x20001b18                ep_tx_busy_flag
- *fill*         0x20001b19        0x3 
  .bss.__sbrk_heap_end
-                0x20001b1c        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
- .bss.huart1    0x20001b20       0x48 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
-                0x20001b20                huart1
- .bss.uwTick    0x20001b68        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x20001b68                uwTick
+                0x20001abc        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
+ .bss.huart1    0x20001ac0       0x48 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+                0x20001ac0                huart1
+ .bss.uwTick    0x20001b08        0x4 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x20001b08                uwTick
+ .bss.g_usbdev_bus
+                0x20001b0c        0x8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+                0x20001b0c                g_usbdev_bus
+ .bss.intf2     0x20001b14       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x20001b14                intf2
+ .bss.intf1     0x20001b30       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x20001b30                intf1
+ .bss.winusb_intf
+                0x20001b4c       0x1c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x20001b4c                winusb_intf
+ .bss.ep_tx_busy_flag
+                0x20001b68        0x1 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x20001b68                ep_tx_busy_flag
+ *fill*         0x20001b69        0x3 
  .bss.__sf      0x20001b6c      0x138 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o)
                 0x20001b6c                __sf
  .bss.__stdio_exit_handler
@@ -2669,45 +2669,45 @@ LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/
  .ARM.attributes
                 0x0000001e       0x2e D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp/crtbegin.o
  .ARM.attributes
-                0x0000004c       0x2e CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
+                0x0000004c       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
  .ARM.attributes
-                0x0000007a       0x2e CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
+                0x0000007a       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
  .ARM.attributes
-                0x000000a8       0x2e CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x000000a8       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .ARM.attributes
-                0x000000d6       0x2e CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x000000d6       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .ARM.attributes
-                0x00000104       0x2e CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
+                0x00000104       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
-                0x00000132       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
+                0x00000132       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
  .ARM.attributes
-                0x00000160       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+                0x00000160       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .ARM.attributes
-                0x0000018e       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x0000018e       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
  .ARM.attributes
-                0x000001bc       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x000001bc       0x21 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
  .ARM.attributes
-                0x000001ea       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x000001dd       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .ARM.attributes
-                0x00000218       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
+                0x0000020b       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .ARM.attributes
-                0x00000246       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x00000239       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .ARM.attributes
-                0x00000274       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+                0x00000267       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .ARM.attributes
-                0x000002a2       0x21 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+                0x00000295       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .ARM.attributes
-                0x000002c3       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x000002c3       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .ARM.attributes
-                0x000002f1       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x000002f1       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
  .ARM.attributes
-                0x0000031f       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0000031f       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
  .ARM.attributes
-                0x0000034d       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x0000034d       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
  .ARM.attributes
-                0x0000037b       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000037b       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
  .ARM.attributes
-                0x000003a9       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x000003a9       0x2e CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
  .ARM.attributes
                 0x000003d7       0x1e D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
@@ -2849,220 +2849,182 @@ LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/
 LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a
 
 .debug_info     0x00000000     0xee8e
- .debug_info    0x00000000      0x5c9 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .debug_info    0x000005c9     0x1f57 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .debug_info    0x00002520      0x8f9 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .debug_info    0x00002e19     0x18b9 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .debug_info    0x000046d2       0xdb CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
- .debug_info    0x000047ad      0x459 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x00004c06      0xa0a CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00005610      0x265 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x00005875      0x695 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_info    0x00005f0a      0x789 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
- .debug_info    0x00006693      0x171 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
- .debug_info    0x00006804      0x334 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_info    0x00006b38      0xd05 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
- .debug_info    0x0000783d       0x30 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
- .debug_info    0x0000786d      0x9e2 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_info    0x0000824f      0xff5 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_info    0x00009244      0xad9 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_info    0x00009d1d      0x704 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_info    0x0000a421      0xa6d CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_info    0x0000ae8e     0x4000 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_info    0x00000000      0x459 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
+ .debug_info    0x00000459      0xa0a CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00000e63      0x265 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x000010c8      0x695 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_info    0x0000175d      0x789 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x00001ee6      0x171 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x00002057      0x334 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_info    0x0000238b      0xd05 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+ .debug_info    0x00003090       0x30 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+ .debug_info    0x000030c0      0x9e2 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_info    0x00003aa2      0xff5 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_info    0x00004a97      0xad9 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_info    0x00005570      0x704 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_info    0x00005c74      0xa6d CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_info    0x000066e1     0x4000 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_info    0x0000a6e1      0x5c9 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .debug_info    0x0000acaa     0x1f57 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .debug_info    0x0000cc01      0x8f9 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .debug_info    0x0000d4fa     0x18b9 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .debug_info    0x0000edb3       0xdb CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
 
 .debug_abbrev   0x00000000     0x296e
- .debug_abbrev  0x00000000      0x209 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .debug_abbrev  0x00000209      0x39b CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .debug_abbrev  0x000005a4      0x222 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .debug_abbrev  0x000007c6      0x436 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .debug_abbrev  0x00000bfc       0x87 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
- .debug_abbrev  0x00000c83      0x164 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x00000de7      0x229 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00001010       0xd6 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_abbrev  0x000010e6      0x1a7 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_abbrev  0x0000128d      0x1c1 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
- .debug_abbrev  0x0000144e       0xea CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
- .debug_abbrev  0x00001538      0x120 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_abbrev  0x00001658      0x269 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
- .debug_abbrev  0x000018c1       0x24 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
- .debug_abbrev  0x000018e5      0x240 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_abbrev  0x00001b25      0x391 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_abbrev  0x00001eb6      0x2c0 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_abbrev  0x00002176      0x202 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_abbrev  0x00002378      0x2c7 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_abbrev  0x0000263f      0x32f CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-
-.debug_loclists
-                0x00000000     0x72a3
- .debug_loclists
-                0x00000000      0x199 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .debug_loclists
-                0x00000199     0x18ff CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .debug_loclists
-                0x00001a98      0x151 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .debug_loclists
-                0x00001be9      0xf25 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .debug_loclists
-                0x00002b0e       0x46 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
- .debug_loclists
-                0x00002b54      0x2cd CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
- .debug_loclists
-                0x00002e21       0x52 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
- .debug_loclists
-                0x00002e73       0xfa CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_loclists
-                0x00002f6d       0x8a CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
- .debug_loclists
-                0x00002ff7       0xe1 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_loclists
-                0x000030d8      0x54d CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_loclists
-                0x00003625      0x88a CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_loclists
-                0x00003eaf      0x386 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_loclists
-                0x00004235      0x3e5 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_loclists
-                0x0000461a     0x2c89 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_abbrev  0x00000000      0x164 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x00000164      0x229 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x0000038d       0xd6 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_abbrev  0x00000463      0x1a7 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_abbrev  0x0000060a      0x1c1 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x000007cb       0xea CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x000008b5      0x120 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_abbrev  0x000009d5      0x269 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+ .debug_abbrev  0x00000c3e       0x24 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+ .debug_abbrev  0x00000c62      0x240 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_abbrev  0x00000ea2      0x391 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001233      0x2c0 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_abbrev  0x000014f3      0x202 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_abbrev  0x000016f5      0x2c7 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_abbrev  0x000019bc      0x32f CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_abbrev  0x00001ceb      0x209 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .debug_abbrev  0x00001ef4      0x39b CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .debug_abbrev  0x0000228f      0x222 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .debug_abbrev  0x000024b1      0x436 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .debug_abbrev  0x000028e7       0x87 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
 
 .debug_aranges  0x00000000      0xa68
  .debug_aranges
-                0x00000000       0x50 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
+                0x00000000       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
  .debug_aranges
-                0x00000050      0x138 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
+                0x00000020       0x38 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x00000188       0x38 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x00000058       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .debug_aranges
-                0x000001c0       0xe8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x00000078       0x70 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_aranges
-                0x000002a8       0x28 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
+                0x000000e8       0xa8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
  .debug_aranges
-                0x000002d0       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
+                0x00000190       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
  .debug_aranges
-                0x000002f0       0x38 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+                0x000001b0       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_aranges
-                0x00000328       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x000001d8       0x38 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
  .debug_aranges
-                0x00000348       0x70 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x00000210       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
  .debug_aranges
-                0x000003b8       0xa8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x00000238       0xf0 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_aranges
-                0x00000460       0x20 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
+                0x00000328       0xf8 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_aranges
-                0x00000480       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x00000420       0x90 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_aranges
-                0x000004a8       0x38 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+                0x000004b0       0x58 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_aranges
-                0x000004e0       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+                0x00000508       0x88 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_aranges
-                0x00000508       0xf0 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x00000590      0x208 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .debug_aranges
-                0x000005f8       0xf8 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x00000798       0x50 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
  .debug_aranges
-                0x000006f0       0x90 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x000007e8      0x138 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
  .debug_aranges
-                0x00000780       0x58 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x00000920       0x38 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
  .debug_aranges
-                0x000007d8       0x88 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x00000958       0xe8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
  .debug_aranges
-                0x00000860      0x208 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x00000a40       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
 
 .debug_rnglists
                 0x00000000      0x7fe
  .debug_rnglists
-                0x00000000       0x38 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
+                0x00000000       0x14 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
  .debug_rnglists
-                0x00000038      0x108 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
+                0x00000014       0x26 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x00000140       0x26 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+                0x0000003a       0x13 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .debug_rnglists
-                0x00000166       0xd9 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+                0x0000004d       0x4f CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_rnglists
-                0x0000023f       0x19 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
+                0x0000009c       0x79 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
  .debug_rnglists
-                0x00000258       0x14 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
+                0x00000115       0x13 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
  .debug_rnglists
-                0x0000026c       0x26 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+                0x00000128       0x1a CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_rnglists
-                0x00000292       0x13 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x00000142       0x26 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
  .debug_rnglists
-                0x000002a5       0x4f CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x00000168       0x19 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
  .debug_rnglists
-                0x000002f4       0x79 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+                0x00000181       0xaf CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_rnglists
-                0x0000036d       0x13 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
+                0x00000230       0xb5 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_rnglists
-                0x00000380       0x1a CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x000002e5       0x6c CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_rnglists
-                0x0000039a       0x26 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+                0x00000351       0x3f CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_rnglists
-                0x000003c0       0x19 CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+                0x00000390       0x75 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_rnglists
-                0x000003d9       0xaf CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x00000405      0x1a1 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .debug_rnglists
-                0x00000488       0xb5 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x000005a6       0x38 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
  .debug_rnglists
-                0x0000053d       0x6c CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x000005de      0x108 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
  .debug_rnglists
-                0x000005a9       0x3f CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x000006e6       0x26 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
  .debug_rnglists
-                0x000005e8       0x75 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000070c       0xd9 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
  .debug_rnglists
-                0x0000065d      0x1a1 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x000007e5       0x19 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
 
-.debug_line     0x00000000     0xb3fb
- .debug_line    0x00000000      0x422 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .debug_line    0x00000422     0x13c8 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .debug_line    0x000017ea      0x357 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .debug_line    0x00001b41     0x173d CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .debug_line    0x0000327e      0x163 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
- .debug_line    0x000033e1      0x254 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x00003635      0x488 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
- .debug_line    0x00003abd      0x1b9 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x00003c76      0x346 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x00003fbc      0x406 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x000043c2      0x1eb CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
- .debug_line    0x000045ad      0x280 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x0000482d      0x400 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
- .debug_line    0x00004c2d       0x7a CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
- .debug_line    0x00004ca7      0x631 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x000052d8      0x8f4 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x00005bcc      0xec9 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_line    0x00006a95      0x78b CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x00007220      0xc54 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x00007e74     0x3587 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+.debug_line     0x00000000     0xb463
+ .debug_line    0x00000000      0x254 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
+ .debug_line    0x00000254      0x488 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000006dc      0x1b9 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00000895      0x346 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x00000bdb      0x406 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00000fe1      0x1eb CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x000011cc      0x280 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x0000144c      0x400 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x0000184c       0x7a CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+ .debug_line    0x000018c6      0x631 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x00001ef7      0x8f4 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x000027eb      0xec9 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_line    0x000036b4      0x78b CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x00003e3f      0xc54 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x00004a93     0x3587 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_line    0x0000801a      0x43a CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .debug_line    0x00008454     0x13d8 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .debug_line    0x0000982c      0x377 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .debug_line    0x00009ba3     0x1755 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .debug_line    0x0000b2f8      0x16b CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
 
-.debug_str      0x00000000     0x3ca5
- .debug_str     0x00000000     0x3ca5 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
-                                0x47a (size before relaxing)
- .debug_str     0x00003ca5      0xc3e CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .debug_str     0x00003ca5      0x6fb CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .debug_str     0x00003ca5      0xa29 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .debug_str     0x00003ca5      0x22a CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
- .debug_str     0x00003ca5      0x3c4 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
- .debug_str     0x00003ca5      0xae1 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
- .debug_str     0x00003ca5      0x305 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_str     0x00003ca5      0x74b CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_str     0x00003ca5      0x443 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
- .debug_str     0x00003ca5      0x26f CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
- .debug_str     0x00003ca5      0x36b CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_str     0x00003ca5      0xdd8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
- .debug_str     0x00003ca5       0xbb CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
- .debug_str     0x00003ca5      0xbae CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_str     0x00003ca5      0xcbf CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_str     0x00003ca5      0x7c0 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_str     0x00003ca5      0x52a CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_str     0x00003ca5      0x750 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_str     0x00003ca5      0xde5 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+.debug_str      0x00000000     0x3ccd
+ .debug_str     0x00000000     0x3ccd CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
+                                0x3c4 (size before relaxing)
+ .debug_str     0x00003ccd      0xae1 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+ .debug_str     0x00003ccd      0x305 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_str     0x00003ccd      0x74b CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_str     0x00003ccd      0x443 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00003ccd      0x26f CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x00003ccd      0x36b CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_str     0x00003ccd      0xdd8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+ .debug_str     0x00003ccd       0xbb CMakeFiles/F4_CherryDAP.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+ .debug_str     0x00003ccd      0xbae CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_str     0x00003ccd      0xcbf CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_str     0x00003ccd      0x7c0 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_str     0x00003ccd      0x52a CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_str     0x00003ccd      0x750 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_str     0x00003ccd      0xde5 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_str     0x00003ccd      0x482 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .debug_str     0x00003ccd      0xc46 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .debug_str     0x00003ccd      0x703 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .debug_str     0x00003ccd      0xa31 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .debug_str     0x00003ccd      0x232 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
 
 .comment        0x00000000       0x45
- .comment       0x00000000       0x45 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .comment       0x00000000       0x45 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
                                  0x46 (size before relaxing)
- .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
- .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
  .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
  .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
@@ -3076,27 +3038,32 @@ LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/
  .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
 
 .debug_frame    0x00000000     0x3030
- .debug_frame   0x00000000       0x98 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .debug_frame   0x00000098      0x3d4 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj
- .debug_frame   0x0000046c       0x7c CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj
- .debug_frame   0x000004e8      0x264 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
- .debug_frame   0x0000074c       0x30 CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj
- .debug_frame   0x0000077c       0x30 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
- .debug_frame   0x000007ac       0x78 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
- .debug_frame   0x00000824       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_frame   0x0000084c       0xd8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_frame   0x00000924      0x190 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
- .debug_frame   0x00000ab4       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
- .debug_frame   0x00000adc       0x30 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_frame   0x00000b0c       0x84 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
- .debug_frame   0x00000b90      0x1ec CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_frame   0x00000d7c      0x214 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_frame   0x00000f90      0x188 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_frame   0x00001118       0xd4 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_frame   0x000011ec      0x16c CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_frame   0x00001358      0x5dc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_frame   0x00000000       0x30 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj
+ .debug_frame   0x00000030       0x78 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj
+ .debug_frame   0x000000a8       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_frame   0x000000d0       0xd8 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_frame   0x000001a8      0x190 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+ .debug_frame   0x00000338       0x28 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
+ .debug_frame   0x00000360       0x30 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_frame   0x00000390       0x84 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+ .debug_frame   0x00000414      0x1ec CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_frame   0x00000600      0x214 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_frame   0x00000814      0x188 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_frame   0x0000099c       0xd4 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_frame   0x00000a70      0x16c CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_frame   0x00000bdc      0x5dc CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_frame   0x000011b8       0x98 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .debug_frame   0x00001250      0x3d4 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .debug_frame   0x00001624       0x7c CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .debug_frame   0x000016a0      0x264 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .debug_frame   0x00001904       0x30 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
  .debug_frame   0x00001934       0x2c D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
  .debug_frame   0x00001960       0x34 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
  .debug_frame   0x00001994      0x13c D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o)
@@ -3157,6 +3124,39 @@ LOAD D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/
  .debug_frame   0x00002f28       0xc4 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_cmpdf2.o)
  .debug_frame   0x00002fec       0x20 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_unorddf2.o)
  .debug_frame   0x0000300c       0x24 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m/nofp\libgcc.a(_arm_fixdfsi.o)
+
+.debug_loclists
+                0x00000000     0x72a3
+ .debug_loclists
+                0x00000000      0x2cd CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/syscalls.c.obj
+ .debug_loclists
+                0x000002cd       0x52 CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sysmem.c.obj
+ .debug_loclists
+                0x0000031f       0xfa CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_loclists
+                0x00000419       0x8a CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj
+ .debug_loclists
+                0x000004a3       0xe1 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_loclists
+                0x00000584      0x54d CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_loclists
+                0x00000ad1      0x88a CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_loclists
+                0x0000135b      0x386 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_loclists
+                0x000016e1      0x3e5 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_loclists
+                0x00001ac6     0x2c89 CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_loclists
+                0x0000474f      0x199 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj
+ .debug_loclists
+                0x000048e8     0x18ff CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj
+ .debug_loclists
+                0x000061e7      0x151 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj
+ .debug_loclists
+                0x00006338      0xf25 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj
+ .debug_loclists
+                0x0000725d       0x46 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj
 
 .debug_line_str
                 0x00000000      0x276

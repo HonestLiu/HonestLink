@@ -26,18 +26,15 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Include"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/CherryUSB/core"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/CherryUSB/class/cdc"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/CherryUSB/common"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/core"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Include"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/CherryUSB/class/cdc/usbd_cdc.c" "CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/class/cdc/usbd_cdc.c.obj.d"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/CherryUSB/core/usbd_core.c" "CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/core/usbd_core.c.obj.d"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/CherryUSB/demo/winusb2.0_cdc_template.c" "CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/demo/winusb2.0_cdc_template.c.obj.d"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/CherryUSB/port/dwc2/usb_dc_dwc2.c" "CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj.d"
-  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/CherryUSB/port/dwc2/usb_glue_st.c" "CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/CherryUSB/port/dwc2/usb_glue_st.c.obj.d"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/gpio.c" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/gpio.c.obj.d"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/main.c" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj.d"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
@@ -66,6 +63,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
   "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c" "CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj.d"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usbd_cdc.c" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj.d"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/core/usbd_core.c" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/core/usbd_core.c.obj.d"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/demo/winusb2.0_cdc_template.c" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/demo/winusb2.0_cdc_template.c.obj.d"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj.d"
+  "D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/port/dwc2/usb_glue_st.c" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj" "gcc" "CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

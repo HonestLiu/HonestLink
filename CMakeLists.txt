@@ -49,16 +49,16 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include CherryUSB/core CherryUSB/class/cdc CherryUSB/common)
+include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include Package/CherryUSB/core Package/CherryUSB/common Package/CherryUSB/class/cdc Package/CherryRB Package/DAPLink/Include)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
-        "CherryUSB/core/usbd_core.c"
-        "CherryUSB/class/cdc/usbd_cdc.c"
-        "CherryUSB/port/dwc2/usb_dc_dwc2.c"
-        "CherryUSB/port/dwc2/usb_glue_st.c"
-        "CherryUSB/demo/winusb2.0_cdc_template.c"
+        "Package/CherryUSB/core/usbd_core.c"
+        "Package/CherryUSB/class/cdc/usbd_cdc.c"
+        "Package/CherryUSB/port/dwc2/usb_dc_dwc2.c"
+        "Package/CherryUSB/port/dwc2/usb_glue_st.c"
+        "Package/CherryUSB/demo/winusb2.0_cdc_template.c"
 )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407ZGTX_FLASH.ld)

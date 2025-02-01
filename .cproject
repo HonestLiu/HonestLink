@@ -48,9 +48,11 @@
 									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
-									<listOptionValue builtIn="false" value="../CherryUSB/core"/>
-									<listOptionValue builtIn="false" value="../CherryUSB/class/cdc"/>
-									<listOptionValue builtIn="false" value="../CherryUSB/common"/>
+									<listOptionValue builtIn="false" value="../Package/CherryUSB/core"/>
+									<listOptionValue builtIn="false" value="../Package/CherryUSB/common"/>
+									<listOptionValue builtIn="false" value="../Package/CherryUSB/class/cdc"/>
+									<listOptionValue builtIn="false" value="../Package/CherryRB"/>
+									<listOptionValue builtIn="false" value="../Package/DAPLink/Include"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.998286694" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>

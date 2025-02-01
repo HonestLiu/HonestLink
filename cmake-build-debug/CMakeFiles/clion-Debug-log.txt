@@ -14,6 +14,6 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (8.0s)
--- Generating done (0.0s)
+-- Configuring done (2.5s)
+-- Generating done (0.1s)
 -- Build files have been written to: D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/cmake-build-debug
