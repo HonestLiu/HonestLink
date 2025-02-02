@@ -104,4 +104,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj: \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Include/swd_host.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Inc/bitband.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Include/DAP_config.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Include/DAP.h
+ D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Include/DAP.h \
+ D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Inc/usart.h \
+ D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Inc/main.h \
+ D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Inc/dap_main.h

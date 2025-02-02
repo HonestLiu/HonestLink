@@ -380,7 +380,6 @@ void dap_in_callback(uint8_t busid, uint8_t ep, uint32_t nbytes) {
 /********************************************虚拟串口相关配置************************/
 //CDC 接收到数据回调函数
 void usbd_cdc_acm_bulk_out(uint8_t busid, uint8_t ep, uint32_t nbytes) {
-    printf("usbd_cdc_acm_bulk_out\n");
     chry_ringbuffer_write(&g_usbrx, usb_tmpbuffer, nbytes);//将usb_tmpbuffer中的数据写入环形缓冲区
     if (chry_ringbuffer_get_free(&g_usbrx) >= DAP_PACKET_SIZE) {//环形缓冲区剩余空间大于DAP包大小
         //继续读取数据
@@ -580,7 +579,7 @@ void chry_dap_usb2uart_handle(void) {
 
     if (config_uart) {
         config_uart = 0;
-        chry_dap_usb2uart_uart_config_callback((struct cdc_line_coding *)&g_cdc_lincoding);
+        //chry_dap_usb2uart_uart_config_callback((struct cdc_line_coding *) &g_cdc_lincoding);
         usbtx_idle_flag = 1;
         uarttx_idle_flag = 1;
         config_uart_transfer = 1;
@@ -597,23 +596,20 @@ void chry_dap_usb2uart_handle(void) {
             buffer = chry_ringbuffer_linear_read_setup(&g_uartrx, &size);
             //用于字节对齐
             memcpy(_usbtx_buffer, buffer, size);
-            printf("uart_rx to usb_tx\r\n");
             usbd_ep_start_write(0, CDC_IN_EP, _usbtx_buffer, size);//启动USB发送数据，将串口接收到的数据发送到USB
         }
     }
 
     //usb_rx to uart_tx,将USB接收到的数据发送到串口
     if (uarttx_idle_flag) {
-        if (chry_ringbuffer_get_used(&g_usbrx)) {
+        if (chry_ringbuffer_get_used(&g_usbrx)) {//环形缓冲区中有数据
             uarttx_idle_flag = 0;
             buffer = chry_ringbuffer_linear_read_setup(&g_usbrx, &size);//读取USB接收到的数据到缓冲区
-            //将USB接收到数据使用DMA发送出去(弱函数，具体见下)
-            //serial_send_data(buffer, size);
-            printf("usb_rx to uart_tx\r\n");
+            //将USB接收到数据使用DMA发送出去
             chry_dap_usb2uart_uart_send_bydma(buffer, size);
         }
     }
-
+    /* check whether usb rx ringbuffer have space to store */
     if (usbrx_idle_flag) {//USB接收空闲
         if (chry_ringbuffer_get_free(&g_usbrx) >= DAP_PACKET_SIZE) {//环形缓冲区剩余空间大于DAP包大小
             usbrx_idle_flag = 0;

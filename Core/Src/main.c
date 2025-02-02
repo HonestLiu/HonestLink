@@ -107,6 +107,8 @@ int main(void)
   MX_USART1_UART_Init();
   //MX_USB_OTG_FS_PCD_Init();
   MX_USART3_UART_Init();
+  MX_USART6_UART_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 /*    extern void winusbv2_init(uint8_t busid, uint32_t reg_base);
     winusbv2_init(0, USB_OTG_FS_PERIPH_BASE);//初始化模板工程*/

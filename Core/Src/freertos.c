@@ -27,6 +27,7 @@
 /* USER CODE BEGIN Includes */
 #include "dap_main.h"
 #include "DAP.h"
+#include "usart.h"
 //#include "swd_download_file.h"
 /* USER CODE END Includes */
 
@@ -206,7 +207,7 @@ void UartTaskFun(void const *argument) {
     /* USER CODE BEGIN UartTaskFun */
     /* Infinite loop */
     for (;;) {
-        osDelay(1);
+        osDelay(2000);
     }
     /* USER CODE END UartTaskFun */
 }

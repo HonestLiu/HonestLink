@@ -164,6 +164,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj: D:/Develop/STM32CubeIDE
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc/dap_main.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc/main.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc/usart.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc/usb_config.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
@@ -2877,6 +2878,8 @@ D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/freertos.c:
 
 D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc/FreeRTOSConfig.h:
 
+D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc/usart.h:
+
 D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
 
 D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
@@ -2906,8 +2909,6 @@ D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/gpio.c:
 D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc/gpio.h:
 
 D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/main.c:
-
-D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Inc/usart.h:
 
 D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/DAPLink/Source/error.c:
 
