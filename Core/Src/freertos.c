@@ -27,8 +27,6 @@
 /* USER CODE BEGIN Includes */
 #include "dap_main.h"
 #include "DAP.h"
-#include "usart.h"
-//#include "swd_download_file.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -206,14 +204,8 @@ void DAPFun(void const *argument) {
 /* USER CODE END Header_UartTaskFun */
 void UartTaskFun(void const *argument) {
     /* USER CODE BEGIN UartTaskFun */
-    extern struct cdc_line_coding ts_g_cdc_lincoding;
     /* Infinite loop */
     for (;;) {
-/*        printf("CDC dwDTERate:%lu bCharFormat:%d bParityType:%d bDataBits:%d\r\n",
-               get_cdc_g_line_coding_dwDTERate(),
-               get_cdc_g_line_coding_bCharFormat(),
-               get_cdc_g_line_coding_bParityType(),
-               get_cdc_g_line_coding_bDataBits());*/
         HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
         osDelay(5000);
     }

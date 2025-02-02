@@ -561,18 +561,13 @@ void chry_dap_handle(void) {
 /******************************************CDC 虚拟串口**************************************/
 //CDC 设置串口参数
 void usbd_cdc_acm_set_line_coding(uint8_t busid, uint8_t intf, struct cdc_line_coding *line_coding) {
-    printf("set line coding\r\n");
-   //if (memcpy(line_coding, (uint8_t *) &g_cdc_lincoding, sizeof(struct cdc_line_coding)) != 0) {
-        printf("save line coding\r\n");
         memcpy((uint8_t *) &g_cdc_lincoding, line_coding, sizeof(struct cdc_line_coding));//保存串口参数
         config_uart = 1;
         config_uart_transfer = 0;//串口参数设置完成
-    //}
 }
 
 //CDC 获取串口参数
 void usbd_cdc_acm_get_line_coding(uint8_t busid, uint8_t intf, struct cdc_line_coding *line_coding) {
-    printf("get line coding\r\n");
     memcpy(line_coding, (uint8_t *) &g_cdc_lincoding, sizeof(struct cdc_line_coding));
 }
 

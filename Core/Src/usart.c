@@ -262,7 +262,6 @@ void chry_dap_usb2uart_uart_config_callback(struct cdc_line_coding *line_coding)
     huart3.Instance = USART3;
     //设置波特率
     huart3.Init.BaudRate = line_coding->dwDTERate;
-    printf("baudrate:%lu\n", line_coding->dwDTERate);
     //设置校验位
     if (line_coding->bParityType == 1) {
         huart3.Init.Parity = UART_PARITY_ODD;
@@ -271,10 +270,8 @@ void chry_dap_usb2uart_uart_config_callback(struct cdc_line_coding *line_coding)
     } else {
         huart3.Init.Parity = UART_PARITY_NONE;
     }
-    printf("parity:%d\n", line_coding->bParityType);
     //设置字长
     huart3.Init.WordLength = line_coding->bDataBits;
-    printf("word length:%d\n", line_coding->bDataBits);
     //设置停止位
     if (line_coding->bCharFormat == 1) {
         huart3.Init.StopBits = UART_STOPBITS_1;
@@ -283,7 +280,7 @@ void chry_dap_usb2uart_uart_config_callback(struct cdc_line_coding *line_coding)
     } else {
         huart3.Init.StopBits = UART_STOPBITS_1;
     }
-    printf("stop bits:%d\n", line_coding->bCharFormat);
+
     huart3.Init.HwFlowCtl = UART_HWCONTROL_NONE;//无硬件流控
     huart3.Init.OverSampling = UART_OVERSAMPLING_16;//16倍过采样
     huart3.Init.Mode = UART_MODE_TX_RX;//收发模式
