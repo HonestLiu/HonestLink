@@ -8,7 +8,7 @@
 
 #include "usbd_core.h"
 #include "usbd_cdc.h"
-#include "usbd_msc.h"
+//#include "usbd_msc.h"
 #include "chry_ringbuffer.h"
 
 #include "swd_host.h"
@@ -29,6 +29,7 @@ static __ALIGNED(32) uint8_t uart3_recv_buff[2 * 1024];
 // 定义全局变量，用于记录UART发送数据的长度
 static volatile uint32_t g_uart_tx_transfer_length = 0;
 
+
 void chry_dap_usb2uart_handle(void);//USB转串口处理函数
 void chry_dap_handle(void);//DAP处理函数
 
@@ -40,6 +41,14 @@ void chry_dap_usb2uart_uart_send_complete(uint32_t size);
 
 void chry_dap_usb2uart_uart_send_bydma(uint8_t *data, uint16_t len);// CDC UART通过DMA发送数据函数
 
-        void chry_dap_usb2uart_uart_config_callback(struct cdc_line_coding *line_coding);
+void chry_dap_usb2uart_uart_config_callback(struct cdc_line_coding *line_coding);
+
+uint32_t get_cdc_g_line_coding_dwDTERate(void);
+
+uint8_t get_cdc_g_line_coding_bCharFormat(void);
+
+uint8_t get_cdc_g_line_coding_bParityType(void);
+
+uint8_t get_cdc_g_line_coding_bDataBits(void);
 
 #endif

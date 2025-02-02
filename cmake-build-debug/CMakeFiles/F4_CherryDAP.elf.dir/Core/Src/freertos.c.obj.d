@@ -91,8 +91,6 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj: \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\common/usb_memcpy.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\class\cdc/usbd_cdc.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\class\cdc/usb_cdc.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\class\msc/usbd_msc.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\class\msc/usb_msc.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryRB/chry_ringbuffer.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Include/swd_host.h \
  D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\DAPLink\Include/flash_blob.h \

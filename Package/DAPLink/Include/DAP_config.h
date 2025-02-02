@@ -383,7 +383,6 @@ __STATIC_INLINE void PORT_SWD_SETUP(void) {
     GPIO_InitStruct.Pull = GPIO_PULLUP;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
     HAL_GPIO_Init(NRST_GPIO_Port, &GPIO_InitStruct);
-
 }
 
 /** Disable JTAG/SWD I/O Pins.

@@ -68,8 +68,6 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/dap_main.c.obj: D:/Develop/STM32CubeIDE
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB/chry_ringbuffer.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usb_cdc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usbd_cdc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usb_msc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usbd_msc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_dc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_def.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_errno.h \
@@ -212,8 +210,6 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj: D:/Develop/STM32CubeIDE
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB/chry_ringbuffer.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usb_cdc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usbd_cdc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usb_msc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usbd_msc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_dc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_def.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_errno.h \
@@ -359,8 +355,6 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.obj: D:/Develop/STM32CubeIDE/tes
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB/chry_ringbuffer.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usb_cdc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usbd_cdc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usb_msc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usbd_msc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_dc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_def.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_errno.h \
@@ -528,8 +522,6 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/Develop/STM32Cub
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB/chry_ringbuffer.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usb_cdc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usbd_cdc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usb_msc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usbd_msc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_dc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_def.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_errno.h \
@@ -723,8 +715,6 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usart.c.obj: D:/Develop/STM32CubeIDE/te
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB/chry_ringbuffer.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usb_cdc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usbd_cdc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usb_msc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usbd_msc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_dc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_def.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_errno.h \
@@ -809,8 +799,6 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/usb2uart.c.obj: D:/Develop/STM32CubeIDE
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB/chry_ringbuffer.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usb_cdc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usbd_cdc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usb_msc.h \
-  D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usbd_msc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_dc.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_def.h \
   D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_errno.h \
@@ -2760,8 +2748,6 @@ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/cdefs.h:
 
 D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_errno.h:
 
-D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usb_msc.h:
-
 D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h:
 
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/reent.h:
@@ -2839,10 +2825,6 @@ D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Drivers/STM32F4xx_HAL_Driver
 D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryRB/chry_ringbuffer.h:
 
 D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/cdc/usb_cdc.h:
-
-D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/signal.h:
-
-D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/class/msc/usbd_msc.h:
 
 D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Package/CherryUSB/common/usb_dc.h:
 
@@ -2931,6 +2913,8 @@ D:/Develop/STM32CubeIDE/test_workspace/F4_CherryDAP/Core/Src/system_stm32f4xx.c:
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/endian.h:
 
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/time.h:
+
+D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/signal.h:
 
 D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_sigset.h:
 

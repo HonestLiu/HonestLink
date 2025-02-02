@@ -5,6 +5,8 @@
  * */
 
 #include "dap_main.h"
+#include "usbd_cdc.h"
+#include "usb_cdc.h"
 #include "chry_ringbuffer.h"
 
 //DAP WINUSB
@@ -506,7 +508,6 @@ void chry_dap_init(uint8_t busid, uintptr_t reg_base) {
 /******************************************DAP Link************************************/
 void chry_dap_handle(void) {
     uint32_t n;
-
     while (USB_RequestCountI != USB_RequestCountO) {
         n = USB_RequestIndexO;//获取写指针
         while (USB_Request[n][0] == ID_DAP_QueueCommands) {
@@ -560,15 +561,18 @@ void chry_dap_handle(void) {
 /******************************************CDC 虚拟串口**************************************/
 //CDC 设置串口参数
 void usbd_cdc_acm_set_line_coding(uint8_t busid, uint8_t intf, struct cdc_line_coding *line_coding) {
-    if (memcpy(line_coding, (uint8_t *) &g_cdc_lincoding, sizeof(struct cdc_line_coding)) != 0) {
+    printf("set line coding\r\n");
+   //if (memcpy(line_coding, (uint8_t *) &g_cdc_lincoding, sizeof(struct cdc_line_coding)) != 0) {
+        printf("save line coding\r\n");
         memcpy((uint8_t *) &g_cdc_lincoding, line_coding, sizeof(struct cdc_line_coding));//保存串口参数
         config_uart = 1;
         config_uart_transfer = 0;//串口参数设置完成
-    }
+    //}
 }
 
 //CDC 获取串口参数
 void usbd_cdc_acm_get_line_coding(uint8_t busid, uint8_t intf, struct cdc_line_coding *line_coding) {
+    printf("get line coding\r\n");
     memcpy(line_coding, (uint8_t *) &g_cdc_lincoding, sizeof(struct cdc_line_coding));
 }
 
@@ -579,7 +583,7 @@ void chry_dap_usb2uart_handle(void) {
 
     if (config_uart) {
         config_uart = 0;
-        //chry_dap_usb2uart_uart_config_callback((struct cdc_line_coding *) &g_cdc_lincoding);
+        chry_dap_usb2uart_uart_config_callback((struct cdc_line_coding *) &g_cdc_lincoding);
         usbtx_idle_flag = 1;
         uarttx_idle_flag = 1;
         config_uart_transfer = 1;

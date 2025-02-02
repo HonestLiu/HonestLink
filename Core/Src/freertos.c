@@ -142,6 +142,7 @@ void vApplicationGetIdleTaskMemory(StaticTask_t **ppxIdleTaskTCBBuffer, StackTyp
 void MX_FREERTOS_Init(void) {
     /* USER CODE BEGIN Init */
     chry_dap_init(0, USB_OTG_FS_PERIPH_BASE);//≥ı ºªØDAP
+
     /* USER CODE END Init */
 
     /* USER CODE BEGIN RTOS_MUTEX */
@@ -205,9 +206,16 @@ void DAPFun(void const *argument) {
 /* USER CODE END Header_UartTaskFun */
 void UartTaskFun(void const *argument) {
     /* USER CODE BEGIN UartTaskFun */
+    extern struct cdc_line_coding ts_g_cdc_lincoding;
     /* Infinite loop */
     for (;;) {
-        osDelay(2000);
+/*        printf("CDC dwDTERate:%lu bCharFormat:%d bParityType:%d bDataBits:%d\r\n",
+               get_cdc_g_line_coding_dwDTERate(),
+               get_cdc_g_line_coding_bCharFormat(),
+               get_cdc_g_line_coding_bParityType(),
+               get_cdc_g_line_coding_bDataBits());*/
+        HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+        osDelay(5000);
     }
     /* USER CODE END UartTaskFun */
 }

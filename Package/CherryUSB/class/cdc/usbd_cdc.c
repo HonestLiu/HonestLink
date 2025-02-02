@@ -40,12 +40,18 @@ static int cdc_acm_class_interface_request_handler(uint8_t busid, struct usb_set
             /* 6      | bDataBits  |   1   | Number Data bits (5, 6, 7, 8 or 16).          */
             /*******************************************************************************/
             memcpy(&line_coding, *data, setup->wLength);
-            USB_LOG_DBG("Set intf:%d linecoding <%d %d %s %s>\r\n",
+            printf("Set intf:%d linecoding <%d %d %s %s>\r\n",
+                   intf_num,
+                   line_coding.dwDTERate,
+                   line_coding.bDataBits,
+                   parity_name[line_coding.bParityType],
+                   stop_name[line_coding.bCharFormat]);
+            /*USB_LOG_DBG("Set intf:%d linecoding <%d %d %s %s>\r\n",
                         intf_num,
                         line_coding.dwDTERate,
                         line_coding.bDataBits,
                         parity_name[line_coding.bParityType],
-                        stop_name[line_coding.bCharFormat]);
+                        stop_name[line_coding.bCharFormat]);*/
 
             usbd_cdc_acm_set_line_coding(busid, intf_num, &line_coding);
             break;
@@ -62,15 +68,21 @@ static int cdc_acm_class_interface_request_handler(uint8_t busid, struct usb_set
             break;
 
         case CDC_REQUEST_GET_LINE_CODING:
+            printf("Get intf:%d linecoding %d %d %d %d\r\n",
+                   intf_num,
+                   line_coding.dwDTERate,
+                   line_coding.bCharFormat,
+                   line_coding.bParityType,
+                   line_coding.bDataBits);
             usbd_cdc_acm_get_line_coding(busid, intf_num, &line_coding);
             memcpy(*data, &line_coding, 7);
             *len = 7;
-            USB_LOG_DBG("Get intf:%d linecoding %d %d %d %d\r\n",
+            /*USB_LOG_DBG("Get intf:%d linecoding %d %d %d %d\r\n",
                         intf_num,
                         line_coding.dwDTERate,
                         line_coding.bCharFormat,
                         line_coding.bParityType,
-                        line_coding.bDataBits);
+                        line_coding.bDataBits);*/
             break;
         case CDC_REQUEST_SEND_BREAK:
             usbd_cdc_acm_send_break(busid, intf_num);
