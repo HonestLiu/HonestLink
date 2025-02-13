@@ -53,6 +53,8 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj: \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sd.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_sdmmc.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
@@ -333,4 +335,13 @@ CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/freertos.c.obj: \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\examples\porting/lv_port_disp.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\examples\porting/lv_port_indev.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CST816S/cst816.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\IIC/iic_hal.h
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\IIC/iic_hal.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\FATFS\App/fatfs.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Middlewares\Third_Party\FatFs\src/ff.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Middlewares\Third_Party\FatFs\src/integer.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\FATFS\Target/ffconf.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\FATFS\Target/bsp_driver_sd.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Middlewares\Third_Party\FatFs\src/ff_gen_drv.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Middlewares\Third_Party\FatFs\src/diskio.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Middlewares\Third_Party\FatFs\src/ff.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\FATFS\Target/sd_diskio.h

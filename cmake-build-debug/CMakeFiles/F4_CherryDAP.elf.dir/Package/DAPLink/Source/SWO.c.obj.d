@@ -35,6 +35,8 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SWO.c.obj: \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sd.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_sdmmc.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \

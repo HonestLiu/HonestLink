@@ -20,6 +20,8 @@
 #include "main.h"
 #include "cmsis_os.h"
 #include "dma.h"
+#include "fatfs.h"
+#include "sdio.h"
 #include "spi.h"
 #include "tim.h"
 #include "usart.h"
@@ -125,20 +127,32 @@ int main(void)
 
   /* USER CODE BEGIN SysInit */
 
+#if 0
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_DMA_Init();
   MX_USART1_UART_Init();
-  //MX_USB_OTG_FS_PCD_Init();
+  MX_USB_OTG_FS_PCD_Init();
   MX_USART3_UART_Init();
   MX_SPI1_Init();
   MX_TIM3_Init();
+  MX_SDIO_SD_Init();
+  MX_FATFS_Init();
   /* USER CODE BEGIN 2 */
-/*    extern void winusbv2_init(uint8_t busid, uint32_t reg_base);
-    winusbv2_init(0, USB_OTG_FS_PERIPH_BASE);//初始化模板工程*/
+#endif
+    //TODO 如果新增了外设，记得在这里添加初始化函数
+    MX_GPIO_Init();
+    MX_DMA_Init();
+    MX_USART1_UART_Init();
+    MX_USART3_UART_Init();
+    MX_SPI1_Init();
+    MX_TIM3_Init();
+    MX_SDIO_SD_Init();
+    MX_FATFS_Init();
 
+    BSP_SD_Init();//初始化SD卡
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in cmsis_os2.c) */

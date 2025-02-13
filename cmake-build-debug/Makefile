@@ -248,6 +248,30 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
+Core/Src/sdio.obj: Core/Src/sdio.c.obj
+.PHONY : Core/Src/sdio.obj
+
+# target to build an object file
+Core/Src/sdio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sdio.c.obj
+.PHONY : Core/Src/sdio.c.obj
+
+Core/Src/sdio.i: Core/Src/sdio.c.i
+.PHONY : Core/Src/sdio.i
+
+# target to preprocess a source file
+Core/Src/sdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sdio.c.i
+.PHONY : Core/Src/sdio.c.i
+
+Core/Src/sdio.s: Core/Src/sdio.c.s
+.PHONY : Core/Src/sdio.s
+
+# target to generate assembly for a file
+Core/Src/sdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Core/Src/sdio.c.s
+.PHONY : Core/Src/sdio.c.s
+
 Core/Src/spi.obj: Core/Src/spi.c.obj
 .PHONY : Core/Src/spi.obj
 
@@ -1000,6 +1024,30 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj
 
@@ -1096,6 +1144,30 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj
 
@@ -1119,6 +1191,174 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s: Drivers/STM32F4xx_HAL_Drive
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
+
+FATFS/App/fatfs.obj: FATFS/App/fatfs.c.obj
+.PHONY : FATFS/App/fatfs.obj
+
+# target to build an object file
+FATFS/App/fatfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/FATFS/App/fatfs.c.obj
+.PHONY : FATFS/App/fatfs.c.obj
+
+FATFS/App/fatfs.i: FATFS/App/fatfs.c.i
+.PHONY : FATFS/App/fatfs.i
+
+# target to preprocess a source file
+FATFS/App/fatfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/FATFS/App/fatfs.c.i
+.PHONY : FATFS/App/fatfs.c.i
+
+FATFS/App/fatfs.s: FATFS/App/fatfs.c.s
+.PHONY : FATFS/App/fatfs.s
+
+# target to generate assembly for a file
+FATFS/App/fatfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/FATFS/App/fatfs.c.s
+.PHONY : FATFS/App/fatfs.c.s
+
+FATFS/Target/bsp_driver_sd.obj: FATFS/Target/bsp_driver_sd.c.obj
+.PHONY : FATFS/Target/bsp_driver_sd.obj
+
+# target to build an object file
+FATFS/Target/bsp_driver_sd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
+.PHONY : FATFS/Target/bsp_driver_sd.c.obj
+
+FATFS/Target/bsp_driver_sd.i: FATFS/Target/bsp_driver_sd.c.i
+.PHONY : FATFS/Target/bsp_driver_sd.i
+
+# target to preprocess a source file
+FATFS/Target/bsp_driver_sd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/FATFS/Target/bsp_driver_sd.c.i
+.PHONY : FATFS/Target/bsp_driver_sd.c.i
+
+FATFS/Target/bsp_driver_sd.s: FATFS/Target/bsp_driver_sd.c.s
+.PHONY : FATFS/Target/bsp_driver_sd.s
+
+# target to generate assembly for a file
+FATFS/Target/bsp_driver_sd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/FATFS/Target/bsp_driver_sd.c.s
+.PHONY : FATFS/Target/bsp_driver_sd.c.s
+
+FATFS/Target/sd_diskio.obj: FATFS/Target/sd_diskio.c.obj
+.PHONY : FATFS/Target/sd_diskio.obj
+
+# target to build an object file
+FATFS/Target/sd_diskio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/FATFS/Target/sd_diskio.c.obj
+.PHONY : FATFS/Target/sd_diskio.c.obj
+
+FATFS/Target/sd_diskio.i: FATFS/Target/sd_diskio.c.i
+.PHONY : FATFS/Target/sd_diskio.i
+
+# target to preprocess a source file
+FATFS/Target/sd_diskio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/FATFS/Target/sd_diskio.c.i
+.PHONY : FATFS/Target/sd_diskio.c.i
+
+FATFS/Target/sd_diskio.s: FATFS/Target/sd_diskio.c.s
+.PHONY : FATFS/Target/sd_diskio.s
+
+# target to generate assembly for a file
+FATFS/Target/sd_diskio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/FATFS/Target/sd_diskio.c.s
+.PHONY : FATFS/Target/sd_diskio.c.s
+
+Middlewares/Third_Party/FatFs/src/diskio.obj: Middlewares/Third_Party/FatFs/src/diskio.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.obj
+
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/diskio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.obj
+
+Middlewares/Third_Party/FatFs/src/diskio.i: Middlewares/Third_Party/FatFs/src/diskio.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/diskio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.i
+
+Middlewares/Third_Party/FatFs/src/diskio.s: Middlewares/Third_Party/FatFs/src/diskio.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/diskio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.s
+
+Middlewares/Third_Party/FatFs/src/ff.obj: Middlewares/Third_Party/FatFs/src/ff.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.obj
+
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/ff.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.c.obj
+
+Middlewares/Third_Party/FatFs/src/ff.i: Middlewares/Third_Party/FatFs/src/ff.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/ff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.c.i
+
+Middlewares/Third_Party/FatFs/src/ff.s: Middlewares/Third_Party/FatFs/src/ff.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/ff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/ff.c.s
+
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj
+
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.i: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
+
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.s: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
+
+Middlewares/Third_Party/FatFs/src/option/syscall.obj: Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.obj
+
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/option/syscall.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
+
+Middlewares/Third_Party/FatFs/src/option/syscall.i: Middlewares/Third_Party/FatFs/src/option/syscall.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/option/syscall.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.i
+
+Middlewares/Third_Party/FatFs/src/option/syscall.s: Middlewares/Third_Party/FatFs/src/option/syscall.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/option/syscall.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s
+.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
@@ -6400,6 +6640,9 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/sdio.obj
+	@echo ... Core/Src/sdio.i
+	@echo ... Core/Src/sdio.s
 	@echo ... Core/Src/spi.obj
 	@echo ... Core/Src/spi.i
 	@echo ... Core/Src/spi.s
@@ -6494,6 +6737,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s
@@ -6506,9 +6752,33 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s
+	@echo ... FATFS/App/fatfs.obj
+	@echo ... FATFS/App/fatfs.i
+	@echo ... FATFS/App/fatfs.s
+	@echo ... FATFS/Target/bsp_driver_sd.obj
+	@echo ... FATFS/Target/bsp_driver_sd.i
+	@echo ... FATFS/Target/bsp_driver_sd.s
+	@echo ... FATFS/Target/sd_diskio.obj
+	@echo ... FATFS/Target/sd_diskio.i
+	@echo ... FATFS/Target/sd_diskio.s
+	@echo ... Middlewares/Third_Party/FatFs/src/diskio.obj
+	@echo ... Middlewares/Third_Party/FatFs/src/diskio.i
+	@echo ... Middlewares/Third_Party/FatFs/src/diskio.s
+	@echo ... Middlewares/Third_Party/FatFs/src/ff.obj
+	@echo ... Middlewares/Third_Party/FatFs/src/ff.i
+	@echo ... Middlewares/Third_Party/FatFs/src/ff.s
+	@echo ... Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj
+	@echo ... Middlewares/Third_Party/FatFs/src/ff_gen_drv.i
+	@echo ... Middlewares/Third_Party/FatFs/src/ff_gen_drv.s
+	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.obj
+	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.i
+	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.s
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s

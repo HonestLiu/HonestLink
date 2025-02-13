@@ -31,6 +31,7 @@
 #include "lv_port_disp.h"
 #include "lv_port_indev.h"
 #include "cst816.h"
+#include "fatfs.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -67,6 +68,7 @@ void soft_reset_target(void);
 osThreadId DAPTaskHandle;
 osThreadId UartTaskHandle;
 osThreadId LVGLTaskHandle;
+osThreadId OfflineDownloadHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -119,6 +121,8 @@ void DAPFun(void const *argument);
 void UartTaskFun(void const *argument);
 
 void LvglStartTask(void const *argument);
+
+void OfflineDownloadStartTask(void const *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -178,6 +182,10 @@ void MX_FREERTOS_Init(void) {
     /* definition and creation of LVGLTask */
     osThreadDef(LVGLTask, LvglStartTask, osPriorityNormal, 0, 2048);
     LVGLTaskHandle = osThreadCreate(osThread(LVGLTask), NULL);
+
+    /* definition and creation of OfflineDownload */
+    osThreadDef(OfflineDownload, OfflineDownloadStartTask, osPriorityNormal, 0, 2048);
+    OfflineDownloadHandle = osThreadCreate(osThread(OfflineDownload), NULL);
 
     /* USER CODE BEGIN RTOS_THREADS */
     /* add threads, ... */
@@ -248,15 +256,15 @@ void lv_list_demo() {
     lv_obj_add_event_cb(btn5, NULL, LV_EVENT_CLICKED, NULL);
 }
 /**
-* @brief Function implementing the LVGLTask thread.
+* @brief LVGL thread.
 * @param argument: Not used
 * @retval None
 */
 /* USER CODE END Header_LvglStartTask */
 void LvglStartTask(void const *argument) {
     /* USER CODE BEGIN LvglStartTask */
-    CST816_GPIO_Init();
-    CST816_RESET();
+    CST816_GPIO_Init();//´¥¿Ø³õÊ¼»¯
+    CST816_RESET();//´¥¿Ø¸´Î»
     lv_init();
     lv_port_disp_init();
     lv_port_indev_init();
@@ -267,6 +275,24 @@ void LvglStartTask(void const *argument) {
         osDelay(1);
     }
     /* USER CODE END LvglStartTask */
+}
+
+/* USER CODE BEGIN Header_OfflineDownloadStartTask */
+
+/**
+* @brief Function implementing the OfflineDownload thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_OfflineDownloadStartTask */
+void OfflineDownloadStartTask(void const *argument) {
+    /* USER CODE BEGIN OfflineDownloadStartTask */
+
+    /* Infinite loop */
+    for (;;) {
+        osDelay(1);
+    }
+    /* USER CODE END OfflineDownloadStartTask */
 }
 
 /* Private application code --------------------------------------------------*/
