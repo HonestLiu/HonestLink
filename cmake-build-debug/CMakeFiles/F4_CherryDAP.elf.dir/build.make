@@ -1131,10 +1131,80 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.s"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\DAPLink\Source\swd_host.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\DAPLink\Source\swd_host.c.s
 
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/components/ui_comp_hook.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\components\ui_comp_hook.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\components\ui_comp_hook.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\components\ui_comp_hook.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\components\ui_comp_hook.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\components\ui_comp_hook.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\components\ui_comp_hook.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\components\ui_comp_hook.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/screens/ui_Screen1.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\screens\ui_Screen1.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\screens\ui_Screen1.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\screens\ui_Screen1.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\screens\ui_Screen1.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\screens\ui_Screen1.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\screens\ui_Screen1.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\screens\ui_Screen1.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/screens/ui_Screen2.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\screens\ui_Screen2.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\screens\ui_Screen2.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\screens\ui_Screen2.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\screens\ui_Screen2.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\screens\ui_Screen2.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\screens\ui_Screen2.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\screens\ui_Screen2.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/ui.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\ui.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\ui.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\ui.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\ui.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\ui.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\ui.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\ui.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui_helpers.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui_helpers.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/ui_helpers.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui_helpers.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui_helpers.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui_helpers.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\ui_helpers.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\ui_helpers.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\ui_helpers.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui_helpers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui_helpers.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\ui_helpers.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\ui_helpers.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui_helpers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui_helpers.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\ui_helpers.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\GUIAPP\ui_helpers.c.s
+
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/examples/porting/lv_port_disp.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\examples\porting\lv_port_disp.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\examples\porting\lv_port_disp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\examples\porting\lv_port_disp.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.i: cmake_force
@@ -1148,7 +1218,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.s: 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/examples/porting/lv_port_fs_template.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\examples\porting\lv_port_fs_template.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\examples\porting\lv_port_fs_template.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\examples\porting\lv_port_fs_template.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.i: cmake_force
@@ -1162,7 +1232,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_fs_templat
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/examples/porting/lv_port_indev.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\examples\porting\lv_port_indev.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\examples\porting\lv_port_indev.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\examples\porting\lv_port_indev.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.i: cmake_force
@@ -1176,7 +1246,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_disp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_disp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_disp.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_disp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_disp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_disp.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_disp.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_disp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_disp.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_disp.c.i: cmake_force
@@ -1190,7 +1260,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_disp.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_event.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_event.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_event.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_event.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_event.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_event.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_event.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_event.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_event.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_event.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_event.c.i: cmake_force
@@ -1204,7 +1274,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_event.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_group.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_group.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_group.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_group.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_group.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_group.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_group.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_group.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_group.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_group.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_group.c.i: cmake_force
@@ -1218,7 +1288,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_group.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_indev.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_indev.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_indev.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_indev.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev.c.i: cmake_force
@@ -1232,7 +1302,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_indev_scroll.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_indev_scroll.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_indev_scroll.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_indev_scroll.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.i: cmake_force
@@ -1246,7 +1316,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.s: cmake
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_obj.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_obj.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj.c.i: cmake_force
@@ -1260,7 +1330,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_obj_class.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_class.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_class.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_obj_class.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_class.c.i: cmake_force
@@ -1274,7 +1344,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_class.c.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_obj_draw.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_draw.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_draw.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_obj_draw.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.i: cmake_force
@@ -1288,7 +1358,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.s: cmake_for
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_obj_pos.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_pos.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_pos.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_obj_pos.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.i: cmake_force
@@ -1302,7 +1372,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.s: cmake_forc
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_obj_scroll.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_scroll.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_scroll.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_obj_scroll.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.i: cmake_force
@@ -1316,7 +1386,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.s: cmake_f
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_obj_style.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_style.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_style.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_obj_style.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style.c.i: cmake_force
@@ -1330,7 +1400,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style.c.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_obj_style_gen.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_style_gen.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_style_gen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_obj_style_gen.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.i: cmake_force
@@ -1344,7 +1414,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.s: cmak
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_obj_tree.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_tree.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_obj_tree.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_obj_tree.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.i: cmake_force
@@ -1358,7 +1428,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.s: cmake_for
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_refr.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_refr.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_refr.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_refr.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_refr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_refr.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_refr.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_refr.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_refr.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_refr.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_refr.c.i: cmake_force
@@ -1372,7 +1442,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_refr.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_theme.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_theme.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_theme.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_theme.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_theme.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_theme.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_theme.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_theme.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\core\lv_theme.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\core\lv_theme.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_theme.c.i: cmake_force
@@ -1386,7 +1456,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/core/lv_theme.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\arm2d\lv_gpu_arm2d.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\arm2d\lv_gpu_arm2d.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\arm2d\lv_gpu_arm2d.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.i: cmake_force
@@ -1400,7 +1470,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.s: cm
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_draw.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw.c.i: cmake_force
@@ -1414,7 +1484,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw_arc.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_arc.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_arc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_draw_arc.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.i: cmake_force
@@ -1428,7 +1498,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.s: cmake_for
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw_img.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_img.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_img.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_draw_img.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.i: cmake_force
@@ -1442,7 +1512,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.s: cmake_for
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw_label.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_label.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_label.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_draw_label.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.i: cmake_force
@@ -1456,7 +1526,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.s: cmake_f
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw_layer.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_layer.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_layer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_draw_layer.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.i: cmake_force
@@ -1470,7 +1540,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.s: cmake_f
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw_line.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_line.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_line.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_draw_line.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.i: cmake_force
@@ -1484,7 +1554,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw_mask.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_mask.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_mask.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_draw_mask.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.i: cmake_force
@@ -1498,7 +1568,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw_rect.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_rect.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_rect.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_draw_rect.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.i: cmake_force
@@ -1512,7 +1582,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw_transform.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_transform.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_transform.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_draw_transform.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.i: cmake_force
@@ -1526,7 +1596,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.s: cma
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw_triangle.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_triangle.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_draw_triangle.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_draw_triangle.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.i: cmake_force
@@ -1540,7 +1610,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.s: cmak
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_img_buf.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_img_buf.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_img_buf.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_img_buf.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.i: cmake_force
@@ -1554,7 +1624,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.s: cmake_forc
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_img_cache.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_img_cache.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_img_cache.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_img_cache.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.i: cmake_force
@@ -1568,7 +1638,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_img_decoder.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_img_decoder.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\lv_img_decoder.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\lv_img_decoder.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.i: cmake_force
@@ -1582,7 +1652,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.s: cmake_
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.i: cmake_force
@@ -1596,7 +1666,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.s: c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp_blend.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp_blend.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp_blend.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.i: cmake_force
@@ -1610,7 +1680,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i: cmake_force
@@ -1624,7 +1694,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp_osa.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp_osa.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp_osa.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i: cmake_force
@@ -1638,7 +1708,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.i: cmake_force
@@ -1652,7 +1722,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_arc.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_arc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_arc.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i: cmake_force
@@ -1666,7 +1736,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_blend.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_blend.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_blend.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.i: cmake_force
@@ -1680,7 +1750,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_line.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_line.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_line.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.i: cmake_force
@@ -1694,7 +1764,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_rect.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_rect.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_rect.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.i: cmake_force
@@ -1708,7 +1778,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_vglite_buf.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_vglite_buf.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\nxp\vglite\lv_vglite_buf.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.i: cmake_force
@@ -1722,7 +1792,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_vglite_utils.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_vglite_utils.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\nxp\vglite\lv_vglite_utils.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.i: cmake_force
@@ -1736,7 +1806,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\renesas\lv_gpu_d2_draw_label.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\renesas\lv_gpu_d2_draw_label.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\renesas\lv_gpu_d2_draw_label.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.i: cmake_force
@@ -1750,7 +1820,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_lab
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\renesas\lv_gpu_d2_ra6m3.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\renesas\lv_gpu_d2_ra6m3.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\renesas\lv_gpu_d2_ra6m3.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.i: cmake_force
@@ -1764,7 +1834,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.i: cmake_force
@@ -1778,7 +1848,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.s: cmake
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_arc.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_arc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_arc.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.i: cmake_force
@@ -1792,7 +1862,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.s: c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_bg.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_bg.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_bg.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.i: cmake_force
@@ -1806,7 +1876,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.s: cm
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_composite.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_composite.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_composite.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.i: cmake_force
@@ -1820,7 +1890,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_img.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_img.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_img.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.i: cmake_force
@@ -1834,7 +1904,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.s: c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_label.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_label.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_label.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.i: cmake_force
@@ -1848,7 +1918,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_layer.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_layer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_layer.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.i: cmake_force
@@ -1862,7 +1932,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_line.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_line.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_line.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.i: cmake_force
@@ -1876,7 +1946,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.s: 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_mask.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_mask.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_mask.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.i: cmake_force
@@ -1890,7 +1960,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.s: 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_polygon.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_polygon.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_polygon.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.i: cmake_force
@@ -1904,7 +1974,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_rect.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_rect.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_rect.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.i: cmake_force
@@ -1918,7 +1988,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.s: 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_stack_blur.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_stack_blur.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_stack_blur.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.i: cmake_force
@@ -1932,7 +2002,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_texture_cache.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_texture_cache.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_texture_cache.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.i: cmake_force
@@ -1946,7 +2016,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_ca
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_utils.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_utils.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sdl\lv_draw_sdl_utils.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.i: cmake_force
@@ -1960,7 +2030,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\stm32_dma2d\lv_gpu_stm32_dma2d.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\stm32_dma2d\lv_gpu_stm32_dma2d.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\stm32_dma2d\lv_gpu_stm32_dma2d.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i: cmake_force
@@ -1974,7 +2044,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_d
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.i: cmake_force
@@ -1988,7 +2058,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.s: cmake_f
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_arc.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_arc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw_arc.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.i: cmake_force
@@ -2002,7 +2072,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.s: cma
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_blend.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_blend.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw_blend.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.i: cmake_force
@@ -2016,7 +2086,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.s: c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_dither.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_dither.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw_dither.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.i: cmake_force
@@ -2030,7 +2100,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.s: 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_gradient.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_gradient.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw_gradient.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.i: cmake_force
@@ -2044,7 +2114,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.s
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw_img.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_img.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_img.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw_img.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.i: cmake_force
@@ -2058,7 +2128,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.s: cma
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_layer.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_layer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw_layer.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.i: cmake_force
@@ -2072,7 +2142,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.s: c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_letter.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_letter.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw_letter.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.i: cmake_force
@@ -2086,7 +2156,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.s: 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw_line.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_line.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_line.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw_line.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.i: cmake_force
@@ -2100,7 +2170,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.s: cm
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_polygon.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_polygon.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw_polygon.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.i: cmake_force
@@ -2114,7 +2184,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_rect.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_rect.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw_rect.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.i: cmake_force
@@ -2128,7 +2198,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.s: cm
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_transform.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_transform.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\sw\lv_draw_sw_transform.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.i: cmake_force
@@ -2142,7 +2212,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\swm341_dma2d\lv_gpu_swm341_dma2d.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\draw\swm341_dma2d\lv_gpu_swm341_dma2d.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\draw\swm341_dma2d\lv_gpu_swm341_dma2d.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i: cmake_force
@@ -2156,7 +2226,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/layouts/flex/lv_flex.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\layouts\flex\lv_flex.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\layouts\flex\lv_flex.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\layouts\flex\lv_flex.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.i: cmake_force
@@ -2170,7 +2240,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/layouts/grid/lv_grid.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\layouts\grid\lv_grid.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\layouts\grid\lv_grid.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\layouts\grid\lv_grid.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.i: cmake_force
@@ -2184,7 +2254,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/bmp/lv_bmp.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\bmp\lv_bmp.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\bmp\lv_bmp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\bmp\lv_bmp.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.i: cmake_force
@@ -2198,7 +2268,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.s: cmak
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\ffmpeg\lv_ffmpeg.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\ffmpeg\lv_ffmpeg.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\ffmpeg\lv_ffmpeg.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
@@ -2212,7 +2282,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.s
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/freetype/lv_freetype.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\freetype\lv_freetype.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\freetype\lv_freetype.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\freetype\lv_freetype.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.i: cmake_force
@@ -2226,7 +2296,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_fatfs.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_fatfs.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\fsdrv\lv_fs_fatfs.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
@@ -2240,7 +2310,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_littlefs.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_littlefs.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\fsdrv\lv_fs_littlefs.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.i: cmake_force
@@ -2254,7 +2324,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_posix.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_posix.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\fsdrv\lv_fs_posix.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.i: cmake_force
@@ -2268,7 +2338,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_stdio.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_stdio.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\fsdrv\lv_fs_stdio.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
@@ -2282,7 +2352,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_win32.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_win32.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\fsdrv\lv_fs_win32.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.i: cmake_force
@@ -2296,7 +2366,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/gif/gifdec.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\gif\gifdec.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\gif\gifdec.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\gif\gifdec.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.i: cmake_force
@@ -2310,7 +2380,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.s: cmak
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/gif/lv_gif.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\gif\lv_gif.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\gif\lv_gif.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\gif\lv_gif.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.i: cmake_force
@@ -2324,7 +2394,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.s: cmak
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/png/lodepng.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\png\lodepng.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\png\lodepng.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\png\lodepng.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.i: cmake_force
@@ -2338,7 +2408,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.s: cma
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/png/lv_png.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\png\lv_png.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\png\lv_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\png\lv_png.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.i: cmake_force
@@ -2352,7 +2422,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.s: cmak
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\qrcode\lv_qrcode.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\qrcode\lv_qrcode.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\qrcode\lv_qrcode.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.i: cmake_force
@@ -2366,7 +2436,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.s
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\qrcode\qrcodegen.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\qrcode\qrcodegen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\qrcode\qrcodegen.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.i: cmake_force
@@ -2380,7 +2450,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.s
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\rlottie\lv_rlottie.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\rlottie\lv_rlottie.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\rlottie\lv_rlottie.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.i: cmake_force
@@ -2394,7 +2464,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\sjpg\lv_sjpg.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\sjpg\lv_sjpg.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\sjpg\lv_sjpg.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.i: cmake_force
@@ -2408,7 +2478,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.s: cm
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/sjpg/tjpgd.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\sjpg\tjpgd.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\sjpg\tjpgd.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\sjpg\tjpgd.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.i: cmake_force
@@ -2422,7 +2492,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.s: cmak
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\tiny_ttf\lv_tiny_ttf.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\libs\tiny_ttf\lv_tiny_ttf.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\libs\tiny_ttf\lv_tiny_ttf.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.i: cmake_force
@@ -2436,7 +2506,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/lv_extra.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\lv_extra.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\lv_extra.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\lv_extra.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/lv_extra.c.i: cmake_force
@@ -2450,7 +2520,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/lv_extra.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/others/fragment/lv_fragment.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\fragment\lv_fragment.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\fragment\lv_fragment.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\others\fragment\lv_fragment.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.i: cmake_force
@@ -2464,7 +2534,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragme
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\fragment\lv_fragment_manager.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\fragment\lv_fragment_manager.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\others\fragment\lv_fragment_manager.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.i: cmake_force
@@ -2478,7 +2548,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragme
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\gridnav\lv_gridnav.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\gridnav\lv_gridnav.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\others\gridnav\lv_gridnav.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.i: cmake_force
@@ -2492,7 +2562,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\ime\lv_ime_pinyin.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\ime\lv_ime_pinyin.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\others\ime\lv_ime_pinyin.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.i: cmake_force
@@ -2506,7 +2576,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\imgfont\lv_imgfont.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\imgfont\lv_imgfont.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\others\imgfont\lv_imgfont.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.i: cmake_force
@@ -2520,7 +2590,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/others/monkey/lv_monkey.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\monkey\lv_monkey.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\monkey\lv_monkey.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\others\monkey\lv_monkey.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.i: cmake_force
@@ -2534,7 +2604,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/others/msg/lv_msg.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\msg\lv_msg.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\msg\lv_msg.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\others\msg\lv_msg.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.i: cmake_force
@@ -2548,7 +2618,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.s: cm
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\snapshot\lv_snapshot.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\others\snapshot\lv_snapshot.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\others\snapshot\lv_snapshot.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.i: cmake_force
@@ -2562,7 +2632,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapsh
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\themes\basic\lv_theme_basic.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\themes\basic\lv_theme_basic.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\themes\basic\lv_theme_basic.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.i: cmake_force
@@ -2576,7 +2646,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_bas
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/themes/default/lv_theme_default.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\themes\default\lv_theme_default.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\themes\default\lv_theme_default.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\themes\default\lv_theme_default.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.i: cmake_force
@@ -2590,7 +2660,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_d
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\themes\mono\lv_theme_mono.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\themes\mono\lv_theme_mono.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\themes\mono\lv_theme_mono.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.i: cmake_force
@@ -2604,7 +2674,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\animimg\lv_animimg.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\animimg\lv_animimg.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\animimg\lv_animimg.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.i: cmake_force
@@ -2618,7 +2688,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animim
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\calendar\lv_calendar.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.i: cmake_force
@@ -2632,7 +2702,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calen
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
@@ -2646,7 +2716,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calen
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
@@ -2660,7 +2730,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calen
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/chart/lv_chart.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\chart\lv_chart.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\chart\lv_chart.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\chart\lv_chart.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.i: cmake_force
@@ -2674,7 +2744,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.i: cmake_force
@@ -2688,7 +2758,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_col
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.i: cmake_force
@@ -2702,7 +2772,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\keyboard\lv_keyboard.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\keyboard\lv_keyboard.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\keyboard\lv_keyboard.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.i: cmake_force
@@ -2716,7 +2786,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keybo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/led/lv_led.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\led\lv_led.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\led\lv_led.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\led\lv_led.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.i: cmake_force
@@ -2730,7 +2800,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.s: c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/list/lv_list.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\list\lv_list.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\list\lv_list.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\list\lv_list.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.i: cmake_force
@@ -2744,7 +2814,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/menu/lv_menu.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\menu\lv_menu.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\menu\lv_menu.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\menu\lv_menu.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.i: cmake_force
@@ -2758,7 +2828,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/meter/lv_meter.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\meter\lv_meter.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\meter\lv_meter.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\meter\lv_meter.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.i: cmake_force
@@ -2772,7 +2842,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\msgbox\lv_msgbox.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\msgbox\lv_msgbox.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\msgbox\lv_msgbox.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.i: cmake_force
@@ -2786,7 +2856,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/span/lv_span.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\span\lv_span.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\span\lv_span.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\span\lv_span.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.i: cmake_force
@@ -2800,7 +2870,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\spinbox\lv_spinbox.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\spinbox\lv_spinbox.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\spinbox\lv_spinbox.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.i: cmake_force
@@ -2814,7 +2884,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\spinner\lv_spinner.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\spinner\lv_spinner.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\spinner\lv_spinner.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.i: cmake_force
@@ -2828,7 +2898,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinne
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\tabview\lv_tabview.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\tabview\lv_tabview.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\tabview\lv_tabview.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.i: cmake_force
@@ -2842,7 +2912,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabvie
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\tileview\lv_tileview.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\tileview\lv_tileview.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\tileview\lv_tileview.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.i: cmake_force
@@ -2856,7 +2926,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tilev
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/extra/widgets/win/lv_win.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\win\lv_win.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\extra\widgets\win\lv_win.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\extra\widgets\win\lv_win.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.i: cmake_force
@@ -2870,7 +2940,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.s: c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font.c.i: cmake_force
@@ -2884,7 +2954,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
@@ -2898,7 +2968,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_fmt_txt.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_fmt_txt.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_fmt_txt.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_fmt_txt.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.i: cmake_force
@@ -2912,7 +2982,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.s: cmake
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_loader.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_loader.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_loader.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_loader.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_loader.c.i: cmake_force
@@ -2926,7 +2996,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_loader.c.s: cmake_
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_10.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_10.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_10.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_10.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.i: cmake_force
@@ -2940,7 +3010,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_12.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_12.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_12.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_12.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.i: cmake_force
@@ -2954,7 +3024,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_12_subpx.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_12_subpx.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_12_subpx.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.i: cmake_force
@@ -2968,7 +3038,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subp
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_14.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_14.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_14.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_14.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.i: cmake_force
@@ -2982,7 +3052,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_16.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_16.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_16.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_16.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.i: cmake_force
@@ -2996,7 +3066,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_18.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_18.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_18.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_18.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.i: cmake_force
@@ -3010,7 +3080,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_20.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_20.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_20.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_20.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.i: cmake_force
@@ -3024,7 +3094,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_22.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_22.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_22.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_22.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.i: cmake_force
@@ -3038,7 +3108,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_24.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_24.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_24.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_24.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.i: cmake_force
@@ -3052,7 +3122,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_26.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_26.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_26.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_26.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.i: cmake_force
@@ -3066,7 +3136,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_28.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_28.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_28.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_28.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.i: cmake_force
@@ -3080,7 +3150,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_28_compressed.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_28_compressed.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_28_compressed.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
@@ -3094,7 +3164,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_comp
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_30.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_30.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_30.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_30.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.i: cmake_force
@@ -3108,7 +3178,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_32.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_32.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_32.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_32.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.i: cmake_force
@@ -3122,7 +3192,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_34.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_34.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_34.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_34.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.i: cmake_force
@@ -3136,7 +3206,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_36.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_36.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_36.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_36.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.i: cmake_force
@@ -3150,7 +3220,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_38.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_38.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_38.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_38.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.i: cmake_force
@@ -3164,7 +3234,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_40.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_40.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_40.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_40.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.i: cmake_force
@@ -3178,7 +3248,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_42.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_42.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_42.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_42.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.i: cmake_force
@@ -3192,7 +3262,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_44.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_44.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_44.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_44.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.i: cmake_force
@@ -3206,7 +3276,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_46.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_46.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_46.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_46.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.i: cmake_force
@@ -3220,7 +3290,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_48.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_48.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_48.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_48.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.i: cmake_force
@@ -3234,7 +3304,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_montserrat_8.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_8.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_montserrat_8.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_montserrat_8.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.i: cmake_force
@@ -3248,7 +3318,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.s: 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_simsun_16_cjk.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_simsun_16_cjk.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_simsun_16_cjk.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_simsun_16_cjk.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
@@ -3262,7 +3332,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.s:
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_unscii_16.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_unscii_16.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_unscii_16.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_unscii_16.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.i: cmake_force
@@ -3276,7 +3346,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.s: cma
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/font/lv_font_unscii_8.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_unscii_8.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\font\lv_font_unscii_8.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\font\lv_font_unscii_8.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.i: cmake_force
@@ -3290,7 +3360,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.s: cmak
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/hal/lv_hal_disp.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\hal\lv_hal_disp.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\hal\lv_hal_disp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\hal\lv_hal_disp.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.i: cmake_force
@@ -3304,7 +3374,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.s: cmake_forc
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/hal/lv_hal_indev.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\hal\lv_hal_indev.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\hal\lv_hal_indev.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\hal\lv_hal_indev.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.i: cmake_force
@@ -3318,7 +3388,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.s: cmake_for
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/hal/lv_hal_tick.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\hal\lv_hal_tick.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\hal\lv_hal_tick.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\hal\lv_hal_tick.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.i: cmake_force
@@ -3332,7 +3402,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.s: cmake_forc
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_anim.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_anim.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_anim.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_anim.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim.c.i: cmake_force
@@ -3346,7 +3416,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_anim_timeline.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_anim_timeline.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_anim_timeline.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_anim_timeline.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.i: cmake_force
@@ -3360,7 +3430,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.s: cmak
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_area.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_area.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_area.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_area.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_area.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_area.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_area.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_area.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_area.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_area.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_area.c.i: cmake_force
@@ -3374,7 +3444,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_area.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_async.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_async.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_async.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_async.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_async.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_async.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_async.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_async.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_async.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_async.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_async.c.i: cmake_force
@@ -3388,7 +3458,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_async.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_bidi.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_bidi.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_bidi.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_bidi.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_bidi.c.i: cmake_force
@@ -3402,7 +3472,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_bidi.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_color.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_color.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_color.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_color.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_color.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_color.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_color.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_color.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_color.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_color.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_color.c.i: cmake_force
@@ -3416,7 +3486,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_color.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_fs.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_fs.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_fs.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_fs.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_fs.c.i: cmake_force
@@ -3430,7 +3500,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_fs.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_gc.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_gc.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_gc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_gc.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_gc.c.i: cmake_force
@@ -3444,7 +3514,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_gc.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_ll.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_ll.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_ll.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_ll.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_ll.c.i: cmake_force
@@ -3458,7 +3528,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_ll.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_log.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_log.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_log.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_log.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_log.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_log.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_log.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_log.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_log.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_log.c.i: cmake_force
@@ -3472,7 +3542,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_log.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_lru.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_lru.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_lru.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_lru.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_lru.c.i: cmake_force
@@ -3486,7 +3556,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_lru.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_math.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_math.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_math.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_math.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_math.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_math.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_math.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_math.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_math.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_math.c.i: cmake_force
@@ -3500,7 +3570,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_math.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_mem.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_mem.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_mem.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_mem.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_mem.c.i: cmake_force
@@ -3514,7 +3584,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_mem.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_printf.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_printf.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_printf.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_printf.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_printf.c.i: cmake_force
@@ -3528,7 +3598,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_printf.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_style.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_style.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_style.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_style.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style.c.i: cmake_force
@@ -3542,7 +3612,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_style_gen.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_style_gen.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_style_gen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_style_gen.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.i: cmake_force
@@ -3556,7 +3626,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_templ.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_templ.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_templ.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_templ.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_templ.c.i: cmake_force
@@ -3570,7 +3640,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_templ.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_timer.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_timer.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_timer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_timer.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_timer.c.i: cmake_force
@@ -3584,7 +3654,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_timer.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_tlsf.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_tlsf.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_tlsf.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_tlsf.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.i: cmake_force
@@ -3598,7 +3668,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_txt.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_txt.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_txt.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_txt.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt.c.i: cmake_force
@@ -3612,7 +3682,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_txt_ap.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_txt_ap.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_txt_ap.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_txt_ap.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.i: cmake_force
@@ -3626,7 +3696,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_utils.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_utils.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\misc\lv_utils.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_utils.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_utils.c.i: cmake_force
@@ -3640,7 +3710,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_utils.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_arc.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_arc.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_arc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_arc.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_arc.c.i: cmake_force
@@ -3654,7 +3724,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_arc.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_bar.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_bar.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_bar.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_bar.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_bar.c.i: cmake_force
@@ -3668,7 +3738,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_bar.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_btn.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_btn.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_btn.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_btn.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btn.c.i: cmake_force
@@ -3682,7 +3752,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btn.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_btnmatrix.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_btnmatrix.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_btnmatrix.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_btnmatrix.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.i: cmake_force
@@ -3696,7 +3766,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.s: cmake
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_canvas.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_canvas.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_canvas.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_canvas.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.i: cmake_force
@@ -3710,7 +3780,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_checkbox.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_checkbox.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_checkbox.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_checkbox.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.i: cmake_force
@@ -3724,7 +3794,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.s: cmake_
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_dropdown.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_dropdown.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_dropdown.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_dropdown.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.i: cmake_force
@@ -3738,7 +3808,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.s: cmake_
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_img.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_img.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_img.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_img.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_img.c.i: cmake_force
@@ -3752,7 +3822,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_img.c.s: cmake_force
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_label.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_label.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_label.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_label.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_label.c.i: cmake_force
@@ -3766,7 +3836,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_label.c.s: cmake_for
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_line.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_line.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_line.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_line.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_line.c.i: cmake_force
@@ -3780,7 +3850,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_line.c.s: cmake_forc
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_objx_templ.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_objx_templ.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_objx_templ.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_objx_templ.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.i: cmake_force
@@ -3794,7 +3864,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.s: cmak
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_roller.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_roller.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_roller.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_roller.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_roller.c.i: cmake_force
@@ -3808,7 +3878,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_roller.c.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_slider.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_slider.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_slider.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_slider.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_slider.c.i: cmake_force
@@ -3822,7 +3892,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_slider.c.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_switch.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_switch.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_switch.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_switch.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_switch.c.i: cmake_force
@@ -3836,7 +3906,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_switch.c.s: cmake_fo
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_table.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_table.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_table.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_table.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_table.c.i: cmake_force
@@ -3850,7 +3920,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_table.c.s: cmake_for
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_textarea.c
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_textarea.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_textarea.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_textarea.c
 
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.i: cmake_force
@@ -3860,6 +3930,398 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.i: cmake_
 CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.s"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_textarea.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\LVGL\src\widgets\lv_textarea.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_2048\lv_100ask_2048.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_2048\lv_100ask_2048.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_2048\lv_100ask_2048.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_2048\lv_100ask_2048.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_2048\lv_100ask_2048.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_2048\lv_100ask_2048.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_2048\lv_100ask_2048.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_calc\lv_100ask_calc.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_calc\lv_100ask_calc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_calc\lv_100ask_calc.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_calc\lv_100ask_calc.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_calc\lv_100ask_calc.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_calc\lv_100ask_calc.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_calc\lv_100ask_calc.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_file_explorer\lv_100ask_file_explorer.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_file_explorer\lv_100ask_file_explorer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_file_explorer\lv_100ask_file_explorer.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_file_explorer\lv_100ask_file_explorer.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_file_explorer\lv_100ask_file_explorer.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_file_explorer\lv_100ask_file_explorer.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_file_explorer\lv_100ask_file_explorer.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_memory_game\lv_100ask_memory_game.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_memory_game\lv_100ask_memory_game.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_memory_game\lv_100ask_memory_game.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_memory_game\lv_100ask_memory_game.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_memory_game\lv_100ask_memory_game.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_memory_game\lv_100ask_memory_game.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_memory_game\lv_100ask_memory_game.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_Mapper.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_Mapper.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_Mapper.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_Mapper.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_Mapper.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_Mapper.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_Mapper.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_System.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_System.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_System.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_System.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_System.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_System.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_System.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_pAPU.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_pAPU.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_pAPU.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_pAPU.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_pAPU.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_pAPU.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_pAPU.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\K6502.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\K6502.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\K6502.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\K6502.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\K6502.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\K6502.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\K6502.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\lv_100ask_nes.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\lv_100ask_nes.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\lv_100ask_nes.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\lv_100ask_nes.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\lv_100ask_nes.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\lv_100ask_nes.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\lv_100ask_nes.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_000.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_000.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_000.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_000.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_000.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_000.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_000.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_001.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_001.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_001.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_001.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_001.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_001.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_001.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_002.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_002.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_002.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_002.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_002.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_002.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_002.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_003.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_003.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_003.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_003.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_003.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_003.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_003.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_004.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_004.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_004.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_004.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_004.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_004.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_004.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_005.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_005.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_005.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_005.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_005.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_005.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_005.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_006.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_006.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_006.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_006.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_006.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_006.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_006.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_007.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_007.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_007.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_007.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_007.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_007.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_007.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_008.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_008.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_008.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_008.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_008.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_008.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_008.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_009.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_009.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_009.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_009.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_009.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_009.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_009.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_010.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_010.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_010.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_010.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_010.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_010.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_010.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_074.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_074.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_074.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_074.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_074.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_074.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_074.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_page_manager\lv_100ask_page_manager.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_page_manager\lv_100ask_page_manager.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_page_manager\lv_100ask_page_manager.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_page_manager\lv_100ask_page_manager.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_page_manager\lv_100ask_page_manager.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_page_manager\lv_100ask_page_manager.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_page_manager\lv_100ask_page_manager.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_pinyin_ime\lv_100ask_pinyin_ime.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_pinyin_ime\lv_100ask_pinyin_ime.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_pinyin_ime\lv_100ask_pinyin_ime.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_pinyin_ime\lv_100ask_pinyin_ime.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_pinyin_ime\lv_100ask_pinyin_ime.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_pinyin_ime\lv_100ask_pinyin_ime.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_pinyin_ime\lv_100ask_pinyin_ime.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\lv_100ask_screenshot.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\lv_100ask_screenshot.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_screenshot\lv_100ask_screenshot.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_screenshot\lv_100ask_screenshot.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\lv_100ask_screenshot.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_screenshot\lv_100ask_screenshot.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\lv_100ask_screenshot.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_bmp.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_bmp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_bmp.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_bmp.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_bmp.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_bmp.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_bmp.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_png.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_png.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_png.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_png.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_png.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_png.c.s
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/flags.make
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj: CMakeFiles/F4_CherryDAP.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj -MF CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_sketchpad\lv_100ask_sketchpad.c.obj.d -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_sketchpad\lv_100ask_sketchpad.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_sketchpad\lv_100ask_sketchpad.c
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_sketchpad\lv_100ask_sketchpad.c > CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_sketchpad\lv_100ask_sketchpad.c.i
+
+CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\src\lv_100ask_sketchpad\lv_100ask_sketchpad.c -o CMakeFiles\F4_CherryDAP.elf.dir\Package\lv_lib_100ask\src\lv_100ask_sketchpad\lv_100ask_sketchpad.c.s
 
 # Object files for target F4_CherryDAP.elf
 F4_CherryDAP_elf_OBJECTS = \
@@ -3939,6 +4401,11 @@ F4_CherryDAP_elf_OBJECTS = \
 "CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui_helpers.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj" \
@@ -4133,7 +4600,35 @@ F4_CherryDAP_elf_OBJECTS = \
 "CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj" \
 "CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj" \
-"CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj"
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj" \
+"CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj"
 
 # External object files for target F4_CherryDAP.elf
 F4_CherryDAP_elf_EXTERNAL_OBJECTS =
@@ -4214,6 +4709,11 @@ F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/SW_DP.c
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/UART.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/error.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/DAPLink/Source/swd_host.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/ui_helpers.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj
@@ -4409,10 +4909,38 @@ F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_sl
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj
+F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/build.make
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/objects1.rsp
 F4_CherryDAP.elf: CMakeFiles/F4_CherryDAP.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Linking C executable F4_CherryDAP.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Linking C executable F4_CherryDAP.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\F4_CherryDAP.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/cmake-build-debug/F4_CherryDAP.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/cmake-build-debug/F4_CherryDAP.bin"

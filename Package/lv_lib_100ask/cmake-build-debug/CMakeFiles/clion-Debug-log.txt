@@ -1,0 +1,67 @@
+"D:\AppData\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/AppData/JetBrains/CLion 2024.2.3/bin/ninja/win/x64/ninja.exe" -DCMAKE_C_COMPILER=D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-g++.exe -G Ninja -S C:\Users\Hones\Downloads\Compressed\lv_lib_100ask-release-v8.x\lv_lib_100ask-release-v8.x -B C:\Users\Hones\Downloads\Compressed\lv_lib_100ask-release-v8.x\lv_lib_100ask-release-v8.x\cmake-build-debug
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 13.3.1
+-- The CXX compiler identification is GNU 13.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-gcc.exe
+-- Check for working C compiler: D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-gcc.exe - broken
+CMake Error at D:/AppData/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: 'C:/Users/Hones/Downloads/Compressed/lv_lib_100ask-release-v8.x/lv_lib_100ask-release-v8.x/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ck459w'
+    
+    Run Build Command(s): "D:/AppData/JetBrains/CLion 2024.2.3/bin/ninja/win/x64/ninja.exe" -v cmTC_d4352
+    [1/2] D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_d4352.dir/testCCompiler.c.obj -c C:/Users/Hones/Downloads/Compressed/lv_lib_100ask-release-v8.x/lv_lib_100ask-release-v8.x/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ck459w/testCCompiler.c
+    [2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe   CMakeFiles/cmTC_d4352.dir/testCCompiler.c.obj -o cmTC_d4352.exe -Wl,--out-implib,libcmTC_d4352.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+    FAILED: cmTC_d4352.exe 
+    C:\WINDOWS\system32\cmd.exe /C "cd . && D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe   CMakeFiles/cmTC_d4352.dir/testCCompiler.c.obj -o cmTC_d4352.exe -Wl,--out-implib,libcmTC_d4352.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+    D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
+    D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
+    collect2.exe: error: ld returned 1 exit status
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt
+
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.30)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring incomplete, errors occurred!

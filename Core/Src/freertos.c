@@ -32,6 +32,7 @@
 #include "lv_port_indev.h"
 #include "cst816.h"
 #include "fatfs.h"
+#include "ui.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -255,6 +256,57 @@ void lv_list_demo() {
     lv_obj_t *btn5 = lv_list_add_btn(list, LV_SYMBOL_DIRECTORY, "Directory");
     lv_obj_add_event_cb(btn5, NULL, LV_EVENT_CLICKED, NULL);
 }
+
+FATFS fs; //工作空间
+void InitFatFas(void) {
+    int retSD = f_mount(&fs, "0:", 1);
+    if (retSD) {
+        printf("mount error : %d \r\n", retSD);
+        //  Error_Handler();
+    } else
+        printf("mount sucess!!! \r\n");
+}
+
+void test_directory_read(const char* path) {
+    FRESULT res;          // FatFS 操作结果
+    DIR dir;              // 目录对象
+    FILINFO fno;          // 文件信息对象
+
+    // 打开目录
+    res = f_opendir(&dir, path);
+    if (res != FR_OK) {
+        printf("Failed to open directory: %s, error code: %d\n", path, res);
+        return;
+    }
+
+    printf("Contents of directory: %s\n", path);
+
+    // 遍历目录
+    while (1) {
+        res = f_readdir(&dir, &fno);  // 读取目录项
+        if (res != FR_OK || fno.fname[0] == 0) {
+            break;  // 错误或遍历完成
+        }
+
+        // 输出文件或目录名
+        if (fno.fattrib & AM_DIR) {
+            printf("[DIR]  %s\n", fno.fname);  // 目录
+        } else {
+            printf("[FILE] %s\n", fno.fname);  // 文件
+        }
+    }
+
+    // 关闭目录
+    f_closedir(&dir);
+
+    if (res != FR_OK) {
+        printf("Error during directory read: %d\n", res);
+    } else {
+        printf("Directory read completed.\n");
+    }
+}
+
+
 /**
 * @brief LVGL thread.
 * @param argument: Not used
@@ -268,7 +320,13 @@ void LvglStartTask(void const *argument) {
     lv_init();
     lv_port_disp_init();
     lv_port_indev_init();
-    lv_list_demo();
+
+    //lv_list_demo();
+    SD_Driver.disk_initialize(0);//初始化SD卡
+    InitFatFas();//初始化FATFS
+    //test_directory_read("0:/");//读取SD卡根目录
+    ui_init();
+
     /* Infinite loop */
     for (;;) {
         lv_task_handler();
