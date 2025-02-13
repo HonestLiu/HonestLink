@@ -59,8 +59,18 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define LED_Pin GPIO_PIN_2
 #define LED_GPIO_Port GPIOE
-#define KEY_Pin GPIO_PIN_6
-#define KEY_GPIO_Port GPIOA
+#define LED1_Pin GPIO_PIN_13
+#define LED1_GPIO_Port GPIOC
+#define DC_Pin GPIO_PIN_8
+#define DC_GPIO_Port GPIOA
+#define RST_Pin GPIO_PIN_9
+#define RST_GPIO_Port GPIOA
+#define TP_RST_Pin GPIO_PIN_10
+#define TP_RST_GPIO_Port GPIOA
+#define CS_Pin GPIO_PIN_5
+#define CS_GPIO_Port GPIOB
+#define TP_INT_Pin GPIO_PIN_8
+#define TP_INT_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 #define TCK_SWCLK_Pin GPIO_PIN_7
@@ -72,6 +82,10 @@ void Error_Handler(void);
 #define TDI_Pin GPIO_PIN_12
 #define TDO_Pin GPIO_PIN_6
 #define TDO_GPIO_Port GPIOD
+
+void HAL_Delay_us(uint32_t nus);
+
+void HAL_Delay_us_init(uint8_t SYSCLK);
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

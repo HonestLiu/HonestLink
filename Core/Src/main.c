@@ -20,6 +20,8 @@
 #include "main.h"
 #include "cmsis_os.h"
 #include "dma.h"
+#include "spi.h"
+#include "tim.h"
 #include "usart.h"
 #include "usb_otg.h"
 #include "gpio.h"
@@ -73,6 +75,29 @@ void usb_dc_low_level_init(void) {
     HAL_NVIC_EnableIRQ(OTG_FS_IRQn);
 }
 
+uint32_t fac_us;
+
+void HAL_Delay_us_init(uint8_t SYSCLK) {
+    fac_us = SYSCLK;
+}
+
+void HAL_Delay_us(uint32_t nus) {
+    uint32_t ticks;
+    uint32_t told, tnow, tcnt = 0;
+    uint32_t reload = SysTick->LOAD;
+    ticks = nus * fac_us;
+    told = SysTick->VAL;
+    while (1) {
+        tnow = SysTick->VAL;
+        if (tnow != told) {
+            if (tnow < told)tcnt += told - tnow;
+            else tcnt += reload - tnow + told;
+            told = tnow;
+            if (tcnt >= ticks)break;
+        }
+    };
+}
+
 /* USER CODE END 0 */
 
 /**
@@ -108,6 +133,8 @@ int main(void)
   MX_USART1_UART_Init();
   //MX_USB_OTG_FS_PCD_Init();
   MX_USART3_UART_Init();
+  MX_SPI1_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
 /*    extern void winusbv2_init(uint8_t busid, uint32_t reg_base);
     winusbv2_init(0, USB_OTG_FS_PERIPH_BASE);//初始化模板工程*/

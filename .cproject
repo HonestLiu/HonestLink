@@ -59,6 +59,18 @@
 									<listOptionValue builtIn="false" value="../Package/flmparse"/>
 									<listOptionValue builtIn="false" value="../Package/offline_download"/>
 									<listOptionValue builtIn="false" value="../Package/CherryUSB/class/msc"/>
+									<listOptionValue builtIn="false" value="../Drivers/CST816S"/>
+									<listOptionValue builtIn="false" value="../Drivers/IIC"/>
+									<listOptionValue builtIn="false" value="../Drivers/LCD"/>
+									<listOptionValue builtIn="false" value="../Package/LVGL"/>
+									<listOptionValue builtIn="false" value="../Package/LVGL/src"/>
+									<listOptionValue builtIn="false" value="../Package/LVGL/src/core"/>
+									<listOptionValue builtIn="false" value="../LVGL/src/draw"/>
+									<listOptionValue builtIn="false" value="../Package/LVGL/src/font"/>
+									<listOptionValue builtIn="false" value="../Package/LVGL/src/hal"/>
+									<listOptionValue builtIn="false" value="../Package/LVGL/src/misc"/>
+									<listOptionValue builtIn="false" value="../Package/LVGL/src/widgets"/>
+									<listOptionValue builtIn="false" value="../Package/LVGL/examples/porting"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.998286694" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>

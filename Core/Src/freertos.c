@@ -27,6 +27,10 @@
 /* USER CODE BEGIN Includes */
 #include "dap_main.h"
 #include "DAP.h"
+#include "lvgl.h"
+#include "lv_port_disp.h"
+#include "lv_port_indev.h"
+#include "cst816.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -62,6 +66,7 @@ void soft_reset_target(void);
 /* USER CODE END Variables */
 osThreadId DAPTaskHandle;
 osThreadId UartTaskHandle;
+osThreadId LVGLTaskHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -113,6 +118,8 @@ void DAPFun(void const *argument);
 
 void UartTaskFun(void const *argument);
 
+void LvglStartTask(void const *argument);
+
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
 /* GetIdleTaskMemory prototype (linked to static allocation support) */
@@ -140,7 +147,7 @@ void vApplicationGetIdleTaskMemory(StaticTask_t **ppxIdleTaskTCBBuffer, StackTyp
 void MX_FREERTOS_Init(void) {
     /* USER CODE BEGIN Init */
     chry_dap_init(0, USB_OTG_FS_PERIPH_BASE);//初始化DAP
-
+    HAL_Delay_us_init(168);
     /* USER CODE END Init */
 
     /* USER CODE BEGIN RTOS_MUTEX */
@@ -161,12 +168,16 @@ void MX_FREERTOS_Init(void) {
 
     /* Create the thread(s) */
     /* definition and creation of DAPTask */
-    osThreadDef(DAPTask, DAPFun, osPriorityNormal, 0, 128);
+    osThreadDef(DAPTask, DAPFun, osPriorityNormal, 0, 1024);
     DAPTaskHandle = osThreadCreate(osThread(DAPTask), NULL);
 
     /* definition and creation of UartTask */
     osThreadDef(UartTask, UartTaskFun, osPriorityIdle, 0, 128);
     UartTaskHandle = osThreadCreate(osThread(UartTask), NULL);
+
+    /* definition and creation of LVGLTask */
+    osThreadDef(LVGLTask, LvglStartTask, osPriorityNormal, 0, 2048);
+    LVGLTaskHandle = osThreadCreate(osThread(LVGLTask), NULL);
 
     /* USER CODE BEGIN RTOS_THREADS */
     /* add threads, ... */
@@ -206,10 +217,56 @@ void UartTaskFun(void const *argument) {
     /* USER CODE BEGIN UartTaskFun */
     /* Infinite loop */
     for (;;) {
-        HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
-        osDelay(5000);
+        HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+        osDelay(2000);
     }
     /* USER CODE END UartTaskFun */
+}
+
+/* USER CODE BEGIN Header_LvglStartTask */
+void lv_list_demo() {
+    lv_obj_t *list_obj = lv_obj_create(lv_scr_act()); // 创建列表部件背景
+    lv_obj_t *list = lv_list_create(list_obj);        // 创建列表
+
+    lv_obj_set_size(list_obj, 250, 300);
+    lv_obj_center(list_obj);        // 设置部件居中
+    lv_obj_update_layout(list_obj); // 手动更新部件参数
+
+    lv_obj_set_align(list, LV_ALIGN_CENTER);
+    lv_list_add_text(list, "Setting"); // 为列表添加文本
+    lv_obj_set_size(list, 200, 200);
+
+    lv_obj_t *btn1 = lv_list_add_btn(list, LV_SYMBOL_WIFI, "WiFi");
+    lv_obj_add_event_cb(btn1, NULL, LV_EVENT_CLICKED, NULL);
+    lv_obj_t *btn2 = lv_list_add_btn(list, LV_SYMBOL_BLUETOOTH, "BlueTooth");
+    lv_obj_add_event_cb(btn2, NULL, LV_EVENT_CLICKED, NULL);
+    lv_obj_t *btn3 = lv_list_add_btn(list, LV_SYMBOL_IMAGE, "Image");
+    lv_obj_add_event_cb(btn3, NULL, LV_EVENT_CLICKED, NULL);
+    lv_obj_t *btn4 = lv_list_add_btn(list, LV_SYMBOL_KEYBOARD, "KeyBoard");
+    lv_obj_add_event_cb(btn4, NULL, LV_EVENT_CLICKED, NULL);
+    lv_obj_t *btn5 = lv_list_add_btn(list, LV_SYMBOL_DIRECTORY, "Directory");
+    lv_obj_add_event_cb(btn5, NULL, LV_EVENT_CLICKED, NULL);
+}
+/**
+* @brief Function implementing the LVGLTask thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_LvglStartTask */
+void LvglStartTask(void const *argument) {
+    /* USER CODE BEGIN LvglStartTask */
+    CST816_GPIO_Init();
+    CST816_RESET();
+    lv_init();
+    lv_port_disp_init();
+    lv_port_indev_init();
+    lv_list_demo();
+    /* Infinite loop */
+    for (;;) {
+        lv_task_handler();
+        osDelay(1);
+    }
+    /* USER CODE END LvglStartTask */
 }
 
 /* Private application code --------------------------------------------------*/

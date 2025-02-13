@@ -1,6 +1,6 @@
 CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj: \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\class\cdc\usbd_cdc.c \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\core/usbd_core.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\class\cdc\usbd_cdc.c \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\core/usbd_core.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/13.3.1/include/stdbool.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/string.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_ansi.h \
@@ -27,16 +27,16 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj: \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdlib.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/stdlib.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/alloca.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Core\Inc/usb_config.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\common/usb_util.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\common/usb_errno.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\common/usb_def.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\common/usb_list.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\common/usb_log.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Core\Inc/usb_config.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_util.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_errno.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_def.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_list.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_log.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdio.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/13.3.1/include/stdarg.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/stdio.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\common/usb_dc.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\common/usb_memcpy.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\class\cdc\usbd_cdc.h \
- D:\Develop\STM32CubeIDE\test_workspace\F4_CherryDAP\Package\CherryUSB\class\cdc\usb_cdc.h
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_dc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_memcpy.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\class\cdc\usbd_cdc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\class\cdc\usb_cdc.h

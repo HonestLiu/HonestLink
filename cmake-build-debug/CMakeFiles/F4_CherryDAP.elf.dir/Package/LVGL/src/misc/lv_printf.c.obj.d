@@ -1,0 +1,23 @@
+CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj: \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_printf.c \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_printf.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/inttypes.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/newlib.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_newlib_version.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/config.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/ieeefp.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/features.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_intsup.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_ansi.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/13.3.1/include/stdint.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdint.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/_default_types.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_stdint.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/13.3.1/include/stddef.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/_locale.h \
+ D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/lv_conf_internal.h \
+ D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/lv_conf_kconfig.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL/lv_conf.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/13.3.1/include/stdarg.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\misc\lv_types.h \
+ D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/13.3.1/include/stdbool.h
