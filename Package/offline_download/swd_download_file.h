@@ -21,5 +21,6 @@ char *get_offline_info_message(void);
 uint8_t get_offline_progress(void);
 
 int8_t is_on_offline_swd_downloading(void);
+int _offline_download_info_init(void);
 
 #endif /* __SWD_DOWLNLOAD_FILE_H__ */

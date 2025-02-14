@@ -1,0 +1,2 @@
+../Package/LVGL/src/draw/lv_draw_line.c:37:28:lv_draw_line_dsc_init	8	static
+../Package/LVGL/src/draw/lv_draw_line.c:45:28:lv_draw_line	12	static

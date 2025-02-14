@@ -1,0 +1,2 @@
+../Package/LVGL/examples/porting/lv_port_indev.c:94:13:touchpad_read	3
+../Package/LVGL/examples/porting/lv_port_indev.c:48:6:lv_port_indev_init	1

@@ -1,0 +1,7 @@
+../Drivers/LCD/lcd.c:16:6:LCD_Fill	2
+../Drivers/LCD/lcd.c:36:6:LCD_Color_Fill	1
+../Drivers/LCD/lcd.c:48:6:LCD_DrawPoint	1
+../Drivers/LCD/lcd.c:60:6:LCD_DrawLine	8
+../Drivers/LCD/lcd.c:104:6:LCD_DrawRectangle	1
+../Drivers/LCD/lcd.c:118:6:Draw_Circle	3
+../Drivers/LCD/lcd.c:143:5:mypow	2

@@ -35,33 +35,33 @@ extern "C" {
 
 /*lv_100ask_page_manager*/
 #include "src/lv_100ask_page_manager/lv_100ask_page_manager.h"
-#include "test/lv_100ask_page_manager_test/simple_test.h"
+//#include "test/lv_100ask_page_manager_test/simple_test.h"
 /*lv_100ask_pinyin_ime*/
 #include "src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.h"
-#include "test/lv_100ask_pinyin_ime_test/simple_test.h"
+//#include "test/lv_100ask_pinyin_ime_test/simple_test.h"
 /*lv_100ask_screenshot*/
 #include "src/lv_100ask_screenshot/lv_100ask_screenshot.h"
-#include "test/lv_100ask_screenshot_test/simple_test.h"
+//#include "test/lv_100ask_screenshot_test/simple_test.h"
 /*lv_100ask_sketchpad*/
 #include "src/lv_100ask_sketchpad/lv_100ask_sketchpad.h"
-#include "test/lv_100ask_sketchpad_test/simple_test.h"
+//#include "test/lv_100ask_sketchpad_test/simple_test.h"
 /*lv_100ask_calc*/
 #include "src/lv_100ask_calc/lv_100ask_calc.h"
-#include "test/lv_100ask_calc_test/simple_test.h"
+//#include "test/lv_100ask_calc_test/simple_test.h"
 /*lv_100ask_memory_game*/
 #include "src/lv_100ask_memory_game/lv_100ask_memory_game.h"
-#include "test/lv_100ask_memory_game_test/simple_test.h"
+//#include "test/lv_100ask_memory_game_test/simple_test.h"
 /*lv_100ask_2048*/
 #include "src/lv_100ask_2048/lv_100ask_2048.h"
-#include "test/lv_100ask_2048_test/simple_test.h"
+//#include "test/lv_100ask_2048_test/simple_test.h"
 /*lv_100ask_file_explorer*/
 #include "src/lv_100ask_file_explorer/lv_100ask_file_explorer.h"
-#include "test/lv_100ask_file_explorer/simple_test.h"
+//#include "test/lv_100ask_file_explorer/simple_test.h"
 
 /*Game simulator*/
 /*lv_100ask_nes*/
 #include "src/lv_100ask_nes/lv_100ask_nes.h"
-#include "test/lv_100ask_nes_test/lv_100ask_nes_simple_test.h"
+//#include "test/lv_100ask_nes_test/lv_100ask_nes_simple_test.h"
 
 /*********************
  *      DEFINES

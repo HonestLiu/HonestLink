@@ -4,8 +4,10 @@
 * 2024-03-21     LCKFB-yzh    first version
  */
 
-#include <dfs_posix.h> 
+//#include <dfs_posix.h>
 
+#include <sys/stat.h>
+#include <stdio.h>
 #include "SWD_flash.h"
 #include "swd_host.h"
 #include "debug_cm.h"
@@ -15,6 +17,7 @@
 
 #include "swd_download_file.h"
 #include "FlashOS.h"
+#include "ff.h"
 
 /*#define LOG_TAG     "swd_download_file"     // 该模块对应的标签。不定义时，默认：NO_TAG
 #define LOG_LVL     LOG_LVL_DBG   // 该模块对应的日志输出级别。不定义时，默认：调试级别
@@ -90,6 +93,7 @@ int8_t swd_download_update_flash_algo(char *_file_path)
     if(flm_size == 0)
     {
         //LOG_E("parse flm from file error");
+        LV_LOG_ERROR("parse flm from file error");
         return -1;
     }
     flash_algo.init = get_flm_flash_algo_init_addr();
@@ -109,22 +113,22 @@ int8_t swd_download_update_flash_algo(char *_file_path)
     flash_algo.algo_blob = get_flm_flash_blob_addr();
 
     flash_algo.program_buffer_size = target_device.szPage;   //这个和实际flash写入时的容量相关
-	
+
 	flash_algo.sys_call_s.breakpoint = 0x20000000 + 1;
     flash_algo.sys_call_s.static_base = flash_algo.program_buffer + flash_algo.program_buffer_size;
-	
+
 	Flash_Start_Addr = target_device.devAdr;
 	return 0;
 }
 
-int32_t swd_download_from_file(char *_file_path)
+int32_t swd_download_from_file(char* _file_path)
 {
-
     lv_fs_res_t lv_res;
     lv_fs_file_t file;
-    static int32_t fd = 0,read_size = 0, ret = 0;
-    static char file_path[LV_FILE_EXPLORER_PATH_MAX_LEN] = {0};
-    struct stat file_stat;
+    static int32_t ret = 0;
+    static char file_path[LV_FILE_EXPLORER_PATH_MAX_LEN] = { 0 };
+    //struct stat file_stat;
+    FILINFO fno;
 
     uint32_t val;
 
@@ -138,42 +142,48 @@ int32_t swd_download_from_file(char *_file_path)
     {
         //LOG_E("file path too long");
         LV_LOG_ERROR("file path too long");
-        snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "path too long");
+        snprintf(offline_download_info.info_message, sizeof(offline_download_info.info_message), "%s", "path too long");
         goto error;
     }
 
     // 1 从TF卡中获取文件
 
     //判断这个文件后缀是否为bin
-    if (strstr(file_path, ".bin") == NULL)
+    if (strstr(file_path, ".bin") == NULL && strstr(file_path, ".BIN") == NULL)
     {
         //LOG_E("only support .bin file");
-        LV_LOG_ERROR("only support .bin file");
-        snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "only .bin file");
+        LV_LOG_ERROR("only support .bin file FileName:%s", file_path);
+        snprintf(offline_download_info.info_message, sizeof(offline_download_info.info_message), "%s", "only .bin file");
         goto error;
     }
     /* 以只读模式打开文件*/
     //fd = open(file_path, O_RDONLY);
-     lv_res = lv_fs_open(&file, file_path, LV_FS_MODE_RD);
+    lv_res = lv_fs_open(&file, file_path, LV_FS_MODE_RD);
 
     //if (fd < 0)
-    if (lv_res)
+    if (lv_res != LV_FS_RES_OK)
     {
         //LOG_E("open file failed");
         LV_LOG_ERROR("open file failed");
-        snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "open file faile");
+        snprintf(offline_download_info.info_message, sizeof(offline_download_info.info_message), "%s", "open file failed");
         goto error;
     }
     else
     {
         //LOG_I("open file success");
         LV_LOG_USER("open file success");
-        ret = stat(file_path, &file_stat);
-        if (ret == 0)
-            //LOG_I("%s file size = %d", file_path,file_stat.st_size);
-            LV_LOG_USER("%s file size = %d", file_path,file_stat.st_size);
+        //ret = stat(file_path, &file_stat);
+        FRESULT fStat = f_stat(file_path, &fno);//TODO 此处改用了FATFS的文件系统API
+        if(fStat == FR_OK)
+        {
+            //LOG_I("%s file size = %d", file_path,fno.fsize);
+            LV_LOG_USER("%s file size = %d", file_path, fno.fsize);
+        }
         else
-            LV_LOG_ERROR("%s file not fonud",file_path);
+        {
+            //LOG_E("%s file not found", file_path);
+            LV_LOG_ERROR("%s file not found", file_path);
+        }
     }
 
     // 2 将FLM文件加载到目标单片机的RAM里
@@ -182,21 +192,17 @@ int32_t swd_download_from_file(char *_file_path)
     swd_set_target_state_hw(RESET_PROGRAM);
 
     swd_read_dp(0x00, &val);
-    //LOG_I("the chip IDCODE: %08X", val);
     LV_LOG_USER("the chip IDCODE: %08X", val);
-	
-	//梁山派GD32F470需要再此处加入延时  而小华HC32F4A0不能有这个延时  还不清楚根因
-	//TODO:考虑如何适配未来更多的芯片
-	if (strstr(choose_device_path, "HC32") == NULL)
+
+    //梁山派GD32F470需要再此处加入延时  而小华HC32F4A0不能有这个延时  还不清楚根因
+    //TODO:考虑如何适配未来更多的芯片
+    if (strstr(choose_device_path, "HC32") == NULL)
     {
-		HAL_Delay(200);
-	}else
-	{
-		;
-	}
-	
-    snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "load FLM file");
-    if(target_flash_init(Flash_Start_Addr) != ERROR_SUCCESS)
+        HAL_Delay(200);
+    }
+
+    snprintf(offline_download_info.info_message, sizeof(offline_download_info.info_message), "%s", "load FLM file");
+    if (target_flash_init(Flash_Start_Addr) != ERROR_SUCCESS)
     {
         //LOG_E("target flash init error");
         LV_LOG_ERROR("target flash init error");
@@ -204,72 +210,80 @@ int32_t swd_download_from_file(char *_file_path)
     }
 
     // 3 擦除目标单片机的Flash
-    snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "erase flash");
-    for (uint32_t addr = 0; addr < file_stat.st_size; addr += target_device.szPage)
+    snprintf(offline_download_info.info_message, sizeof(offline_download_info.info_message), "%s", "erase flash");
+    for (uint32_t addr = 0; addr < fno.fsize; addr += target_device.szPage)
     {
         target_flash_erase_sector(Flash_Start_Addr + addr);
-        offline_download_info.progress = (addr * 100) / file_stat.st_size;
+        offline_download_info.progress = (addr * 100) / fno.fsize;
         LV_LOG_USER("erase sector is %08X", Flash_Start_Addr + addr);
     }
 
     // 4 读取目标flash是否为已经擦除成功
-//    for (uint32_t addr = 0; addr < file_stat.st_size; addr += 1024)
-//    {
-//        swd_read_memory(Flash_Start_Addr + addr, file_read_buf, 1024);
-////        ulog_hexdump("target_flash", 8,file_read_buf,sizeof(file_read_buf));
-//    }
+    //    for (uint32_t addr = 0; addr < file_stat.st_size; addr += 1024)
+    //    {
+    //        swd_read_memory(Flash_Start_Addr + addr, file_read_buf, 1024);
+    ////        ulog_hexdump("target_flash", 8,file_read_buf,sizeof(file_read_buf));
+    //    }
     // 5 下载至目标单片机的Flash
-    snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "download flash");
-    for (uint32_t addr = 0; addr < file_stat.st_size; addr += target_device.szPage)
+    snprintf(offline_download_info.info_message, sizeof(offline_download_info.info_message), "%s", "download flash");
+    for (uint32_t addr = 0; addr < fno.fsize; addr += target_device.szPage)
     {
-        //read_size = read(fd, file_read_buf, target_device.szPage);
-        lv_fs_read(&file, file_read_buf, sizeof(file_read_buf),&target_device.szPage);
-        LV_LOG_USER("read size = %d", target_device.szPage);
-		//LOG_I("read size = %d", read_size);
-        offline_download_info.progress = (addr * 100) / file_stat.st_size;
-        target_flash_program_page(Flash_Start_Addr + addr, file_read_buf,
-                                  target_device.szPage);
+        uint32_t bytes_to_read = (fno.fsize - addr > target_device.szPage) ? target_device.szPage : fno.fsize - addr;
+        uint32_t read_bytes = 0;
+
+        lv_res = lv_fs_read(&file, file_read_buf, bytes_to_read, &read_bytes);
+        if (lv_res != LV_FS_RES_OK || read_bytes != bytes_to_read)
+        {
+            LV_LOG_ERROR("Error reading file at addr: 0x%08X", addr);
+            ret = -3;
+            goto error;
+        }
+
+        LV_LOG_USER("read size = %d", read_bytes);
+        offline_download_info.progress = (addr * 100) / fno.fsize;
+        target_flash_program_page(Flash_Start_Addr + addr, file_read_buf, read_bytes);
     }
-    //close(fd);
     lv_fs_close(&file);
-    //fd = open(file_path, O_RDONLY); //重新打开文件要从头开始读
+
+    // 重新打开文件要从头开始读
     lv_fs_open(&file, file_path, LV_FS_MODE_RD);
+
     // 6 读回校验
-    snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "verify flash");
-    for (uint32_t addr = 0; addr < file_stat.st_size; addr += target_device.szPage)
+    snprintf(offline_download_info.info_message, sizeof(offline_download_info.info_message), "%s", "verify flash");
+    for (uint32_t addr = 0; addr < fno.fsize; addr += target_device.szPage)
     {
-        swd_read_memory(Flash_Start_Addr + addr, target_mcu_flash_read_buf, target_device.szPage);
+        uint32_t bytes_to_read = (fno.fsize - addr > target_device.szPage) ? target_device.szPage : fno.fsize - addr;
+        uint32_t read_bytes = 0;
 
-        //read_size = read(fd, file_read_buf, target_device.szPage);
-        lv_fs_read(&file, file_read_buf, sizeof(file_read_buf),&target_device.szPage);
-        LV_LOG_USER("read size = %d", target_device.szPage);
-        //LOG_I("file read size = %d", read_size);
-        offline_download_info.progress = (addr * 100) / file_stat.st_size;
-        // ulog_hexdump("target_flash", 8,target_mcu_flash_read_buf,sizeof(target_mcu_flash_read_buf));
-        //
-        // ulog_hexdump("file", 8,file_read_buf,sizeof(file_read_buf));
+        swd_read_memory(Flash_Start_Addr + addr, target_mcu_flash_read_buf, bytes_to_read);//读取目标单片机的flash
 
-        if (memcmp(target_mcu_flash_read_buf, file_read_buf,
-                      file_stat.st_size - addr > target_device.szPage
-                          ? target_device.szPage
-                          : file_stat.st_size - addr)
-            == 0)
+        lv_res = lv_fs_read(&file, file_read_buf, bytes_to_read, &read_bytes);
+        if (lv_res != LV_FS_RES_OK || read_bytes != bytes_to_read)
+        {
+            LV_LOG_ERROR("Error reading file during verification at addr: 0x%08X", addr);
+            ret = -3;
+            goto error;
+        }
+
+        LV_LOG_USER("read size = %d", read_bytes);
+        offline_download_info.progress = (addr * 100) / fno.fsize;
+
+        if (memcmp(target_mcu_flash_read_buf, file_read_buf, bytes_to_read) == 0)
         {
             LV_LOG_USER("verify pass");
         }
         else
         {
-            //LOG_E("verify fail");
             LV_LOG_ERROR("verify fail");
-            snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "verify fail");
+            snprintf(offline_download_info.info_message, sizeof(offline_download_info.info_message), "%s", "verify fail");
             goto error;
         }
     }
     offline_download_info.progress = 100;
-    snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "verify pass");
-    //close(fd);
+    snprintf(offline_download_info.info_message, sizeof(offline_download_info.info_message), "%s", "verify pass");
     lv_fs_close(&file);
-    //7 让目标单片机开始运行
+
+    // 7 让目标单片机开始运行
     soft_reset_target();
 
     offline_download_info.success_download_count += 1;
@@ -277,13 +291,11 @@ int32_t swd_download_from_file(char *_file_path)
     stop_offline_swd_download();
 
     return 0;
-    // 6 进入错误状态
-error:
-	//close(fd);
+
+    error:
     lv_fs_close(&file);
-    //LOG_E("error occured!");
     LV_LOG_ERROR("error occured!");
-    snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "error occured!");
+    snprintf(offline_download_info.info_message, sizeof(offline_download_info.info_message), "%s", "error occured!");
 
     stop_offline_swd_download();
     return -1;
@@ -305,14 +317,13 @@ char* get_offline_download_info_message(void)
 }
 
 
-static int _offline_download_info_init(void)
+int _offline_download_info_init(void)
 {
     offline_download_info.success_download_count = 0;
     snprintf( offline_download_info.info_message, sizeof( offline_download_info.info_message), "%s", "wait for start");
     offline_download_info.progress = 0;
     return 0;
 }
-INIT_APP_EXPORT(_offline_download_info_init);
 
 
 //extern void buzzer_beep_set(uint16_t _tone_freq, uint8_t _volume);
@@ -385,4 +396,4 @@ void swd_download_rtthread(void)
     swd_download_from_file("/firmware/rtthread.bin ");
 }
 
-MSH_CMD_EXPORT(swd_download_rtthread, swd_download_rtthread);
+//MSH_CMD_EXPORT(swd_download_rtthread, swd_download_rtthread);

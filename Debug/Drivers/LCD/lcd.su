@@ -1,0 +1,7 @@
+../Drivers/LCD/lcd.c:16:6:LCD_Fill	32	dynamic
+../Drivers/LCD/lcd.c:36:6:LCD_Color_Fill	16	static
+../Drivers/LCD/lcd.c:48:6:LCD_DrawPoint	8	static
+../Drivers/LCD/lcd.c:60:6:LCD_DrawLine	56	static
+../Drivers/LCD/lcd.c:104:6:LCD_DrawRectangle	32	static
+../Drivers/LCD/lcd.c:118:6:Draw_Circle	56	static
+../Drivers/LCD/lcd.c:143:5:mypow	0	static

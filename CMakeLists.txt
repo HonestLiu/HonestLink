@@ -62,6 +62,8 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Package/LVGL/*.*" "FATFS/*.*" "Middlewares
         "Package/DAPLink/*.*"
         "Package/GUIAPP/*.*"
         "Package/lv_lib_100ask/src/*.*"
+        "Package/offline_download/*.*"
+        "Package/flmparse/*.*"
 )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407ZGTX_FLASH.ld)

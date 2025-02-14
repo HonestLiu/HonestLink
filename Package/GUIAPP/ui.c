@@ -3,9 +3,13 @@
 // LVGL version: 8.3.11
 // Project name: offlineDownloadTest
 
+#include <stdio.h>
 #include "ui.h"
 #include "ui_helpers.h"
-#include "src/lv_100ask_file_explorer/lv_100ask_file_explorer.h"
+//#include "src/lv_100ask_file_explorer/lv_100ask_file_explorer.h"
+#include "FreeRTOS.h"
+#include "cmsis_os.h"
+#include "lv_lib_100ask.h"
 
 ///////////////////// VARIABLES ////////////////////
 
@@ -58,6 +62,11 @@ lv_obj_t * ui____initial_actions0;
 
 // IMAGES AND IMAGE SETS
 
+//代表当前选择的文件路径是返回到哪里，0表示未初始化，1表示返回到芯片型号选择，2表示返回到选择固件。
+uint8_t current_path_return = 0;
+extern char choose_device_path[LV_100ASK_FILE_EXPLORER_PATH_MAX_LEN];
+extern char choose_firmware_bin_path[LV_100ASK_FILE_EXPLORER_PATH_MAX_LEN];
+
 ///////////////////// TEST LVGL SETTINGS ////////////////////
 #if LV_COLOR_DEPTH != 16
     #error "LV_COLOR_DEPTH should be 16bit to match SquareLine Studio's settings"
@@ -93,6 +102,7 @@ void ui_event_TypeSelectBtn(lv_event_t * e)
     lv_event_code_t event_code = lv_event_get_code(e);
 
     if(event_code == LV_EVENT_CLICKED) {
+        current_path_return = 1;//返回到芯片型号选择
         _ui_screen_change(&ui_FileExplorer, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_FileExplorer_screen_init);
     }
 }
@@ -102,19 +112,23 @@ void ui_event_BinSelectBtn(lv_event_t * e)
     lv_event_code_t event_code = lv_event_get_code(e);
 
     if(event_code == LV_EVENT_CLICKED) {
+        current_path_return = 2;//返回到选择固件
         _ui_screen_change(&ui_FileExplorer, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_FileExplorer_screen_init);
     }
 }
 
+extern QueueHandle_t offline_download_sem;//离线下载二值信号量句柄
 void ui_event_StartBtn(lv_event_t * e)
 {
     lv_event_code_t event_code = lv_event_get_code(e);
-
     if(event_code == LV_EVENT_CLICKED) {
-        _ui_screen_change(&ui_FileExplorer, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_FileExplorer_screen_init);
+        xSemaphoreGive(offline_download_sem);//释放二值信号量开始下载
+        LV_LOG_USER("Start download");
     }
 }
 
+//文件管理器事件处理
+char current_path[LV_100ASK_FILE_EXPLORER_PATH_MAX_LEN] = {0};
 void file_explorer_event_handler(lv_event_t * e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -123,9 +137,27 @@ void file_explorer_event_handler(lv_event_t * e)
     if(code == LV_EVENT_VALUE_CHANGED) {
         char * cur_path =  lv_100ask_file_explorer_get_cur_path(obj);
         char * sel_fn = lv_100ask_file_explorer_get_sel_fn(obj);
-        //lv_label_set_text(ui_FileName,sel_fn);
         _ui_screen_change(&ui_OfflineDownload,LV_SCR_LOAD_ANIM_FADE_ON,500,0,&ui_OfflineDownload_screen_init);
-        LV_LOG_USER("%s%s", cur_path, sel_fn);
+        LV_LOG_USER("%s,%s", cur_path, sel_fn);
+        if(current_path_return == 1)//返回到芯片型号选择
+        {
+            current_path_return = 0;
+            strtok(cur_path, "/");//0:/
+            snprintf(current_path, sizeof(current_path), "%s/%s", cur_path,sel_fn);//0:/xxx
+            strncpy(choose_device_path, current_path,
+                       sizeof(current_path));
+            LV_LOG_USER("choose_device_path:%s", choose_device_path);
+            lv_label_set_text(ui_SelectChipType, choose_device_path);
+        }
+        else if(current_path_return == 2)//返回到固件选择
+        {
+           current_path_return = 0;
+            strtok(cur_path, "/");
+            snprintf(current_path, sizeof(current_path), "%s/%s", cur_path,sel_fn);
+            strncpy(choose_firmware_bin_path, current_path,
+                       sizeof(current_path));
+            lv_label_set_text(ui_SelectBin, choose_firmware_bin_path);
+        }
     }
 }
 

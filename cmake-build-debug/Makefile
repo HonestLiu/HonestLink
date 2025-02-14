@@ -6760,6 +6760,30 @@ Package/LVGL/src/widgets/lv_textarea.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.s
 .PHONY : Package/LVGL/src/widgets/lv_textarea.c.s
 
+Package/flmparse/flmparse.obj: Package/flmparse/flmparse.c.obj
+.PHONY : Package/flmparse/flmparse.obj
+
+# target to build an object file
+Package/flmparse/flmparse.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/flmparse/flmparse.c.obj
+.PHONY : Package/flmparse/flmparse.c.obj
+
+Package/flmparse/flmparse.i: Package/flmparse/flmparse.c.i
+.PHONY : Package/flmparse/flmparse.i
+
+# target to preprocess a source file
+Package/flmparse/flmparse.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/flmparse/flmparse.c.i
+.PHONY : Package/flmparse/flmparse.c.i
+
+Package/flmparse/flmparse.s: Package/flmparse/flmparse.c.s
+.PHONY : Package/flmparse/flmparse.s
+
+# target to generate assembly for a file
+Package/flmparse/flmparse.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/flmparse/flmparse.c.s
+.PHONY : Package/flmparse/flmparse.c.s
+
 Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.obj: Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj
 .PHONY : Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.obj
 
@@ -7431,6 +7455,30 @@ Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.s: Package/lv_
 Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.s
 .PHONY : Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.s
+
+Package/offline_download/swd_download_file.obj: Package/offline_download/swd_download_file.c.obj
+.PHONY : Package/offline_download/swd_download_file.obj
+
+# target to build an object file
+Package/offline_download/swd_download_file.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/offline_download/swd_download_file.c.obj
+.PHONY : Package/offline_download/swd_download_file.c.obj
+
+Package/offline_download/swd_download_file.i: Package/offline_download/swd_download_file.c.i
+.PHONY : Package/offline_download/swd_download_file.i
+
+# target to preprocess a source file
+Package/offline_download/swd_download_file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/offline_download/swd_download_file.c.i
+.PHONY : Package/offline_download/swd_download_file.c.i
+
+Package/offline_download/swd_download_file.s: Package/offline_download/swd_download_file.c.s
+.PHONY : Package/offline_download/swd_download_file.s
+
+# target to generate assembly for a file
+Package/offline_download/swd_download_file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/offline_download/swd_download_file.c.s
+.PHONY : Package/offline_download/swd_download_file.c.s
 
 # Help Target
 help:
@@ -8270,6 +8318,9 @@ help:
 	@echo ... Package/LVGL/src/widgets/lv_textarea.obj
 	@echo ... Package/LVGL/src/widgets/lv_textarea.i
 	@echo ... Package/LVGL/src/widgets/lv_textarea.s
+	@echo ... Package/flmparse/flmparse.obj
+	@echo ... Package/flmparse/flmparse.i
+	@echo ... Package/flmparse/flmparse.s
 	@echo ... Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.obj
 	@echo ... Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.i
 	@echo ... Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.s
@@ -8354,6 +8405,9 @@ help:
 	@echo ... Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.obj
 	@echo ... Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.i
 	@echo ... Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.s
+	@echo ... Package/offline_download/swd_download_file.obj
+	@echo ... Package/offline_download/swd_download_file.i
+	@echo ... Package/offline_download/swd_download_file.s
 .PHONY : help
 
 

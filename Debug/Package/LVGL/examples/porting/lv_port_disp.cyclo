@@ -1,0 +1,4 @@
+../Package/LVGL/examples/porting/lv_port_disp.c:162:13:disp_flush	2
+../Package/LVGL/examples/porting/lv_port_disp.c:54:6:lv_port_disp_init	1
+../Package/LVGL/examples/porting/lv_port_disp.c:148:6:disp_enable_update	1
+../Package/LVGL/examples/porting/lv_port_disp.c:154:6:disp_disable_update	1

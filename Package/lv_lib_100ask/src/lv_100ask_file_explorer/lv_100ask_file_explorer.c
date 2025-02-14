@@ -634,7 +634,7 @@ static void show_dir(lv_obj_t * obj, char * path)
 
         /*fn is empty, if not more files to read*/
         if(strlen(fn) == 0) {
-            LV_LOG_USER("Not more files to read!");
+            LV_LOG_USER("Not more files to read!: %s", fn);
             break;
         }
 

@@ -33,6 +33,8 @@
 #include "cst816.h"
 #include "fatfs.h"
 #include "ui.h"
+#include "lv_lib_100ask.h"
+#include "swd_download_file.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -64,6 +66,14 @@ extern chry_ringbuffer_t g_uartrx;
 extern uint8_t swd_read_idcode(uint32_t *id);
 
 void soft_reset_target(void);
+
+
+QueueHandle_t offline_download_sem;//离线下载二值信号量句柄
+extern char choose_device_path[LV_100ASK_FILE_EXPLORER_PATH_MAX_LEN];
+extern char choose_firmware_bin_path[LV_100ASK_FILE_EXPLORER_PATH_MAX_LEN];
+
+extern int32_t swd_download_from_file(char *_file_path);//TODO
+extern int8_t swd_download_update_flash_algo(char *_file_path);//TODO
 
 /* USER CODE END Variables */
 osThreadId DAPTaskHandle;
@@ -213,6 +223,7 @@ void DAPFun(void const * argument)
 }
 
 /* USER CODE BEGIN Header_UartTaskFun */
+
 /**
 * @brief Function implementing the UartTask thread.
 * @param argument: Not used
@@ -231,6 +242,7 @@ void UartTaskFun(void const * argument)
 }
 
 /* USER CODE BEGIN Header_LvglStartTask */
+/*
 void lv_list_demo() {
     lv_obj_t *list_obj = lv_obj_create(lv_scr_act()); // 创建列表部件背景
     lv_obj_t *list = lv_list_create(list_obj);        // 创建列表
@@ -254,6 +266,7 @@ void lv_list_demo() {
     lv_obj_t *btn5 = lv_list_add_btn(list, LV_SYMBOL_DIRECTORY, "Directory");
     lv_obj_add_event_cb(btn5, NULL, LV_EVENT_CLICKED, NULL);
 }
+*/
 
 FATFS fs; //工作空间
 void InitFatFas(void) {
@@ -265,7 +278,7 @@ void InitFatFas(void) {
         printf("mount sucess!!! \r\n");
 }
 
-void test_directory_read(const char* path) {
+/*void test_directory_read(const char *path) {
     FRESULT res;          // FatFS 操作结果
     DIR dir;              // 目录对象
     FILINFO fno;          // 文件信息对象
@@ -302,8 +315,39 @@ void test_directory_read(const char* path) {
     } else {
         printf("Directory read completed.\n");
     }
-}
+}*/
 
+extern struct offline_download_info_t offline_download_info;
+
+void update_offline_downlaod_info(void)//更新离线下载数据
+{
+    static struct offline_download_info_t last_offline_download_info;
+    char _temp_char[10] = {0};
+
+    if (last_offline_download_info.success_download_count
+        != offline_download_info.success_download_count)
+    {
+        snprintf(_temp_char,
+                 sizeof(_temp_char), "%d",
+                 offline_download_info.success_download_count);
+        lv_label_set_text(ui_SuccessCount, _temp_char);
+    }
+    if(last_offline_download_info.progress!=offline_download_info.progress)
+    {
+        lv_bar_set_value(ui_uiOfflineDownloadProcessBar, offline_download_info.progress, LV_ANIM_ON);
+        snprintf(_temp_char,
+                 sizeof(_temp_char), "%d%",
+                 offline_download_info.progress);
+        lv_label_set_text(ui_uiOfflineDownloadProcessNum, _temp_char);
+    }
+
+    if(strncmp(last_offline_download_info.info_message, offline_download_info.info_message,sizeof(offline_download_info.info_message))!=0)
+    {
+        lv_label_set_text(ui_Label12, offline_download_info.info_message);
+    }
+    memcpy(&last_offline_download_info, &offline_download_info, sizeof(last_offline_download_info));
+
+}
 
 /**
 * @brief LVGL thread.
@@ -329,11 +373,11 @@ void LvglStartTask(void const * argument)
     /* Infinite loop */
     for (;;) {
         lv_task_handler();
+        update_offline_downlaod_info();
         osDelay(1);
     }
   /* USER CODE END LvglStartTask */
 }
-
 /* USER CODE BEGIN Header_OfflineDownloadStartTask */
 
 /**
@@ -346,8 +390,27 @@ void OfflineDownloadStartTask(void const * argument)
 {
   /* USER CODE BEGIN OfflineDownloadStartTask */
 
+    offline_download_sem = xSemaphoreCreateBinary();//创建二至信号量
+    _offline_download_info_init();//初始化下载信息
+    if (offline_download_sem != NULL) {
+        printf("Semaphore Create Succeed!!\r\n");
+    } else {
+        printf("Semaphore Create Error!!\r\n");
+        return;
+    }
     /* Infinite loop */
     for (;;) {
+        xSemaphoreTake(offline_download_sem,portMAX_DELAY);//永久方式等待信号量
+        printf("Start Offline Download!!\r\n");
+        printf("Choose Device Path: %s\r\n", choose_device_path);
+        printf("Choose Firmware Bin Path: %s\r\n", choose_firmware_bin_path);
+        osDelay(100);
+        swd_download_update_flash_algo(choose_device_path);//根据选择的设备地址更新SWD下载的Flash算法
+        if (swd_download_from_file(choose_firmware_bin_path) == -1) {//根据选择的固件进行离线下载
+            printf("Download Error!!\r\n");
+        } else {
+            printf("Download Succeed!!\r\n");
+        }
         osDelay(1);
     }
   /* USER CODE END OfflineDownloadStartTask */

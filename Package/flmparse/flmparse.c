@@ -8,19 +8,25 @@
 //来源：https://gitee.com/jhembedded/flmparse   @MIT
 
 
-#include <rtthread.h>
-#include <dfs_posix.h>
+//#include <rtthread.h>
+//#include <dfs_posix.h>
 #include <stdio.h>
+#include "stdlib.h"
+#include "string.h"
 #include <stdint.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <ctype.h>
 #include "elf.h"
 #include "FlashOS.h"
+#include "lvgl.h"
 
-#define LOG_TAG     "flmparse"     // 该模块对应的标签。不定义时，默认：NO_TAG
+/*#define LOG_TAG     "flmparse"     // 该模块对应的标签。不定义时，默认：NO_TAG
 #define LOG_LVL     LOG_LVL_DBG   // 该模块对应的日志输出级别。不定义时，默认：调试级别
-#include <ulog.h>                 // 必须在 LOG_TAG 与 LOG_LVL 下面
+#include <ulog.h>                 // 必须在 LOG_TAG 与 LOG_LVL 下面*/
+#define LOG_D   LV_LOG_USER
+#define LOG_E   LV_LOG_ERROR
+
 
 static int ReadDataFromFile(char* FName, uint32_t offset, void* buf, uint32_t size);
 static int FLM_Prase(char* FName, void* pBuffer, uint32_t* Size, uint32_t* Init, uint32_t* UnInit, uint32_t* EraseChip, uint32_t* EraseSector, uint32_t* ProgramPage);
@@ -38,10 +44,10 @@ int parse_flm_file(int argc, char* argv[])
 
     if(argc != 2)
     {
-        rt_kprintf("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n");
-        rt_kprintf("Usage:\n");
-        rt_kprintf("        parse_flm_file [filename]\n");
-        rt_kprintf("\n\n");
+        printf("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n");
+        printf("Usage:\n");
+        printf("        parse_flm_file [filename]\n");
+        printf("\n\n");
         goto __exit;
     }
 
@@ -57,55 +63,55 @@ int parse_flm_file(int argc, char* argv[])
 
     if(FLM_Prase(argv[1], &RAM[8], &Size, &Addr[0],&Addr[1],&Addr[2],&Addr[3],&Addr[4]) < 0)
     {
-        rt_kprintf("错误：解析FLM格式文件失败，请检查FLM文件是否存在或格式正确性！\r\n");
+        printf("错误：解析FLM格式文件失败，请检查FLM文件是否存在或格式正确性！\r\n");
         goto __exit;
     }
 
-    rt_kprintf("\r\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\r\n");
+    printf("\r\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\r\n");
 
     Size += 32;
 
-    rt_kprintf("\r\nstatic const uint32_t flash_code[] = \n{");
+    printf("\r\nstatic const uint32_t flash_code[] = \n{");
     for(i = 0; i < (Size >> 2); i++)
     {
         if(i % 8 == 0)
         {
-            rt_kprintf( "\n    ");
+            printf( "\n    ");
         }
-        rt_kprintf("0X%08X,", RAM[i]);
+        printf("0X%08X,", RAM[i]);
     }
-    rt_kprintf( "\n};\n");
+    printf( "\n};\n");
 
-    rt_kprintf( "\r\nconst program_target_t flash_algo =\n{\n");
-    rt_kprintf( "    0X20000020 + 0X%08X,  // Init\n",        Addr[0]);
-    rt_kprintf( "    0X20000020 + 0X%08X,  // UnInit\n",      Addr[1]);
-    rt_kprintf( "    0X20000020 + 0X%08X,  // EraseChip\n",   Addr[2]);
-    rt_kprintf( "    0X20000020 + 0X%08X,  // EraseSector\n", Addr[3]);
-    rt_kprintf( "    0X20000020 + 0X%08X,  // ProgramPage\n", Addr[4]);
-    rt_kprintf( "\n");
-    rt_kprintf( "    // BKPT : start of blob + 1\n");
-    rt_kprintf( "    // RSB  : address to access global/static data\n");
-    rt_kprintf( "    // RSP  : stack pointer\n");
-    rt_kprintf( "    {\n");
-    rt_kprintf( "        0X20000001,\n");
-    rt_kprintf( "        0X20000C00,\n");
-    rt_kprintf( "        0X20001000,\n");
-    rt_kprintf( "    },\n");
-    rt_kprintf( "\n");
-    rt_kprintf( "    0x20000400,                      // mem buffer location\n");
-    rt_kprintf( "    0x20000000,                      // location to write prog_blob in target RAM\n");
-    rt_kprintf( "    sizeof(flash_code),              // prog_blob size\n");
-    rt_kprintf( "    flash_code,                      // address of prog_blob\n");
-    rt_kprintf( "    0x00000400,                      // ram_to_flash_bytes_to_be_written\n");
-    rt_kprintf( "};\n");
-    rt_kprintf( "\n");
-    rt_kprintf( "\n");
-    rt_kprintf( "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n");
+    printf( "\r\nconst program_target_t flash_algo =\n{\n");
+    printf( "    0X20000020 + 0X%08X,  // Init\n",        Addr[0]);
+    printf( "    0X20000020 + 0X%08X,  // UnInit\n",      Addr[1]);
+    printf( "    0X20000020 + 0X%08X,  // EraseChip\n",   Addr[2]);
+    printf( "    0X20000020 + 0X%08X,  // EraseSector\n", Addr[3]);
+    printf( "    0X20000020 + 0X%08X,  // ProgramPage\n", Addr[4]);
+    printf( "\n");
+    printf( "    // BKPT : start of blob + 1\n");
+    printf( "    // RSB  : address to access global/static data\n");
+    printf( "    // RSP  : stack pointer\n");
+    printf( "    {\n");
+    printf( "        0X20000001,\n");
+    printf( "        0X20000C00,\n");
+    printf( "        0X20001000,\n");
+    printf( "    },\n");
+    printf( "\n");
+    printf( "    0x20000400,                      // mem buffer location\n");
+    printf( "    0x20000000,                      // location to write prog_blob in target RAM\n");
+    printf( "    sizeof(flash_code),              // prog_blob size\n");
+    printf( "    flash_code,                      // address of prog_blob\n");
+    printf( "    0x00000400,                      // ram_to_flash_bytes_to_be_written\n");
+    printf( "};\n");
+    printf( "\n");
+    printf( "\n");
+    printf( "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n");
 
 __exit:
     return 0;
 }
-MSH_CMD_EXPORT(parse_flm_file , parse_flm_file);
+//MSH_CMD_EXPORT(parse_flm_file , parse_flm_file);
 
 
 //static int ReadDataFromFile(char* FName, uint32_t offset, void* buf, uint32_t size)
@@ -140,39 +146,60 @@ static int ReadDataFromFile(char* FName, uint32_t offset, void* buf, uint32_t si
 {
     int ret = 0;
     int fd = 0;
+    lv_fs_res_t res;
+    lv_fs_file_t file;
+
     ssize_t read_bytes;
 
 	LOG_D("wait for read file size is %d",size);
-    if ((fd = open(FName, O_RDONLY | O_BINARY)) < 0)
-    {
+    res = lv_fs_open(&file, FName, LV_FS_MODE_RD);//TODO 默认以文本读，出问题改
+    if (res!= LV_FS_RES_OK){
         LOG_E("Error opening file");
         ret = -1;
         goto __exit;
     }
-
-    if (lseek(fd, offset, SEEK_SET) < 0)
+    /*if ((fd = open(FName, O_RDONLY | O_BINARY)) < 0)
     {
+        LOG_E("Error opening file");
+        ret = -1;
+        goto __exit;
+    }*/
+    res = lv_fs_seek(&file, offset, LV_FS_SEEK_SET);
+    if (res!= LV_FS_RES_OK){
         LOG_E("Error seeking in file");
         ret = -2;
         goto __exit;
     }
 
-    read_bytes = read(fd, buf, size);
+    /*if (lseek(fd, offset, SEEK_SET) < 0)
+    {
+        LOG_E("Error seeking in file");
+        ret = -2;
+        goto __exit;
+    }*/
+    res = lv_fs_read(&file, buf, size, &read_bytes);
+    if (res != LV_FS_RES_OK || read_bytes != size) {
+        LOG_E("Error reading file, expected to read %u bytes, but only read %u bytes.\n", size, read_bytes);
+        ret = -3;
+        goto __exit;
+    }
+    /*read_bytes = read(fd, buf, size);
     if (read_bytes < 0)
     {
         LOG_E("Error reading file");
         ret = -3;
         goto __exit;
-    }
-    if (read_bytes != size)
+    }*/
+    /*if (read_bytes != size)
     {
         LOG_E("Expected to read %u bytes, but only read %zd bytes.\n", size, read_bytes);
         ret = -3;
         goto __exit;
-    }
+    }*/
 
 __exit:
-    close(fd);
+    lv_fs_close(&file);
+    //close(fd);
     return ret;
 }
 
@@ -180,7 +207,7 @@ int FLM_Prase(char* FName, void* pBuffer, uint32_t* Size, uint32_t* Init, uint32
 {
 #define LOAD_FUN_NUM 5
 
-	uint8_t* buffer = rt_malloc(2048);  // 动态分配内存
+	uint8_t* buffer = malloc(2048);  // 动态分配内存
     if (buffer == NULL)                 // 检查内存分配是否成功
     {
 		LOG_E("rt_malloc fail!");
@@ -205,9 +232,9 @@ int FLM_Prase(char* FName, void* pBuffer, uint32_t* Size, uint32_t* Init, uint32
     ReadDataFromFile(FName, 0, &ehdr, sizeof(Elf32_Ehdr));
 
     // 不是ELF格式文件
-    if (rt_strstr((const char *)ehdr.e_ident, "ELF") == NULL)
+    if (strstr((const char *)ehdr.e_ident, "ELF") == NULL)
     {
-		rt_free(buffer);  // 释放内存
+		free(buffer);  // 释放内存
         return -1;
     }
 
@@ -221,12 +248,12 @@ int FLM_Prase(char* FName, void* pBuffer, uint32_t* Size, uint32_t* Init, uint32
         {
             if (pPhdr[i].p_filesz > sizeof(RAM))  // RAM代码过大
             {
-				rt_free(buffer);  // 释放内存
+				free(buffer);  // 释放内存
                 return -2;
             }
             if(ReadDataFromFile(FName, pPhdr[i].p_offset, pBuffer, pPhdr[i].p_filesz) < 0)  // 提取需要下载到RAM的程序代码
             {
-				rt_free(buffer);  // 释放内存
+				free(buffer);  // 释放内存
                 return -3;
             }
             LOG_D("the file size=:%d\r\n", pPhdr[i].p_filesz);
@@ -248,12 +275,12 @@ int FLM_Prase(char* FName, void* pBuffer, uint32_t* Size, uint32_t* Init, uint32
     {
         if (pShdr[i].sh_type == SHT_SYMTAB)
         {
-            rt_memcpy(&ShdrSym, &pShdr[i], sizeof(Elf32_Shdr));
+            memcpy(&ShdrSym, &pShdr[i], sizeof(Elf32_Shdr));
 
             // 查找字符串表头并拷贝出来备用
             if (pShdr[ShdrSym.sh_link].sh_type == SHT_STRTAB)
             {
-                rt_memcpy(&ShdrStr, &pShdr[ShdrSym.sh_link], sizeof(Elf32_Shdr));
+                memcpy(&ShdrStr, &pShdr[ShdrSym.sh_link], sizeof(Elf32_Shdr));
                 found = 1;
                 break;
             }
@@ -262,7 +289,7 @@ int FLM_Prase(char* FName, void* pBuffer, uint32_t* Size, uint32_t* Init, uint32
 
     if(!found)
     {
-		rt_free(buffer);  // 释放内存
+		free(buffer);  // 释放内存
         return -4;
     }
 
@@ -286,7 +313,7 @@ int FLM_Prase(char* FName, void* pBuffer, uint32_t* Size, uint32_t* Init, uint32
         if(StrFunNameTable[i] == NULL)
             continue;
 
-        if((p = rt_strstr((const char *) buffer, StrFunNameTable[i])) == NULL)
+        if((p = strstr((const char *) buffer, StrFunNameTable[i])) == NULL)
             continue;
 
         StrFunIndexTable[i] = (uint32_t) p - (uint32_t) buffer;
@@ -333,7 +360,7 @@ int FLM_Prase(char* FName, void* pBuffer, uint32_t* Size, uint32_t* Init, uint32
         }
     }
 
-	rt_free(buffer);  // 释放内存
+	free(buffer);  // 释放内存
     return 0;
 }
 

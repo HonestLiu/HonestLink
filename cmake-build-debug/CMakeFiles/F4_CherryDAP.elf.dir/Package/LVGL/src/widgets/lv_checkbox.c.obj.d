@@ -103,9 +103,4 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj: \
  D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_obj_class.h \
  D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_event.h \
  D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_group.h \
- D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_ll.h \
- D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_assert.h \
- D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_txt_ap.h \
- D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw.h \
- D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/core/lv_group.h \
- D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/draw/lv_draw.h
+ D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/misc/lv_ll.h

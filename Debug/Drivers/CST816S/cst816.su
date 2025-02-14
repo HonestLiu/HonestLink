@@ -1,0 +1,16 @@
+../Drivers/CST816S/cst816.c:27:6:CST816_GPIO_Init	8	static
+../Drivers/CST816S/cst816.c:72:9:CST816_IIC_ReadREG	0	static
+../Drivers/CST816S/cst816.c:85:6:CST816_IIC_WriteREG	0	static
+../Drivers/CST816S/cst816.c:97:6:CST816_RESET	8	static
+../Drivers/CST816S/cst816.c:115:6:CST816_Get_XY_AXIS	24	static
+../Drivers/CST816S/cst816.c:132:9:CST816_Get_FingerNum	0	static
+../Drivers/CST816S/cst816.c:145:9:CST816_Get_ChipID	0	static
+../Drivers/CST816S/cst816.c:159:6:CST816_Config_MotionMask	0	static
+../Drivers/CST816S/cst816.c:172:6:CST816_Config_AutoSleepTime	0	static
+../Drivers/CST816S/cst816.c:58:6:CST816_Init	8	static
+../Drivers/CST816S/cst816.c:184:6:CST816_Sleep	0	static
+../Drivers/CST816S/cst816.c:196:6:CST816_Wakeup	0	static
+../Drivers/CST816S/cst816.c:208:6:CST816_Config_MotionSlAngle	0	static
+../Drivers/CST816S/cst816.c:223:6:CST816_Config_NorScanPer	0	static
+../Drivers/CST816S/cst816.c:238:6:CST816_Config_IrqPluseWidth	0	static
+../Drivers/CST816S/cst816.c:253:6:CST816_Config_LpScanTH	0	static
