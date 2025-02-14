@@ -1960,53 +1960,77 @@ Package/GUIAPP/components/ui_comp_hook.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.s
 .PHONY : Package/GUIAPP/components/ui_comp_hook.c.s
 
-Package/GUIAPP/screens/ui_Screen1.obj: Package/GUIAPP/screens/ui_Screen1.c.obj
-.PHONY : Package/GUIAPP/screens/ui_Screen1.obj
+Package/GUIAPP/screens/ui_FileExplorer.obj: Package/GUIAPP/screens/ui_FileExplorer.c.obj
+.PHONY : Package/GUIAPP/screens/ui_FileExplorer.obj
 
 # target to build an object file
-Package/GUIAPP/screens/ui_Screen1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.obj
-.PHONY : Package/GUIAPP/screens/ui_Screen1.c.obj
+Package/GUIAPP/screens/ui_FileExplorer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_FileExplorer.c.obj
+.PHONY : Package/GUIAPP/screens/ui_FileExplorer.c.obj
 
-Package/GUIAPP/screens/ui_Screen1.i: Package/GUIAPP/screens/ui_Screen1.c.i
-.PHONY : Package/GUIAPP/screens/ui_Screen1.i
+Package/GUIAPP/screens/ui_FileExplorer.i: Package/GUIAPP/screens/ui_FileExplorer.c.i
+.PHONY : Package/GUIAPP/screens/ui_FileExplorer.i
 
 # target to preprocess a source file
-Package/GUIAPP/screens/ui_Screen1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.i
-.PHONY : Package/GUIAPP/screens/ui_Screen1.c.i
+Package/GUIAPP/screens/ui_FileExplorer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_FileExplorer.c.i
+.PHONY : Package/GUIAPP/screens/ui_FileExplorer.c.i
 
-Package/GUIAPP/screens/ui_Screen1.s: Package/GUIAPP/screens/ui_Screen1.c.s
-.PHONY : Package/GUIAPP/screens/ui_Screen1.s
+Package/GUIAPP/screens/ui_FileExplorer.s: Package/GUIAPP/screens/ui_FileExplorer.c.s
+.PHONY : Package/GUIAPP/screens/ui_FileExplorer.s
 
 # target to generate assembly for a file
-Package/GUIAPP/screens/ui_Screen1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen1.c.s
-.PHONY : Package/GUIAPP/screens/ui_Screen1.c.s
+Package/GUIAPP/screens/ui_FileExplorer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_FileExplorer.c.s
+.PHONY : Package/GUIAPP/screens/ui_FileExplorer.c.s
 
-Package/GUIAPP/screens/ui_Screen2.obj: Package/GUIAPP/screens/ui_Screen2.c.obj
-.PHONY : Package/GUIAPP/screens/ui_Screen2.obj
+Package/GUIAPP/screens/ui_Home.obj: Package/GUIAPP/screens/ui_Home.c.obj
+.PHONY : Package/GUIAPP/screens/ui_Home.obj
 
 # target to build an object file
-Package/GUIAPP/screens/ui_Screen2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.obj
-.PHONY : Package/GUIAPP/screens/ui_Screen2.c.obj
+Package/GUIAPP/screens/ui_Home.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Home.c.obj
+.PHONY : Package/GUIAPP/screens/ui_Home.c.obj
 
-Package/GUIAPP/screens/ui_Screen2.i: Package/GUIAPP/screens/ui_Screen2.c.i
-.PHONY : Package/GUIAPP/screens/ui_Screen2.i
+Package/GUIAPP/screens/ui_Home.i: Package/GUIAPP/screens/ui_Home.c.i
+.PHONY : Package/GUIAPP/screens/ui_Home.i
 
 # target to preprocess a source file
-Package/GUIAPP/screens/ui_Screen2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.i
-.PHONY : Package/GUIAPP/screens/ui_Screen2.c.i
+Package/GUIAPP/screens/ui_Home.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Home.c.i
+.PHONY : Package/GUIAPP/screens/ui_Home.c.i
 
-Package/GUIAPP/screens/ui_Screen2.s: Package/GUIAPP/screens/ui_Screen2.c.s
-.PHONY : Package/GUIAPP/screens/ui_Screen2.s
+Package/GUIAPP/screens/ui_Home.s: Package/GUIAPP/screens/ui_Home.c.s
+.PHONY : Package/GUIAPP/screens/ui_Home.s
 
 # target to generate assembly for a file
-Package/GUIAPP/screens/ui_Screen2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Screen2.c.s
-.PHONY : Package/GUIAPP/screens/ui_Screen2.c.s
+Package/GUIAPP/screens/ui_Home.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Home.c.s
+.PHONY : Package/GUIAPP/screens/ui_Home.c.s
+
+Package/GUIAPP/screens/ui_OfflineDownload.obj: Package/GUIAPP/screens/ui_OfflineDownload.c.obj
+.PHONY : Package/GUIAPP/screens/ui_OfflineDownload.obj
+
+# target to build an object file
+Package/GUIAPP/screens/ui_OfflineDownload.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_OfflineDownload.c.obj
+.PHONY : Package/GUIAPP/screens/ui_OfflineDownload.c.obj
+
+Package/GUIAPP/screens/ui_OfflineDownload.i: Package/GUIAPP/screens/ui_OfflineDownload.c.i
+.PHONY : Package/GUIAPP/screens/ui_OfflineDownload.i
+
+# target to preprocess a source file
+Package/GUIAPP/screens/ui_OfflineDownload.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_OfflineDownload.c.i
+.PHONY : Package/GUIAPP/screens/ui_OfflineDownload.c.i
+
+Package/GUIAPP/screens/ui_OfflineDownload.s: Package/GUIAPP/screens/ui_OfflineDownload.c.s
+.PHONY : Package/GUIAPP/screens/ui_OfflineDownload.s
+
+# target to generate assembly for a file
+Package/GUIAPP/screens/ui_OfflineDownload.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F4_CherryDAP.elf.dir\build.make CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_OfflineDownload.c.s
+.PHONY : Package/GUIAPP/screens/ui_OfflineDownload.c.s
 
 Package/GUIAPP/ui.obj: Package/GUIAPP/ui.c.obj
 .PHONY : Package/GUIAPP/ui.obj
@@ -7646,12 +7670,15 @@ help:
 	@echo ... Package/GUIAPP/components/ui_comp_hook.obj
 	@echo ... Package/GUIAPP/components/ui_comp_hook.i
 	@echo ... Package/GUIAPP/components/ui_comp_hook.s
-	@echo ... Package/GUIAPP/screens/ui_Screen1.obj
-	@echo ... Package/GUIAPP/screens/ui_Screen1.i
-	@echo ... Package/GUIAPP/screens/ui_Screen1.s
-	@echo ... Package/GUIAPP/screens/ui_Screen2.obj
-	@echo ... Package/GUIAPP/screens/ui_Screen2.i
-	@echo ... Package/GUIAPP/screens/ui_Screen2.s
+	@echo ... Package/GUIAPP/screens/ui_FileExplorer.obj
+	@echo ... Package/GUIAPP/screens/ui_FileExplorer.i
+	@echo ... Package/GUIAPP/screens/ui_FileExplorer.s
+	@echo ... Package/GUIAPP/screens/ui_Home.obj
+	@echo ... Package/GUIAPP/screens/ui_Home.i
+	@echo ... Package/GUIAPP/screens/ui_Home.s
+	@echo ... Package/GUIAPP/screens/ui_OfflineDownload.obj
+	@echo ... Package/GUIAPP/screens/ui_OfflineDownload.i
+	@echo ... Package/GUIAPP/screens/ui_OfflineDownload.s
 	@echo ... Package/GUIAPP/ui.obj
 	@echo ... Package/GUIAPP/ui.i
 	@echo ... Package/GUIAPP/ui.s

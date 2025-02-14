@@ -117,19 +117,15 @@ void soft_reset_target(void) {
 
 /* USER CODE END FunctionPrototypes */
 
-void DAPFun(void const *argument);
-
-void UartTaskFun(void const *argument);
-
-void LvglStartTask(void const *argument);
-
-void OfflineDownloadStartTask(void const *argument);
+void DAPFun(void const * argument);
+void UartTaskFun(void const * argument);
+void LvglStartTask(void const * argument);
+void OfflineDownloadStartTask(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
 /* GetIdleTaskMemory prototype (linked to static allocation support) */
-void vApplicationGetIdleTaskMemory(StaticTask_t **ppxIdleTaskTCBBuffer, StackType_t **ppxIdleTaskStackBuffer,
-                                   uint32_t *pulIdleTaskStackSize);
+void vApplicationGetIdleTaskMemory( StaticTask_t **ppxIdleTaskTCBBuffer, StackType_t **ppxIdleTaskStackBuffer, uint32_t *pulIdleTaskStackSize );
 
 /* USER CODE BEGIN GET_IDLE_TASK_MEMORY */
 static StaticTask_t xIdleTaskTCBBuffer;
@@ -150,47 +146,47 @@ void vApplicationGetIdleTaskMemory(StaticTask_t **ppxIdleTaskTCBBuffer, StackTyp
   * @retval None
   */
 void MX_FREERTOS_Init(void) {
-    /* USER CODE BEGIN Init */
+  /* USER CODE BEGIN Init */
     chry_dap_init(0, USB_OTG_FS_PERIPH_BASE);//初始化DAP
     HAL_Delay_us_init(168);
-    /* USER CODE END Init */
+  /* USER CODE END Init */
 
-    /* USER CODE BEGIN RTOS_MUTEX */
+  /* USER CODE BEGIN RTOS_MUTEX */
     /* add mutexes, ... */
-    /* USER CODE END RTOS_MUTEX */
+  /* USER CODE END RTOS_MUTEX */
 
-    /* USER CODE BEGIN RTOS_SEMAPHORES */
+  /* USER CODE BEGIN RTOS_SEMAPHORES */
     /* add semaphores, ... */
-    /* USER CODE END RTOS_SEMAPHORES */
+  /* USER CODE END RTOS_SEMAPHORES */
 
-    /* USER CODE BEGIN RTOS_TIMERS */
+  /* USER CODE BEGIN RTOS_TIMERS */
     /* start timers, add new ones, ... */
-    /* USER CODE END RTOS_TIMERS */
+  /* USER CODE END RTOS_TIMERS */
 
-    /* USER CODE BEGIN RTOS_QUEUES */
+  /* USER CODE BEGIN RTOS_QUEUES */
     /* add queues, ... */
-    /* USER CODE END RTOS_QUEUES */
+  /* USER CODE END RTOS_QUEUES */
 
-    /* Create the thread(s) */
-    /* definition and creation of DAPTask */
-    osThreadDef(DAPTask, DAPFun, osPriorityNormal, 0, 1024);
-    DAPTaskHandle = osThreadCreate(osThread(DAPTask), NULL);
+  /* Create the thread(s) */
+  /* definition and creation of DAPTask */
+  osThreadDef(DAPTask, DAPFun, osPriorityNormal, 0, 1024);
+  DAPTaskHandle = osThreadCreate(osThread(DAPTask), NULL);
 
-    /* definition and creation of UartTask */
-    osThreadDef(UartTask, UartTaskFun, osPriorityIdle, 0, 128);
-    UartTaskHandle = osThreadCreate(osThread(UartTask), NULL);
+  /* definition and creation of UartTask */
+  osThreadDef(UartTask, UartTaskFun, osPriorityIdle, 0, 128);
+  UartTaskHandle = osThreadCreate(osThread(UartTask), NULL);
 
-    /* definition and creation of LVGLTask */
-    osThreadDef(LVGLTask, LvglStartTask, osPriorityNormal, 0, 2048);
-    LVGLTaskHandle = osThreadCreate(osThread(LVGLTask), NULL);
+  /* definition and creation of LVGLTask */
+  osThreadDef(LVGLTask, LvglStartTask, osPriorityNormal, 0, 2048);
+  LVGLTaskHandle = osThreadCreate(osThread(LVGLTask), NULL);
 
-    /* definition and creation of OfflineDownload */
-    osThreadDef(OfflineDownload, OfflineDownloadStartTask, osPriorityNormal, 0, 2048);
-    OfflineDownloadHandle = osThreadCreate(osThread(OfflineDownload), NULL);
+  /* definition and creation of OfflineDownload */
+  osThreadDef(OfflineDownload, OfflineDownloadStartTask, osPriorityNormal, 0, 2048);
+  OfflineDownloadHandle = osThreadCreate(osThread(OfflineDownload), NULL);
 
-    /* USER CODE BEGIN RTOS_THREADS */
+  /* USER CODE BEGIN RTOS_THREADS */
     /* add threads, ... */
-    /* USER CODE END RTOS_THREADS */
+  /* USER CODE END RTOS_THREADS */
 
 }
 
@@ -201,8 +197,9 @@ void MX_FREERTOS_Init(void) {
   * @retval None
   */
 /* USER CODE END Header_DAPFun */
-void DAPFun(void const *argument) {
-    /* USER CODE BEGIN DAPFun */
+void DAPFun(void const * argument)
+{
+  /* USER CODE BEGIN DAPFun */
     /* Infinite loop */
     for (;;) {
         chry_dap_handle();//处理DAP数据的函数
@@ -212,7 +209,7 @@ void DAPFun(void const *argument) {
             ID_timeout();
         }
     }
-    /* USER CODE END DAPFun */
+  /* USER CODE END DAPFun */
 }
 
 /* USER CODE BEGIN Header_UartTaskFun */
@@ -222,14 +219,15 @@ void DAPFun(void const *argument) {
 * @retval None
 */
 /* USER CODE END Header_UartTaskFun */
-void UartTaskFun(void const *argument) {
-    /* USER CODE BEGIN UartTaskFun */
+void UartTaskFun(void const * argument)
+{
+  /* USER CODE BEGIN UartTaskFun */
     /* Infinite loop */
     for (;;) {
         HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
         osDelay(2000);
     }
-    /* USER CODE END UartTaskFun */
+  /* USER CODE END UartTaskFun */
 }
 
 /* USER CODE BEGIN Header_LvglStartTask */
@@ -313,8 +311,9 @@ void test_directory_read(const char* path) {
 * @retval None
 */
 /* USER CODE END Header_LvglStartTask */
-void LvglStartTask(void const *argument) {
-    /* USER CODE BEGIN LvglStartTask */
+void LvglStartTask(void const * argument)
+{
+  /* USER CODE BEGIN LvglStartTask */
     CST816_GPIO_Init();//触控初始化
     CST816_RESET();//触控复位
     lv_init();
@@ -332,7 +331,7 @@ void LvglStartTask(void const *argument) {
         lv_task_handler();
         osDelay(1);
     }
-    /* USER CODE END LvglStartTask */
+  /* USER CODE END LvglStartTask */
 }
 
 /* USER CODE BEGIN Header_OfflineDownloadStartTask */
@@ -343,14 +342,15 @@ void LvglStartTask(void const *argument) {
 * @retval None
 */
 /* USER CODE END Header_OfflineDownloadStartTask */
-void OfflineDownloadStartTask(void const *argument) {
-    /* USER CODE BEGIN OfflineDownloadStartTask */
+void OfflineDownloadStartTask(void const * argument)
+{
+  /* USER CODE BEGIN OfflineDownloadStartTask */
 
     /* Infinite loop */
     for (;;) {
         osDelay(1);
     }
-    /* USER CODE END OfflineDownloadStartTask */
+  /* USER CODE END OfflineDownloadStartTask */
 }
 
 /* Private application code --------------------------------------------------*/

@@ -1,5 +1,6 @@
-CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/test/lv_100ask_pinyin_ime_test/lv_font_source_han_sans_normal_16.c.obj: \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask\test\lv_100ask_pinyin_ime_test\lv_font_source_han_sans_normal_16.c \
+CMakeFiles/F4_CherryDAP.elf.dir/Package/GUIAPP/screens/ui_Home.c.obj: \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP\screens\ui_Home.c \
+ D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/ui.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL/lvgl.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL/src/misc/lv_log.h \
  D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/lv_conf_internal.h \
@@ -249,4 +250,7 @@ CMakeFiles/F4_CherryDAP.elf.dir/Package/lv_lib_100ask/test/lv_100ask_pinyin_ime_
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL/src/extra/widgets/imgbtn/lv_imgbtn.h \
  D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/lvgl.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL/src/extra/widgets/span/lv_span.h \
- D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/lvgl.h
+ D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/lvgl.h \
+ D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/ui_helpers.h \
+ D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/ui.h \
+ D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/ui_events.h
