@@ -14,9 +14,11 @@ extern "C" {
 
 #include "ui_helpers.h"
 #include "ui_events.h"
+#include "pageManager.h"
 
 // SCREEN: ui_HomeScreen
 void ui_HomeScreen_screen_init(void);
+void ui_HomeScreen_screen_deinit(void);
 extern lv_obj_t * ui_HomeScreen;
 extern lv_obj_t * ui_Container1;
 void ui_event_PinMapPanel(lv_event_t * e);
@@ -51,6 +53,7 @@ extern lv_obj_t * ui_Label7;
 
 // SCREEN: ui_OfflineScreen
 void ui_OfflineScreen_screen_init(void);
+void ui_OfflineScreen_screen_deinit(void);
 void ui_event_OfflineScreen(lv_event_t * e);
 void ui_event_OfflineChipSelect(lv_event_t *e);
 void ui_event_OfflineFirmSelect(lv_event_t *e);
@@ -78,6 +81,7 @@ extern lv_obj_t * ui_Label47;
 
 // SCREEN: ui_PinMapScreen
 void ui_PinMapScreen_screen_init(void);
+void ui_PinMapScreen_screen_deinit(void);
 void ui_event_PinMapScreen(lv_event_t * e);
 extern lv_obj_t * ui_PinMapScreen;
 extern lv_obj_t * ui_Label9;
@@ -130,6 +134,7 @@ extern lv_obj_t * ui_Label2;
 
 // SCREEN: ui_PWMScreen
 void ui_PWMScreen_screen_init(void);
+void ui_PWMScreen_screen_deinit(void);
 void ui_event_PWMScreen(lv_event_t * e);
 extern lv_obj_t * ui_PWMScreen;
 extern lv_obj_t * ui_Container3;
@@ -155,6 +160,7 @@ extern lv_obj_t * ui_Label51;
 
 // SCREEN: ui_ElectricScreen
 void ui_ElectricScreen_screen_init(void);
+void ui_ElectricScreen_screen_deinit(void);
 void ui_event_ElectricScreen(lv_event_t * e);
 extern lv_obj_t * ui_ElectricScreen;
 extern lv_obj_t * ui_VoltageChart;
@@ -178,6 +184,7 @@ extern lv_obj_t * ui_CurrentLabel;
 
 // SCREEN: ui_ServosScreen
 void ui_ServosScreen_screen_init(void);
+void ui_ServosScreen_screen_deinit(void);
 void ui_event_ServosScreen(lv_event_t * e);
 extern lv_obj_t * ui_ServosScreen;
 extern lv_obj_t * ui_ServoArc;
@@ -191,6 +198,7 @@ extern lv_obj_t * ui_Label64;
 
 // SCREEN: ui_LogicScreen
 void ui_LogicScreen_screen_init(void);
+void ui_LogicScreen_screen_deinit(void);
 void ui_event_LogicScreen(lv_event_t * e);
 extern lv_obj_t * ui_LogicScreen;
 extern lv_obj_t * ui_Panel35;
@@ -219,6 +227,7 @@ extern lv_obj_t * ui_Label76;
 
 // SCREEN: ui_DACScreen
 void ui_DACScreen_screen_init(void);
+void ui_DACScreen_screen_deinit(void);
 void ui_event_DACScreen(lv_event_t * e);
 extern lv_obj_t * ui_DACScreen;
 extern lv_obj_t * ui_Panel37;
@@ -231,6 +240,7 @@ extern lv_obj_t * ui_DACFreq;
 
 // SCREEN: ui_FileExplorerScreen
 void ui_FileExplorerScreen_screen_init(void);
+void ui_FileExplorerScreen_screen_deinit(void);
 extern lv_obj_t * ui_FileExplorerScreen;
 void file_explorer_event_handler(lv_event_t *e);
 // CUSTOM VARIABLES

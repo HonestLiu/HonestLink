@@ -4,6 +4,10 @@
 // Project name: HonestLink
 
 #include "../ui.h"
+#include "pageManager.h"
+
+Page_t page_Home = {.init = ui_HomeScreen_screen_init,.deinit = ui_HomeScreen_screen_deinit,.page_obj = &ui_HomeScreen};
+
 
 void ui_HomeScreen_screen_init(void)
 {
@@ -222,5 +226,9 @@ void ui_HomeScreen_screen_init(void)
     lv_obj_add_event_cb(ui_ServoisPanel, ui_event_ServoisPanel, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_LogicPanel, ui_event_LogicPanel, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_DACPanel, ui_event_DACPanel, LV_EVENT_ALL, NULL);
+
+}
+
+void ui_HomeScreen_screen_deinit(void){
 
 }

@@ -7120,29 +7120,29 @@ Package/LVGL/src/widgets/lv_textarea.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.s
 .PHONY : Package/LVGL/src/widgets/lv_textarea.c.s
 
-Package/PageManager/PageManager.obj: Package/PageManager/PageManager.c.obj
-.PHONY : Package/PageManager/PageManager.obj
+Package/PageManager/pageManager.obj: Package/PageManager/pageManager.c.obj
+.PHONY : Package/PageManager/pageManager.obj
 
 # target to build an object file
-Package/PageManager/PageManager.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.obj
-.PHONY : Package/PageManager/PageManager.c.obj
+Package/PageManager/pageManager.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj
+.PHONY : Package/PageManager/pageManager.c.obj
 
-Package/PageManager/PageManager.i: Package/PageManager/PageManager.c.i
-.PHONY : Package/PageManager/PageManager.i
+Package/PageManager/pageManager.i: Package/PageManager/pageManager.c.i
+.PHONY : Package/PageManager/pageManager.i
 
 # target to preprocess a source file
-Package/PageManager/PageManager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.i
-.PHONY : Package/PageManager/PageManager.c.i
+Package/PageManager/pageManager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.i
+.PHONY : Package/PageManager/pageManager.c.i
 
-Package/PageManager/PageManager.s: Package/PageManager/PageManager.c.s
-.PHONY : Package/PageManager/PageManager.s
+Package/PageManager/pageManager.s: Package/PageManager/pageManager.c.s
+.PHONY : Package/PageManager/pageManager.s
 
 # target to generate assembly for a file
-Package/PageManager/PageManager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.s
-.PHONY : Package/PageManager/PageManager.c.s
+Package/PageManager/pageManager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.s
+.PHONY : Package/PageManager/pageManager.c.s
 
 Package/flmparse/flmparse.obj: Package/flmparse/flmparse.c.obj
 .PHONY : Package/flmparse/flmparse.obj
@@ -8747,9 +8747,9 @@ help:
 	@echo ... Package/LVGL/src/widgets/lv_textarea.obj
 	@echo ... Package/LVGL/src/widgets/lv_textarea.i
 	@echo ... Package/LVGL/src/widgets/lv_textarea.s
-	@echo ... Package/PageManager/PageManager.obj
-	@echo ... Package/PageManager/PageManager.i
-	@echo ... Package/PageManager/PageManager.s
+	@echo ... Package/PageManager/pageManager.obj
+	@echo ... Package/PageManager/pageManager.i
+	@echo ... Package/PageManager/pageManager.s
 	@echo ... Package/flmparse/flmparse.obj
 	@echo ... Package/flmparse/flmparse.i
 	@echo ... Package/flmparse/flmparse.s

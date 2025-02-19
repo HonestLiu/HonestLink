@@ -49,9 +49,11 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include Package/CherryUSB/core Package/CherryUSB/common Package/CherryUSB/class/cdc Package/CherryRB Package/DAPLink/Include Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F Package/flmparse Package/offline_download Package/CherryUSB/class/msc Drivers/CST816S Drivers/IIC Drivers/LCD Package/LVGL Package/LVGL/src Package/LVGL/src/core LVGL/src/draw Package/LVGL/src/font Package/LVGL/src/hal Package/LVGL/src/misc Package/LVGL/src/widgets Package/LVGL/examples/porting FATFS/Target FATFS/App Middlewares/Third_Party/FatFs/src Package/lv_lib_100ask Package/GUIAPP)
+include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include Package/CherryUSB/core Package/CherryUSB/common Package/CherryUSB/class/cdc Package/CherryRB Package/DAPLink/Include Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F Package/flmparse Package/offline_download Package/CherryUSB/class/msc Drivers/CST816S Drivers/IIC Drivers/LCD Package/LVGL Package/LVGL/src Package/LVGL/src/core LVGL/src/draw Package/LVGL/src/font Package/LVGL/src/hal Package/LVGL/src/misc Package/LVGL/src/widgets Package/LVGL/examples/porting FATFS/Target FATFS/App Middlewares/Third_Party/FatFs/src Package/lv_lib_100ask Package/GUIAPP Package/PageManager)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx)
+
+#file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*" "FATFS/*.*" "Middlewares/*.*" "Package/LVGL/*.*" "Package/PageManager/*.*")
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Package/LVGL/*.*" "FATFS/*.*" "Middlewares/*.*" "Drivers/*.*"
         "Package/CherryUSB/core/usbd_core.c"

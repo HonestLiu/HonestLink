@@ -251,4 +251,41 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_DACScreen.c.obj: \
  D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/lvgl.h \
  D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/ui_helpers.h \
  D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/ui.h \
- D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/ui_events.h
+ D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP/ui_events.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\PageManager/pageManager.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP/ui.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Core\Inc/main.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Core\Inc/stm32f4xx_hal_conf.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_def.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f407xx.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Include/core_cm4.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Include/cmsis_version.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Include/cmsis_compiler.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Include/cmsis_gcc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Include/mpu_armv7.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Device\ST\STM32F4xx\Include/system_stm32f4xx.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_exti.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_cortex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sd.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_sdmmc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_usb.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd_ex.h

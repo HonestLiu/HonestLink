@@ -4,6 +4,11 @@
 // Project name: HonestLink
 
 #include "../ui.h"
+Page_t Page_Electric = {
+    .init = ui_ElectricScreen_screen_init,
+    .deinit = ui_ElectricScreen_screen_deinit,
+    .page_obj = &ui_ElectricScreen,
+};
 
 void ui_ElectricScreen_screen_init(void)
 {
@@ -185,5 +190,9 @@ void ui_ElectricScreen_screen_init(void)
     lv_obj_set_style_text_font(ui_CurrentLabel, &lv_font_montserrat_28, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     lv_obj_add_event_cb(ui_ElectricScreen, ui_event_ElectricScreen, LV_EVENT_ALL, NULL);
+
+}
+
+void ui_ElectricScreen_screen_deinit(void){
 
 }

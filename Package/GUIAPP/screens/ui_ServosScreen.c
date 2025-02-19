@@ -5,6 +5,12 @@
 
 #include "../ui.h"
 
+Page_t PageServos = {
+        .init = ui_ServosScreen_screen_init,
+        .deinit = ui_ServosScreen_screen_deinit,
+        .page_obj = &ui_ServosScreen,
+};
+
 void ui_ServosScreen_screen_init(void)
 {
     ui_ServosScreen = lv_obj_create(NULL);
@@ -74,5 +80,9 @@ void ui_ServosScreen_screen_init(void)
     lv_label_set_text(ui_Label64, "PWM: 9");
 
     lv_obj_add_event_cb(ui_ServosScreen, ui_event_ServosScreen, LV_EVENT_ALL, NULL);
+
+}
+
+void ui_ServosScreen_screen_deinit(void){
 
 }

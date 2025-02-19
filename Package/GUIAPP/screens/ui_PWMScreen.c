@@ -5,6 +5,12 @@
 
 #include "../ui.h"
 
+Page_t PagePWM = {
+        .init = ui_PWMScreen_screen_init,
+        .deinit = ui_PWMScreen_screen_deinit,
+        .page_obj = &ui_PWMScreen,
+};
+
 void ui_PWMScreen_screen_init(void)
 {
     ui_PWMScreen = lv_obj_create(NULL);
@@ -177,5 +183,9 @@ void ui_PWMScreen_screen_init(void)
     lv_obj_add_event_cb(ui_PWMPeriod, ui_event_PWMPeriod, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_PWMPulse, ui_event_PWMPulse, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_PWMScreen, ui_event_PWMScreen, LV_EVENT_ALL, NULL);
+
+}
+
+void ui_PWMScreen_screen_deinit(void){
 
 }

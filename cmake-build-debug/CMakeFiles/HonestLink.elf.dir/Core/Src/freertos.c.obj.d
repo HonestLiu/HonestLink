@@ -347,6 +347,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj: \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP/ui_helpers.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP/ui.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\GUIAPP/ui_events.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\PageManager/pageManager.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask/lv_lib_100ask.h \
  D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lvgl/lvgl.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\lv_lib_100ask/lv_lib_100ask_conf.h \

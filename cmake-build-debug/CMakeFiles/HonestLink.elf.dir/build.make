@@ -4155,19 +4155,19 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.s"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\LVGL\src\widgets\lv_textarea.c -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_textarea.c.s
 
-CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
-CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/PageManager/PageManager.c
-CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.obj"
-	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\PageManager\PageManager.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\PageManager\PageManager.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\PageManager\PageManager.c
+CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
+CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/PageManager/pageManager.c
+CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\PageManager\pageManager.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\PageManager\pageManager.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\PageManager\pageManager.c
 
-CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.i"
-	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\PageManager\PageManager.c > CMakeFiles\HonestLink.elf.dir\Package\PageManager\PageManager.c.i
+CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\PageManager\pageManager.c > CMakeFiles\HonestLink.elf.dir\Package\PageManager\pageManager.c.i
 
-CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.s"
-	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\PageManager\PageManager.c -o CMakeFiles\HonestLink.elf.dir\Package\PageManager\PageManager.c.s
+CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\PageManager\pageManager.c -o CMakeFiles\HonestLink.elf.dir\Package\PageManager\pageManager.c.s
 
 CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/flmparse/flmparse.c
@@ -4883,7 +4883,7 @@ HonestLink_elf_OBJECTS = \
 "CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj" \
-"CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.obj" \
+"CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj" \
@@ -5210,7 +5210,7 @@ HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_slider
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj
-HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.obj
+HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj

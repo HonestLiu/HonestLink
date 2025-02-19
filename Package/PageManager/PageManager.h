@@ -1,8 +1,0 @@
-//
-// Created by Hones on 25-2-19.
-//
-
-#ifndef F4_CHERRYDAP_PAGEMANAGER_H
-#define F4_CHERRYDAP_PAGEMANAGER_H
-
-#endif //F4_CHERRYDAP_PAGEMANAGER_H

@@ -293,76 +293,97 @@ lv_obj_t *ui____initial_actions0;
 ///////////////////// ANIMATIONS ////////////////////
 
 ///////////////////// FUNCTIONS ////////////////////
+extern Page_t PagePinMap;
+
 void ui_event_PinMapPanel(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
-
     if (event_code == LV_EVENT_CLICKED) {
-        _ui_screen_change(&ui_PinMapScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_PinMapScreen_screen_init);
+        LV_LOG_USER("PinMapPanel Clicked\r\n");
+        Page_Load(&PagePinMap);
+        //_ui_screen_change(&ui_PinMapScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_PinMapScreen_screen_init);
     }
 }
 
+extern Page_t PageOffline;
+//TODO 这个实际是离线下载的Panel，这里名字错了，后期改
 void ui_event_AboutPanel3(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
     if (event_code == LV_EVENT_CLICKED) {
-        _ui_screen_change(&ui_OfflineScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_OfflineScreen_screen_init);
+        Page_Load(&PageOffline);
+        //_ui_screen_change(&ui_OfflineScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_OfflineScreen_screen_init);
     }
 }
+
+extern Page_t PagePWM;
 
 void ui_event_PWMPanel(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
     if (event_code == LV_EVENT_CLICKED) {
-        _ui_screen_change(&ui_PWMScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_PWMScreen_screen_init);
+        Page_Load(&PagePWM);
+        // _ui_screen_change(&ui_PWMScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_PWMScreen_screen_init);
     }
 }
 
+extern Page_t Page_Electric;
 void ui_event_ElectricPanel(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
     if (event_code == LV_EVENT_CLICKED) {
-        _ui_screen_change(&ui_ElectricScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_ElectricScreen_screen_init);
+        Page_Load(&Page_Electric);
+        //_ui_screen_change(&ui_ElectricScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_ElectricScreen_screen_init);
     }
 }
 
+extern Page_t PageServos;
 void ui_event_ServoisPanel(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
     if (event_code == LV_EVENT_CLICKED) {
-        _ui_screen_change(&ui_ServosScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_ServosScreen_screen_init);
+        Page_Load(&PageServos);
+        //_ui_screen_change(&ui_ServosScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_ServosScreen_screen_init);
     }
 }
 
+extern Page_t PageLogic;
 void ui_event_LogicPanel(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
     if (event_code == LV_EVENT_CLICKED) {
-        _ui_screen_change(&ui_LogicScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_LogicScreen_screen_init);
+        Page_Load(&PageLogic);
+        //_ui_screen_change(&ui_LogicScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_LogicScreen_screen_init);
     }
 }
+
+extern Page_t Page_DAC;
 
 void ui_event_DACPanel(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
-
     if (event_code == LV_EVENT_CLICKED) {
-        _ui_screen_change(&ui_DACScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_DACScreen_screen_init);
+        Page_Load(&Page_DAC);
+        //_ui_screen_change(&ui_DACScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_DACScreen_screen_init);
     }
 }
+
 
 void ui_event_OfflineScreen(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
     if (event_code == LV_EVENT_GESTURE && lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
         lv_indev_wait_release(lv_indev_get_act());
-        _ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+        Page_Back();
+        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
     }
 }
 
+extern Page_t Page_FileExplorer;
 void ui_event_OfflineChipSelect(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if (event_code == LV_EVENT_CLICKED) {
         current_path_return = 1;//返回到芯片型号的选择
-        _ui_screen_change(&ui_FileExplorerScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_FileExplorerScreen_screen_init);
+        Page_Load(&Page_FileExplorer);
+        //_ui_screen_change(&ui_FileExplorerScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_FileExplorerScreen_screen_init);
     }
 }
 
@@ -370,7 +391,8 @@ void ui_event_OfflineFirmSelect(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if (event_code == LV_EVENT_CLICKED) {
         current_path_return = 2;//返回到固件选择
-        _ui_screen_change(&ui_FileExplorerScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_FileExplorerScreen_screen_init);
+        Page_Load(&Page_FileExplorer);
+        //_ui_screen_change(&ui_FileExplorerScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_FileExplorerScreen_screen_init);
     }
 }
 
@@ -389,7 +411,9 @@ void ui_event_PinMapScreen(lv_event_t *e) {
 
     if (event_code == LV_EVENT_GESTURE && lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
         lv_indev_wait_release(lv_indev_get_act());
-        _ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+        LV_LOG_USER("PinMapScreen Back\r\n");
+        Page_Back();
+        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
     }
 }
 
@@ -398,7 +422,9 @@ void ui_event_PWMScreen(lv_event_t *e) {
 
     if (event_code == LV_EVENT_GESTURE && lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
         lv_indev_wait_release(lv_indev_get_act());
-        _ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+        LV_LOG_USER("PWMScreen Back\r\n");
+        Page_Back();
+        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
     }
 }
 
@@ -406,7 +432,8 @@ void ui_event_PWMPeriod(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
     if (event_code == LV_EVENT_VALUE_CHANGED) {
-        _ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+        //Page_Load(&page_Home);
+        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
     }
 }
 
@@ -414,7 +441,8 @@ void ui_event_PWMPulse(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
     if (event_code == LV_EVENT_VALUE_CHANGED) {
-        _ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+        //Page_Load(&page_Home);
+        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
     }
 }
 
@@ -423,7 +451,8 @@ void ui_event_ElectricScreen(lv_event_t *e) {
 
     if (event_code == LV_EVENT_GESTURE && lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
         lv_indev_wait_release(lv_indev_get_act());
-        _ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+        Page_Back();
+        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
     }
 }
 
@@ -432,7 +461,8 @@ void ui_event_ServosScreen(lv_event_t *e) {
 
     if (event_code == LV_EVENT_GESTURE && lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
         lv_indev_wait_release(lv_indev_get_act());
-        _ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+        Page_Back();
+        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
     }
 }
 
@@ -441,7 +471,8 @@ void ui_event_LogicScreen(lv_event_t *e) {
 
     if (event_code == LV_EVENT_GESTURE && lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
         lv_indev_wait_release(lv_indev_get_act());
-        _ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+        Page_Back();
+        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
     }
 }
 
@@ -450,7 +481,8 @@ void ui_event_DACScreen(lv_event_t *e) {
 
     if (event_code == LV_EVENT_GESTURE && lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
         lv_indev_wait_release(lv_indev_get_act());
-        _ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+        Page_Back();
+        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
     }
 }
 
@@ -465,7 +497,8 @@ void file_explorer_event_handler(lv_event_t *e) {
     if (code == LV_EVENT_VALUE_CHANGED) {
         char *cur_path = lv_100ask_file_explorer_get_cur_path(obj);
         char *sel_fn = lv_100ask_file_explorer_get_sel_fn(obj);
-        _ui_screen_change(&ui_OfflineScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_OfflineScreen_screen_init);
+        Page_Back();
+        //_ui_screen_change(&ui_OfflineScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_OfflineScreen_screen_init);
         LV_LOG_USER("%s,%s", cur_path, sel_fn);
         if (current_path_return == 1)//返回到芯片型号选择
         {
@@ -494,7 +527,7 @@ void ui_init(void) {
     lv_theme_t *theme = lv_theme_default_init(dispp, lv_palette_main(LV_PALETTE_BLUE), lv_palette_main(LV_PALETTE_RED),
                                               false, LV_FONT_DEFAULT);
     lv_disp_set_theme(dispp, theme);
-    ui_HomeScreen_screen_init();
+//    ui_HomeScreen_screen_init();
 //    ui_OfflineScreen_screen_init();
 //    ui_PinMapScreen_screen_init();
 //    ui_PWMScreen_screen_init();
@@ -503,6 +536,7 @@ void ui_init(void) {
 //    ui_LogicScreen_screen_init();
 //    ui_DACScreen_screen_init();
 //    ui_FileExplorerScreen_screen_init();
+    Pages_init();//初始化页面管理和启动首页
     ui____initial_actions0 = lv_obj_create(NULL);
     lv_disp_load_scr(ui_HomeScreen);
 }

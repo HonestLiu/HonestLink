@@ -5,6 +5,12 @@
 
 #include "../ui.h"
 
+Page_t PagePinMap = {
+        .init = ui_PinMapScreen_screen_init,
+        .deinit = ui_PinMapScreen_screen_deinit,
+        .page_obj = &ui_PinMapScreen,
+};
+
 void ui_PinMapScreen_screen_init(void)
 {
     ui_PinMapScreen = lv_obj_create(NULL);
@@ -432,5 +438,9 @@ void ui_PinMapScreen_screen_init(void)
     lv_obj_set_style_text_font(ui_Label2, &lv_font_montserrat_28, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     lv_obj_add_event_cb(ui_PinMapScreen, ui_event_PinMapScreen, LV_EVENT_ALL, NULL);
+
+}
+
+void ui_PinMapScreen_screen_deinit(void){
 
 }

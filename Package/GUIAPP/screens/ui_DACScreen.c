@@ -5,6 +5,12 @@
 
 #include "../ui.h"
 
+Page_t Page_DAC = {
+    .init = ui_DACScreen_screen_init,
+    .deinit = ui_DACScreen_screen_deinit,
+    .page_obj = &ui_DACScreen,
+};
+
 void ui_DACScreen_screen_init(void)
 {
     ui_DACScreen = lv_obj_create(NULL);
@@ -65,5 +71,9 @@ void ui_DACScreen_screen_init(void)
 
 
     lv_obj_add_event_cb(ui_DACScreen, ui_event_DACScreen, LV_EVENT_ALL, NULL);
+
+}
+
+void ui_DACScreen_screen_deinit(void){
 
 }

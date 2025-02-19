@@ -5,6 +5,12 @@
 
 #include "../ui.h"
 
+Page_t PageLogic = {
+        .init = ui_LogicScreen_screen_init,
+        .deinit = ui_LogicScreen_screen_deinit,
+        .page_obj = &ui_LogicScreen,
+};
+
 void ui_LogicScreen_screen_init(void)
 {
     ui_LogicScreen = lv_obj_create(NULL);
@@ -207,5 +213,8 @@ void ui_LogicScreen_screen_init(void)
     lv_label_set_text(ui_Label76, "Connect to PulseView");
 
     lv_obj_add_event_cb(ui_LogicScreen, ui_event_LogicScreen, LV_EVENT_ALL, NULL);
+
+}
+void ui_LogicScreen_screen_deinit(void){
 
 }

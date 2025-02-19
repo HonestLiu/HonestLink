@@ -6,6 +6,12 @@
 #include "../ui.h"
 #include "lv_lib_100ask.h"
 
+Page_t Page_FileExplorer = {
+    .init = ui_FileExplorerScreen_screen_init,
+    .deinit = ui_FileExplorerScreen_screen_deinit,
+    .page_obj = &ui_FileExplorerScreen,
+};
+
 void ui_FileExplorerScreen_screen_init(void) {
     ui_FileExplorerScreen = lv_obj_create(NULL);
     lv_obj_clear_flag(ui_FileExplorerScreen, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
@@ -13,4 +19,8 @@ void ui_FileExplorerScreen_screen_init(void) {
     lv_obj_t *file_explorer = lv_100ask_file_explorer_create(ui_FileExplorerScreen);//创建文件管理器
     lv_100ask_file_explorer_open_dir(file_explorer, "0:/");//输入要挂载的目录
     lv_obj_add_event_cb(file_explorer, file_explorer_event_handler, LV_EVENT_VALUE_CHANGED, NULL);//添加事件回调
+}
+
+void ui_FileExplorerScreen_screen_deinit(void){
+
 }

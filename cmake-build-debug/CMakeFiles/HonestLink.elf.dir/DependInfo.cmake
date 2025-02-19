@@ -57,6 +57,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Middlewares/Third_Party/FatFs/src"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/GUIAPP"
+  "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/PageManager"
   )
 
 # The set of dependency files which are needed:
@@ -352,7 +353,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_switch.c" "CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_table.c" "CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/LVGL/src/widgets/lv_textarea.c" "CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj.d"
-  "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/PageManager/PageManager.c" "CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Package/PageManager/PageManager.c.obj.d"
+  "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/PageManager/pageManager.c" "CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/flmparse/flmparse.c" "CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c" "CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c" "CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj.d"

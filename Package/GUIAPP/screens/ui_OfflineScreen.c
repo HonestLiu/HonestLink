@@ -5,6 +5,12 @@
 
 #include "../ui.h"
 
+Page_t PageOffline = {
+        .init = ui_OfflineScreen_screen_init,
+        .deinit = ui_OfflineScreen_screen_deinit,
+        .page_obj = &ui_OfflineScreen,
+};
+
 void ui_OfflineScreen_screen_init(void)
 {
     ui_OfflineScreen = lv_obj_create(NULL);
@@ -155,5 +161,9 @@ void ui_OfflineScreen_screen_init(void)
     lv_obj_add_event_cb(ui_SelectChip,ui_event_OfflineChipSelect,LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_SelectFirm, ui_event_OfflineFirmSelect, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_FirmDown, ui_event_OfflineFirmDownload, LV_EVENT_ALL, NULL);
+
+}
+
+void ui_OfflineScreen_screen_deinit(void){
 
 }
