@@ -255,3 +255,4 @@
 "./Package/LVGL/src/widgets/lv_switch.o"
 "./Package/LVGL/src/widgets/lv_table.o"
 "./Package/LVGL/src/widgets/lv_textarea.o"
+"./Package/PageManager/PageManager.o"

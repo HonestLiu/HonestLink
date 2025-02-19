@@ -133,8 +133,6 @@ Package/LVGL/src/extra/widgets/led/lv_led.o: \
  ../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/lv_roller.h \
  ../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/lv_textarea.h \
  ../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/lv_canvas.h \
- ../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/../widgets/lv_img.h \
- ../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/../draw/lv_draw_img.h \
  ../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/lv_switch.h \
  ../Package/LVGL/src/extra/widgets/led/../../../../src/draw/lv_draw.h \
  ../Package/LVGL/src/extra/widgets/led/../../../../src/lv_api_map.h \
@@ -225,8 +223,7 @@ Package/LVGL/src/extra/widgets/led/lv_led.o: \
  ../Package/LVGL/src/extra/widgets/led/../../../../src/extra/widgets/imgbtn/lv_imgbtn.h \
  ../Package/LVGL/src/extra/widgets/led/../../../../src/extra/widgets/imgbtn/../../../lvgl.h \
  ../Package/LVGL/src/extra/widgets/led/../../../../src/extra/widgets/span/lv_span.h \
- ../Package/LVGL/src/extra/widgets/led/../../../../src/extra/widgets/span/../../../lvgl.h \
- ../Package/LVGL/src/extra/widgets/led/../../../misc/lv_assert.h
+ ../Package/LVGL/src/extra/widgets/led/../../../../src/extra/widgets/span/../../../lvgl.h
 ../Package/LVGL/src/extra/widgets/led/lv_led.h:
 ../Package/LVGL/src/extra/widgets/led/../../../lvgl.h:
 ../Package/LVGL/src/extra/widgets/led/../../../../lvgl.h:
@@ -360,8 +357,6 @@ Package/LVGL/src/extra/widgets/led/lv_led.o: \
 ../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/lv_roller.h:
 ../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/lv_textarea.h:
 ../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/lv_canvas.h:
-../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/../widgets/lv_img.h:
-../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/../draw/lv_draw_img.h:
 ../Package/LVGL/src/extra/widgets/led/../../../../src/widgets/lv_switch.h:
 ../Package/LVGL/src/extra/widgets/led/../../../../src/draw/lv_draw.h:
 ../Package/LVGL/src/extra/widgets/led/../../../../src/lv_api_map.h:
@@ -453,4 +448,3 @@ Package/LVGL/src/extra/widgets/led/lv_led.o: \
 ../Package/LVGL/src/extra/widgets/led/../../../../src/extra/widgets/imgbtn/../../../lvgl.h:
 ../Package/LVGL/src/extra/widgets/led/../../../../src/extra/widgets/span/lv_span.h:
 ../Package/LVGL/src/extra/widgets/led/../../../../src/extra/widgets/span/../../../lvgl.h:
-../Package/LVGL/src/extra/widgets/led/../../../misc/lv_assert.h:

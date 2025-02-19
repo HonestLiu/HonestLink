@@ -1,8 +1,9 @@
 ../Core/Src/freertos.c:210:6:DAPFun	8	static
-../Core/Src/freertos.c:232:6:UartTaskFun	8	static
-../Core/Src/freertos.c:357:6:OfflineDownloadStartTask	24	static
+../Core/Src/freertos.c:233:6:UartTaskFun	8	static
+../Core/Src/freertos.c:389:6:OfflineDownloadStartTask	24	static
 ../Core/Src/freertos.c:110:6:soft_reset_target	8	static
 ../Core/Src/freertos.c:144:6:vApplicationGetIdleTaskMemory	0	static
 ../Core/Src/freertos.c:158:6:MX_FREERTOS_Init	128	static
-../Core/Src/freertos.c:271:6:InitFatFas	8	static
-../Core/Src/freertos.c:326:6:LvglStartTask	8	static
+../Core/Src/freertos.c:272:6:InitFatFas	8	static
+../Core/Src/freertos.c:322:6:update_offline_downlaod_info	24	static
+../Core/Src/freertos.c:358:6:LvglStartTask	8	static

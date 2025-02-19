@@ -132,8 +132,6 @@ Package/LVGL/src/extra/themes/mono/lv_theme_mono.o: \
  ../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/lv_roller.h \
  ../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/lv_textarea.h \
  ../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/lv_canvas.h \
- ../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/../widgets/lv_img.h \
- ../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/../draw/lv_draw_img.h \
  ../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/lv_switch.h \
  ../Package/LVGL/src/extra/themes/mono/../../../../src/draw/lv_draw.h \
  ../Package/LVGL/src/extra/themes/mono/../../../../src/lv_api_map.h \
@@ -368,8 +366,6 @@ Package/LVGL/src/extra/themes/mono/lv_theme_mono.o: \
 ../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/lv_roller.h:
 ../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/lv_textarea.h:
 ../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/lv_canvas.h:
-../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/../widgets/lv_img.h:
-../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/../draw/lv_draw_img.h:
 ../Package/LVGL/src/extra/themes/mono/../../../../src/widgets/lv_switch.h:
 ../Package/LVGL/src/extra/themes/mono/../../../../src/draw/lv_draw.h:
 ../Package/LVGL/src/extra/themes/mono/../../../../src/lv_api_map.h:

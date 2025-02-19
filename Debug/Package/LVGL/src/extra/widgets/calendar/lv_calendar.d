@@ -139,8 +139,6 @@ Package/LVGL/src/extra/widgets/calendar/lv_calendar.o: \
  ../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/lv_roller.h \
  ../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/lv_textarea.h \
  ../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/lv_canvas.h \
- ../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/../widgets/lv_img.h \
- ../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/../draw/lv_draw_img.h \
  ../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/lv_switch.h \
  ../Package/LVGL/src/extra/widgets/calendar/../../../../src/draw/lv_draw.h \
  ../Package/LVGL/src/extra/widgets/calendar/../../../../src/lv_api_map.h \
@@ -231,8 +229,7 @@ Package/LVGL/src/extra/widgets/calendar/lv_calendar.o: \
  ../Package/LVGL/src/extra/widgets/calendar/../../../../src/extra/widgets/imgbtn/lv_imgbtn.h \
  ../Package/LVGL/src/extra/widgets/calendar/../../../../src/extra/widgets/imgbtn/../../../lvgl.h \
  ../Package/LVGL/src/extra/widgets/calendar/../../../../src/extra/widgets/span/lv_span.h \
- ../Package/LVGL/src/extra/widgets/calendar/../../../../src/extra/widgets/span/../../../lvgl.h \
- ../Package/LVGL/src/extra/widgets/calendar/../../../misc/lv_assert.h
+ ../Package/LVGL/src/extra/widgets/calendar/../../../../src/extra/widgets/span/../../../lvgl.h
 ../Package/LVGL/src/extra/widgets/calendar/lv_calendar.h:
 ../Package/LVGL/src/extra/widgets/calendar/../../../widgets/lv_btnmatrix.h:
 ../Package/LVGL/src/extra/widgets/calendar/../../../widgets/../lv_conf_internal.h:
@@ -372,8 +369,6 @@ Package/LVGL/src/extra/widgets/calendar/lv_calendar.o: \
 ../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/lv_roller.h:
 ../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/lv_textarea.h:
 ../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/lv_canvas.h:
-../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/../widgets/lv_img.h:
-../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/../draw/lv_draw_img.h:
 ../Package/LVGL/src/extra/widgets/calendar/../../../../src/widgets/lv_switch.h:
 ../Package/LVGL/src/extra/widgets/calendar/../../../../src/draw/lv_draw.h:
 ../Package/LVGL/src/extra/widgets/calendar/../../../../src/lv_api_map.h:
@@ -465,4 +460,3 @@ Package/LVGL/src/extra/widgets/calendar/lv_calendar.o: \
 ../Package/LVGL/src/extra/widgets/calendar/../../../../src/extra/widgets/imgbtn/../../../lvgl.h:
 ../Package/LVGL/src/extra/widgets/calendar/../../../../src/extra/widgets/span/lv_span.h:
 ../Package/LVGL/src/extra/widgets/calendar/../../../../src/extra/widgets/span/../../../lvgl.h:
-../Package/LVGL/src/extra/widgets/calendar/../../../misc/lv_assert.h:

@@ -132,8 +132,6 @@ Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.o: \
  ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/lv_roller.h \
  ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/lv_textarea.h \
  ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/lv_canvas.h \
- ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/../widgets/lv_img.h \
- ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/../draw/lv_draw_img.h \
  ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/lv_switch.h \
  ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/draw/lv_draw.h \
  ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/lv_api_map.h \
@@ -412,8 +410,6 @@ Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.o: \
 ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/lv_roller.h:
 ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/lv_textarea.h:
 ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/lv_canvas.h:
-../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/../widgets/lv_img.h:
-../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/../draw/lv_draw_img.h:
 ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/widgets/lv_switch.h:
 ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/draw/lv_draw.h:
 ../Package/LVGL/src/extra/libs/fsdrv/../../../../src/lv_api_map.h:

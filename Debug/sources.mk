@@ -91,4 +91,5 @@ Package/LVGL/src/font \
 Package/LVGL/src/hal \
 Package/LVGL/src/misc \
 Package/LVGL/src/widgets \
+Package/PageManager \
 

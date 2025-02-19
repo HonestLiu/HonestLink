@@ -133,8 +133,6 @@ Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.o: \
  ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/lv_roller.h \
  ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/lv_textarea.h \
  ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/lv_canvas.h \
- ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/../widgets/lv_img.h \
- ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/../draw/lv_draw_img.h \
  ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/lv_switch.h \
  ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/draw/lv_draw.h \
  ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/lv_api_map.h \
@@ -360,8 +358,6 @@ Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.o: \
 ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/lv_roller.h:
 ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/lv_textarea.h:
 ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/lv_canvas.h:
-../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/../widgets/lv_img.h:
-../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/../draw/lv_draw_img.h:
 ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/widgets/lv_switch.h:
 ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/draw/lv_draw.h:
 ../Package/LVGL/src/extra/widgets/spinbox/../../../../src/lv_api_map.h:

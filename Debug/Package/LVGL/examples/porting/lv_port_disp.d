@@ -120,8 +120,6 @@ Package/LVGL/examples/porting/lv_port_disp.o: \
  ../Package/LVGL/src/widgets/lv_roller.h \
  ../Package/LVGL/src/widgets/lv_textarea.h \
  ../Package/LVGL/src/widgets/lv_canvas.h \
- ../Package/LVGL/src/widgets/../widgets/lv_img.h \
- ../Package/LVGL/src/widgets/../draw/lv_draw_img.h \
  ../Package/LVGL/src/widgets/lv_switch.h \
  ../Package/LVGL/src/draw/lv_draw.h ../Package/LVGL/src/lv_api_map.h \
  ../Package/LVGL/src/../lvgl.h ../Package/LVGL/src/extra/lv_extra.h \
@@ -402,8 +400,6 @@ Package/LVGL/examples/porting/lv_port_disp.o: \
 ../Package/LVGL/src/widgets/lv_roller.h:
 ../Package/LVGL/src/widgets/lv_textarea.h:
 ../Package/LVGL/src/widgets/lv_canvas.h:
-../Package/LVGL/src/widgets/../widgets/lv_img.h:
-../Package/LVGL/src/widgets/../draw/lv_draw_img.h:
 ../Package/LVGL/src/widgets/lv_switch.h:
 ../Package/LVGL/src/draw/lv_draw.h:
 ../Package/LVGL/src/lv_api_map.h:

@@ -1,4 +1,4 @@
-../Package/LVGL/src/extra/themes/basic/lv_theme_basic.c:169:13:theme_apply	38
+../Package/LVGL/src/extra/themes/basic/lv_theme_basic.c:169:13:theme_apply	29
 ../Package/LVGL/src/extra/themes/basic/lv_theme_basic.c:414:13:style_init_reset	2
 ../Package/LVGL/src/extra/themes/basic/lv_theme_basic.c:135:6:lv_theme_basic_is_inited	1
 ../Package/LVGL/src/extra/themes/basic/lv_theme_basic.c:140:14:lv_theme_basic_init	4

@@ -132,8 +132,6 @@ Package/LVGL/src/extra/libs/sjpg/lv_sjpg.o: \
  ../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/lv_roller.h \
  ../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/lv_textarea.h \
  ../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/lv_canvas.h \
- ../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/../widgets/lv_img.h \
- ../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/../draw/lv_draw_img.h \
  ../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/lv_switch.h \
  ../Package/LVGL/src/extra/libs/sjpg/../../../../src/draw/lv_draw.h \
  ../Package/LVGL/src/extra/libs/sjpg/../../../../src/lv_api_map.h \
@@ -358,8 +356,6 @@ Package/LVGL/src/extra/libs/sjpg/lv_sjpg.o: \
 ../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/lv_roller.h:
 ../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/lv_textarea.h:
 ../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/lv_canvas.h:
-../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/../widgets/lv_img.h:
-../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/../draw/lv_draw_img.h:
 ../Package/LVGL/src/extra/libs/sjpg/../../../../src/widgets/lv_switch.h:
 ../Package/LVGL/src/extra/libs/sjpg/../../../../src/draw/lv_draw.h:
 ../Package/LVGL/src/extra/libs/sjpg/../../../../src/lv_api_map.h:

@@ -133,8 +133,6 @@ Package/LVGL/src/extra/widgets/spinner/lv_spinner.o: \
  ../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/lv_roller.h \
  ../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/lv_textarea.h \
  ../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/lv_canvas.h \
- ../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/../widgets/lv_img.h \
- ../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/../draw/lv_draw_img.h \
  ../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/lv_switch.h \
  ../Package/LVGL/src/extra/widgets/spinner/../../../../src/draw/lv_draw.h \
  ../Package/LVGL/src/extra/widgets/spinner/../../../../src/lv_api_map.h \
@@ -359,8 +357,6 @@ Package/LVGL/src/extra/widgets/spinner/lv_spinner.o: \
 ../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/lv_roller.h:
 ../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/lv_textarea.h:
 ../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/lv_canvas.h:
-../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/../widgets/lv_img.h:
-../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/../draw/lv_draw_img.h:
 ../Package/LVGL/src/extra/widgets/spinner/../../../../src/widgets/lv_switch.h:
 ../Package/LVGL/src/extra/widgets/spinner/../../../../src/draw/lv_draw.h:
 ../Package/LVGL/src/extra/widgets/spinner/../../../../src/lv_api_map.h:

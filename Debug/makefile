@@ -9,6 +9,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Package/PageManager/subdir.mk
 -include Package/LVGL/src/widgets/subdir.mk
 -include Package/LVGL/src/misc/subdir.mk
 -include Package/LVGL/src/hal/subdir.mk
@@ -100,34 +101,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := F4_CherryDAP
+BUILD_ARTIFACT_NAME := HonestLink
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-F4_CherryDAP.elf \
+HonestLink.elf \
 
 MAP_FILES += \
-F4_CherryDAP.map \
+HonestLink.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-F4_CherryDAP.list \
+HonestLink.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: F4_CherryDAP.elf secondary-outputs
+main-build: HonestLink.elf secondary-outputs
 
 # Tool invocations
-F4_CherryDAP.elf F4_CherryDAP.map: $(OBJS) $(USER_OBJS) D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\STM32F407ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "F4_CherryDAP.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F4_CherryDAP.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+HonestLink.elf HonestLink.map: $(OBJS) $(USER_OBJS) D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\STM32F407ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "HonestLink.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="HonestLink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -136,14 +137,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-F4_CherryDAP.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "F4_CherryDAP.list"
+HonestLink.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "HonestLink.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) F4_CherryDAP.elf F4_CherryDAP.list F4_CherryDAP.map default.size.stdout
+	-$(RM) HonestLink.elf HonestLink.list HonestLink.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

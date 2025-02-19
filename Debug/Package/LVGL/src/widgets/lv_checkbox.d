@@ -82,13 +82,7 @@ Package/LVGL/src/widgets/lv_checkbox.o: \
  ../Package/LVGL/src/widgets/../core/lv_obj_class.h \
  ../Package/LVGL/src/widgets/../core/lv_event.h \
  ../Package/LVGL/src/widgets/../core/lv_group.h \
- ../Package/LVGL/src/widgets/../core/../misc/lv_ll.h \
- ../Package/LVGL/src/widgets/../misc/lv_assert.h \
- ../Package/LVGL/src/widgets/../misc/lv_txt_ap.h \
- ../Package/LVGL/src/widgets/../misc/lv_txt.h \
- ../Package/LVGL/src/widgets/../misc/../draw/lv_draw.h \
- ../Package/LVGL/src/widgets/../core/lv_group.h \
- ../Package/LVGL/src/widgets/../draw/lv_draw.h
+ ../Package/LVGL/src/widgets/../core/../misc/lv_ll.h
 ../Package/LVGL/src/widgets/lv_checkbox.h:
 ../Package/LVGL/src/widgets/../lv_conf_internal.h:
 ../Package/LVGL/src/widgets/../lv_conf_kconfig.h:
@@ -173,9 +167,3 @@ Package/LVGL/src/widgets/lv_checkbox.o: \
 ../Package/LVGL/src/widgets/../core/lv_event.h:
 ../Package/LVGL/src/widgets/../core/lv_group.h:
 ../Package/LVGL/src/widgets/../core/../misc/lv_ll.h:
-../Package/LVGL/src/widgets/../misc/lv_assert.h:
-../Package/LVGL/src/widgets/../misc/lv_txt_ap.h:
-../Package/LVGL/src/widgets/../misc/lv_txt.h:
-../Package/LVGL/src/widgets/../misc/../draw/lv_draw.h:
-../Package/LVGL/src/widgets/../core/lv_group.h:
-../Package/LVGL/src/widgets/../draw/lv_draw.h:

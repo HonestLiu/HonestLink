@@ -187,7 +187,7 @@ void MX_FREERTOS_Init(void) {
   UartTaskHandle = osThreadCreate(osThread(UartTask), NULL);
 
   /* definition and creation of LVGLTask */
-  osThreadDef(LVGLTask, LvglStartTask, osPriorityNormal, 0, 2048);
+  osThreadDef(LVGLTask, LvglStartTask, osPriorityNormal, 0, 3072);
   LVGLTaskHandle = osThreadCreate(osThread(LVGLTask), NULL);
 
   /* definition and creation of OfflineDownload */
@@ -242,7 +242,6 @@ void UartTaskFun(void const * argument)
 }
 
 /* USER CODE BEGIN Header_LvglStartTask */
-/*
 void lv_list_demo() {
     lv_obj_t *list_obj = lv_obj_create(lv_scr_act()); // 创建列表部件背景
     lv_obj_t *list = lv_list_create(list_obj);        // 创建列表
@@ -266,7 +265,6 @@ void lv_list_demo() {
     lv_obj_t *btn5 = lv_list_add_btn(list, LV_SYMBOL_DIRECTORY, "Directory");
     lv_obj_add_event_cb(btn5, NULL, LV_EVENT_CLICKED, NULL);
 }
-*/
 
 FATFS fs; //工作空间
 void InitFatFas(void) {
@@ -324,26 +322,26 @@ void update_offline_downlaod_info(void)//更新离线下载数据
     static struct offline_download_info_t last_offline_download_info;
     char _temp_char[10] = {0};
 
-    if (last_offline_download_info.success_download_count
+/*    if (last_offline_download_info.success_download_count
         != offline_download_info.success_download_count)
     {
         snprintf(_temp_char,
                  sizeof(_temp_char), "%d",
                  offline_download_info.success_download_count);
         lv_label_set_text(ui_SuccessCount, _temp_char);
-    }
+    }*/
     if(last_offline_download_info.progress!=offline_download_info.progress)
     {
-        lv_bar_set_value(ui_uiOfflineDownloadProcessBar, offline_download_info.progress, LV_ANIM_ON);
+        lv_bar_set_value(ui_DownBar, offline_download_info.progress, LV_ANIM_ON);
         snprintf(_temp_char,
                  sizeof(_temp_char), "%d%",
                  offline_download_info.progress);
-        lv_label_set_text(ui_uiOfflineDownloadProcessNum, _temp_char);
+        lv_label_set_text(ui_DownProgress, _temp_char);
     }
 
     if(strncmp(last_offline_download_info.info_message, offline_download_info.info_message,sizeof(offline_download_info.info_message))!=0)
     {
-        lv_label_set_text(ui_Label12, offline_download_info.info_message);
+        lv_label_set_text(ui_DownInfo, offline_download_info.info_message);
     }
     memcpy(&last_offline_download_info, &offline_download_info, sizeof(last_offline_download_info));
 
