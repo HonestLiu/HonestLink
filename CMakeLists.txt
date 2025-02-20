@@ -53,8 +53,7 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx)
 
-#file(GLOB_RECURSE SOURCES "Package/PageManager/*.*" "Core/*.*" "FATFS/*.*" "Package/LVGL/*.*" "Middlewares/*.*" "Drivers/*.*")
-
+# file(GLOB_RECURSE SOURCES "Package/PageManager/*.*" "Core/*.*" "FATFS/*.*" "Package/LVGL/*.*" "Middlewares/*.*" "Drivers/*.*")
 file(GLOB_RECURSE SOURCES "Core/*.*" "Package/LVGL/*.*" "FATFS/*.*" "Middlewares/*.*" "Drivers/*.*"
         "Package/CherryUSB/core/usbd_core.c"
         "Package/CherryUSB/class/cdc/usbd_cdc.c"
@@ -68,6 +67,7 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Package/LVGL/*.*" "FATFS/*.*" "Middlewares
         "Package/flmparse/*.*"
         "Package/PageManager/*.*"
 )
+
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407ZGTX_FLASH.ld)
 
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)

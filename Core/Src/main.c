@@ -140,6 +140,7 @@ int main(void)
   MX_TIM3_Init();
   MX_SDIO_SD_Init();
   MX_FATFS_Init();
+  MX_TIM9_Init();
   /* USER CODE BEGIN 2 */
 #endif
     //TODO 如果新增了外设，记得在这里添加初始化函数
@@ -151,6 +152,7 @@ int main(void)
     MX_TIM3_Init();
     MX_SDIO_SD_Init();
     MX_FATFS_Init();
+    MX_TIM9_Init();
 
     BSP_SD_Init();//初始化SD卡
   /* USER CODE END 2 */

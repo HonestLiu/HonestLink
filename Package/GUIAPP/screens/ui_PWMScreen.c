@@ -40,6 +40,10 @@ void ui_PWMScreen_screen_init(void)
     lv_obj_set_style_pad_top(ui_Label30, 5, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui_Label30, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
 
+    keyboard = lv_keyboard_create(ui_PWMScreen);
+    lv_keyboard_set_mode(keyboard, LV_KEYBOARD_MODE_NUMBER);//ÉèÖÃÎªÊý×ÖÐ¡¼üÅÌ
+    lv_obj_add_flag(keyboard, LV_OBJ_FLAG_HIDDEN);  // Ä¬ÈÏÒþ²Ø¼üÅÌ
+
     ui_PWMPeriod = lv_textarea_create(ui_Container3);
     lv_obj_set_width(ui_PWMPeriod, 150);
     lv_obj_set_height(ui_PWMPeriod, 42);
@@ -109,7 +113,7 @@ void ui_PWMScreen_screen_init(void)
     lv_obj_set_x(ui_PWMFreqLabel, 24);
     lv_obj_set_y(ui_PWMFreqLabel, 0);
     lv_obj_set_align(ui_PWMFreqLabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_PWMFreqLabel, "1.0MHz");
+    lv_label_set_text(ui_PWMFreqLabel, "0.0MHz");
     lv_obj_set_style_text_font(ui_PWMFreqLabel, &lv_font_montserrat_28, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_Container6 = lv_obj_create(ui_PWMScreen);
@@ -136,7 +140,7 @@ void ui_PWMScreen_screen_init(void)
     lv_obj_set_width(ui_PWMDutyLabel, LV_SIZE_CONTENT);   /// 1
     lv_obj_set_height(ui_PWMDutyLabel, LV_SIZE_CONTENT);    /// 1
     lv_obj_set_align(ui_PWMDutyLabel, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_PWMDutyLabel, "50.00%");
+    lv_label_set_text(ui_PWMDutyLabel, "00.00%");
     lv_obj_set_style_text_font(ui_PWMDutyLabel, &lv_font_montserrat_28, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_Label48 = lv_label_create(ui_PWMScreen);
@@ -183,6 +187,7 @@ void ui_PWMScreen_screen_init(void)
 
     lv_obj_add_event_cb(ui_PWMPeriod, ui_event_PWMPeriod, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_PWMPulse, ui_event_PWMPulse, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(keyboard, ui_event_KeyBoard, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_PWMScreen, ui_event_PWMScreen, LV_EVENT_ALL, NULL);
 
 }

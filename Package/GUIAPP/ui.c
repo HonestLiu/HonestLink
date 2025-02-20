@@ -3,6 +3,7 @@
 // LVGL version: 8.3.11
 // Project name: HonestLink
 
+#include <stdlib.h>
 #include "ui.h"
 #include "ui_helpers.h"
 
@@ -10,6 +11,7 @@
 #include "FreeRTOS.h"
 #include "cmsis_os.h"
 #include "lv_lib_100ask.h"
+#include "tim.h"
 
 ///////////////////// VARIABLES ////////////////////
 
@@ -154,6 +156,8 @@ void ui_event_PWMScreen(lv_event_t *e);
 lv_obj_t *ui_PWMScreen;
 lv_obj_t *ui_Container3;
 lv_obj_t *ui_Label30;
+
+lv_obj_t *keyboard;
 
 void ui_event_PWMPeriod(lv_event_t *e);
 
@@ -325,7 +329,9 @@ void ui_event_PWMPanel(lv_event_t *e) {
 
     if (event_code == LV_EVENT_CLICKED) {
         Page_Load(&PagePWM);
-        // _ui_screen_change(&ui_PWMScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_PWMScreen_screen_init);
+        HAL_TIM_Base_Start(&htim9);
+        HAL_TIM_PWM_Start(&htim9, TIM_CHANNEL_1);
+        HAL_TIM_PWM_Start(&htim9, TIM_CHANNEL_2);
     }
 }
 
@@ -425,6 +431,8 @@ void ui_event_PinMapScreen(lv_event_t *e) {
     }
 }
 
+uint16_t ui_period = 0;//PWM周期
+uint16_t ui_pulse = 0; //PWM脉宽
 void ui_event_PWMScreen(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
@@ -432,25 +440,58 @@ void ui_event_PWMScreen(lv_event_t *e) {
         lv_indev_wait_release(lv_indev_get_act());
         LV_LOG_USER("PWMScreen Back\r\n");
         Page_Back();
-        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+        HAL_TIM_Base_Stop(&htim9);
+        HAL_TIM_PWM_Stop(&htim9, TIM_CHANNEL_1);
+        HAL_TIM_PWM_Stop(&htim9, TIM_CHANNEL_2);
+        ui_period = 0;
+        ui_pulse = 0;
     }
 }
 
 void ui_event_PWMPeriod(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t *ta = lv_event_get_target(e);
 
-    if (event_code == LV_EVENT_VALUE_CHANGED) {
-        //Page_Load(&page_Home);
-        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+    if (event_code == LV_EVENT_CLICKED) {
+        lv_keyboard_set_textarea(keyboard, ta);//绑定键盘和文本框
+        lv_obj_clear_flag(keyboard, LV_OBJ_FLAG_HIDDEN);//显示键盘
+        lv_obj_move_foreground(keyboard);  // 将键盘移到最前面
     }
 }
 
 void ui_event_PWMPulse(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t *ta = lv_event_get_target(e);
 
-    if (event_code == LV_EVENT_VALUE_CHANGED) {
-        //Page_Load(&page_Home);
-        //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+    if (event_code == LV_EVENT_CLICKED) {
+        lv_keyboard_set_textarea(keyboard, ta);//绑定键盘和文本框
+        lv_obj_clear_flag(keyboard, LV_OBJ_FLAG_HIDDEN);//显示键盘
+        lv_obj_move_foreground(keyboard);  // 将键盘移到最前面
+    }
+}
+
+extern uint16_t ui_period;//PWM周期
+extern uint16_t ui_pulse; //PWM脉宽
+
+void ui_event_KeyBoard(lv_event_t *e) {
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t *kb = lv_event_get_target(e);
+    if (event_code == LV_EVENT_READY || event_code == LV_EVENT_CANCEL) {
+        lv_obj_t *ta = lv_keyboard_get_textarea(kb);  // 获取当前关联的文本区域
+        if (ta) {
+            // 在这里处理文本区域提交的输入数据
+            const char *text = lv_textarea_get_text(ta);
+            if (ta == ui_PWMPeriod) {
+                ui_period = atoi(text);
+            } else if (ta == ui_PWMPulse) {
+                ui_pulse = atoi(text);
+            }
+            printf("Text input from textarea: %s\n", text);  // 示例输出
+
+        }
+
+        lv_keyboard_set_textarea(kb, NULL);//解除键盘和文本框的绑定
+        lv_obj_add_flag(kb, LV_OBJ_FLAG_HIDDEN);//隐藏键盘
     }
 }
 
@@ -534,7 +575,8 @@ void file_explorer_event_handler(lv_event_t *e) {
 
 void ui_init(void) {
     lv_disp_t *dispp = lv_disp_get_default();
-    lv_theme_t *theme = lv_theme_default_init(dispp, lv_palette_main(LV_PALETTE_BLUE), lv_palette_main(LV_PALETTE_RED),
+    lv_theme_t *theme = lv_theme_default_init(dispp, lv_palette_main(LV_PALETTE_BLUE),
+                                              lv_palette_main(LV_PALETTE_RED),
                                               false, LV_FONT_DEFAULT);
     lv_disp_set_theme(dispp, theme);
 //    ui_HomeScreen_screen_init();

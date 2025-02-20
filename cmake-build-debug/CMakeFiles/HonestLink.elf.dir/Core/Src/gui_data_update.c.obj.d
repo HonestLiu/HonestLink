@@ -312,4 +312,6 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.obj: \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.h \
  D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/lv_lib_100ask.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.h \
- D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/lv_lib_100ask.h
+ D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/lv_lib_100ask.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Inc/tim.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Inc/main.h

@@ -80,9 +80,10 @@ extern int8_t swd_download_update_flash_algo(char *_file_path);
 
 /* USER CODE END Variables */
 osThreadId DAPTaskHandle;
-osThreadId UartTaskHandle;
+osThreadId LEDTaskHandle;
 osThreadId LVGLTaskHandle;
 osThreadId OfflineDownloadHandle;
+osThreadId ToolsTaskHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -129,19 +130,19 @@ void soft_reset_target(void) {
 }
 
 
-
-void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName)
-{
+void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName) {
     // 堆栈溢出处理代码
     printf("Stack overflow in task: %s\n", pcTaskName);
     while (1);
 }
+
 /* USER CODE END FunctionPrototypes */
 
 void DAPFun(void const * argument);
-void UartTaskFun(void const * argument);
+void LEDTaskFun(void const * argument);
 void LvglStartTask(void const * argument);
 void OfflineDownloadStartTask(void const * argument);
+void ToolsStartTask(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -193,9 +194,9 @@ void MX_FREERTOS_Init(void) {
   osThreadDef(DAPTask, DAPFun, osPriorityNormal, 0, 1024);
   DAPTaskHandle = osThreadCreate(osThread(DAPTask), NULL);
 
-  /* definition and creation of UartTask */
-  osThreadDef(UartTask, UartTaskFun, osPriorityIdle, 0, 128);
-  UartTaskHandle = osThreadCreate(osThread(UartTask), NULL);
+  /* definition and creation of LEDTask */
+  osThreadDef(LEDTask, LEDTaskFun, osPriorityIdle, 0, 128);
+  LEDTaskHandle = osThreadCreate(osThread(LEDTask), NULL);
 
   /* definition and creation of LVGLTask */
   osThreadDef(LVGLTask, LvglStartTask, osPriorityNormal, 0, 3072);
@@ -204,6 +205,10 @@ void MX_FREERTOS_Init(void) {
   /* definition and creation of OfflineDownload */
   osThreadDef(OfflineDownload, OfflineDownloadStartTask, osPriorityNormal, 0, 2048);
   OfflineDownloadHandle = osThreadCreate(osThread(OfflineDownload), NULL);
+
+  /* definition and creation of ToolsTask */
+  osThreadDef(ToolsTask, ToolsStartTask, osPriorityNormal, 0, 1024);
+  ToolsTaskHandle = osThreadCreate(osThread(ToolsTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
     /* add threads, ... */
@@ -233,26 +238,26 @@ void DAPFun(void const * argument)
   /* USER CODE END DAPFun */
 }
 
-/* USER CODE BEGIN Header_UartTaskFun */
-
+/* USER CODE BEGIN Header_LEDTaskFun */
 /**
-* @brief Function implementing the UartTask thread.
+* @brief Function implementing the LEDTask thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_UartTaskFun */
-void UartTaskFun(void const * argument)
+/* USER CODE END Header_LEDTaskFun */
+void LEDTaskFun(void const * argument)
 {
-  /* USER CODE BEGIN UartTaskFun */
+  /* USER CODE BEGIN LEDTaskFun */
     /* Infinite loop */
     for (;;) {
-        HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
-        osDelay(2000);
+        HAL_GPIO_TogglePin(LED1_GPIO_Port, LED_Pin);
+        osDelay(1000);
     }
-  /* USER CODE END UartTaskFun */
+  /* USER CODE END LEDTaskFun */
 }
 
 /* USER CODE BEGIN Header_LvglStartTask */
+/*
 void lv_list_demo() {
     lv_obj_t *list_obj = lv_obj_create(lv_scr_act()); // 创建列表部件背景
     lv_obj_t *list = lv_list_create(list_obj);        // 创建列表
@@ -276,6 +281,8 @@ void lv_list_demo() {
     lv_obj_t *btn5 = lv_list_add_btn(list, LV_SYMBOL_DIRECTORY, "Directory");
     lv_obj_add_event_cb(btn5, NULL, LV_EVENT_CLICKED, NULL);
 }
+
+*/
 
 FATFS fs; //工作空间
 void InitFatFas(void) {
@@ -304,7 +311,7 @@ void LvglStartTask(void const * argument)
     //lv_list_demo();
     SD_Driver.disk_initialize(0);//初始化SD卡
     InitFatFas();//初始化FATFS
-    //test_directory_read("0:/");//读取SD卡根目录
+
     ui_init();
 
     /* Infinite loop */
@@ -319,8 +326,10 @@ void LvglStartTask(void const * argument)
                 update_offline_download_info();//更新离线下载的信息
                 break;
             }
-            case PWMPage:
+            case PWMPage: {
+                update_pwd();
                 break;
+            }
             case ElectricPage:
                 break;
             case ServosPage:
@@ -374,6 +383,24 @@ void OfflineDownloadStartTask(void const * argument)
         osDelay(1);
     }
   /* USER CODE END OfflineDownloadStartTask */
+}
+
+/* USER CODE BEGIN Header_ToolsStartTask */
+/**
+* @brief Function implementing the ToolsTask thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_ToolsStartTask */
+void ToolsStartTask(void const * argument)
+{
+  /* USER CODE BEGIN ToolsStartTask */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END ToolsStartTask */
 }
 
 /* Private application code --------------------------------------------------*/
