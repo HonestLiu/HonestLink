@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj.d"
   "CMakeFiles/HonestLink.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/HonestLink.elf.dir/Core/Src/gpio.c.obj.d"
+  "CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.obj"
+  "CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.obj.d"
   "CMakeFiles/HonestLink.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/HonestLink.elf.dir/Core/Src/main.c.obj.d"
   "CMakeFiles/HonestLink.elf.dir/Core/Src/sdio.c.obj"

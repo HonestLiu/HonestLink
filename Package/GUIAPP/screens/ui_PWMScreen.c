@@ -6,6 +6,7 @@
 #include "../ui.h"
 
 Page_t PagePWM = {
+        .id = PWMPage,
         .init = ui_PWMScreen_screen_init,
         .deinit = ui_PWMScreen_screen_deinit,
         .page_obj = &ui_PWMScreen,

@@ -6,6 +6,7 @@
 #include "../ui.h"
 
 Page_t PageLogic = {
+        .id = LogicPage,
         .init = ui_LogicScreen_screen_init,
         .deinit = ui_LogicScreen_screen_deinit,
         .page_obj = &ui_LogicScreen,

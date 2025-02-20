@@ -6,6 +6,7 @@
 #include "../ui.h"
 
 Page_t PagePinMap = {
+        .id = PinMapPage,
         .init = ui_PinMapScreen_screen_init,
         .deinit = ui_PinMapScreen_screen_deinit,
         .page_obj = &ui_PinMapScreen,

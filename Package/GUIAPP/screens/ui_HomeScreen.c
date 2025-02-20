@@ -6,11 +6,14 @@
 #include "../ui.h"
 #include "pageManager.h"
 
-Page_t page_Home = {.init = ui_HomeScreen_screen_init,.deinit = ui_HomeScreen_screen_deinit,.page_obj = &ui_HomeScreen};
+Page_t page_Home = {
+        .id = HomePage,
+        .init = ui_HomeScreen_screen_init,
+        .deinit = ui_HomeScreen_screen_deinit,
+        .page_obj = &ui_HomeScreen};
 
 
-void ui_HomeScreen_screen_init(void)
-{
+void ui_HomeScreen_screen_init(void) {
     ui_HomeScreen = lv_obj_create(NULL);
     lv_obj_clear_flag(ui_HomeScreen, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
@@ -229,6 +232,6 @@ void ui_HomeScreen_screen_init(void)
 
 }
 
-void ui_HomeScreen_screen_deinit(void){
+void ui_HomeScreen_screen_deinit(void) {
 
 }

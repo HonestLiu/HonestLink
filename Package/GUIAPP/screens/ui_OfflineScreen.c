@@ -6,6 +6,7 @@
 #include "../ui.h"
 
 Page_t PageOffline = {
+        .id = OfflineDAPPage,
         .init = ui_OfflineScreen_screen_init,
         .deinit = ui_OfflineScreen_screen_deinit,
         .page_obj = &ui_OfflineScreen,

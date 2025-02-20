@@ -35,6 +35,8 @@
 #include "ui.h"
 #include "lv_lib_100ask.h"
 #include "swd_download_file.h"
+#include "pageManager.h"
+#include "gui_data_update.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -72,8 +74,9 @@ QueueHandle_t offline_download_sem;//离线下载二值信号量句柄
 extern char choose_device_path[LV_100ASK_FILE_EXPLORER_PATH_MAX_LEN];
 extern char choose_firmware_bin_path[LV_100ASK_FILE_EXPLORER_PATH_MAX_LEN];
 
-extern int32_t swd_download_from_file(char *_file_path);//TODO
-extern int8_t swd_download_update_flash_algo(char *_file_path);//TODO
+extern int32_t swd_download_from_file(char *_file_path);
+
+extern int8_t swd_download_update_flash_algo(char *_file_path);
 
 /* USER CODE END Variables */
 osThreadId DAPTaskHandle;
@@ -125,6 +128,14 @@ void soft_reset_target(void) {
     }
 }
 
+
+
+void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName)
+{
+    // 堆栈溢出处理代码
+    printf("Stack overflow in task: %s\n", pcTaskName);
+    while (1);
+}
 /* USER CODE END FunctionPrototypes */
 
 void DAPFun(void const * argument);
@@ -271,80 +282,8 @@ void InitFatFas(void) {
     int retSD = f_mount(&fs, "0:", 1);
     if (retSD) {
         printf("mount error : %d \r\n", retSD);
-        //  Error_Handler();
     } else
         printf("mount sucess!!! \r\n");
-}
-
-/*void test_directory_read(const char *path) {
-    FRESULT res;          // FatFS 操作结果
-    DIR dir;              // 目录对象
-    FILINFO fno;          // 文件信息对象
-
-    // 打开目录
-    res = f_opendir(&dir, path);
-    if (res != FR_OK) {
-        printf("Failed to open directory: %s, error code: %d\n", path, res);
-        return;
-    }
-
-    printf("Contents of directory: %s\n", path);
-
-    // 遍历目录
-    while (1) {
-        res = f_readdir(&dir, &fno);  // 读取目录项
-        if (res != FR_OK || fno.fname[0] == 0) {
-            break;  // 错误或遍历完成
-        }
-
-        // 输出文件或目录名
-        if (fno.fattrib & AM_DIR) {
-            printf("[DIR]  %s\n", fno.fname);  // 目录
-        } else {
-            printf("[FILE] %s\n", fno.fname);  // 文件
-        }
-    }
-
-    // 关闭目录
-    f_closedir(&dir);
-
-    if (res != FR_OK) {
-        printf("Error during directory read: %d\n", res);
-    } else {
-        printf("Directory read completed.\n");
-    }
-}*/
-
-extern struct offline_download_info_t offline_download_info;
-
-void update_offline_downlaod_info(void)//更新离线下载数据
-{
-    static struct offline_download_info_t last_offline_download_info;
-    char _temp_char[10] = {0};
-
-/*    if (last_offline_download_info.success_download_count
-        != offline_download_info.success_download_count)
-    {
-        snprintf(_temp_char,
-                 sizeof(_temp_char), "%d",
-                 offline_download_info.success_download_count);
-        lv_label_set_text(ui_SuccessCount, _temp_char);
-    }*/
-    if(last_offline_download_info.progress!=offline_download_info.progress)
-    {
-        lv_bar_set_value(ui_DownBar, offline_download_info.progress, LV_ANIM_ON);
-        snprintf(_temp_char,
-                 sizeof(_temp_char), "%d%",
-                 offline_download_info.progress);
-        lv_label_set_text(ui_DownProgress, _temp_char);
-    }
-
-    if(strncmp(last_offline_download_info.info_message, offline_download_info.info_message,sizeof(offline_download_info.info_message))!=0)
-    {
-        lv_label_set_text(ui_DownInfo, offline_download_info.info_message);
-    }
-    memcpy(&last_offline_download_info, &offline_download_info, sizeof(last_offline_download_info));
-
 }
 
 /**
@@ -371,11 +310,35 @@ void LvglStartTask(void const * argument)
     /* Infinite loop */
     for (;;) {
         lv_task_handler();
-        update_offline_downlaod_info();
+        switch (Page_Get_NowPage()->id) {//获取当前页面的ID，判断处于什么页面，然后对应更新什么数据
+            case HomePage:
+                break;
+            case PinMapPage:
+                break;
+            case OfflineDAPPage: {
+                update_offline_download_info();//更新离线下载的信息
+                break;
+            }
+            case PWMPage:
+                break;
+            case ElectricPage:
+                break;
+            case ServosPage:
+                break;
+            case LogicPage:
+                break;
+            case DACPage:
+                break;
+            case FilePage:
+                break;
+            default:
+                break;
+        }
         osDelay(1);
     }
   /* USER CODE END LvglStartTask */
 }
+
 /* USER CODE BEGIN Header_OfflineDownloadStartTask */
 
 /**
@@ -387,7 +350,6 @@ void LvglStartTask(void const * argument)
 void OfflineDownloadStartTask(void const * argument)
 {
   /* USER CODE BEGIN OfflineDownloadStartTask */
-
     offline_download_sem = xSemaphoreCreateBinary();//创建二至信号量
     _offline_download_info_init();//初始化下载信息
     if (offline_download_sem != NULL) {
@@ -398,7 +360,7 @@ void OfflineDownloadStartTask(void const * argument)
     }
     /* Infinite loop */
     for (;;) {
-        xSemaphoreTake(offline_download_sem,portMAX_DELAY);//永久方式等待信号量
+        xSemaphoreTake(offline_download_sem, portMAX_DELAY);//永久方式等待信号量
         printf("Start Offline Download!!\r\n");
         printf("Choose Device Path: %s\r\n", choose_device_path);
         printf("Choose Firmware Bin Path: %s\r\n", choose_firmware_bin_path);

@@ -56,10 +56,10 @@ RM = "D:\AppData\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP
+CMAKE_SOURCE_DIR = D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -223,6 +223,30 @@ Core/Src/gpio.s: Core/Src/gpio.c.s
 Core/Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Core/Src/gpio.c.s
 .PHONY : Core/Src/gpio.c.s
+
+Core/Src/gui_data_update.obj: Core/Src/gui_data_update.c.obj
+.PHONY : Core/Src/gui_data_update.obj
+
+# target to build an object file
+Core/Src/gui_data_update.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.obj
+.PHONY : Core/Src/gui_data_update.c.obj
+
+Core/Src/gui_data_update.i: Core/Src/gui_data_update.c.i
+.PHONY : Core/Src/gui_data_update.i
+
+# target to preprocess a source file
+Core/Src/gui_data_update.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.i
+.PHONY : Core/Src/gui_data_update.c.i
+
+Core/Src/gui_data_update.s: Core/Src/gui_data_update.c.s
+.PHONY : Core/Src/gui_data_update.s
+
+# target to generate assembly for a file
+Core/Src/gui_data_update.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.s
+.PHONY : Core/Src/gui_data_update.c.s
 
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
@@ -7885,6 +7909,9 @@ help:
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
+	@echo ... Core/Src/gui_data_update.obj
+	@echo ... Core/Src/gui_data_update.i
+	@echo ... Core/Src/gui_data_update.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s

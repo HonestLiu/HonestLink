@@ -1,5 +1,5 @@
 CMakeFiles/HonestLink.elf.dir/Core/Src/syscalls.c.obj: \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Core\Src\syscalls.c \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\syscalls.c \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/stat.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_ansi.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/newlib.h \

@@ -268,7 +268,9 @@ lv_obj_t *ui_DACFreq;
 //代表当前选择的文件路径是返回到哪里，0表示未初始化，1表示返回到芯片型号选择，2表示返回到选择固件。
 uint8_t current_path_return = 0;
 extern char choose_device_path[LV_100ASK_FILE_EXPLORER_PATH_MAX_LEN];
+uint8_t choose_device_path_flag = 0;
 extern char choose_firmware_bin_path[LV_100ASK_FILE_EXPLORER_PATH_MAX_LEN];
+uint8_t choose_firmware_bin_path_flag = 0;
 
 
 // SCREEN: ui_FileExplorerScreen
@@ -305,6 +307,7 @@ void ui_event_PinMapPanel(lv_event_t *e) {
 }
 
 extern Page_t PageOffline;
+
 //TODO 这个实际是离线下载的Panel，这里名字错了，后期改
 void ui_event_AboutPanel3(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
@@ -327,6 +330,7 @@ void ui_event_PWMPanel(lv_event_t *e) {
 }
 
 extern Page_t Page_Electric;
+
 void ui_event_ElectricPanel(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
@@ -337,6 +341,7 @@ void ui_event_ElectricPanel(lv_event_t *e) {
 }
 
 extern Page_t PageServos;
+
 void ui_event_ServoisPanel(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
@@ -347,6 +352,7 @@ void ui_event_ServoisPanel(lv_event_t *e) {
 }
 
 extern Page_t PageLogic;
+
 void ui_event_LogicPanel(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
@@ -378,6 +384,7 @@ void ui_event_OfflineScreen(lv_event_t *e) {
 }
 
 extern Page_t Page_FileExplorer;
+
 void ui_event_OfflineChipSelect(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if (event_code == LV_EVENT_CLICKED) {
@@ -400,6 +407,7 @@ extern QueueHandle_t offline_download_sem;//离线下载二值信号量句柄
 void ui_event_OfflineFirmDownload(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if (event_code == LV_EVENT_CLICKED) {
+        LV_LOG_USER("OfflineFirmDownload Clicked\r\n");
         xSemaphoreGive(offline_download_sem);//释放二值信号量开始下载
         LV_LOG_USER("Start download");
     }
@@ -508,7 +516,8 @@ void file_explorer_event_handler(lv_event_t *e) {
             strncpy(choose_device_path, current_path,
                     sizeof(current_path));
             LV_LOG_USER("choose_device_path:%s", choose_device_path);
-            lv_label_set_text(ui_SelectChip, choose_device_path);
+            choose_device_path_flag = 1;
+            //lv_label_set_text(ui_ChipLabel, choose_device_path);
         } else if (current_path_return == 2)//返回到固件选择
         {
             current_path_return = 0;
@@ -516,7 +525,8 @@ void file_explorer_event_handler(lv_event_t *e) {
             snprintf(current_path, sizeof(current_path), "%s/%s", cur_path, sel_fn);
             strncpy(choose_firmware_bin_path, current_path,
                     sizeof(current_path));
-            lv_label_set_text(ui_SelectFirm, choose_firmware_bin_path);
+            choose_firmware_bin_path_flag = 1;
+            //lv_label_set_text(ui_FirmWareLabel, choose_firmware_bin_path);
         }
     }
 }

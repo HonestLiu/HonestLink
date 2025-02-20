@@ -7,6 +7,7 @@
  */
 #include "swd_host.h"
 #include "SWD_flash.h"
+#include "stdio.h"
 
 
 extern const program_target_t flash_algo;
@@ -15,15 +16,18 @@ extern const program_target_t flash_algo;
 error_t target_flash_init(uint32_t flash_start)
 {
     if (0 == swd_set_target_state_hw(RESET_PROGRAM)) {
+        printf("swd_set_target_state_hw(RESET_PROGRAM) failed\n");
         return ERROR_RESET;
     }
 
     // Download flash programming algorithm to target and initialise.
     if (0 == swd_write_memory(flash_algo.algo_start, (uint8_t *)flash_algo.algo_blob, flash_algo.algo_size)) {
+        printf("swd_write_memory(flash_algo.algo_start) failed\n");
         return ERROR_ALGO_DL;
     }
 
     if (0 == swd_flash_syscall_exec(&flash_algo.sys_call_s, flash_algo.init, flash_start, 0, 1, 0,FLASHALGO_RETURN_BOOL)) {
+        printf("swd_flash_syscall_exec(flash_algo.init) failed\n");
         return ERROR_INIT;
     }
 

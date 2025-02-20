@@ -210,7 +210,7 @@ int FLM_Prase(char* FName, void* pBuffer, uint32_t* Size, uint32_t* Init, uint32
 	uint8_t* buffer = malloc(2048);  // 动态分配内存
     if (buffer == NULL)                 // 检查内存分配是否成功
     {
-		LOG_E("rt_malloc fail!");
+		LOG_E("malloc fail!");
         return -1;  // 内存分配失败
     }
 	

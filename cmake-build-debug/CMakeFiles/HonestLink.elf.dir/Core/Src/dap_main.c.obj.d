@@ -1,7 +1,7 @@
 CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj: \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Core\Src\dap_main.c \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Core\Inc/dap_main.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\core/usbd_core.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\dap_main.c \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Inc/dap_main.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\core/usbd_core.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/13.3.1/include/stdbool.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/string.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/_ansi.h \
@@ -28,64 +28,64 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj: \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdlib.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/machine/stdlib.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/alloca.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Core\Inc/usb_config.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_util.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_errno.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_def.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_list.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_log.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Inc/usb_config.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\common/usb_util.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\common/usb_errno.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\common/usb_def.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\common/usb_list.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\common/usb_log.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/stdio.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/13.3.1/include/stdarg.h \
  D:/AppData/DevelopTool/GNU-Tools-ARM-Embedded/arm-none-eabi/include/sys/stdio.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_dc.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\common/usb_memcpy.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\class\cdc/usbd_cdc.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\class\cdc/usb_cdc.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryRB/chry_ringbuffer.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\DAPLink\Include/swd_host.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\DAPLink\Include/flash_blob.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\DAPLink\Include/target_family.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\DAPLink\Include/target_reset.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\DAPLink\Include/debug_cm.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\DAPLink\Include/DAP.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\DAPLink\Include/DAP_config.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Core\Inc/main.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Core\Inc/stm32f4xx_hal_conf.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_def.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f407xx.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Include/core_cm4.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Include/cmsis_version.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Include/cmsis_compiler.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Include/cmsis_gcc.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Include/mpu_armv7.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\CMSIS\Device\ST\STM32F4xx\Include/system_stm32f4xx.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc_ex.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio_ex.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_exti.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma_ex.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_cortex.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sd.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_sdmmc.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_usb.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd_ex.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\DAPLink\Include/swd_host.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Core\Inc/bitband.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\DAPLink\Include/DAP_config.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\DAPLink\Include/DAP.h \
- D:\Develop\STM32CubeIDE\workspace_1.17.0\F4_CherryDAP\Package\CherryUSB\class\cdc/usb_cdc.h
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\common/usb_dc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\common/usb_memcpy.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\class\cdc/usbd_cdc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\class\cdc/usb_cdc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryRB/chry_ringbuffer.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Include/swd_host.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Include/flash_blob.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Include/target_family.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Include/target_reset.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Include/debug_cm.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Include/DAP.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Include/DAP_config.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Inc/main.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Inc/stm32f4xx_hal_conf.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_def.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f407xx.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\CMSIS\Include/core_cm4.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\CMSIS\Include/cmsis_version.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\CMSIS\Include/cmsis_compiler.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\CMSIS\Include/cmsis_gcc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\CMSIS\Include/mpu_armv7.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\CMSIS\Device\ST\STM32F4xx\Include/system_stm32f4xx.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_exti.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_cortex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sd.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_sdmmc.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_usb.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd_ex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Include/swd_host.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Inc/bitband.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Include/DAP_config.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Include/DAP.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\class\cdc/usb_cdc.h

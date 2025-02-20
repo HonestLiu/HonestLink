@@ -22,7 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/AppData/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake"
   "D:/AppData/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake"
   "D:/AppData/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Generic.cmake"
-  "D:/Develop/STM32CubeIDE/workspace_1.17.0/F4_CherryDAP/CMakeLists.txt"
+  "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/CMakeLists.txt"
   "CMakeFiles/3.30.5/CMakeASMCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"

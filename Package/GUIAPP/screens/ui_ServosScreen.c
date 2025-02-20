@@ -6,6 +6,7 @@
 #include "../ui.h"
 
 Page_t PageServos = {
+        .id = ServosPage,
         .init = ui_ServosScreen_screen_init,
         .deinit = ui_ServosScreen_screen_deinit,
         .page_obj = &ui_ServosScreen,

@@ -7,9 +7,10 @@
 #include "lv_lib_100ask.h"
 
 Page_t Page_FileExplorer = {
-    .init = ui_FileExplorerScreen_screen_init,
-    .deinit = ui_FileExplorerScreen_screen_deinit,
-    .page_obj = &ui_FileExplorerScreen,
+        .id = FilePage,
+        .init = ui_FileExplorerScreen_screen_init,
+        .deinit = ui_FileExplorerScreen_screen_deinit,
+        .page_obj = &ui_FileExplorerScreen,
 };
 
 void ui_FileExplorerScreen_screen_init(void) {
@@ -21,6 +22,6 @@ void ui_FileExplorerScreen_screen_init(void) {
     lv_obj_add_event_cb(file_explorer, file_explorer_event_handler, LV_EVENT_VALUE_CHANGED, NULL);//添加事件回调
 }
 
-void ui_FileExplorerScreen_screen_deinit(void){
+void ui_FileExplorerScreen_screen_deinit(void) {
 
 }

@@ -4,14 +4,15 @@
 // Project name: HonestLink
 
 #include "../ui.h"
+
 Page_t Page_Electric = {
-    .init = ui_ElectricScreen_screen_init,
-    .deinit = ui_ElectricScreen_screen_deinit,
-    .page_obj = &ui_ElectricScreen,
+        .id = ElectricPage,
+        .init = ui_ElectricScreen_screen_init,
+        .deinit = ui_ElectricScreen_screen_deinit,
+        .page_obj = &ui_ElectricScreen,
 };
 
-void ui_ElectricScreen_screen_init(void)
-{
+void ui_ElectricScreen_screen_init(void) {
     ui_ElectricScreen = lv_obj_create(NULL);
     lv_obj_clear_flag(ui_ElectricScreen, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
@@ -26,11 +27,10 @@ void ui_ElectricScreen_screen_init(void)
     lv_chart_set_axis_tick(ui_VoltageChart, LV_CHART_AXIS_PRIMARY_X, 10, 5, 0, 2, false, 50);
     lv_chart_set_axis_tick(ui_VoltageChart, LV_CHART_AXIS_PRIMARY_Y, 5, 3, 0, 2, true, 50);
     lv_chart_set_axis_tick(ui_VoltageChart, LV_CHART_AXIS_SECONDARY_Y, 10, 5, 0, 2, false, 25);
-    lv_chart_series_t * ui_VoltageChart_series_1 = lv_chart_add_series(ui_VoltageChart, lv_color_hex(0x808080),
-                                                                       LV_CHART_AXIS_PRIMARY_Y);
-    static lv_coord_t ui_VoltageChart_series_1_array[] = { 0, 10, 20, 30, 25, 27, 10, 20, 10, 0, 3, 0 };
+    lv_chart_series_t *ui_VoltageChart_series_1 = lv_chart_add_series(ui_VoltageChart, lv_color_hex(0x808080),
+                                                                      LV_CHART_AXIS_PRIMARY_Y);
+    static lv_coord_t ui_VoltageChart_series_1_array[] = {0, 10, 20, 30, 25, 27, 10, 20, 10, 0, 3, 0};
     lv_chart_set_ext_y_array(ui_VoltageChart, ui_VoltageChart_series_1, ui_VoltageChart_series_1_array);
-
 
 
     ui_CurrentChart = lv_chart_create(ui_ElectricScreen);
@@ -44,11 +44,10 @@ void ui_ElectricScreen_screen_init(void)
     lv_chart_set_axis_tick(ui_CurrentChart, LV_CHART_AXIS_PRIMARY_X, 10, 5, 0, 2, false, 50);
     lv_chart_set_axis_tick(ui_CurrentChart, LV_CHART_AXIS_PRIMARY_Y, 5, 3, 0, 2, true, 50);
     lv_chart_set_axis_tick(ui_CurrentChart, LV_CHART_AXIS_SECONDARY_Y, 10, 5, 0, 2, false, 25);
-    lv_chart_series_t * ui_CurrentChart_series_1 = lv_chart_add_series(ui_CurrentChart, lv_color_hex(0x808080),
-                                                                       LV_CHART_AXIS_PRIMARY_Y);
-    static lv_coord_t ui_CurrentChart_series_1_array[] = { 0, 10, 20, 30, 25, 27, 10, 20, 10, 0, 3, 0 };
+    lv_chart_series_t *ui_CurrentChart_series_1 = lv_chart_add_series(ui_CurrentChart, lv_color_hex(0x808080),
+                                                                      LV_CHART_AXIS_PRIMARY_Y);
+    static lv_coord_t ui_CurrentChart_series_1_array[] = {0, 10, 20, 30, 25, 27, 10, 20, 10, 0, 3, 0};
     lv_chart_set_ext_y_array(ui_CurrentChart, ui_CurrentChart_series_1, ui_CurrentChart_series_1_array);
-
 
 
     ui_Panel31 = lv_obj_create(ui_ElectricScreen);
@@ -193,6 +192,6 @@ void ui_ElectricScreen_screen_init(void)
 
 }
 
-void ui_ElectricScreen_screen_deinit(void){
+void ui_ElectricScreen_screen_deinit(void) {
 
 }

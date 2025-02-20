@@ -6,13 +6,13 @@
 #include "../ui.h"
 
 Page_t Page_DAC = {
-    .init = ui_DACScreen_screen_init,
-    .deinit = ui_DACScreen_screen_deinit,
-    .page_obj = &ui_DACScreen,
+        .id = DACPage,
+        .init = ui_DACScreen_screen_init,
+        .deinit = ui_DACScreen_screen_deinit,
+        .page_obj = &ui_DACScreen,
 };
 
-void ui_DACScreen_screen_init(void)
-{
+void ui_DACScreen_screen_init(void) {
     ui_DACScreen = lv_obj_create(NULL);
     lv_obj_clear_flag(ui_DACScreen, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
@@ -69,11 +69,10 @@ void ui_DACScreen_screen_init(void)
     lv_textarea_set_placeholder_text(ui_DACFreq, "Frequency...");
 
 
-
     lv_obj_add_event_cb(ui_DACScreen, ui_event_DACScreen, LV_EVENT_ALL, NULL);
 
 }
 
-void ui_DACScreen_screen_deinit(void){
+void ui_DACScreen_screen_deinit(void) {
 
 }

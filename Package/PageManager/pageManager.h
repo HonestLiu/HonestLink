@@ -1,6 +1,6 @@
 /**
  * @author HonestLiu
- * @date 2025.2.16
+ * @date 2025.2.19
  * */
 
 #ifndef __PAGEMANAGER_H__
@@ -13,9 +13,23 @@
 // 页面栈深度
 #define MAX_DEPTH 6
 
+//管理页面枚举
+enum {
+    HomePage = 0,
+    PinMapPage,
+    OfflineDAPPage,
+    PWMPage,
+    ElectricPage,
+    ServosPage,
+    LogicPage,
+    DACPage,
+    FilePage,
+};
+
 // 页面结构体
 //其本质就是对页面及其初始化、反初始化函数的封装，每个UI文件内都定义了这个结构体
 typedef struct {
+    uint8_t id;
     void (*init)(void);
 
     void (*deinit)(void);
