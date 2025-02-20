@@ -213,6 +213,8 @@ void ui_ServosScreen_screen_init(void);
 
 void ui_event_ServosScreen(lv_event_t *e);
 
+void ui_event_ServosArc(lv_event_t *e);
+
 lv_obj_t *ui_ServosScreen;
 lv_obj_t *ui_ServoArc;
 lv_obj_t *ui_ServoLabel;
@@ -353,6 +355,10 @@ void ui_event_ServoisPanel(lv_event_t *e) {
 
     if (event_code == LV_EVENT_CLICKED) {
         Page_Load(&PageServos);
+        HAL_TIM_Base_Start(&htim9);
+        HAL_TIM_PWM_Start(&htim9, TIM_CHANNEL_1);
+        __HAL_TIM_SET_AUTORELOAD(&htim9, 200);//舵机控制需要20ms的周期
+        __HAL_TIM_SET_COMPARE(&htim9, TIM_CHANNEL_1, 5);//首次启动脉冲宽度为0.5ms即0°
         //_ui_screen_change(&ui_ServosScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_ServosScreen_screen_init);
     }
 }
@@ -431,8 +437,8 @@ void ui_event_PinMapScreen(lv_event_t *e) {
     }
 }
 
-uint16_t ui_period = 0;//PWM周期
-uint16_t ui_pulse = 0; //PWM脉宽
+extern uint16_t ui_period;//PWM周期
+extern uint16_t ui_pulse; //PWM脉宽
 void ui_event_PWMScreen(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
 
@@ -511,7 +517,20 @@ void ui_event_ServosScreen(lv_event_t *e) {
     if (event_code == LV_EVENT_GESTURE && lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
         lv_indev_wait_release(lv_indev_get_act());
         Page_Back();
+        HAL_TIM_Base_Stop(&htim9);
+        HAL_TIM_PWM_Stop(&htim9, TIM_CHANNEL_1);
+        ui_period = 0;
+        ui_pulse = 0;
         //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+    }
+}
+
+extern uint16_t angle;
+
+void ui_event_ServosArc(lv_event_t *e) {
+    lv_event_code_t event_code = lv_event_get_code(e);
+    if (event_code == LV_EVENT_VALUE_CHANGED) {
+        angle = lv_arc_get_value(ui_ServoArc);
     }
 }
 

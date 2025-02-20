@@ -12,8 +12,7 @@ Page_t PageServos = {
         .page_obj = &ui_ServosScreen,
 };
 
-void ui_ServosScreen_screen_init(void)
-{
+void ui_ServosScreen_screen_init(void) {
     ui_ServosScreen = lv_obj_create(NULL);
     lv_obj_clear_flag(ui_ServosScreen, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
 
@@ -81,9 +80,10 @@ void ui_ServosScreen_screen_init(void)
     lv_label_set_text(ui_Label64, "PWM: 9");
 
     lv_obj_add_event_cb(ui_ServosScreen, ui_event_ServosScreen, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_ServoArc, ui_event_ServosArc, LV_EVENT_ALL, NULL);
 
 }
 
-void ui_ServosScreen_screen_deinit(void){
+void ui_ServosScreen_screen_deinit(void) {
 
 }

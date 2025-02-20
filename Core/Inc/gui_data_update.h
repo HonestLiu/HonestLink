@@ -17,4 +17,6 @@ void update_offline_download_info(void);//更新离线下载数据
 
 void update_pwd(void);//PWM页面
 
+void update_Servo(void);//舵机页面
+
 #endif //HONESTLINK_GUI_DATA_UPDATE_H

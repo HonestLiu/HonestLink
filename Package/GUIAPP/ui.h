@@ -188,6 +188,7 @@ extern lv_obj_t * ui_CurrentLabel;
 void ui_ServosScreen_screen_init(void);
 void ui_ServosScreen_screen_deinit(void);
 void ui_event_ServosScreen(lv_event_t * e);
+void ui_event_ServosArc(lv_event_t *e);
 extern lv_obj_t * ui_ServosScreen;
 extern lv_obj_t * ui_ServoArc;
 extern lv_obj_t * ui_ServoLabel;

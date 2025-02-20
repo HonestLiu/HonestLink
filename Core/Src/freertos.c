@@ -332,8 +332,10 @@ void LvglStartTask(void const * argument)
             }
             case ElectricPage:
                 break;
-            case ServosPage:
+            case ServosPage: {
+                update_Servo();
                 break;
+            }
             case LogicPage:
                 break;
             case DACPage:
@@ -395,11 +397,10 @@ void OfflineDownloadStartTask(void const * argument)
 void ToolsStartTask(void const * argument)
 {
   /* USER CODE BEGIN ToolsStartTask */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
+    /* Infinite loop */
+    for (;;) {
+        osDelay(1);
+    }
   /* USER CODE END ToolsStartTask */
 }
 
