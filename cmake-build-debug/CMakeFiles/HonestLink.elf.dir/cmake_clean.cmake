@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj"
+  "CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj.d"
   "CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj"
   "CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj.d"
   "CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.obj"
@@ -50,6 +52,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d"
   "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
   "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj.d"
+  "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
+  "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj.d"
+  "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
+  "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj.d"
   "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
   "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj.d"
   "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"

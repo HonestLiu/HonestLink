@@ -5,6 +5,7 @@
 #include "gui_data_update.h"
 #include "lv_lib_100ask.h"
 #include "tim.h"
+#include "dac.h"
 
 /********************************************脱机下载功能****************************************************/
 
@@ -112,6 +113,7 @@ void Set_Servo_Angle(TIM_HandleTypeDef timx, uint8_t angle) {
 uint16_t angle = 0;
 uint16_t last_angle = 0;
 char angle_str[10] = {0};
+
 /**
  * @brief 更新舵机角度函数
  * */
@@ -130,6 +132,98 @@ void update_Servo(void) {
         timer_started = 1;
     }
 }
+
+/********************************************DAC输出功能****************************************************/
+// 正弦波
+__attribute__((aligned(4))) static uint16_t Sine12bit[32] = {
+        2448, 2832, 3186, 3496, 3751, 3940, 4057, 4095, 4057, 3940, 3751,
+        3496, 3186, 2832, 2448, 2048, 1648, 1264, 910, 600, 345, 156,
+        39, 0, 39, 156, 345, 600, 910, 1264, 1648, 2048};
+// 方波
+__attribute__((aligned(4))) static uint16_t Square12bit[32] = {
+        4095, 4095, 4095, 4095, 4095, 4095, 4095, 4095, 4095, 4095, 4095,
+        4095, 4095, 4095, 4095, 4095, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+// 三角波
+__attribute__((aligned(4))) static uint16_t Triangle12bit[32] = {
+        0, 256, 512, 768, 1024, 1280, 1536, 1792, 2048, 2304, 2560,
+        2816, 3072, 3328, 3584, 3840, 4095, 3840, 3584, 3328, 3072, 2816,
+        2560, 2304, 2048, 1792, 1536, 1280, 1024, 768, 512, 256};
+// 梯形波
+__attribute__((aligned(4))) static uint16_t Trapezoid12bit[32] = {
+        0, 512, 1024, 1536, 2048, 2560, 3072, 3584, 4095, 4095, 4095,
+        4095, 4095, 4095, 4095, 4095, 4095, 3584, 3072, 2560, 2048, 1536,
+        1024, 512, 0, 0, 0, 0, 0, 0, 0, 0};
+// 上升斜坡锯齿波
+__attribute__((aligned(4))) static uint16_t RisingSawtooth12bit[32] = {
+        0, 128, 256, 384, 512, 640, 768, 896, 1024, 1152, 1280,
+        1408, 1536, 1664, 1792, 1920, 2048, 2176, 2304, 2432, 2560, 2688,
+        2816, 2944, 3072, 3200, 3328, 3456, 3584, 3712, 3840, 3968};
+// 下降斜坡锯齿波
+__attribute__((aligned(4))) static uint16_t FallingSawtooth12bit[32] = {
+        4095, 3968, 3840, 3712, 3584, 3456, 3328, 3200, 3072, 2944, 2816,
+        2688, 2560, 2432, 2304, 2176, 2048, 1920, 1792, 1664, 1536, 1408,
+        1280, 1152, 1024, 896, 768, 640, 512, 384, 256, 128};
+// 自定义波形
+__attribute__((aligned(4))) uint16_t SelfWave12bit[32] = {
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+};
+
+
+/**
+ *
+ * SINE_WAVE,
+SQUARE_WAVE,
+TRIANGLE_WAVE,
+TRAPEZOID_WAVE,
+RISING_SAWTOOTH_WAVE,
+FALLING_SAWTOOTH_WAVE,
+ * */
+uint8_t dac_flag = 0;
+uint8_t last_dac_flag = 0;
+static uint16_t *waveform_array;
+static uint16_t transfer_count = 0;
+
+void update_Dac(void) {
+    if (dac_flag != last_dac_flag) {
+        switch (dac_flag) {
+            case SINE_WAVE:
+                waveform_array = Sine12bit;
+                transfer_count = 32;
+                break;
+            case SQUARE_WAVE:
+                waveform_array = Square12bit;
+                transfer_count = 32;
+                break;
+            case TRIANGLE_WAVE:
+                waveform_array = Triangle12bit;
+                transfer_count = 32;
+                break;
+            case TRAPEZOID_WAVE:
+                waveform_array = Trapezoid12bit;
+                transfer_count = 32;
+                break;
+            case RISING_SAWTOOTH_WAVE:
+                waveform_array = RisingSawtooth12bit;
+                transfer_count = 32;
+                break;
+            case FALLING_SAWTOOTH_WAVE:
+                waveform_array = FallingSawtooth12bit;
+                transfer_count = 32;
+                break;
+            default:
+                waveform_array = Sine12bit; // 默认返回正弦波
+                transfer_count = 32;
+                break;
+        }
+        HAL_DAC_Stop_DMA(&hdac, DAC_CHANNEL_1);
+        HAL_DAC_Start_DMA(&hdac, DAC_CHANNEL_1, (uint32_t *) waveform_array, transfer_count, DAC_ALIGN_12B_R);
+        last_dac_flag = dac_flag;
+    }
+
+}
+
 
 
 

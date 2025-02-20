@@ -30,6 +30,8 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/tim.c.obj: \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma_ex.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_cortex.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dac.h \
+ D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dac_ex.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
  D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \

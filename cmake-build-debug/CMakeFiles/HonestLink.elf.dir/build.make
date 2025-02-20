@@ -68,10 +68,24 @@ include CMakeFiles/HonestLink.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HonestLink.elf.dir/flags.make
 
+CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
+CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/dac.c
+CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\dac.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\dac.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\dac.c
+
+CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\dac.c > CMakeFiles\HonestLink.elf.dir\Core\Src\dac.c.i
+
+CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\dac.c -o CMakeFiles\HonestLink.elf.dir\Core\Src\dac.c.s
+
 CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/dap_main.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\dap_main.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\dap_main.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\dap_main.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.i: cmake_force
@@ -85,7 +99,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/dma.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\dma.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\dma.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/freertos.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\freertos.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\freertos.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\freertos.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/gpio.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/gpio.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/gpio.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\gpio.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\gpio.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/gui_data_update.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\gui_data_update.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\gui_data_update.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\gui_data_update.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/gui_data_update.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/main.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/main.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/main.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/main.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/main.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\main.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\main.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/main.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/sdio.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/sdio.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/sdio.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/sdio.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/sdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/sdio.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/sdio.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\sdio.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\sdio.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\sdio.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/sdio.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/sdio.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/spi.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/spi.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/spi.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/spi.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/spi.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\spi.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\spi.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/spi.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/spi.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/stm32f4xx_hal_timebase_tim.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\stm32f4xx_hal_timebase_tim.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s: cmake_for
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/stm32f4xx_it.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/syscalls.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/syscalls.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/syscalls.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\syscalls.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\syscalls.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -239,7 +253,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/sysmem.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/sysmem.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/sysmem.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\sysmem.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\sysmem.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -253,7 +267,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/system_stm32f4xx.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -267,7 +281,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/tim.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/tim.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/tim.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/tim.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/tim.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\tim.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\tim.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -281,7 +295,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/tim.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/usart.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/usart.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/usart.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/usart.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/usart.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\usart.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\usart.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -295,7 +309,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/usart.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/usb2uart.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/usb2uart.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/usb2uart.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/usb2uart.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/usb2uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/usb2uart.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/usb2uart.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\usb2uart.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\usb2uart.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\usb2uart.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/usb2uart.c.i: cmake_force
@@ -309,7 +323,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/usb2uart.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Core/Src/usb_otg.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Src/usb_otg.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/usb_otg.c
 CMakeFiles/HonestLink.elf.dir/Core/Src/usb_otg.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/usb_otg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/HonestLink.elf.dir/Core/Src/usb_otg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Core/Src/usb_otg.c.obj -MF CMakeFiles\HonestLink.elf.dir\Core\Src\usb_otg.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Core\Src\usb_otg.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Src\usb_otg.c
 
 CMakeFiles/HonestLink.elf.dir/Core/Src/usb_otg.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Src/usb_otg.c.s: cmake_force
 
 CMakeFiles/HonestLink.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Startup/startup_stm32f407zgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building ASM object CMakeFiles/HonestLink.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/HonestLink.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\HonestLink.elf.dir\Core\Startup\startup_stm32f407zgtx.s.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Core\Startup\startup_stm32f407zgtx.s
 
 CMakeFiles/HonestLink.elf.dir/Core/Startup/startup_stm32f407zgtx.s.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/HonestLink.elf.dir/Core/Startup/startup_stm32f407zgtx.s.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Drivers/CST816S/cst816.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/CST816S/cst816.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/CST816S/cst816.c
 CMakeFiles/HonestLink.elf.dir/Drivers/CST816S/cst816.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/CST816S/cst816.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/CST816S/cst816.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/CST816S/cst816.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\CST816S\cst816.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\CST816S\cst816.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\CST816S\cst816.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/CST816S/cst816.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/CST816S/cst816.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Drivers/IIC/delay.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/IIC/delay.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/IIC/delay.c
 CMakeFiles/HonestLink.elf.dir/Drivers/IIC/delay.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/IIC/delay.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/IIC/delay.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/IIC/delay.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\IIC\delay.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\IIC\delay.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\IIC\delay.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/IIC/delay.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/IIC/delay.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Drivers/IIC/iic_hal.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/IIC/iic_hal.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/IIC/iic_hal.c
 CMakeFiles/HonestLink.elf.dir/Drivers/IIC/iic_hal.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/IIC/iic_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/IIC/iic_hal.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/IIC/iic_hal.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\IIC\iic_hal.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\IIC\iic_hal.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\IIC\iic_hal.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/IIC/iic_hal.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/IIC/iic_hal.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/LCD/lcd.c
 CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\LCD\lcd.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\LCD\lcd.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\LCD\lcd.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/LCD/lcd_init.c
 CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\LCD\lcd_init.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\LCD\lcd_init.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\LCD\lcd_init.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -431,10 +445,38 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cor
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
+CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
+CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c
+CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c
+
+CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c > CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.i
+
+CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.s
+
+CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
+CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c
+CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c
+
+CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c > CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.i
+
+CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s"
+	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.s
+
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -448,7 +490,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -462,7 +504,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -476,7 +518,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ext
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -490,7 +532,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -504,7 +546,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -518,7 +560,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -532,7 +574,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpi
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
@@ -546,7 +588,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
@@ -560,7 +602,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -574,7 +616,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -588,7 +630,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -602,7 +644,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -616,7 +658,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i: cmake_force
@@ -630,7 +672,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
@@ -644,7 +686,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -658,7 +700,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -672,7 +714,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -686,7 +728,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uar
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i: cmake_force
@@ -700,7 +742,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmm
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj -MF CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
 
 CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
@@ -714,7 +756,7 @@ CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.
 CMakeFiles/HonestLink.elf.dir/FATFS/App/fatfs.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/FATFS/App/fatfs.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/FATFS/App/fatfs.c
 CMakeFiles/HonestLink.elf.dir/FATFS/App/fatfs.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/HonestLink.elf.dir/FATFS/App/fatfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/HonestLink.elf.dir/FATFS/App/fatfs.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/FATFS/App/fatfs.c.obj -MF CMakeFiles\HonestLink.elf.dir\FATFS\App\fatfs.c.obj.d -o CMakeFiles\HonestLink.elf.dir\FATFS\App\fatfs.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\FATFS\App\fatfs.c
 
 CMakeFiles/HonestLink.elf.dir/FATFS/App/fatfs.c.i: cmake_force
@@ -728,7 +770,7 @@ CMakeFiles/HonestLink.elf.dir/FATFS/App/fatfs.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/FATFS/Target/bsp_driver_sd.c
 CMakeFiles/HonestLink.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/HonestLink.elf.dir/FATFS/Target/bsp_driver_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/HonestLink.elf.dir/FATFS/Target/bsp_driver_sd.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/FATFS/Target/bsp_driver_sd.c.obj -MF CMakeFiles\HonestLink.elf.dir\FATFS\Target\bsp_driver_sd.c.obj.d -o CMakeFiles\HonestLink.elf.dir\FATFS\Target\bsp_driver_sd.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\FATFS\Target\bsp_driver_sd.c
 
 CMakeFiles/HonestLink.elf.dir/FATFS/Target/bsp_driver_sd.c.i: cmake_force
@@ -742,7 +784,7 @@ CMakeFiles/HonestLink.elf.dir/FATFS/Target/bsp_driver_sd.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/FATFS/Target/sd_diskio.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/FATFS/Target/sd_diskio.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/FATFS/Target/sd_diskio.c
 CMakeFiles/HonestLink.elf.dir/FATFS/Target/sd_diskio.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/HonestLink.elf.dir/FATFS/Target/sd_diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/HonestLink.elf.dir/FATFS/Target/sd_diskio.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/FATFS/Target/sd_diskio.c.obj -MF CMakeFiles\HonestLink.elf.dir\FATFS\Target\sd_diskio.c.obj.d -o CMakeFiles\HonestLink.elf.dir\FATFS\Target\sd_diskio.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\FATFS\Target\sd_diskio.c
 
 CMakeFiles/HonestLink.elf.dir/FATFS/Target/sd_diskio.c.i: cmake_force
@@ -756,7 +798,7 @@ CMakeFiles/HonestLink.elf.dir/FATFS/Target/sd_diskio.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FatFs/src/diskio.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FatFs\src\diskio.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i: cmake_force
@@ -770,7 +812,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s: cmak
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FatFs/src/ff.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FatFs\src\ff.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i: cmake_force
@@ -784,7 +826,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s: cmake_fo
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i: cmake_force
@@ -798,7 +840,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s: 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FatFs/src/option/syscall.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FatFs\src\option\syscall.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i: cmake_force
@@ -812,7 +854,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
@@ -826,7 +868,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -840,7 +882,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -854,7 +896,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_grou
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -868,7 +910,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
@@ -882,7 +924,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/G
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -896,7 +938,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/M
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -910,7 +952,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s:
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -924,7 +966,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buf
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -938,7 +980,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s:
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -952,7 +994,7 @@ CMakeFiles/HonestLink.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 CMakeFiles/HonestLink.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/CherryRB/chry_ringbuffer.c
 CMakeFiles/HonestLink.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/HonestLink.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/HonestLink.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/CherryRB/chry_ringbuffer.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\CherryRB\chry_ringbuffer.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\CherryRB\chry_ringbuffer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryRB\chry_ringbuffer.c
 
 CMakeFiles/HonestLink.elf.dir/Package/CherryRB/chry_ringbuffer.c.i: cmake_force
@@ -966,7 +1008,7 @@ CMakeFiles/HonestLink.elf.dir/Package/CherryRB/chry_ringbuffer.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/CherryUSB/class/cdc/usbd_cdc.c
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\CherryUSB\class\cdc\usbd_cdc.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\CherryUSB\class\cdc\usbd_cdc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\class\cdc\usbd_cdc.c
 
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.i: cmake_force
@@ -980,7 +1022,7 @@ CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/class/cdc/usbd_cdc.c.s: cmake_fo
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/core/usbd_core.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/core/usbd_core.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/CherryUSB/core/usbd_core.c
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/core/usbd_core.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/core/usbd_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/core/usbd_core.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/core/usbd_core.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\CherryUSB\core\usbd_core.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\CherryUSB\core\usbd_core.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\core\usbd_core.c
 
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/core/usbd_core.c.i: cmake_force
@@ -994,7 +1036,7 @@ CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/core/usbd_core.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\CherryUSB\port\dwc2\usb_dc_dwc2.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\CherryUSB\port\dwc2\usb_dc_dwc2.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\port\dwc2\usb_dc_dwc2.c
 
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.i: cmake_force
@@ -1008,7 +1050,7 @@ CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_dc_dwc2.c.s: cmake
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/CherryUSB/port/dwc2/usb_glue_st.c
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\CherryUSB\port\dwc2\usb_glue_st.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\CherryUSB\port\dwc2\usb_glue_st.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\CherryUSB\port\dwc2\usb_glue_st.c
 
 CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.i: cmake_force
@@ -1022,7 +1064,7 @@ CMakeFiles/HonestLink.elf.dir/Package/CherryUSB/port/dwc2/usb_glue_st.c.s: cmake
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/DAPLink/Source/DAP.c
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\DAP.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\DAP.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Source\DAP.c
 
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP.c.i: cmake_force
@@ -1036,7 +1078,7 @@ CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/DAPLink/Source/DAP_vendor.c
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP_vendor.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\DAP_vendor.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\DAP_vendor.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Source\DAP_vendor.c
 
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP_vendor.c.i: cmake_force
@@ -1050,7 +1092,7 @@ CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/DAP_vendor.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/DAPLink/Source/JTAG_DP.c
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/JTAG_DP.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\JTAG_DP.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\JTAG_DP.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Source\JTAG_DP.c
 
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/JTAG_DP.c.i: cmake_force
@@ -1064,7 +1106,7 @@ CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/JTAG_DP.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/DAPLink/Source/SWD_flash.c
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWD_flash.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\SWD_flash.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\SWD_flash.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Source\SWD_flash.c
 
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWD_flash.c.i: cmake_force
@@ -1078,7 +1120,7 @@ CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWD_flash.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWO.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWO.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/DAPLink/Source/SWO.c
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWO.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWO.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWO.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWO.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\SWO.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\SWO.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Source\SWO.c
 
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWO.c.i: cmake_force
@@ -1092,7 +1134,7 @@ CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SWO.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SW_DP.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SW_DP.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/DAPLink/Source/SW_DP.c
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SW_DP.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SW_DP.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SW_DP.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SW_DP.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\SW_DP.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\SW_DP.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Source\SW_DP.c
 
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SW_DP.c.i: cmake_force
@@ -1106,7 +1148,7 @@ CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/SW_DP.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/UART.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/UART.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/DAPLink/Source/UART.c
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/UART.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/UART.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/UART.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/UART.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\UART.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\UART.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Source\UART.c
 
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/UART.c.i: cmake_force
@@ -1120,7 +1162,7 @@ CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/UART.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/error.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/error.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/DAPLink/Source/error.c
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/error.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/error.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/error.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/error.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\error.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\error.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Source\error.c
 
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/error.c.i: cmake_force
@@ -1134,7 +1176,7 @@ CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/error.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/swd_host.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/swd_host.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/DAPLink/Source/swd_host.c
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/swd_host.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/swd_host.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/swd_host.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/swd_host.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\swd_host.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\DAPLink\Source\swd_host.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\DAPLink\Source\swd_host.c
 
 CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/swd_host.c.i: cmake_force
@@ -1148,7 +1190,7 @@ CMakeFiles/HonestLink.elf.dir/Package/DAPLink/Source/swd_host.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/components/ui_comp_hook.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\components\ui_comp_hook.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\components\ui_comp_hook.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\components\ui_comp_hook.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.i: cmake_force
@@ -1162,7 +1204,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/components/ui_comp_hook.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_current_png.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_current_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/images/ui_img_current_png.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_current_png.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_current_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_current_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_current_png.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_current_png.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_current_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\images\ui_img_current_png.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_current_png.c.i: cmake_force
@@ -1176,7 +1218,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_current_png.c.s: cmak
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_electric_png.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_electric_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/images/ui_img_electric_png.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_electric_png.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_electric_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_electric_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_electric_png.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_electric_png.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_electric_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\images\ui_img_electric_png.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_electric_png.c.i: cmake_force
@@ -1190,7 +1232,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_electric_png.c.s: cma
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_logic_png.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_logic_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/images/ui_img_logic_png.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_logic_png.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_logic_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_logic_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_logic_png.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_logic_png.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_logic_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\images\ui_img_logic_png.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_logic_png.c.i: cmake_force
@@ -1204,7 +1246,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_logic_png.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_offline_png.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_offline_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/images/ui_img_offline_png.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_offline_png.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_offline_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_offline_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_offline_png.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_offline_png.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_offline_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\images\ui_img_offline_png.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_offline_png.c.i: cmake_force
@@ -1218,7 +1260,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_offline_png.c.s: cmak
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pinmap_png.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pinmap_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/images/ui_img_pinmap_png.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pinmap_png.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pinmap_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pinmap_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pinmap_png.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_pinmap_png.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_pinmap_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\images\ui_img_pinmap_png.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pinmap_png.c.i: cmake_force
@@ -1232,7 +1274,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pinmap_png.c.s: cmake
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pwm_png.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pwm_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/images/ui_img_pwm_png.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pwm_png.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pwm_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pwm_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pwm_png.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_pwm_png.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_pwm_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\images\ui_img_pwm_png.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pwm_png.c.i: cmake_force
@@ -1246,7 +1288,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_pwm_png.c.s: cmake_fo
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_servos_png.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_servos_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/images/ui_img_servos_png.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_servos_png.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_servos_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_servos_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_servos_png.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_servos_png.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_servos_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\images\ui_img_servos_png.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_servos_png.c.i: cmake_force
@@ -1260,7 +1302,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_servos_png.c.s: cmake
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_voltage_png.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_voltage_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/images/ui_img_voltage_png.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_voltage_png.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_voltage_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_voltage_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_voltage_png.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_voltage_png.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_voltage_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\images\ui_img_voltage_png.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_voltage_png.c.i: cmake_force
@@ -1274,7 +1316,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_voltage_png.c.s: cmak
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_waveform_png.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_waveform_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/images/ui_img_waveform_png.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_waveform_png.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_waveform_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_waveform_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_waveform_png.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_waveform_png.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\images\ui_img_waveform_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\images\ui_img_waveform_png.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_waveform_png.c.i: cmake_force
@@ -1288,7 +1330,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/images/ui_img_waveform_png.c.s: cma
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_DACScreen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_DACScreen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/screens/ui_DACScreen.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_DACScreen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_DACScreen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_DACScreen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_DACScreen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_DACScreen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_DACScreen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\screens\ui_DACScreen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_DACScreen.c.i: cmake_force
@@ -1302,7 +1344,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_DACScreen.c.s: cmake_for
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ElectricScreen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ElectricScreen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/screens/ui_ElectricScreen.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ElectricScreen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ElectricScreen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ElectricScreen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ElectricScreen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_ElectricScreen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_ElectricScreen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\screens\ui_ElectricScreen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ElectricScreen.c.i: cmake_force
@@ -1316,7 +1358,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ElectricScreen.c.s: cmak
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_FileExplorerScreen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_FileExplorerScreen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/screens/ui_FileExplorerScreen.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_FileExplorerScreen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_FileExplorerScreen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_FileExplorerScreen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_FileExplorerScreen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_FileExplorerScreen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_FileExplorerScreen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\screens\ui_FileExplorerScreen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_FileExplorerScreen.c.i: cmake_force
@@ -1330,7 +1372,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_FileExplorerScreen.c.s: 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_HomeScreen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_HomeScreen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/screens/ui_HomeScreen.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_HomeScreen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_HomeScreen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_HomeScreen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_HomeScreen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_HomeScreen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_HomeScreen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\screens\ui_HomeScreen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_HomeScreen.c.i: cmake_force
@@ -1344,7 +1386,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_HomeScreen.c.s: cmake_fo
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_LogicScreen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_LogicScreen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/screens/ui_LogicScreen.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_LogicScreen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_LogicScreen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_LogicScreen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_LogicScreen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_LogicScreen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_LogicScreen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\screens\ui_LogicScreen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_LogicScreen.c.i: cmake_force
@@ -1358,7 +1400,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_LogicScreen.c.s: cmake_f
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_OfflineScreen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_OfflineScreen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/screens/ui_OfflineScreen.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_OfflineScreen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_OfflineScreen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_OfflineScreen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_OfflineScreen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_OfflineScreen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_OfflineScreen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\screens\ui_OfflineScreen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_OfflineScreen.c.i: cmake_force
@@ -1372,7 +1414,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_OfflineScreen.c.s: cmake
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PWMScreen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PWMScreen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/screens/ui_PWMScreen.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PWMScreen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PWMScreen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PWMScreen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PWMScreen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_PWMScreen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_PWMScreen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\screens\ui_PWMScreen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PWMScreen.c.i: cmake_force
@@ -1386,7 +1428,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PWMScreen.c.s: cmake_for
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PinMapScreen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PinMapScreen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/screens/ui_PinMapScreen.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PinMapScreen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PinMapScreen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PinMapScreen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PinMapScreen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_PinMapScreen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_PinMapScreen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\screens\ui_PinMapScreen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PinMapScreen.c.i: cmake_force
@@ -1400,7 +1442,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_PinMapScreen.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ServosScreen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ServosScreen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/screens/ui_ServosScreen.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ServosScreen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ServosScreen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ServosScreen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ServosScreen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_ServosScreen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\screens\ui_ServosScreen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\screens\ui_ServosScreen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ServosScreen.c.i: cmake_force
@@ -1414,7 +1456,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/screens/ui_ServosScreen.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/ui.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\ui.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\ui.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\ui.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui.c.i: cmake_force
@@ -1428,7 +1470,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui_helpers.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui_helpers.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/GUIAPP/ui_helpers.c
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui_helpers.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui_helpers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui_helpers.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui_helpers.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\ui_helpers.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\GUIAPP\ui_helpers.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\GUIAPP\ui_helpers.c
 
 CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui_helpers.c.i: cmake_force
@@ -1442,7 +1484,7 @@ CMakeFiles/HonestLink.elf.dir/Package/GUIAPP/ui_helpers.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/examples/porting/lv_port_disp.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\examples\porting\lv_port_disp.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\examples\porting\lv_port_disp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\examples\porting\lv_port_disp.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.i: cmake_force
@@ -1456,7 +1498,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_disp.c.s: cm
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/examples/porting/lv_port_fs_template.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\examples\porting\lv_port_fs_template.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\examples\porting\lv_port_fs_template.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\examples\porting\lv_port_fs_template.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.c.i: cmake_force
@@ -1470,7 +1512,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_fs_template.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/examples/porting/lv_port_indev.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\examples\porting\lv_port_indev.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\examples\porting\lv_port_indev.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\examples\porting\lv_port_indev.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.i: cmake_force
@@ -1484,7 +1526,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/examples/porting/lv_port_indev.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_disp.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_disp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_disp.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_disp.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_disp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_disp.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_disp.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_disp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_disp.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_disp.c.i: cmake_force
@@ -1498,7 +1540,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_disp.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_event.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_event.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_event.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_event.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_event.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_event.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_event.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_event.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_event.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_event.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_event.c.i: cmake_force
@@ -1512,7 +1554,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_event.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_group.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_group.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_group.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_group.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_group.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_group.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_group.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_group.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_group.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_group.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_group.c.i: cmake_force
@@ -1526,7 +1568,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_group.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_indev.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_indev.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_indev.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_indev.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev.c.i: cmake_force
@@ -1540,7 +1582,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_indev_scroll.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_indev_scroll.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_indev_scroll.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_indev_scroll.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.i: cmake_force
@@ -1554,7 +1596,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_indev_scroll.c.s: cmake_f
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_obj.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_obj.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj.c.i: cmake_force
@@ -1568,7 +1610,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_obj_class.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_class.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_class.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_class.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_obj_class.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_class.c.i: cmake_force
@@ -1582,7 +1624,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_class.c.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_obj_draw.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_draw.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_draw.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_obj_draw.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.i: cmake_force
@@ -1596,7 +1638,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_draw.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_obj_pos.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_pos.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_pos.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_obj_pos.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.i: cmake_force
@@ -1610,7 +1652,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_pos.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_obj_scroll.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_scroll.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_scroll.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_obj_scroll.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.i: cmake_force
@@ -1624,7 +1666,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_scroll.c.s: cmake_for
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_obj_style.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_style.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_style.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_obj_style.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style.c.i: cmake_force
@@ -1638,7 +1680,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style.c.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_obj_style_gen.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_style_gen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_style_gen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_obj_style_gen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.i: cmake_force
@@ -1652,7 +1694,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_style_gen.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_obj_tree.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_tree.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_obj_tree.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_obj_tree.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.i: cmake_force
@@ -1666,7 +1708,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_obj_tree.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_refr.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_refr.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_refr.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_refr.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_refr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_refr.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_refr.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_refr.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_refr.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_refr.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_refr.c.i: cmake_force
@@ -1680,7 +1722,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_refr.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_theme.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_theme.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/core/lv_theme.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_theme.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_theme.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_theme.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_theme.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_theme.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\core\lv_theme.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\core\lv_theme.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_theme.c.i: cmake_force
@@ -1694,7 +1736,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/core/lv_theme.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\arm2d\lv_gpu_arm2d.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\arm2d\lv_gpu_arm2d.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\arm2d\lv_gpu_arm2d.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.i: cmake_force
@@ -1708,7 +1750,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.s: cmak
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_draw.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_draw.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw.c.i: cmake_force
@@ -1722,7 +1764,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_draw_arc.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_arc.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_arc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_draw_arc.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.i: cmake_force
@@ -1736,7 +1778,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_arc.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_draw_img.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_img.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_img.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_draw_img.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.i: cmake_force
@@ -1750,7 +1792,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_img.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_draw_label.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_label.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_label.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_draw_label.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.i: cmake_force
@@ -1764,7 +1806,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_label.c.s: cmake_for
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_draw_layer.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_layer.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_layer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_draw_layer.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.i: cmake_force
@@ -1778,7 +1820,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_layer.c.s: cmake_for
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_draw_line.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_line.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_line.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_draw_line.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.i: cmake_force
@@ -1792,7 +1834,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_line.c.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_draw_mask.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_mask.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_mask.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_draw_mask.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.i: cmake_force
@@ -1806,7 +1848,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_mask.c.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_draw_rect.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_rect.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_rect.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_draw_rect.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.i: cmake_force
@@ -1820,7 +1862,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_rect.c.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_draw_transform.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_transform.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_transform.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_draw_transform.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.i: cmake_force
@@ -1834,7 +1876,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_transform.c.s: cmake
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_draw_triangle.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_triangle.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_draw_triangle.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_draw_triangle.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.i: cmake_force
@@ -1848,7 +1890,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_draw_triangle.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_img_buf.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_img_buf.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_img_buf.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_img_buf.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.i: cmake_force
@@ -1862,7 +1904,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_buf.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_img_cache.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_img_cache.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_img_cache.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_img_cache.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.i: cmake_force
@@ -1876,7 +1918,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_cache.c.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/lv_img_decoder.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_img_decoder.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\lv_img_decoder.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\lv_img_decoder.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.i: cmake_force
@@ -1890,7 +1932,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/lv_img_decoder.c.s: cmake_fo
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.i: cmake_force
@@ -1904,7 +1946,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.s: cma
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp_blend.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp_blend.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\nxp\pxp\lv_draw_pxp_blend.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.i: cmake_force
@@ -1918,7 +1960,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i: cmake_force
@@ -1932,7 +1974,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s: 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp_osa.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp_osa.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\nxp\pxp\lv_gpu_nxp_pxp_osa.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i: cmake_force
@@ -1946,7 +1988,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.i: cmake_force
@@ -1960,7 +2002,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_arc.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_arc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_arc.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i: cmake_force
@@ -1974,7 +2016,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_ar
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_blend.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_blend.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_blend.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.i: cmake_force
@@ -1988,7 +2030,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_bl
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_line.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_line.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_line.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.i: cmake_force
@@ -2002,7 +2044,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_li
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_rect.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_rect.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\nxp\vglite\lv_draw_vglite_rect.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.i: cmake_force
@@ -2016,7 +2058,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_draw_vglite_re
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_vglite_buf.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_vglite_buf.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\nxp\vglite\lv_vglite_buf.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.i: cmake_force
@@ -2030,7 +2072,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.s
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_vglite_utils.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\nxp\vglite\lv_vglite_utils.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\nxp\vglite\lv_vglite_utils.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.i: cmake_force
@@ -2044,7 +2086,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\renesas\lv_gpu_d2_draw_label.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\renesas\lv_gpu_d2_draw_label.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\renesas\lv_gpu_d2_draw_label.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.i: cmake_force
@@ -2058,7 +2100,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_draw_label
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\renesas\lv_gpu_d2_ra6m3.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\renesas\lv_gpu_d2_ra6m3.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\renesas\lv_gpu_d2_ra6m3.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.i: cmake_force
@@ -2072,7 +2114,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.s:
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.i: cmake_force
@@ -2086,7 +2128,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl.c.s: cmake_f
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_arc.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_arc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_arc.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.i: cmake_force
@@ -2100,7 +2142,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.s: cma
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_bg.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_bg.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_bg.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.i: cmake_force
@@ -2114,7 +2156,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.s: cmak
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_composite.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_composite.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_composite.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.i: cmake_force
@@ -2128,7 +2170,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_img.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_img.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_img.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.i: cmake_force
@@ -2142,7 +2184,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_img.c.s: cma
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_label.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_label.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_label.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.i: cmake_force
@@ -2156,7 +2198,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_label.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_layer.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_layer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_layer.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.i: cmake_force
@@ -2170,7 +2212,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_line.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_line.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_line.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.i: cmake_force
@@ -2184,7 +2226,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_line.c.s: cm
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_mask.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_mask.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_mask.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.i: cmake_force
@@ -2198,7 +2240,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.s: cm
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_polygon.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_polygon.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_polygon.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.i: cmake_force
@@ -2212,7 +2254,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.s:
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_rect.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_rect.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_rect.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.i: cmake_force
@@ -2226,7 +2268,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.s: cm
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_stack_blur.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_stack_blur.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_stack_blur.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.i: cmake_force
@@ -2240,7 +2282,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_texture_cache.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_texture_cache.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_texture_cache.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.i: cmake_force
@@ -2254,7 +2296,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_texture_cach
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_utils.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sdl\lv_draw_sdl_utils.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sdl\lv_draw_sdl_utils.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.i: cmake_force
@@ -2268,7 +2310,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\stm32_dma2d\lv_gpu_stm32_dma2d.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\stm32_dma2d\lv_gpu_stm32_dma2d.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\stm32_dma2d\lv_gpu_stm32_dma2d.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i: cmake_force
@@ -2282,7 +2324,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.i: cmake_force
@@ -2296,7 +2338,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw.c.s: cmake_for
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_arc.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_arc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw_arc.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.i: cmake_force
@@ -2310,7 +2352,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_arc.c.s: cmake
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_blend.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_blend.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw_blend.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.i: cmake_force
@@ -2324,7 +2366,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_blend.c.s: cma
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_dither.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_dither.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw_dither.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.i: cmake_force
@@ -2338,7 +2380,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_dither.c.s: cm
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_gradient.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_gradient.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw_gradient.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.i: cmake_force
@@ -2352,7 +2394,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_gradient.c.s: 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw_img.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_img.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_img.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw_img.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.i: cmake_force
@@ -2366,7 +2408,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_img.c.s: cmake
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_layer.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_layer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw_layer.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.i: cmake_force
@@ -2380,7 +2422,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_layer.c.s: cma
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_letter.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_letter.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw_letter.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.i: cmake_force
@@ -2394,7 +2436,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_letter.c.s: cm
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw_line.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_line.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_line.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw_line.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.i: cmake_force
@@ -2408,7 +2450,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_line.c.s: cmak
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_polygon.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_polygon.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw_polygon.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.i: cmake_force
@@ -2422,7 +2464,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_polygon.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_rect.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_rect.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw_rect.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.i: cmake_force
@@ -2436,7 +2478,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_rect.c.s: cmak
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_transform.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\sw\lv_draw_sw_transform.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\sw\lv_draw_sw_transform.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.i: cmake_force
@@ -2450,7 +2492,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/sw/lv_draw_sw_transform.c.s:
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\swm341_dma2d\lv_gpu_swm341_dma2d.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\draw\swm341_dma2d\lv_gpu_swm341_dma2d.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\draw\swm341_dma2d\lv_gpu_swm341_dma2d.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i: cmake_force
@@ -2464,7 +2506,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_d
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/layouts/flex/lv_flex.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\layouts\flex\lv_flex.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\layouts\flex\lv_flex.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\layouts\flex\lv_flex.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.i: cmake_force
@@ -2478,7 +2520,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/flex/lv_flex.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/layouts/grid/lv_grid.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\layouts\grid\lv_grid.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\layouts\grid\lv_grid.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\layouts\grid\lv_grid.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.i: cmake_force
@@ -2492,7 +2534,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/layouts/grid/lv_grid.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/bmp/lv_bmp.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\bmp\lv_bmp.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\bmp\lv_bmp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\bmp\lv_bmp.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.i: cmake_force
@@ -2506,7 +2548,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/bmp/lv_bmp.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\ffmpeg\lv_ffmpeg.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\ffmpeg\lv_ffmpeg.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\ffmpeg\lv_ffmpeg.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
@@ -2520,7 +2562,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.s: 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/freetype/lv_freetype.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\freetype\lv_freetype.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\freetype\lv_freetype.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\freetype\lv_freetype.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c.i: cmake_force
@@ -2534,7 +2576,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/freetype/lv_freetype.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_fatfs.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_fatfs.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\fsdrv\lv_fs_fatfs.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
@@ -2548,7 +2590,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.s:
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_littlefs.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_littlefs.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\fsdrv\lv_fs_littlefs.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.i: cmake_force
@@ -2562,7 +2604,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_posix.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_posix.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\fsdrv\lv_fs_posix.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.i: cmake_force
@@ -2576,7 +2618,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.s:
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_stdio.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_stdio.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\fsdrv\lv_fs_stdio.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
@@ -2590,7 +2632,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.s:
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_win32.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\fsdrv\lv_fs_win32.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\fsdrv\lv_fs_win32.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.i: cmake_force
@@ -2604,7 +2646,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.s:
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/gif/gifdec.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\gif\gifdec.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\gif\gifdec.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\gif\gifdec.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.i: cmake_force
@@ -2618,7 +2660,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/gifdec.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/gif/lv_gif.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\gif\lv_gif.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\gif\lv_gif.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\gif\lv_gif.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.i: cmake_force
@@ -2632,7 +2674,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/gif/lv_gif.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/png/lodepng.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\png\lodepng.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\png\lodepng.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\png\lodepng.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.i: cmake_force
@@ -2646,7 +2688,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lodepng.c.s: cmake
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/png/lv_png.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\png\lv_png.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\png\lv_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\png\lv_png.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.i: cmake_force
@@ -2660,7 +2702,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/png/lv_png.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\qrcode\lv_qrcode.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\qrcode\lv_qrcode.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\qrcode\lv_qrcode.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.i: cmake_force
@@ -2674,7 +2716,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/lv_qrcode.c.s: 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\qrcode\qrcodegen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\qrcode\qrcodegen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\qrcode\qrcodegen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.i: cmake_force
@@ -2688,7 +2730,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/qrcode/qrcodegen.c.s: 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\rlottie\lv_rlottie.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\rlottie\lv_rlottie.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\rlottie\lv_rlottie.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.i: cmake_force
@@ -2702,7 +2744,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/rlottie/lv_rlottie.c.s
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\sjpg\lv_sjpg.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\sjpg\lv_sjpg.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\sjpg\lv_sjpg.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.i: cmake_force
@@ -2716,7 +2758,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/lv_sjpg.c.s: cmak
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/sjpg/tjpgd.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\sjpg\tjpgd.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\sjpg\tjpgd.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\sjpg\tjpgd.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.i: cmake_force
@@ -2730,7 +2772,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/sjpg/tjpgd.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\tiny_ttf\lv_tiny_ttf.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\libs\tiny_ttf\lv_tiny_ttf.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\libs\tiny_ttf\lv_tiny_ttf.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.i: cmake_force
@@ -2744,7 +2786,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/lv_extra.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/lv_extra.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\lv_extra.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\lv_extra.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\lv_extra.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/lv_extra.c.i: cmake_force
@@ -2758,7 +2800,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/lv_extra.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/others/fragment/lv_fragment.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\fragment\lv_fragment.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\fragment\lv_fragment.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\others\fragment\lv_fragment.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment.c.i: cmake_force
@@ -2772,7 +2814,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\fragment\lv_fragment_manager.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\fragment\lv_fragment_manager.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\others\fragment\lv_fragment_manager.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment_manager.c.i: cmake_force
@@ -2786,7 +2828,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/fragment/lv_fragment
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\gridnav\lv_gridnav.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\gridnav\lv_gridnav.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\others\gridnav\lv_gridnav.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c.i: cmake_force
@@ -2800,7 +2842,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/gridnav/lv_gridnav.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\ime\lv_ime_pinyin.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\ime\lv_ime_pinyin.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\others\ime\lv_ime_pinyin.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.i: cmake_force
@@ -2814,7 +2856,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/ime/lv_ime_pinyin.c.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\imgfont\lv_imgfont.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\imgfont\lv_imgfont.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\others\imgfont\lv_imgfont.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c.i: cmake_force
@@ -2828,7 +2870,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/imgfont/lv_imgfont.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/others/monkey/lv_monkey.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\monkey\lv_monkey.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\monkey\lv_monkey.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\others\monkey\lv_monkey.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.i: cmake_force
@@ -2842,7 +2884,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/monkey/lv_monkey.c.s
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/others/msg/lv_msg.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\msg\lv_msg.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\msg\lv_msg.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\others\msg\lv_msg.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.i: cmake_force
@@ -2856,7 +2898,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/msg/lv_msg.c.s: cmak
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\snapshot\lv_snapshot.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\others\snapshot\lv_snapshot.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\others\snapshot\lv_snapshot.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot.c.i: cmake_force
@@ -2870,7 +2912,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/others/snapshot/lv_snapshot
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\themes\basic\lv_theme_basic.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\themes\basic\lv_theme_basic.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\themes\basic\lv_theme_basic.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic.c.i: cmake_force
@@ -2884,7 +2926,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/basic/lv_theme_basic
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/themes/default/lv_theme_default.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\themes\default\lv_theme_default.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\themes\default\lv_theme_default.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\themes\default\lv_theme_default.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_default.c.i: cmake_force
@@ -2898,7 +2940,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/default/lv_theme_def
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\themes\mono\lv_theme_mono.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\themes\mono\lv_theme_mono.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\themes\mono\lv_theme_mono.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c.i: cmake_force
@@ -2912,7 +2954,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/themes/mono/lv_theme_mono.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\animimg\lv_animimg.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\animimg\lv_animimg.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\animimg\lv_animimg.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.c.i: cmake_force
@@ -2926,7 +2968,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/animimg/lv_animimg.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\calendar\lv_calendar.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar.c.i: cmake_force
@@ -2940,7 +2982,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calenda
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
@@ -2954,7 +2996,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calenda
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
@@ -2968,7 +3010,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/calendar/lv_calenda
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/chart/lv_chart.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\chart\lv_chart.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\chart\lv_chart.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\chart\lv_chart.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.i: cmake_force
@@ -2982,7 +3024,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/chart/lv_chart.c.s:
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.i: cmake_force
@@ -2996,7 +3038,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/colorwheel/lv_color
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.i: cmake_force
@@ -3010,7 +3052,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\keyboard\lv_keyboard.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\keyboard\lv_keyboard.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\keyboard\lv_keyboard.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.i: cmake_force
@@ -3024,7 +3066,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/keyboard/lv_keyboar
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/led/lv_led.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\led\lv_led.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\led\lv_led.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\led\lv_led.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.i: cmake_force
@@ -3038,7 +3080,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/led/lv_led.c.s: cma
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/list/lv_list.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\list\lv_list.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\list\lv_list.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\list\lv_list.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.i: cmake_force
@@ -3052,7 +3094,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/list/lv_list.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/menu/lv_menu.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\menu\lv_menu.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\menu\lv_menu.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\menu\lv_menu.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.i: cmake_force
@@ -3066,7 +3108,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/menu/lv_menu.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/meter/lv_meter.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\meter\lv_meter.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\meter\lv_meter.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\meter\lv_meter.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.i: cmake_force
@@ -3080,7 +3122,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/meter/lv_meter.c.s:
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\msgbox\lv_msgbox.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\msgbox\lv_msgbox.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\msgbox\lv_msgbox.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.i: cmake_force
@@ -3094,7 +3136,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/span/lv_span.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\span\lv_span.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\span\lv_span.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\span\lv_span.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.i: cmake_force
@@ -3108,7 +3150,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/span/lv_span.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\spinbox\lv_spinbox.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\spinbox\lv_spinbox.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\spinbox\lv_spinbox.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.i: cmake_force
@@ -3122,7 +3164,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinbox/lv_spinbox.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\spinner\lv_spinner.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\spinner\lv_spinner.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\spinner\lv_spinner.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.c.i: cmake_force
@@ -3136,7 +3178,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/spinner/lv_spinner.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\tabview\lv_tabview.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\tabview\lv_tabview.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\tabview\lv_tabview.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.c.i: cmake_force
@@ -3150,7 +3192,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tabview/lv_tabview.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\tileview\lv_tileview.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\tileview\lv_tileview.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\tileview\lv_tileview.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tileview.c.i: cmake_force
@@ -3164,7 +3206,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/tileview/lv_tilevie
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/extra/widgets/win/lv_win.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\win\lv_win.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\extra\widgets\win\lv_win.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\extra\widgets\win\lv_win.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.i: cmake_force
@@ -3178,7 +3220,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/extra/widgets/win/lv_win.c.s: cma
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font.c.i: cmake_force
@@ -3192,7 +3234,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
@@ -3206,7 +3248,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_dejavu_16_persian_he
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_fmt_txt.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_fmt_txt.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_fmt_txt.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_fmt_txt.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.i: cmake_force
@@ -3220,7 +3262,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_fmt_txt.c.s: cmake_f
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_loader.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_loader.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_loader.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_loader.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_loader.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_loader.c.i: cmake_force
@@ -3234,7 +3276,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_loader.c.s: cmake_fo
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_10.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_10.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_10.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_10.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.i: cmake_force
@@ -3248,7 +3290,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_10.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_12.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_12.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_12.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_12.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.i: cmake_force
@@ -3262,7 +3304,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_12_subpx.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_12_subpx.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_12_subpx.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.c.i: cmake_force
@@ -3276,7 +3318,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_12_subpx.
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_14.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_14.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_14.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_14.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.i: cmake_force
@@ -3290,7 +3332,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_14.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_16.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_16.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_16.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_16.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.i: cmake_force
@@ -3304,7 +3346,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_16.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_18.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_18.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_18.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_18.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.i: cmake_force
@@ -3318,7 +3360,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_18.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_20.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_20.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_20.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_20.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.i: cmake_force
@@ -3332,7 +3374,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_20.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_22.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_22.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_22.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_22.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.i: cmake_force
@@ -3346,7 +3388,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_22.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_24.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_24.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_24.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_24.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.i: cmake_force
@@ -3360,7 +3402,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_24.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_26.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_26.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_26.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_26.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.i: cmake_force
@@ -3374,7 +3416,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_26.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_28.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_28.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_28.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_28.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.i: cmake_force
@@ -3388,7 +3430,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_28_compressed.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_28_compressed.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_28_compressed.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
@@ -3402,7 +3444,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_28_compre
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_30.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_30.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_30.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_30.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.i: cmake_force
@@ -3416,7 +3458,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_30.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_32.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_32.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_32.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_32.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.i: cmake_force
@@ -3430,7 +3472,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_32.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_34.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_34.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_34.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_34.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.i: cmake_force
@@ -3444,7 +3486,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_34.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_36.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_36.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_36.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_36.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.i: cmake_force
@@ -3458,7 +3500,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_36.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_38.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_38.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_38.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_38.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.i: cmake_force
@@ -3472,7 +3514,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_38.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_40.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_40.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_40.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_40.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.i: cmake_force
@@ -3486,7 +3528,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_40.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_42.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_42.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_42.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_42.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.i: cmake_force
@@ -3500,7 +3542,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_42.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_44.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_44.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_44.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_44.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.i: cmake_force
@@ -3514,7 +3556,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_44.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_46.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_46.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_46.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_46.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.i: cmake_force
@@ -3528,7 +3570,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_46.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_48.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_48.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_48.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_48.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.i: cmake_force
@@ -3542,7 +3584,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_48.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_montserrat_8.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_8.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_montserrat_8.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_montserrat_8.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.i: cmake_force
@@ -3556,7 +3598,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_montserrat_8.c.s: cm
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_simsun_16_cjk.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_simsun_16_cjk.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_simsun_16_cjk.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_simsun_16_cjk.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
@@ -3570,7 +3612,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_simsun_16_cjk.c.s: c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_unscii_16.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_unscii_16.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_unscii_16.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_unscii_16.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.i: cmake_force
@@ -3584,7 +3626,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_16.c.s: cmake
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/font/lv_font_unscii_8.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_unscii_8.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\font\lv_font_unscii_8.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\font\lv_font_unscii_8.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.i: cmake_force
@@ -3598,7 +3640,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/font/lv_font_unscii_8.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/hal/lv_hal_disp.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\hal\lv_hal_disp.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\hal\lv_hal_disp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\hal\lv_hal_disp.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.i: cmake_force
@@ -3612,7 +3654,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_disp.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/hal/lv_hal_indev.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\hal\lv_hal_indev.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\hal\lv_hal_indev.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\hal\lv_hal_indev.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.i: cmake_force
@@ -3626,7 +3668,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_indev.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/hal/lv_hal_tick.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\hal\lv_hal_tick.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\hal\lv_hal_tick.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\hal\lv_hal_tick.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.i: cmake_force
@@ -3640,7 +3682,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/hal/lv_hal_tick.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_anim.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_anim.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_anim.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_anim.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim.c.i: cmake_force
@@ -3654,7 +3696,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_anim_timeline.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_anim_timeline.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_anim_timeline.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_anim_timeline.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.i: cmake_force
@@ -3668,7 +3710,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_anim_timeline.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_area.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_area.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_area.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_area.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_area.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_area.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_area.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_area.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_area.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_area.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_area.c.i: cmake_force
@@ -3682,7 +3724,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_area.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_async.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_async.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_async.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_async.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_async.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_async.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_async.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_async.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_async.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_async.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_async.c.i: cmake_force
@@ -3696,7 +3738,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_async.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_bidi.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_bidi.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_bidi.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_bidi.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_bidi.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_bidi.c.i: cmake_force
@@ -3710,7 +3752,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_bidi.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_color.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_color.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_color.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_color.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_color.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_color.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_color.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_color.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_color.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_color.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_color.c.i: cmake_force
@@ -3724,7 +3766,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_color.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_fs.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_fs.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_fs.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_fs.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_fs.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_fs.c.i: cmake_force
@@ -3738,7 +3780,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_fs.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_gc.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_gc.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_gc.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_gc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_gc.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_gc.c.i: cmake_force
@@ -3752,7 +3794,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_gc.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_ll.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_ll.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_ll.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_ll.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_ll.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_ll.c.i: cmake_force
@@ -3766,7 +3808,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_ll.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_log.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_log.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_log.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_log.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_log.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_log.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_log.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_log.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_log.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_log.c.i: cmake_force
@@ -3780,7 +3822,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_log.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_lru.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_lru.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_lru.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_lru.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_lru.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_lru.c.i: cmake_force
@@ -3794,7 +3836,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_lru.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_math.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_math.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_math.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_math.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_math.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_math.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_math.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_math.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_math.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_math.c.i: cmake_force
@@ -3808,7 +3850,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_math.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_mem.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_mem.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_mem.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_mem.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_mem.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_mem.c.i: cmake_force
@@ -3822,7 +3864,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_mem.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_printf.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_printf.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_printf.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_printf.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_printf.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_printf.c.i: cmake_force
@@ -3836,7 +3878,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_printf.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_style.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_style.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_style.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_style.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style.c.i: cmake_force
@@ -3850,7 +3892,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_style_gen.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_style_gen.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_style_gen.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_style_gen.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.i: cmake_force
@@ -3864,7 +3906,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_style_gen.c.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_templ.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_templ.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_templ.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_templ.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_templ.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_templ.c.i: cmake_force
@@ -3878,7 +3920,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_templ.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_timer.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_timer.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_timer.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_timer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_timer.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_timer.c.i: cmake_force
@@ -3892,7 +3934,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_timer.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_tlsf.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_tlsf.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_tlsf.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_tlsf.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.i: cmake_force
@@ -3906,7 +3948,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_tlsf.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_txt.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_txt.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_txt.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_txt.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt.c.i: cmake_force
@@ -3920,7 +3962,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_txt_ap.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_txt_ap.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_txt_ap.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_txt_ap.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.i: cmake_force
@@ -3934,7 +3976,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_txt_ap.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/misc/lv_utils.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_utils.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_utils.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\misc\lv_utils.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\misc\lv_utils.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_utils.c.i: cmake_force
@@ -3948,7 +3990,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/misc/lv_utils.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_arc.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_arc.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_arc.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_arc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_arc.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_arc.c.i: cmake_force
@@ -3962,7 +4004,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_arc.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_bar.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_bar.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_bar.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_bar.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_bar.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_bar.c.i: cmake_force
@@ -3976,7 +4018,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_bar.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_btn.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btn.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_btn.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_btn.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_btn.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btn.c.i: cmake_force
@@ -3990,7 +4032,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btn.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_btnmatrix.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_btnmatrix.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_btnmatrix.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_btnmatrix.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.i: cmake_force
@@ -4004,7 +4046,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_btnmatrix.c.s: cmake_f
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_canvas.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_canvas.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_canvas.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_canvas.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.i: cmake_force
@@ -4018,7 +4060,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_canvas.c.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_checkbox.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_checkbox.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_checkbox.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_checkbox.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.i: cmake_force
@@ -4032,7 +4074,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_checkbox.c.s: cmake_fo
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_dropdown.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_dropdown.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_dropdown.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_dropdown.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.i: cmake_force
@@ -4046,7 +4088,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_dropdown.c.s: cmake_fo
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_img.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_img.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_img.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_img.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_img.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_img.c.i: cmake_force
@@ -4060,7 +4102,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_img.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_label.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_label.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_label.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_label.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_label.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_label.c.i: cmake_force
@@ -4074,7 +4116,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_label.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_line.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_line.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_line.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_line.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_line.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_line.c.i: cmake_force
@@ -4088,7 +4130,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_line.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_objx_templ.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_objx_templ.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_objx_templ.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_objx_templ.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.i: cmake_force
@@ -4102,7 +4144,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_objx_templ.c.s: cmake_
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_roller.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_roller.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_roller.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_roller.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_roller.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_roller.c.i: cmake_force
@@ -4116,7 +4158,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_roller.c.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_slider.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_slider.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_slider.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_slider.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_slider.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_slider.c.i: cmake_force
@@ -4130,7 +4172,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_slider.c.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_switch.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_switch.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_switch.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_switch.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.i: cmake_force
@@ -4144,7 +4186,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_switch.c.s: cmake_forc
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_table.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_table.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_table.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_table.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.i: cmake_force
@@ -4158,7 +4200,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_table.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/LVGL/src/widgets/lv_textarea.c
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_textarea.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\LVGL\src\widgets\lv_textarea.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\LVGL\src\widgets\lv_textarea.c
 
 CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.i: cmake_force
@@ -4172,7 +4214,7 @@ CMakeFiles/HonestLink.elf.dir/Package/LVGL/src/widgets/lv_textarea.c.s: cmake_fo
 CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/PageManager/pageManager.c
 CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\PageManager\pageManager.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\PageManager\pageManager.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\PageManager\pageManager.c
 
 CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.i: cmake_force
@@ -4186,7 +4228,7 @@ CMakeFiles/HonestLink.elf.dir/Package/PageManager/pageManager.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/flmparse/flmparse.c
 CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\flmparse\flmparse.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\flmparse\flmparse.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\flmparse\flmparse.c
 
 CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.i: cmake_force
@@ -4200,7 +4242,7 @@ CMakeFiles/HonestLink.elf.dir/Package/flmparse/flmparse.c.s: cmake_force
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_2048\lv_100ask_2048.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_2048\lv_100ask_2048.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_2048\lv_100ask_2048.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.i: cmake_force
@@ -4214,7 +4256,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_2048/lv_100ask
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_calc\lv_100ask_calc.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_calc\lv_100ask_calc.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_calc\lv_100ask_calc.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.i: cmake_force
@@ -4228,7 +4270,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_calc/lv_100ask
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_file_explorer\lv_100ask_file_explorer.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_file_explorer\lv_100ask_file_explorer.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_file_explorer\lv_100ask_file_explorer.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.i: cmake_force
@@ -4242,7 +4284,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_file_explorer/
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_memory_game\lv_100ask_memory_game.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_memory_game\lv_100ask_memory_game.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_memory_game\lv_100ask_memory_game.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.i: cmake_force
@@ -4256,7 +4298,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_memory_game/lv
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.i: cmake_force
@@ -4270,7 +4312,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_Mapper.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_Mapper.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_Mapper.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.i: cmake_force
@@ -4284,7 +4326,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Ma
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_System.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_System.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_System.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.i: cmake_force
@@ -4298,7 +4340,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Sy
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_pAPU.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_pAPU.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\InfoNES_pAPU.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.i: cmake_force
@@ -4312,7 +4354,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pA
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\K6502.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\K6502.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\K6502.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.i: cmake_force
@@ -4326,7 +4368,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/K6502.c.s:
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\lv_100ask_nes.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\lv_100ask_nes.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\lv_100ask_nes.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.i: cmake_force
@@ -4340,7 +4382,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_000.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_000.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_000.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.i: cmake_force
@@ -4354,7 +4396,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_001.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_001.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_001.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.i: cmake_force
@@ -4368,7 +4410,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_002.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_002.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_002.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.i: cmake_force
@@ -4382,7 +4424,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_003.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_003.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_003.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.i: cmake_force
@@ -4396,7 +4438,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_004.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_004.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_004.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.i: cmake_force
@@ -4410,7 +4452,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_005.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_005.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_005.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.i: cmake_force
@@ -4424,7 +4466,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_006.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_006.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_006.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.i: cmake_force
@@ -4438,7 +4480,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_007.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_007.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_007.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.i: cmake_force
@@ -4452,7 +4494,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_008.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_008.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_008.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.i: cmake_force
@@ -4466,7 +4508,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_009.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_009.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_009.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.i: cmake_force
@@ -4480,7 +4522,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_010.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_010.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_010.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.i: cmake_force
@@ -4494,7 +4536,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_074.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_074.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_nes\mapper\InfoNES_Mapper_074.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.i: cmake_force
@@ -4508,7 +4550,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_nes/mapper/Inf
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_page_manager\lv_100ask_page_manager.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_page_manager\lv_100ask_page_manager.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_page_manager\lv_100ask_page_manager.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.i: cmake_force
@@ -4522,7 +4564,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_page_manager/l
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_pinyin_ime\lv_100ask_pinyin_ime.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_pinyin_ime\lv_100ask_pinyin_ime.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_pinyin_ime\lv_100ask_pinyin_ime.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.i: cmake_force
@@ -4536,7 +4578,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\lv_100ask_screenshot.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\lv_100ask_screenshot.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_screenshot\lv_100ask_screenshot.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_100ask_screenshot.c.i: cmake_force
@@ -4550,7 +4592,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/lv_
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_bmp.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_bmp.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_bmp.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_bmp.c.i: cmake_force
@@ -4564,7 +4606,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/sav
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_png.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_png.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_screenshot\save_as_png.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/save_as_png.c.i: cmake_force
@@ -4578,7 +4620,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_screenshot/sav
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_sketchpad\lv_100ask_sketchpad.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\lv_lib_100ask\src\lv_100ask_sketchpad\lv_100ask_sketchpad.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\lv_lib_100ask\src\lv_100ask_sketchpad\lv_100ask_sketchpad.c
 
 CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.i: cmake_force
@@ -4592,7 +4634,7 @@ CMakeFiles/HonestLink.elf.dir/Package/lv_lib_100ask/src/lv_100ask_sketchpad/lv_1
 CMakeFiles/HonestLink.elf.dir/Package/offline_download/swd_download_file.c.obj: CMakeFiles/HonestLink.elf.dir/flags.make
 CMakeFiles/HonestLink.elf.dir/Package/offline_download/swd_download_file.c.obj: D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Package/offline_download/swd_download_file.c
 CMakeFiles/HonestLink.elf.dir/Package/offline_download/swd_download_file.c.obj: CMakeFiles/HonestLink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object CMakeFiles/HonestLink.elf.dir/Package/offline_download/swd_download_file.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object CMakeFiles/HonestLink.elf.dir/Package/offline_download/swd_download_file.c.obj"
 	D:\AppData\DevelopTool\GNU-Tools-ARM-Embedded\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HonestLink.elf.dir/Package/offline_download/swd_download_file.c.obj -MF CMakeFiles\HonestLink.elf.dir\Package\offline_download\swd_download_file.c.obj.d -o CMakeFiles\HonestLink.elf.dir\Package\offline_download\swd_download_file.c.obj -c D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\Package\offline_download\swd_download_file.c
 
 CMakeFiles/HonestLink.elf.dir/Package/offline_download/swd_download_file.c.i: cmake_force
@@ -4605,6 +4647,7 @@ CMakeFiles/HonestLink.elf.dir/Package/offline_download/swd_download_file.c.s: cm
 
 # Object files for target HonestLink.elf
 HonestLink_elf_OBJECTS = \
+"CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj" \
@@ -4631,6 +4674,8 @@ HonestLink_elf_OBJECTS = \
 "CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" \
+"CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj" \
+"CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" \
 "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" \
@@ -4933,6 +4978,7 @@ HonestLink_elf_OBJECTS = \
 # External object files for target HonestLink.elf
 HonestLink_elf_EXTERNAL_OBJECTS =
 
+HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj
@@ -4959,6 +5005,8 @@ HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
@@ -5260,7 +5308,7 @@ HonestLink.elf: CMakeFiles/HonestLink.elf.dir/Package/offline_download/swd_downl
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/build.make
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/objects1.rsp
 HonestLink.elf: CMakeFiles/HonestLink.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Linking C executable HonestLink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Develop\STM32CubeIDE\workspace_1.17.0\HonestLink\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Linking C executable HonestLink.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\HonestLink.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/cmake-build-debug/HonestLink.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/cmake-build-debug/HonestLink.bin"

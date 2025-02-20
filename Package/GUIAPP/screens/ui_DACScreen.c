@@ -34,7 +34,13 @@ void ui_DACScreen_screen_init(void) {
 
     ui_Dropdown1 = lv_dropdown_create(ui_DACScreen);
     lv_dropdown_set_options(ui_Dropdown1,
-                            "Sine wave\nSquare wave\nTriangle wave\nTrapezoid wave\nRising Sawtooth wave\nFalling Sawtooth wave\n");
+                            "Sine wave\n Square wave\n Triangle wave\nTrapezoid wave\nRising Sawtooth wave\nFalling Sawtooth wave\n");
+    //ÕýÏÒ²¨
+    //·½²¨
+    //Èý½Ç²¨
+    //ÌÝÐÎ²¨
+    //¾â³Ý²¨µÄÉÏÉý
+    //¾â³Ý²¨ÏÂ½µ
     lv_obj_set_width(ui_Dropdown1, 177);
     lv_obj_set_height(ui_Dropdown1, LV_SIZE_CONTENT);    /// 1
     lv_obj_set_x(ui_Dropdown1, 0);
@@ -44,7 +50,7 @@ void ui_DACScreen_screen_init(void) {
 
 
 
-    ui_Panel46 = lv_obj_create(ui_DACScreen);
+    /*ui_Panel46 = lv_obj_create(ui_DACScreen);
     lv_obj_set_width(ui_Panel46, 177);
     lv_obj_set_height(ui_Panel46, 39);
     lv_obj_set_x(ui_Panel46, 1);
@@ -66,10 +72,12 @@ void ui_DACScreen_screen_init(void) {
     lv_obj_set_x(ui_DACFreq, 3);
     lv_obj_set_y(ui_DACFreq, 62);
     lv_obj_set_align(ui_DACFreq, LV_ALIGN_CENTER);
-    lv_textarea_set_placeholder_text(ui_DACFreq, "Frequency...");
+    lv_textarea_set_placeholder_text(ui_DACFreq, "Frequency...");*/
 
 
     lv_obj_add_event_cb(ui_DACScreen, ui_event_DACScreen, LV_EVENT_ALL, NULL);
+    //lv_obj_add_event_cb(ui_DACFreq, ui_event_DACFreq, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_Dropdown1, ui_event_Dropdown1, LV_EVENT_ALL, NULL);
 
 }
 

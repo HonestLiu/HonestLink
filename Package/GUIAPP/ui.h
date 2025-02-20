@@ -232,6 +232,8 @@ extern lv_obj_t * ui_Label76;
 void ui_DACScreen_screen_init(void);
 void ui_DACScreen_screen_deinit(void);
 void ui_event_DACScreen(lv_event_t * e);
+void ui_event_DACFreq(lv_event_t *e);
+void ui_event_Dropdown1(lv_event_t *e);
 extern lv_obj_t * ui_DACScreen;
 extern lv_obj_t * ui_Panel37;
 extern lv_obj_t * ui_Label77;

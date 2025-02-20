@@ -62,6 +62,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/dac.c" "CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/dap_main.c" "CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Core/Src/dap_main.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/dma.c" "CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Core/Src/dma.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Core/Src/freertos.c" "CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Core/Src/freertos.c.obj.d"
@@ -87,6 +88,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/LCD/lcd_init.c" "CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Drivers/LCD/lcd_init.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj.d"
+  "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj.d"
+  "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj.d"
   "D:/Develop/STM32CubeIDE/workspace_1.17.0/HonestLink/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" "gcc" "CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj.d"

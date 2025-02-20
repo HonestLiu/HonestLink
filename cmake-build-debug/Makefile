@@ -128,6 +128,30 @@ HonestLink.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/build
 .PHONY : HonestLink.elf/fast
 
+Core/Src/dac.obj: Core/Src/dac.c.obj
+.PHONY : Core/Src/dac.obj
+
+# target to build an object file
+Core/Src/dac.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.obj
+.PHONY : Core/Src/dac.c.obj
+
+Core/Src/dac.i: Core/Src/dac.c.i
+.PHONY : Core/Src/dac.i
+
+# target to preprocess a source file
+Core/Src/dac.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.i
+.PHONY : Core/Src/dac.c.i
+
+Core/Src/dac.s: Core/Src/dac.c.s
+.PHONY : Core/Src/dac.s
+
+# target to generate assembly for a file
+Core/Src/dac.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Core/Src/dac.c.s
+.PHONY : Core/Src/dac.c.s
+
 Core/Src/dap_main.obj: Core/Src/dap_main.c.obj
 .PHONY : Core/Src/dap_main.obj
 
@@ -735,6 +759,54 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s: Drivers/STM32F4xx_HAL_D
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HonestLink.elf.dir\build.make CMakeFiles/HonestLink.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj
@@ -7897,6 +7969,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... HonestLink.elf
+	@echo ... Core/Src/dac.obj
+	@echo ... Core/Src/dac.i
+	@echo ... Core/Src/dac.s
 	@echo ... Core/Src/dap_main.obj
 	@echo ... Core/Src/dap_main.i
 	@echo ... Core/Src/dap_main.s
@@ -7973,6 +8048,12 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s

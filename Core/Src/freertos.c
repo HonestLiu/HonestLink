@@ -290,7 +290,7 @@ void InitFatFas(void) {
     if (retSD) {
         printf("mount error : %d \r\n", retSD);
     } else
-        printf("mount sucess!!! \r\n");
+        printf("mount success!!! \r\n");
 }
 
 /**
@@ -315,9 +315,10 @@ void LvglStartTask(void const * argument)
     ui_init();
 
     /* Infinite loop */
+    //获取当前页面的ID，判断处于什么页面，然后对应更新什么数据，处于什么页面干什么事，节省资源
     for (;;) {
         lv_task_handler();
-        switch (Page_Get_NowPage()->id) {//获取当前页面的ID，判断处于什么页面，然后对应更新什么数据
+        switch (Page_Get_NowPage()->id) {
             case HomePage:
                 break;
             case PinMapPage:

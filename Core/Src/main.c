@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os.h"
+#include "dac.h"
 #include "dma.h"
 #include "fatfs.h"
 #include "sdio.h"
@@ -141,6 +142,8 @@ int main(void)
   MX_SDIO_SD_Init();
   MX_FATFS_Init();
   MX_TIM9_Init();
+  MX_DAC_Init();
+  MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
 #endif
     //TODO 如果新增了外设，记得在这里添加初始化函数
@@ -153,6 +156,8 @@ int main(void)
     MX_SDIO_SD_Init();
     MX_FATFS_Init();
     MX_TIM9_Init();
+    MX_DAC_Init();
+    MX_TIM6_Init();
 
     BSP_SD_Init();//初始化SD卡
   /* USER CODE END 2 */

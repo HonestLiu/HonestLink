@@ -26,6 +26,16 @@ enum {
     FilePage,
 };
 
+//DAC页选型卡枚举，暂时存放在这
+typedef enum {
+    SINE_WAVE,
+    SQUARE_WAVE,
+    TRIANGLE_WAVE,
+    TRAPEZOID_WAVE,
+    RISING_SAWTOOTH_WAVE,
+    FALLING_SAWTOOTH_WAVE,
+} WaveformType;
+
 // 页面结构体
 //其本质就是对页面及其初始化、反初始化函数的封装，每个UI文件内都定义了这个结构体
 typedef struct {

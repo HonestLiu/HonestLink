@@ -12,6 +12,7 @@
 #include "cmsis_os.h"
 #include "lv_lib_100ask.h"
 #include "tim.h"
+#include "dac.h"
 
 ///////////////////// VARIABLES ////////////////////
 
@@ -262,6 +263,10 @@ void ui_DACScreen_screen_init(void);
 
 void ui_event_DACScreen(lv_event_t *e);
 
+void ui_event_DACFreq(lv_event_t *e);
+
+void ui_event_Dropdown1(lv_event_t *e);
+
 lv_obj_t *ui_DACScreen;
 lv_obj_t *ui_Panel37;
 lv_obj_t *ui_Label77;
@@ -380,6 +385,8 @@ void ui_event_DACPanel(lv_event_t *e) {
     lv_event_code_t event_code = lv_event_get_code(e);
     if (event_code == LV_EVENT_CLICKED) {
         Page_Load(&Page_DAC);
+        HAL_TIM_Base_Start(&htim6);
+
         //_ui_screen_change(&ui_DACScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_DACScreen_screen_init);
     }
 }
@@ -493,7 +500,6 @@ void ui_event_KeyBoard(lv_event_t *e) {
                 ui_pulse = atoi(text);
             }
             printf("Text input from textarea: %s\n", text);  // 示例输出
-
         }
 
         lv_keyboard_set_textarea(kb, NULL);//解除键盘和文本框的绑定
@@ -550,7 +556,52 @@ void ui_event_DACScreen(lv_event_t *e) {
     if (event_code == LV_EVENT_GESTURE && lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_LEFT) {
         lv_indev_wait_release(lv_indev_get_act());
         Page_Back();
+        HAL_TIM_Base_Stop(&htim6);
+        HAL_DAC_Stop_DMA(&hdac, DAC_CHANNEL_1);
         //_ui_screen_change(&ui_HomeScreen, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_HomeScreen_screen_init);
+    }
+}
+
+void ui_event_DACFreq(lv_event_t *e) {
+    lv_event_code_t event_code = lv_event_get_code(e);
+    if (event_code == LV_EVENT_CLICKED) {
+        lv_obj_t *ta = lv_event_get_target(e);
+        lv_keyboard_set_textarea(keyboard, ta);//绑定键盘和文本框
+        lv_obj_clear_flag(keyboard, LV_OBJ_FLAG_HIDDEN);//显示键盘
+        lv_obj_move_foreground(keyboard);  // 将键盘移到最前面
+    }
+}
+
+//DAC波形选择
+extern uint8_t dac_flag;
+void ui_event_Dropdown1(lv_event_t *e) {
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t *dropdown = lv_event_get_target(e);
+
+    if (event_code == LV_EVENT_VALUE_CHANGED) {
+        switch (lv_dropdown_get_selected(dropdown)) {
+            case 0:
+                dac_flag = SINE_WAVE;
+                break;
+            case 1:
+                dac_flag = SQUARE_WAVE;
+                break;
+            case 2:
+                dac_flag = TRIANGLE_WAVE;
+                break;
+            case 3:
+                dac_flag = TRAPEZOID_WAVE;
+                break;
+            case 4:
+                dac_flag = RISING_SAWTOOTH_WAVE;
+                break;
+            case 5:
+                dac_flag = FALLING_SAWTOOTH_WAVE;
+                break;
+            default:
+                dac_flag = SINE_WAVE;
+                break;
+        }
     }
 }
 
