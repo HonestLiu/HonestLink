@@ -250,7 +250,7 @@ void LEDTaskFun(void const * argument)
   /* USER CODE BEGIN LEDTaskFun */
     /* Infinite loop */
     for (;;) {
-        HAL_GPIO_TogglePin(LED1_GPIO_Port, LED_Pin);
+        HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
         osDelay(1000);
     }
   /* USER CODE END LEDTaskFun */
